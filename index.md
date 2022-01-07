@@ -2,34 +2,30 @@
 layout: default
 title: Home
 nav_order: 1
-description: "Commonsense.Run - The Portal Site for Commonsense Reasoning Research"
+description: "UnifiedSKG.com - A site of Structured Knowledge Grounding(SKG) related resources"
 permalink: /
 last_modified_date: April 24 2021
 ---
 
-# Commonsense.Run - The Portal Site for Commonsense Reasoning Research
+# UnifiedSKG.com - A site of Structured Knowledge Grounding(SKG) related resources
 {: .fs-7 .fw-700 .text-blue-300 }
 
 <table>
 <tr><td markdown="block" class="fs-4">
---- ***An online compendium of commonsense reasoning research***, initiated by [Bill Yuchen Lin](https://yuchenlin.xyz){: target="_blank"} (PhD candidate at USC).
+--- ***An online compendium of Structured Knowledge Grounding(SKG) research***, initiated by [Tianbao Xie](https://tianbaoxie.com){: target="_blank"} (undergraduate in HIT, incoming PhD of HKU).
 </td></tr>
 <tr><td markdown="block" class="fs-4">
 
-**Faculty Advisors:** [Xiang Ren](http://ink-ron.usc.edu/xiangren/){: target="_blank"} (Assistant Professor at USC),  ...
+**Faculty Advisors:** [Tao Yu](http://ink-ron.usc.edu/xiangren/){: target="_blank"} (Assistant Professor in HKU, post-doc in UW),  ...
 
-**Main contributors:** [Bill Yuchen Lin](https://yuchenlin.xyz){: target="_blank"}, [Yang Qiao](https://www.linkedin.com/in/xiaoyang-qiao/){: target="_blank"}, [Filip Ilievski](https://usc-isi-i2.github.io/ilievski/){: target="_blank"}, [Pei Zhou](https://sites.google.com/g.ucla.edu/peizhou/home){: target="_blank"}, [Jun Yan](https://junyann.github.io/){: target="_blank"}, [Peifeng Wang](https://scholar.google.com/citations?user=3jfQnM4AAAAJ&hl=en){: target="_blank"}, ..., and [you](#how-can-i-contribute)!
+**Main contributors:** [Tianbao Xie](https://tianbaoxie.com){: target="_blank"}, [Henry Chen Wu](https://scholar.google.com/citations?hl=zh-CN&user=WFKit_4AAAAJ){: target="_blank"}, ..., and [you](#how-can-i-contribute)!
 
 </td></tr>
 </table>
 ---
 
 ## What is this site for?
-This portal site is here to provide easy access to a comprehensive collection of resources, datasets, publications that are related to *commonsense reasoning*. 
-
-
-![Machine Common Sense](https://www.darpa.mil/DDM_Gallery/teaching-machines-619-316.jpg){: style="width:60%"}
-
+This portal site is here to provide easy access to a comprehensive collection of resources, datasets, publications that are related to *structured knowledge grounding*. 
 
 
 ### Table of contents
