@@ -6,10 +6,10 @@ include: [".well-known"]
 theme: "just-the-docs"
 # remote_theme: pmarsceill/just-the-docs
 color_scheme: blue
-logo: "https://commonsense.run/ocs_logo.png"
+logo: "https://unifiedskg.com/unifiedskg_logo.png"
 
-title: Commonsense.Run - Portal Site for Commonsense Reasoning
-email: yuchen.lin@usc.edu
+title: UnifiedSKG.com - A Portal Site for Structured Knowledge Grounding(SKG) Resources
+email: tianbaoxiexxx@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   An online compendium of commonsense knowledge & reasoning, maintained by Bill Yuchen Lin. 
 baseurl: "" # the subpath of your site, e.g. /blog

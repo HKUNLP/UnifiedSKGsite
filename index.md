@@ -2,17 +2,17 @@
 layout: default
 title: Home
 nav_order: 1
-description: "UnifiedSKG.com - A site of Structured Knowledge Grounding(SKG) related resources"
+description: "UnifiedSKG.com - A Portal Site for Structured Knowledge Grounding(SKG) Resources"
 permalink: /
 last_modified_date: April 24 2021
 ---
 
-# UnifiedSKG.com - A site of Structured Knowledge Grounding(SKG) related resources
+# UnifiedSKG.com - A Portal Site for Structured Knowledge Grounding(SKG) Resources
 {: .fs-7 .fw-700 .text-blue-300 }
 
 <table>
 <tr><td markdown="block" class="fs-4">
---- ***An online compendium of Structured Knowledge Grounding(SKG) research***, initiated by [Tianbao Xie](https://tianbaoxie.com){: target="_blank"} (undergraduate in HIT, incoming PhD of HKU).
+--- ***An online compendium of Structured Knowledge Grounding(SKG) research***
 </td></tr>
 <tr><td markdown="block" class="fs-4">
 
