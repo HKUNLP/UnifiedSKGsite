@@ -7,16 +7,16 @@ last_modified_date: March 26 2021
 permalink: /datasets/
 ---
 
-# Benchmark Datasets for Commonsense Reasoning
+# Benchmark Datasets for Structured Knowledge Grounding
 {: .no_toc }
 
-Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/), [Yang Qiao](https://www.linkedin.com/in/xiaoyang-qiao/), [Peifeng Wang](https://scholar.google.com/citations?user=3jfQnM4AAAAJ&hl=en), [Pei Zhou](https://sites.google.com/g.ucla.edu/peizhou/home){: target="_blank"}
+Editors: [Tianbao Xie](https://tianbaoxie.com){: target="_blank"}
 
 {: .fs-5 .fw-300 }
 
-We present a comprehensive collection of datasets for testing commonsense reasoning ability. They are grouped by different formulations, and covered a wide range of aspects: properties of common objects, real-life situations, elementary science, social skills, etc. 
+We present a comprehensive collection of datasets of Structured Knowledge Grounding.
 
- 
+
 ## Table of contents
 {: .no_toc .text-delta .fs-4 style="font-weight:800"}
 
@@ -28,93 +28,35 @@ We present a comprehensive collection of datasets for testing commonsense reason
 <details markdown="block">
   <summary>🌟 Summary Table 🌟</summary>
 {: .fs-4 .text-delta .text-red-200 style="font-weight:800"}
-  
-| Name | Link | Tags | Format |  SotA vs. Human 
-| :------------:| :-----: | :-----: | :------: | :---------: | :-------: | :-----------: |
-| [CommonsenseQA](#commonsenseqa) | [Link](https://www.tau-nlp.org/commonsenseqa) | General | [MC](#multiple-choice-tasks)  | 83.3 /  88.9 (**Acc. %**) 
-| [SocialIQA](#socialiqa) | [Link](https://leaderboard.allenai.org/socialiqa/submissions/get-started) | Social  | [MC](#multiple-choice-tasks)  | 83.2 /  88.1 (**Acc. %**) 
-| [PhysicalIQA](#physicaliqa) | [Link](https://leaderboard.allenai.org/physicaliqa/submissions/get-started) | Physical  | [MC](#multiple-choice-tasks)  | 90.1 /  94.9 (**Acc. %**) 
-| [ARC](#arc) | [Link](https://leaderboard.allenai.org/arc/submissions/get-started) | Science | [MC](#multiple-choice-tasks)  | 81.4 /  N/A (**Acc. %**) 
-| [OpenbookQA](#openbookqa) | [Link](https://leaderboard.allenai.org/open_book_qa/submissions/get-started) | Elementary Science | [MC](#multiple-choice-tasks)  | 87.2 /  91.7 (**Acc. %**) 
-| [SWAG](#swag-and-hellaswag) | [Link](https://rowanzellers.com/swag/) | Event | [MC](#multiple-choice-tasks)  | 91.7 /  88.0 (**Acc. %**) 
-| [HellaSWAG](#swag-and-hellaswag) | [Link](https://rowanzellers.com/hellaswag/) | Event | [MC](#multiple-choice-tasks)  | 93.9 /  95.6 (**Acc. %**) 
-| [WSC](#wsc) | [Link](https://cs.nyu.edu/faculty/davise/papers/WinogradSchemas/WS.html) | General, Coreference | [MC](#multiple-choice-tasks)  | 96.6 /  100 (**Acc. %**)
-| [WinoGrande](#winogrande) | [Link](https://winogrande.allenai.org/) | General, Coreference | [MC](#multiple-choice-tasks)  | 91.28 /  94 (**Acc. %**) 
-| [COPA](#copa-and-x-copa) | [Link](https://www.researchgate.net/publication/221251392_Choice_of_Plausible_Alternatives_An_Evaluation_of_Commonsense_Causal_Reasoning) | Causality, Event | [MC](#multiple-choice-tasks)  | 98.4 /  100 (**Acc. %**)
-| [X-COPA](#copa-and-x-copa) | [Link](https://github.com/cambridgeltl/xcopa) | Causality, Event | [MC](#multiple-choice-tasks)  | 76.1 /  97.6 (**Acc. %**)
-| [CODAH](#codah) | [Link](https://github.com/Websail-NU/CODAH) | General, Event | [MC](#multiple-choice-tasks)  | [84.3](https://arxiv.org/abs/1904.04365) /  95.3 (**Acc. %**)
-| [MC-TACO](#mc-taco) | [Link](https://leaderboard.allenai.org/mctaco/submissions/get-started) | Temporal Commonsense, Events | [MC](#multiple-choice-tasks)  | 80.9 /  75.8 (**Acc. %**) 
-| [aNLI](#anli) | [Link](https://leaderboard.allenai.org/anli/submissions/get-started) | Abductive Reasoning, Events | [MC](#multiple-choice-tasks)  | 89.7 /  92.9 (**Acc. %**) 
-| [RiddleSense](#riddlesense) | [Link](https://inklab.usc.edu/RiddleSense/) | General, Figurative, Counterfactual | [MC](#multiple-choice-tasks)  | 68.8 /  91.3 (**Acc. %**) 
-| [ROCStories](#rocstories) | [Link](https://www.cs.rochester.edu/nlp/rocstories/) | General, Story | [MC](#multiple-choice-tasks)  | 58.5 / 100  (**Acc. %**)
-| [QASC](#qasc) | [Link](https://allenai.org/data/qasc/) | Science | [MC](#multiple-choice-tasks)  | 89.57 / 93.33  (**Acc. %**)
-| [VCR](#visual-commonsense-reasoning) | [Link](https://visualcommonsense.com/) | Visual Understanding, Complex Situation | [VQA](#visually-grounded-qa) | 70.8 / 85.0 (**Acc. %**) 
-| [ProtoQA](#protoqa) | [Link](https://github.com/iesl/protoqa-data) | Prototypical Situation | [OE](#open-ended-qa) | 56.0 / 78.4 (**WN. Sim.**)
-| [OpenCSR](#opencsr) | [Link](https://arxiv.org/abs/2010.14439) | Science | [OE](#open-ended-qa) | 40.8 /  N/A (**Acc. %**) 
-| [CommonGen](#commongen) | [Link](https://inklab.usc.edu/CommonGen/) | General, Everyday Scenario | [CNLG](#constrained-nlg) | 33.3 / 52.4  (**SPICE %**) 
-| [ComVE (SubTask C)](#comve-subtask-c) | [Link](https://github.com/wangcunxiang/SemEval2020-Task4-Commonsense-Validation-and-Explanation) | Nonsensical Statement | [CNLG](#constrained-nlg) | 22.4 / 2.58  (**BLEU**)
-| [LAMA Probes](#lama-probes) | [Link](https://github.com/facebookresearch/LAMA) | General | [LMP](#lm-probing-tasks) | N/A 
-| [NumerSense](#numersense) | [Link](https://github.com/INK-USC/NumerSense) | Numerical | [LMP](#lm-probing-tasks) | 70.4 /  96.3 (**Acc. %**) 
-| [RICA](#RICA) | [Link](https://sites.google.com/usc.edu/rica) | General | [LMP](#lm-probing-tasks) | 52.2 /  91.7 (**Acc. %**)
-| [ReCoRD](#ReCoRD) | [Link](https://sheng-z.github.io/ReCoRD-explorer/) |  News Articles | [RC](#reading-comprehension) | 91.21 / 91.69 (**F1**) 
-| [CosmosQA](#cosmos-QA) | [Link](https://wilburone.github.io/cosmos/) | Everyday Narratives | [RC](#reading-comprehension) | 91.79 / 94.00  (**Acc. %**) 
-| [DREAM](#dream) | [Link](https://dataset.org/dream/) | Everyday Dialogues | [RC](#reading-comprehension) | 91.8 / 95.5  (**Acc. %**) 
-| [MCScript](#mcscript) | [Link](https://www.aclweb.org/anthology/L18-1564/) | General, Script | [RC](#reading-comprehension) | 72.0 / 98.2 (**Acc. %**) 
-| [TWC](#twc) | [Link](https://arxiv.org/abs/2010.03790) | Objects | [TG](#text-game) | N/A |
-| [Rainbow](#rainbow-benchmark) | [Link](https://allenai.org/data/rainbow) | General | [Others](#other-related-datasets) | N/A
-| [GLUE](#glue-and-superglue-benchmark) | [Link](https://gluebenchmark.com/) | General | [Others](#other-related-datasets) | 97.8 / 97.8  
-| [SuperGLUE](#glue-and-superglue-benchmark) | [Link](https://super.gluebenchmark.com/) | General | [Others](#other-related-datasets) | 98.4 / 100 
-| [LOCATEDNEAR](#locatednear-relation-extraction) | [Link](https://arxiv.org/abs/1711.04204) | Objects | [Others](#other-related-datasets) | N/A (**Acc. %**) 
 
+to be added.
 
 </details>
-<!-- Check https://leaderboard.allenai.org/ for more -->
 
 ---
 
-## Multiple-Choice Tasks
+## Semantic Parsing Tasks
 
-<!-- You can use this google sheet: https://docs.google.com/spreadsheets/d/1vJUwjFA_HRvzRI3ULSWXS7rLbHriJj5bTYSUiG4Iixo/edit?usp=sharing 
- and then convert it to markdown by https://tabletomarkdown.com/convert-spreadsheet-to-markdown/ -->
 
- 
-<table>
-<td markdown="block">
-The task format for multiple-choice (**MC**) tasks for commonsense reasoning is as follows.
-- Input: a question, a few candidate answers (i.e., choices).
-- Output: the label of the correct choice. 
-- Metric: accuracy. 
-
-Notes:
-- There is **one and only one correct choice** for each input, and the others are distractors. Exception: MC-TACO allows multiple correct answers.
-- We do not consider the cases with additional input context (e.g., [passages](#CosmosQA), [images](#visual-commonsense-reasoning)) here.
-- The inputs can be either __interrogative sentences__ (as in CommonsenseQA, SocialIQA, etc.) or __incomplete statements__ (as in SWAG, COPA, WSC, etc.).
-</td>
-</table>
-
- 
-### CommonsenseQA
+### Spider
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*CommonsenseQA: A Question Answering Challenge Targeting Commonsense Knowledge*. <br> Alon Talmor, Jonathan Herzig, Nicholas Lourie, Jonathan Berant. **NAACL-19**
+*Spider: A Large-Scale Human-Labeled Dataset for Complex and Cross-Domain Semantic Parsing and Text-to-SQL Task*. <br> Tao Yu, Rui Zhang, Kai Yang, Michihiro Yasunaga, Dongxu Wang, Zifan Li, James Ma, Irene Li, Qingning Yao, Shanelle Roman, Zilin Zhang, Dragomir Radev. **EMNLP-18**
 
 <span class="fs-1">
-[Paper](https://arxiv.org/abs/1811.00937){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://www.tau-nlp.org/commonsenseqa){: target="_blank" .btn .btn-green .mr-1 } [Huggingface Card](https://huggingface.co/datasets/commonsense_qa){: target="_blank" .btn .btn-purple .mr-1 } </span>
+[Paper](https://arxiv.org/abs/1809.08887){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://yale-lily.github.io/spider){: target="_blank" .btn .btn-green .mr-1 }  </span>
 
-> - **Topics:** General. Mostly about properties of common objects and motivation/causes/results of events.
-- **Size & Split:** 12,102 in total --- train (9,741), dev (1,221), test (1,140).
-- **Dataset creation:** The questions are crowdsourced from human annotators. The authors present a question concept, _q_, and some candidate concepts, which are linked to _q_, and ask annotators to write a natural-language question mentioning _q_ and answered by only one of the answer candidates.
+> - **Knowledge**: Database
+> - **Type**: Text2SQL
+> - **Keywords**: Fully supervised; Cross-domain; Single turn
+
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
 >  {: .fs-3 .text-delta .text-red-100}
 ```
-Question ID: b8c0a4703079cf661d7261a60a1bcbff
-Question concept: "magazines"
-Question: "Where would you find magazines along side many other printed works?"
-Choices:  A: "doctor" | B: "bookstore" | C: "market" | D: "train station" | E: "mortuary"
-Correct Choice: B
-``` 
+
+```
 ></details> 
 
 
@@ -124,35 +66,25 @@ Correct Choice: B
 <!-- Mention the highlights or known issues of the dataset. -->
 
 
-> - We use the latest version of the data (v1.11) downloaded from the official website to report the size, which is thus different from the paper.
-
-
-
-
-### SocialIQA 
+### GrailQA 
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*SocialIQA: Commonsense Reasoning about Social Interactions*.<br> Maarten Sap, Hannah Rashkin, Derek Chen, Ronan Le Bras, Yejin Choi. **EMNLP-19**
+*Beyond I.I.D.: Three Levels of Generalization for Question Answering on Knowledge Bases*.<br>Yu Gu, Sue Kase, Michelle Vanni, Brian Sadler, Percy Liang, Xifeng Yan, Yu Su. **Proceedings of the Web Conference-21**
 
 <span class="fs-1">
-[Paper](https://arxiv.org/abs/1904.09728){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://leaderboard.allenai.org/socialiqa/submissions/get-started){: target="_blank" .btn .btn-green .mr-1 } </span>
+[Paper](https://arxiv.org/abs/2011.07743){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://dki-lab.github.io/GrailQA/){: target="_blank" .btn .btn-green .mr-1 } </span>
 
-> - **Topics:** Social Interactions. It focuses on reasoning about people’s actions and their social implications.
-- **Size & Split:**  37,588 in total --- train (33,410), dev (1,954), test (2,224).
-- **Dataset creation:** 
+> - **Knowledge**: Knowledge Graph
+> - **Type**: Text2S-Expression
+> - **Keywords**: Large, 64k; Test generalization: i.i.d./compositional/zero-shot
+
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
 >  {: .fs-3 .text-delta .text-red-100}
 ```
-Question: 
-    In the school play, Robin played a hero in the struggle to the death with the angry villain. How would others feel as a result?
-Choices:  
-    A) sorry for the villain
-    B) hopeful that Robin will succeed
-    C) like Robin should lose the fight
-Correct Choice: B
-``` 
+
+```
 ></details> 
 
 <!-- {: .fs-4 .fw-600 .text-red-300}
@@ -162,29 +94,25 @@ Correct Choice: B
 
 
 
-### PhysicalIQA
+### CompWebQ
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*PIQA: Reasoning about Physical Commonsense in Natural Language*.<br> Yonatan Bisk, Rowan Zellers, Ronan Le Bras, Jianfeng Gao, Yejin Choi. **AAAI-20**
+*The Web as a Knowledge-base for Answering Complex Questions*.<br> Alon Talmor, Jonathan Berant. **NAACL-18**
 
 <span class="fs-1">
-[Paper](https://arxiv.org/abs/1911.11641){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://leaderboard.allenai.org/physicaliqa/submissions/get-started){: target="_blank" .btn .btn-green .mr-1 } [Huggingface Card](https://huggingface.co/datasets/piqa){: target="_blank" .btn .btn-purple .mr-1 } </span>
+[Paper](https://arxiv.org/abs/1911.11641){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://www.tau-nlp.org/compwebq){: target="_blank" .btn .btn-green .mr-1 } {: target="_blank" .btn .btn-purple .mr-1 } </span>
 
-> - **Topics:** General. It focuses on how people interact with everyday objects in everyday situations.
-- **Size & Split:**  around 20,000 QA pairs of multiple-choice in total --- train (over 16,000), dev (∼2K), test (∼3k).
-- **Dataset creation:** 
+> - **Knowledge**: Knowledge Graph
+> - **Type**: Text2SPARQL
+> - **Keywords**: Weakly supervised; Multihop
+
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
 >  {: .fs-3 .text-delta .text-red-100}
 ```
-Question:
-    To separate egg whites from the yolk using a water bottle, you should
-Choices:
-    A) Squeeze the water bottle and press it against the yolk. Release, which creates suction and lifts the yolk.
-    B) Place the water bottle and press it against the yolk. Keep pushing, which creates suction and lifts the yolk.
-Correct Choice: B
-``` 
+
+```
 ></details> 
 <!-- {: .fs-4 .fw-600 .text-red-300}
 > **Comments** -->
@@ -193,28 +121,25 @@ Correct Choice: B
 
 
 
-### ARC 
+### WebQSP
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*Think you have Solved Question Answering? Try ARC, the AI2 Reasoning Challenge*.<br> Peter Clark, Isaac Cowhey, Oren Etzioni, Tushar Khot, Ashish Sabharwal, Carissa Schoenick, Oyvind Tafjord. **arXiv, 2018**
+*The Value of Semantic Parse Labeling for Knowledge Base Question Answering*.<br> Wen-tau Yih, Matthew Richardson, Chris Meek, Ming-Wei Chang, Jina Suh. **ACL-2016**
 
 <span class="fs-1">
-[Paper](https://arxiv.org/abs/1803.05457){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://leaderboard.allenai.org/arc/submissions/get-started){: target="_blank" .btn .btn-green .mr-1 } [Huggingface Card](https://huggingface.co/datasets/ai2_arc){: target="_blank" .btn .btn-purple .mr-1 } </span>
+[Paper](https://aclanthology.org/P16-2033/){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](http://aka.ms/WebQSP){: target="_blank" .btn .btn-green .mr-1 } {: target="_blank" .btn .btn-purple .mr-1 } </span>
 
-> - **Topics:** Science. It focuses on natural, grade-school science questions.
-- **Size & Split:**  7,787 in total --- train (3,370), dev (869), test (3,548).
+> - **Knowledge**: Knowledge Graph
+> - **Type**: Text2S-Expression
+
 - **Dataset creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
 >  {: .fs-3 .text-delta .text-red-100}
 ```
-Question:
-    Which property of a mineral can be determined just by looking at it?
-Choices:
-    A) luster  B) mass  C) weight  D) hardness
-Correct Choice: A
-``` 
+
+```
 ></details> 
 
 <!-- {: .fs-4 .fw-600 .text-red-300}
@@ -224,36 +149,32 @@ Correct Choice: A
 
 
 
-### OpenbookQA
+### MTOP
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*Can a Suit of Armor Conduct Electricity? A New Dataset for Open Book Question Answering*.<br> Todor Mihaylov, Peter Clark, Tushar Khot, Ashish Sabharwal. **EMNLP-18**
+*MTOP: A Comprehensive Multilingual Task-Oriented Semantic Parsing Benchmark*.<br>Haoran Li, Abhinav Arora, Shuohui Chen, Anchit Gupta, Sonal Gupta, Yashar Mehdad. **EACL-21**
 
 <span class="fs-1">
-[Paper](https://arxiv.org/abs/1809.02789){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://leaderboard.allenai.org/open_book_qa/submissions/get-started){: target="_blank" .btn .btn-green .mr-1 } [Huggingface Card](https://huggingface.co/datasets/openbookqa){: target="_blank" .btn .btn-purple .mr-1 } </span>
+[Paper](https://aclanthology.org/2021.eacl-main.257/){: .btn .btn-blue .mr-1 target="_blank" } [Dataset](https://fb.me/mtop_dataset){: target="_blank" .btn .btn-green .mr-1 } </span>
 
-> - **Topics:** General. The dataset is modeled after open book exams for assessing human understanding of a subject.
-- **Size & Split:**  5,957 in total --- train (4,957), dev (500), test (500).
-- **Dataset creation:** 
+> - **Knowledge**: API
+> - **Type**: Text2TOP-representation
+>   - **Keywords**: Spoken Language Understanding; TOP representation
+
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
 >  {: .fs-3 .text-delta .text-red-100}
 ```
-Question:
-    Which of these would let the most heat travel through?
-Choices:
-    A) a new pair of jeans
-    B) a steel spoon in a cafeteria  
-    C) a cotton candy at a store  
-    D) a calvi klein cotton hat
-Correct Choice: B
-``` 
+
+```
 ></details> 
 
 
 <!-- {: .fs-4 .fw-600 .text-red-300}
 > **Comments** -->
+>
+> We used the English part of MTOP as SKG benchmark.
 
 <!-- Mention the highlights or known issues of the dataset. -->
 
@@ -282,7 +203,7 @@ Choices:
     C) is in the crowd, watching the dancers.
     D) nervously sets her fingers on the keys.
 Correct Choice: D
-``` 
+```
 ></details> 
 
 <!-- {: .fs-4 .fw-600 .text-red-300}
@@ -345,7 +266,7 @@ quote: they feared violence
 quote_loc: 63
 source: (Winograd 1972)
 text: The city councilmen refused the demonstrators a permit because they feared violence.
-``` 
+```
 ></details> 
 <!-- {: .fs-4 .fw-600 .text-red-300}
 > **Comments** -->
@@ -374,7 +295,7 @@ Sentence: Katrina had the financial means to afford a new car while Monica did n
 Option1: Katrina
 Option2: Monica
 Correct Option: Option1
-``` 
+```
 ></details> 
 <!-- {: .fs-4 .fw-600 .text-red-300}
 > **Comments** -->
@@ -404,7 +325,7 @@ Premise: The man broke his toe. What was the CAUSE of this?
 Alternative 1: He got a hole in his sock.
 Alternative 2: He dropped a hammer on his foot.
 Correct Choice: Alternative 2
-``` 
+```
 ></details> 
 <!-- {: .fs-4 .fw-600 .text-red-300}
 > **Comments** -->
@@ -429,7 +350,7 @@ Premise: L'uomo aprì il rubinetto.
 Alternative 1: Il gabinetto si riempì d'acqua.
 Alternative 2: Dell'acqua fluì dal beccuccio.
 Correct Choice: Alternative 1
-``` 
+```
 ></details> 
 
 <!-- 
@@ -464,7 +385,7 @@ Choices:
     C) fearful that there are monsters under my bed.
     D) tempted to snack when I feel this way.
 Correct Choice: D
-``` 
+```
 ></details> 
 
 <!-- {: .fs-4 .fw-600 .text-red-300}
@@ -497,7 +418,7 @@ Question:
 Choices:
     A) 63 years  B) 7 weeks  C) 7 years  D) 7 seconds  E) 7 hours
 Correct Choice: C
-``` 
+```
 ></details> 
 <!-- {: .fs-4 .fw-600 .text-red-300}
 > **Comments** -->
@@ -526,7 +447,7 @@ Obs2: She asked her neighbor for a jump-start.
 Hyp1: Mary decided to drive to the beach, but her car would not start due to a dead battery.
 Hyp2: It made a weird sound upon starting.
 Correct Choice: Hyp1
-```  
+```
 ></details> 
 
 <!-- {: .fs-4 .fw-600 .text-red-300}
@@ -560,7 +481,7 @@ Statement: He put an elephant into the fridge.
 A: An elephant is much bigger than a fridge.
 B: Elephants are usually white while fridges are usually white.
 C: An elephant cannot eat a fridge.
-``` 
+```
 ></details> 
 <!-- {: .fs-4 .fw-600 .text-red-300}
 > **Comments** -->
@@ -589,7 +510,7 @@ Question:
 Choices:
     A) paper  B) candle  C) lamp  D) 7  clock  E) worm
 Correct Choice: B
-``` 
+```
 ></details> 
 
 {: .fs-4 .fw-600 .text-red-300}
@@ -620,7 +541,7 @@ Right Ending:
     Karen became good friends with her roommate.
 Wrong Ending:
     Karen hated her roommate.
-``` 
+```
 ></details> 
 
 
@@ -653,7 +574,7 @@ Choices:
     (H) an automobile engine
 Correct choice:
     (B)
-``` 
+```
 ></details> 
 
 
@@ -695,7 +616,7 @@ Rationales: I chose A) because...
     C) [person3] is looking at the pancakes both she and [person2] are smilling slightly.
     D) [person3] is delivering food to the table, and she might not know whose order is whose.
 Correct Choice: D
-``` 
+```
 ></details> 
 
 
@@ -731,7 +652,7 @@ Question:
     Name a piece of equipment that you are likely to find at your office and not at home?
 Categories: 
     printer/copier (37), office furniture (15), computer equipment (17), stapler (11), files (10), office appliances (5), security systems (1)
-``` 
+```
 ></details> 
 <!-- {: .fs-4 .fw-600 .text-red-300}
 > **Comments** -->
@@ -760,7 +681,7 @@ Supporting Facts:
     f2: Trees remove carbon dioxide from the atmosphere through photosynthesis.
     f3: The atmosphere contains oxygen, carbon dioxide, and water.
 Weighted Answers: Renewable energy (w1), tree (w2), solar battery (w3)
-``` 
+```
 ></details> 
 <!-- {: .fs-4 .fw-600 .text-red-300}
 > **Comments** -->
@@ -792,7 +713,7 @@ GPT2 -- A dog throws a frisbee at a football player.
 UniLM -- Two dogs are throwing frisbees at each other.
 BART -- A dog throws a frisbee and a dog catches it.
 T5 -- dog catches a frisbee and throws it to a dog.
-``` 
+```
 ></details> 
 <!-- {: .fs-4 .fw-600 .text-red-300}
 > **Comments** -->
@@ -818,7 +739,7 @@ Question: While eating a hamburger with friends, what are people trying to do?
 Choices: have fun, tasty, or indigestion
 CoS-E: Usually a hamburger with friends indicates a good time.
 Correct Choice: have fun
-``` 
+```
 ></details> 
 <!-- {: .fs-4 .fw-600 .text-red-300}
 > **Comments** -->
@@ -885,7 +806,7 @@ obj_label: think
 pred: HasSubevent, 
 sub: alive
 uuid: d4f11631dde8a43beda613ec845ff7d1
-``` 
+```
 ></details> 
 <!-- {: .fs-4 .fw-600 .text-red-300}
 > **Comments** -->
@@ -911,7 +832,7 @@ uuid: d4f11631dde8a43beda613ec845ff7d1
 Question: A car usually has [MASK] wheels.
 Choices: 
 A) One  B) Two  C) Three  D) Four  E) Five
-``` 
+```
 ></details> 
 <!-- {: .fs-4 .fw-600 .text-red-300}
 > **Comments** -->
@@ -936,7 +857,7 @@ A) One  B) Two  C) Three  D) Four  E) Five
 Question: A prindag is lighter than a fluberg, so a prindag should float [MASK] than a fluberg.
 Choices: 
 A) more  B) less
-``` 
+```
 ></details> 
 <!-- {: .fs-4 .fw-600 .text-red-300}
 > **Comments** -->
@@ -971,7 +892,7 @@ Passage:
     According to claims in the suit, "Parts of 'Stairway to Heaven,' instantly recognizable to the music fans across the world, sound almost identical to significant portions of ‘___.’”
 Reference Answers:
     Taurus
-``` 
+```
 ></details> 
 
 ### Cosmos QA
@@ -1001,7 +922,7 @@ Choices:
     C) The writer is bad at doing his own hair.
     D) None of the above choices.
 Correct Choice: B
-``` 
+```
 ></details> 
 
 
@@ -1040,7 +961,7 @@ Choices:
     (B) Because he had lunch at school.
     (C) Because his mother wants to leave him hungry.
 Correct Choice: (A)
-``` 
+```
 ></details> 
 
  
@@ -1070,7 +991,7 @@ Correct Answer: A
 Q2 When did he plant the tree?
 A) after watering it  B) after taking it home
 Correct Answer: B
-``` 
+```
 ></details> 
 
 
@@ -1162,7 +1083,7 @@ Sentence: In a few minutes more the mission ship was forsaken by her strange Sab
 Object 1: ship
 Object 2: sea
 Confidence: 1
-``` 
+```
 ></details> 
 <!-- {: .fs-4 .fw-600 .text-red-300}
 > **Comments** -->
