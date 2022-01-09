@@ -81,32 +81,6 @@ to be added.
 ```
 ></details> 
 
-
-
-### CompWebQ
-{: .no_toc }
-
-{: .fs-4 .fw-800 .text-blue-100}
-*The Web as a Knowledge-base for Answering Complex Questions*.<br> Alon Talmor, Jonathan Berant. **NAACL-18**
-
-<span class="fs-1">
-[Paper](https://arxiv.org/abs/1911.11641){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://www.tau-nlp.org/compwebq){: target="_blank" .btn .btn-green .mr-1 } {: target="_blank" .btn .btn-purple .mr-1 } </span>
-
-> - **Knowledge**: Knowledge Graph
-> - **Type**: Text2SPARQL
-> - **Keywords**: Weakly supervised; Multihop
-
-><details markdown="block">
->  <summary>Illustrative Example</summary>
->  {: .fs-3 .text-delta .text-red-100}
-```
-..
-```
-></details> 
-
-
-
-
 ### WebQSP
 {: .no_toc }
 
@@ -156,453 +130,139 @@ to be added.
 <!-- Mention the highlights or known issues of the dataset. -->
 {: .fs-4 .fw-600 .text-red-300}
 
-### SWAG and HellaSWAG
-{: .no_toc }
-
-{: .fs-4 .fw-800 .text-blue-100}
-*SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference*.<br> Rowan Zellers, Yonatan Bisk, Roy Schwartz, Yejin Choi. **EMNLP-18**
-
-<span class="fs-1">
-[Paper](https://arxiv.org/abs/1808.05326){: .btn .btn-blue .mr-1 target="_blank" } [Official Page](https://leaderboard.allenai.org/swag/submissions/get-started){: target="_blank" .btn .btn-green .mr-1 } [Intro Page](https://rowanzellers.com/swag/){: target="_blank" .btn .btn-green .mr-1 } [Huggingface Card](https://huggingface.co/datasets/swag){: target="_blank" .btn .btn-purple .mr-1 } </span>
-
-> - **Topics:** General. Mostly about grounded situations. Each question is a video caption from LSMDC or ActivityNet Captions, with four answer choices about what might happen next in the scene. 
-- **Size & Split:**  around 113k in total --- train (73k), dev (20k), test (20k).
-- **Dataset creation:** 
-><details markdown="block">
->  <summary>Illustrative Example</summary>
->  {: .fs-3 .text-delta .text-red-100}
-```
-Question:
-    On stage, a woman takes a seat at the piano. She
-Choices:
-    A) sits on a bench as her sister plays with the doll.
-    B) smiles with someone as the music plays.
-    C) is in the crowd, watching the dancers.
-    D) nervously sets her fingers on the keys.
-Correct Choice: D
-```
-></details> 
-
-<!-- {: .fs-4 .fw-600 .text-red-300}
-
-> **Comments** -->
-
-<!-- Mention the highlights or known issues of the dataset. -->
-
-
-{: .fs-4 .fw-800 .text-blue-100}
-*HellaSwag: Can a Machine Really Finish Your Sentence?*.<br> Rowan Zellers, Ari Holtzman, Yonatan Bisk, Ali Farhadi, Yejin Choi. **ACL-19**
-
-<span class="fs-1">
-[Paper](https://arxiv.org/abs/1905.07830){: .btn .btn-blue .mr-1 target="_blank" } [Official Page](https://leaderboard.allenai.org/hellaswag/submissions/get-started){: target="_blank" .btn .btn-green .mr-1 } [Intro Page](https://rowanzellers.com/hellaswag/){: target="_blank" .btn .btn-green .mr-1 } [Huggingface Card](https://huggingface.co/datasets/hellaswag){: target="_blank" .btn .btn-purple .mr-1 } </span>
-
-> - **Topics:** General. Mostly about grounded commonsense situations.
-- **Size & Split:**  18,001 in total --- train (6,833), dev (3,641), test (7,527).
-- **Dataset creation:** 
-><details markdown="block">
->  <summary>Illustrative Example</summary>
->  {: .fs-3 .text-delta .text-red-100}
-```
-Question:
-    A woman is outside with a bucket and a dog. The dog is running around trying to avoid a bath. She
-Choices:
-    A) rinses the bucket off with soap and blow dries the dog's head.
-    B) uses a hose to keep it from getting soapy.
-    C) gets the dog wet, then it runs away again.
-    D) gets into the bath tub with the dog.
-Correct Choice: C
-```
-></details> 
-
-<!-- {: .fs-4 .fw-600 .text-red-300}
-
-> **Comments** -->
-
-<!-- Mention the highlights or known issues of the dataset. -->
-
-
-### WSC 
-{: .no_toc }
-
-{: .fs-4 .fw-800 .text-blue-100}
-*The Winograd Schema Challenge*.<br> Hector J. Levesque, Ernest Davis, Leora Morgenstern. **KR-12**
-
-<span class="fs-1">
-[Paper](https://cs.nyu.edu/faculty/davise/papers/WSKR2012.pdf){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://cs.nyu.edu/faculty/davise/papers/WinogradSchemas/WS.html){: target="_blank" .btn .btn-green .mr-1 } [Huggingface Card](https://huggingface.co/datasets/winograd_wsc){: target="_blank" .btn .btn-purple .mr-1 } </span>
-
-> - **Topics:** General. 
-- **Size & Split:**  804 in total --- train (554), dev (104), test (146).
-- **Dataset creation:** 
-><details markdown="block">
->  <summary>Illustrative Example</summary>
->  {: .fs-3 .text-delta .text-red-100}
-```
-label: 0,
-options: ['The city councilmen', 'The demonstrators']
-pronoun: they
-pronoun_loc: 63
-quote: they feared violence
-quote_loc: 63
-source: (Winograd 1972)
-text: The city councilmen refused the demonstrators a permit because they feared violence.
-```
-></details> 
-<!-- {: .fs-4 .fw-600 .text-red-300}
-> **Comments** -->
-
-<!-- Mention the highlights or known issues of the dataset. -->
-
-
-
-### WinoGrande
-{: .no_toc }
-
-{: .fs-4 .fw-800 .text-blue-100}
-*WinoGrande: An Adversarial Winograd Schema Challenge at Scale*. <br> Keisuke Sakaguchi, Ronan Le Bras, Chandra Bhagavatula, Yejin Choi. **AAAI-20**
-
-<span class="fs-1">
-[Paper](https://arxiv.org/abs/1907.10641){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://winogrande.allenai.org/){: target="_blank" .btn .btn-green .mr-1 } [Huggingface Card](https://huggingface.co/datasets/winogrande){: target="_blank" .btn .btn-purple .mr-1 } </span>
-
-> - **Topics:** General. Mostly about commonsense inference in pronoun resolution problems.
-- **Size & Split:**  43,972 in total --- train (40,938), dev (1,267), test (1,767).
-- **Dataset creation:** 
-><details markdown="block">
->  <summary>Illustrative Example</summary>
->  {: .fs-3 .text-delta .text-red-100}
-```
-Sentence: Katrina had the financial means to afford a new car while Monica did not, since _ had a high paying job.
-Option1: Katrina
-Option2: Monica
-Correct Option: Option1
-```
-></details> 
-<!-- {: .fs-4 .fw-600 .text-red-300}
-> **Comments** -->
-
-<!-- Mention the highlights or known issues of the dataset. -->
-
-
-
-### COPA and X-COPA 
-{: .no_toc }
-
-{: .fs-4 .fw-800 .text-blue-100}
-*Choice of Plausible Alternatives: An Evaluation of Commonsense Causal Reasoning*. <br> 
-Melissa Roemmele, Cosmin Adrian Bejan, and Andrew S. Gordon. **AAAI-11**
-
-<span class="fs-1">
-[Paper](https://www.researchgate.net/publication/221251392_Choice_of_Plausible_Alternatives_An_Evaluation_of_Commonsense_Causal_Reasoning){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://people.ict.usc.edu/~gordon/copa.html){: target="_blank" .btn .btn-green .mr-1 } </span>
-
-> - **Topics:** General. Open-domain commonsense causal reasoning of everyday activities.
-- **Size & Split:**  1000 in total --- train (400), dev (100), test (500).
-- **Dataset creation:** 
-><details markdown="block">
->  <summary>Illustrative Example</summary>
->  {: .fs-3 .text-delta .text-red-100}
-```
-Premise: The man broke his toe. What was the CAUSE of this?
-Alternative 1: He got a hole in his sock.
-Alternative 2: He dropped a hammer on his foot.
-Correct Choice: Alternative 2
-```
-></details> 
-<!-- {: .fs-4 .fw-600 .text-red-300}
-> **Comments** -->
-
-<!-- Mention the highlights or known issues of the dataset. -->
-
-
-{: .fs-4 .fw-800 .text-blue-100}
-*XCOPA: A Multilingual Dataset for Causal Commonsense Reasoning*. <br> Edoardo Maria Ponti, Goran Glavaš, Olga Majewska, Qianchu Liu, Ivan Vulić, Anna Korhonen. **EMNLP-20**
-
-<span class="fs-1">
-[Paper](https://arxiv.org/abs/2005.00333){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://github.com/cambridgeltl/xcopa){: target="_blank" .btn .btn-green .mr-1 } [Huggingface Card](https://huggingface.co/datasets/xcopa){: target="_blank" .btn .btn-purple .mr-1 } </span>
-
-> - **Topics:** General. Same as COPA dataset but in 11 languages.
-- **Size & Split:**  1000 * 11 (# langs) in total --- train (400 * 11), dev (100 * 11), test (500 * 11).
-- **Dataset creation:** 
-><details markdown="block">
->  <summary>Illustrative Example</summary>
->  {: .fs-3 .text-delta .text-red-100}
-```
-Premise: L'uomo aprì il rubinetto.
-Alternative 1: Il gabinetto si riempì d'acqua.
-Alternative 2: Dell'acqua fluì dal beccuccio.
-Correct Choice: Alternative 1
-```
-></details> 
-
-<!-- 
-{: .fs-4 .fw-600 .text-red-300}
-> **Comments** -->
-
-<!-- Mention the highlights or known issues of the dataset. -->
-
-
-
-### CODAH 
-{: .no_toc }
-
-{: .fs-4 .fw-800 .text-blue-100}
-*CODAH: An Adversarially Authored Question-Answer Dataset for Common Sense*. <br> Michael Chen, Mike D'Arcy, Alisa Liu, Jared Fernandez, Doug Downey. **RepEval-19**
-
-<span class="fs-1">
-[Paper](https://arxiv.org/abs/1904.04365){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://github.com/Websail-NU/CODAH){: target="_blank" .btn .btn-green .mr-1 } [Huggingface Card](https://huggingface.co/datasets/codah){: target="_blank" .btn .btn-purple .mr-1 } </span>
-
-> - **Topics:** General. Mostly about grounded situations in everyday activities. 
-- **Size:**  2,801 in total. No official splits.
-- **Dataset creation:** 
-><details markdown="block">
->  <summary>Illustrative Example</summary>
->  {: .fs-3 .text-delta .text-red-100}
-```
-Question: 
-    I am always very hungry before I go to bed. I am
-Choices:
-    A) concerned that this is an illness.
-    B) glad that I do not have a kitchen.
-    C) fearful that there are monsters under my bed.
-    D) tempted to snack when I feel this way.
-Correct Choice: D
-```
-></details> 
-
-<!-- {: .fs-4 .fw-600 .text-red-300}
-> **Comments** -->
-
-<!-- Mention the highlights or known issues of the dataset. -->
-
-
-
-### MC-TACO
-{: .no_toc }
-
-{: .fs-4 .fw-800 .text-blue-100}
-*"Going on a vacation" takes longer than "Going for a walk": A Study of Temporal Commonsense Understanding*. <br> Ben Zhou, Daniel Khashabi, Qiang Ning, Dan Roth. **EMNLP-19**
-
-<span class="fs-1">
-[Paper](https://arxiv.org/abs/1909.03065){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://leaderboard.allenai.org/mctaco/submissions/get-started){: target="_blank" .btn .btn-green .mr-1 } [Huggingface Card](https://huggingface.co/datasets/mc_taco){: target="_blank" .btn .btn-purple .mr-1 } </span>
-
-> - **Topics:** Temporal Commonsense. Focusing on event ordering, duration, stationarity, frequency and time.
-- **Size & Split:**  13k question-answer pairs in total --- train (N/A), dev (3,783), test (9,442) .
-- **Dataset creation:** 
-><details markdown="block">
->  <summary>Illustrative Example</summary>
->  {: .fs-3 .text-delta .text-red-100}
-```
-Paragraph: 
-    Growing up on a farm near St. Paul, L. Mark Bailey didn't dream of becoming a judge.
-Question:
-    How many years did it take for Mark to become a judge?
-Choices:
-    A) 63 years  B) 7 weeks  C) 7 years  D) 7 seconds  E) 7 hours
-Correct Choice: C
-```
-></details> 
-<!-- {: .fs-4 .fw-600 .text-red-300}
-> **Comments** -->
-
-<!-- Mention the highlights or known issues of the dataset. -->
-
-
-### aNLI
-{: .no_toc }
-
-{: .fs-4 .fw-800 .text-blue-100}
-*Abductive Commonsense Reasoning*. <br> Chandra Bhagavatula, Ronan Le Bras, Chaitanya Malaviya, Keisuke Sakaguchi, Ari Holtzman, Hannah Rashkin, Doug Downey, Scott Wen-tau Yih, Yejin Choi. **ICLR-20**
-
-<span class="fs-1">
-[Paper](https://arxiv.org/abs/1908.05739){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://leaderboard.allenai.org/anli/submissions/get-started){: target="_blank" .btn .btn-green .mr-1 } [Huggingface Card](https://huggingface.co/datasets/art){: target="_blank" .btn .btn-purple .mr-1 } </span>
-
-> - **Topics:** General. Mostly about observations of objects or events in daily life.
-- **Size & Split:**  17,801 context pairs in total --- dev (1,532), test (3,059).
-- **Dataset creation:**  
-><details markdown="block">
->  <summary>Illustrative Example</summary>
->  {: .fs-3 .text-delta .text-red-100}
-```
-Obs1: It was a gorgeous day outside.
-Obs2: She asked her neighbor for a jump-start.
-Hyp1: Mary decided to drive to the beach, but her car would not start due to a dead battery.
-Hyp2: It made a weird sound upon starting.
-Correct Choice: Hyp1
-```
-></details> 
-
-<!-- {: .fs-4 .fw-600 .text-red-300}
-> **Comments** -->
-
-<!-- Mention the highlights or known issues of the dataset. -->
-
-### ComVE (SemEval-2020 Task 4 SubTask A&B)
-{: .no_toc }
-
-{: .fs-4 .fw-800 .text-blue-100}
-*SemEval-2020 task 4: Commonsense validation and explanation*. <br> Cunxiang Wang, Shuailong Liang, Yili Jin, Yilong Wang, Xiaodan Zhu, Yue Zhang. **SemEval-2020**
-
-<span class="fs-1">
-[Paper](https://arxiv.org/abs/1906.00363){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://github.com/wangcunxiang/SemEval2020-Task4-Commonsense-Validation-and-Explanation){: target="_blank" .btn .btn-green .mr-1 } [CodaLab](https://competitions.codalab.org/competitions/21080){: target="_blank" .btn .btn-purple .mr-1 } </span>
-
-> - **Topics:** General. General commonsense assertions in everyday life.
-- **Size & Split:**  11,997 instances splitted into 10,000 training set, 997 development set, and 1,000 test set.
-- **Dataset creation:** 
-><details markdown="block">
->  <summary>Illustrative Example</summary>
->  {: .fs-3 .text-delta .text-red-100}
-```
-Task A: Validation
-Task: Which statement of the two is against common sense?
-Statement1: He put a turkey into the fridge.
-Statement2: He put an elephant into the fridge.
-Task B: Explanation (Multi-Choice)
-Task: Select the most corresponding reason why this statement is against common sense.
-Statement: He put an elephant into the fridge.
-A: An elephant is much bigger than a fridge.
-B: Elephants are usually white while fridges are usually white.
-C: An elephant cannot eat a fridge.
-```
-></details> 
-<!-- {: .fs-4 .fw-600 .text-red-300}
-> **Comments** -->
-
-<!-- Mention the highlights or known issues of the dataset. -->
-
-
-### RiddleSense
-{: .no_toc }
-
-{: .fs-4 .fw-800 .text-blue-100}
-*RiddleSense: Answering Riddle Questions as Commonsense Reasoning*. <br> Bill Yuchen Lin, Ziyi Wu, Yichi Yang, Dong-Ho Lee, Xiang Ren. **arXiv, 2021**
-
-<span class="fs-1">
-[Paper](https://arxiv.org/abs/2101.00376){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://inklab.usc.edu/RiddleSense/){: target="_blank" .btn .btn-green .mr-1 } </span>
-
-> - **Topics:** General. Mostly about riddle-style commonsense question answering.
-- **Size & Split:**  5,733 in total --- train (3,510), dev (1,021), test (1,202).
-- **Dataset creation:** 
-><details markdown="block">
->  <summary>Illustrative Example</summary>
->  {: .fs-3 .text-delta .text-red-100}
-```
-Question:
-    My life can be measured in hours. I serve by being devoured. Thin, I am quick; Fat, I am slow. Wind is my foe. What am I?
-Choices:
-    A) paper  B) candle  C) lamp  D) 7  clock  E) worm
-Correct Choice: B
-```
-></details> 
-
-{: .fs-4 .fw-600 .text-red-300}
-> **Comments**
-> - The dataset is not yet public. Contact the authors to get more information.
-<!-- Mention the highlights or known issues of the dataset. -->
-
-
-### ROCStories
-{: .no_toc }
-
-{: .fs-4 .fw-800 .text-blue-100}
-*A Corpus and Evaluation Framework for Deeper Understanding of Commonsense Stories*. <br> Nasrin Mostafazadeh, Nathanael Chambers, Xiaodong He, Devi Parikh, Dhruv Batra, Lucy Vanderwende, Pushmeet Kohli, James Allen. **NAACL HLT, 2016**
-
-<span class="fs-1">
-[Paper](https://arxiv.org/abs/1604.01696){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://www.cs.rochester.edu/nlp/rocstories/){: target="_blank" .btn .btn-green .mr-1 }
-
-> - **Topics:** General. Mostly about casual and correlational relationships between events.
-- **Size & Split:** 50k five-sentence commonsense stories, and 3,744 Story Cloze Test cases
-- **Dataset creation:** 
-><details markdown="block">
->  <summary>Illustrative Example</summary>
->  {: .fs-3 .text-delta .text-red-100}
-```
-Context: 
-    Karen was assigned a roommate her first year of college. Her roommate asked her to go to a nearby city for a concert. Karen agreed happily. The show was absolutely exhilarating.
-Right Ending: 
-    Karen became good friends with her roommate.
-Wrong Ending:
-    Karen hated her roommate.
-```
-></details> 
-
-
-### QASC
-{: .no_toc }
-
-{: .fs-4 .fw-800 .text-blue-100}
-*QASC: A Dataset for Question Answering via Sentence Composition*. <br> Tushar Khot, Peter Clark, Michal Guerquin, Peter Jansen, Ashish Sabharwal. **AAAI, 2020**
-
-<span class="fs-1">
-[Paper](https://arxiv.org/abs/1910.11473){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://allenai.org/data/qasc/){: target="_blank" .btn .btn-green .mr-1 }
-
-> - **Topics:** Elementary and middle school level science, with a focus on fact composition.
-- **Size & Split:** 9,980 8-way multiple-choice questions about grade school science --- train (8,134), dev (926), test (920), with a corpus of 17M sentences.
-- **Dataset creation:** For each multiple-choice question, a worker is provided with one seed fact at the starting point, and asked to find other relevant facts from the corpus and create a question based on them.
-><details markdown="block">
->  <summary>Illustrative Example</summary>
->  {: .fs-3 .text-delta .text-red-100}
-```
-Question:: 
-    What can trigger immune response?
-Choices: 
-    (A) decrease strength
-    (B) transplanted organs
-    (C) desire
-    (D) matter vibrating
-    (E) death
-    (F) pain
-    (G) chemical weathering
-    (H) an automobile engine
-Correct choice:
-    (B)
-```
-></details> 
-
-
 ---
 
-## Visually-Grounded QA
+## Question Answering
 
 
-### Visual Commonsense Reasoning
+### WikiSQL
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*From Recognition to Cognition: Visual Commonsense Reasoning*.<br> Rowan Zellers, Yonatan Bisk, Ali Farhadi, Yejin Choi. **CVPR-19**
+*Seq2SQL: Generating Structured Queries from Natural Language using Reinforcement Learning*.<br> Victor Zhong, Caiming Xiong, Richard Socher. **ICLR-18**
 
 <span class="fs-1">
-[Paper](https://arxiv.org/abs/1811.10830){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://visualcommonsense.com){: target="_blank" .btn .btn-green .mr-1 } </span>
+[Paper](https://arxiv.org/abs/1709.00103){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://github.com/salesforce/WikiSQL){: target="_blank" .btn .btn-green .mr-1 } </span>
+> - **Knowledge**: Table
+> - **Type**: QA
+> - **Keywords**: Fully/weakly supervised semantic parsing(SQL provided); Large data
 
-> - **Topics:** Visual Common Sense. It focuses on challenging visual questions expressed in natural language, which require cognition-level visual understanding and commonsense reasoning. 
-- **Task format:** Given an image, a list of regions, and a question, a model must answer the question and provide a rationale explaining why its answer is right.
-- **Size & Split:**  264,720 in total --- train (212,923), dev (26,534), test (25,263).
-- **Dataset creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
 >  {: .fs-3 .text-delta .text-red-100}
 ```
-(An image depicting three people sitting around a dining table and a waitress serving the table.)
-Question:
-    Why is [person4] pointing at [person1]?
-Choices:
-    A) He is telling [person3] that [person1] ordered the pancakes.
-    B) He just told a joke.
-    C) He is feeling accusatory towards [person1].  
-    D) He is giving [person1] directions.
-Correct Choice: A
-----
-Rationales: I chose A) because...
-    A) [person1] has the pancakes in front of him.
-    B) [person4] is taking everyone's order and asked for clarification.
-    C) [person3] is looking at the pancakes both she and [person2] are smilling slightly.
-    D) [person3] is delivering food to the table, and she might not know whose order is whose.
-Correct Choice: D
+..
 ```
 ></details> 
 
 
-<!-- {: .fs-4 .fw-600 .text-red-300}
-> **Comments** -->
+### WikiTableQuestion
+{: .no_toc }
 
+{: .fs-4 .fw-800 .text-blue-100}
+*Compositional Semantic Parsing on Semi-Structured Tables*.<br> Panupong Pasupat, Percy Liang. **ACL-15**
+
+<span class="fs-1">
+[Paper](https://aclanthology.org/P15-1142/){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://ppasupat.github.io/WikiTableQuestions/){: target="_blank" .btn .btn-green .mr-1 } </span>
+> - **Knowledge**: Table
+> - **Type**: QA
+> - **Keywords**: Weakly supervised semantic parsing(using question-answer pairs as supervision); Row sensative(some qa related to row order)
+
+><details markdown="block">
+>  <summary>Illustrative Example</summary>
+>  {: .fs-3 .text-delta .text-red-100}
+```
+..
+```
+></details> 
+
+> **Comments**
+> The 5-fold validation evaluation in origianl dataset is depracated by latest works. The 1st fold of train set and dev set are used as train set and dev set.
 <!-- Mention the highlights or known issues of the dataset. -->
+{: .fs-4 .fw-600 .text-red-300}
+
+
+### CompWebQ
+{: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*The Web as a Knowledge-base for Answering Complex Questions*.<br> Alon Talmor, Jonathan Berant. **NAACL-18**
+
+<span class="fs-1">
+[Paper](https://arxiv.org/abs/1911.11641){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://www.tau-nlp.org/compwebq){: target="_blank" .btn .btn-green .mr-1 } {: target="_blank" .btn .btn-purple .mr-1 } </span>
+
+> - **Knowledge**: Knowledge Graph
+> - **Type**: Text2SPARQL
+> - **Keywords**: Weakly supervised; Multihop
+
+><details markdown="block">
+>  <summary>Illustrative Example</summary>
+>  {: .fs-3 .text-delta .text-red-100}
+```
+..
+```
+></details> 
+
+### HybridQA
+{: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*HybridQA: A Dataset of Multi-Hop Question Answering over Tabular and Textual Data*.<br> Wenhu Chen, Hanwen Zha, Zhiyu Chen, Wenhan Xiong, Hong Wang, William Wang. **EMNLP-20**
+
+<span class="fs-1">
+[Paper](https://aclanthology.org/2020.findings-emnlp.91/){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://hybridqa.github.io/){: target="_blank" .btn .btn-green .mr-1 } </span>
+> - **Knowledge**: Table + Text passages
+> - **Type**: QA
+> - **Keywords**: Multi-hop; Short-form entity/extractive
+
+><details markdown="block">
+>  <summary>Illustrative Example</summary>
+>  {: .fs-3 .text-delta .text-red-100}
+```
+..
+```
+></details> 
+
+### MultiModalQA
+{: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*MultiModalQA: Complex Question Answering over Text, Tables and Images*.<br> Alon Talmor, Ori Yoran, Amnon Catav, Dan Lahav, Yizhong Wang, Akari Asai, Gabriel Ilharco, Hannaneh Hajishirzi, Jonathan Berant. **ICLR-21**
+
+<span class="fs-1">
+[Paper](https://arxiv.org/abs/1709.00103){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://allenai.github.io/multimodalqa/){: target="_blank" .btn .btn-green .mr-1 } </span>
+> - **Knowledge**: Table + Text + Images
+> - **Type**: QA
+> - **Keywords**: Short-form entity/extractive
+
+><details markdown="block">
+>  <summary>Illustrative Example</summary>
+>  {: .fs-3 .text-delta .text-red-100}
+```
+..
+```
+></details> 
+
+
+### FeTaQA
+{: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*FeTaQA: Free-form Table Question Answering*.<br> Linyong Nan, Chiachun Hsieh, Ziming Mao, Xi Victoria Lin, Neha Verma, Rui Zhang, Wojciech Kryściński, Nick Schoelkopf, Riley Kong, Xiangru Tang, Murori Mutuma, Ben Rosand, Isabel Trindade, Renusree Bandaru, Jacob Cunningham, Caiming Xiong, Dragomir Radev. **ICLR-18**
+
+<span class="fs-1">
+[Paper](https://arxiv.org/abs/2104.00369){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://github.com/Yale-LILY/FeTaQA){: target="_blank" .btn .btn-green .mr-1 } </span>
+> - **Knowledge**: Table
+> - **Type**: QA
+> - **Keywords**: Free-form answer
+
+><details markdown="block">
+>  <summary>Illustrative Example</summary>
+>  {: .fs-3 .text-delta .text-red-100}
+```
+..
+```
+></details> 
 
 ---
 
