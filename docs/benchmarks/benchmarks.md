@@ -55,7 +55,7 @@ to be added.
 >  <summary>Illustrative Example</summary>
 >  {: .fs-3 .text-delta .text-red-100}
 ```
-
+..
 ```
 ></details>
 <!-- {: .fs-4 .fw-600 .text-red-300}
@@ -106,7 +106,6 @@ to be added.
 
 ><details markdown="block">
 ><summary>Illustrative Example</summary>
->  {: .fs-3 .text-delta .text-red-100}
 ```
 ```
 ></details>
@@ -133,10 +132,9 @@ to be added.
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
 >  {: .fs-3 .text-delta .text-red-100}
-><summary>Illustrative Example</summary>
 ```
+
 ```
-></details>
 <!-- {: .fs-4 .fw-600 .text-red-300}
 > **Comments** -->
 
