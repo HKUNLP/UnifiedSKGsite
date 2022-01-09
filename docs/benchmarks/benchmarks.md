@@ -57,10 +57,8 @@ to be added.
 ```
 
 ```
-></details> 
-
-
-{: .fs-4 .fw-600 .text-red-300}
+></details>
+<!-- {: .fs-4 .fw-600 .text-red-300}
 > **Comments**
 
 <!-- Mention the highlights or known issues of the dataset. -->
@@ -86,7 +84,6 @@ to be added.
 
 ```
 ></details> 
-
 <!-- {: .fs-4 .fw-600 .text-red-300}
 > **Comments** -->
 
@@ -108,15 +105,14 @@ to be added.
 > - **Keywords**: Weakly supervised; Multihop
 
 ><details markdown="block">
->  <summary>Illustrative Example</summary>
+><summary>Illustrative Example</summary>
 >  {: .fs-3 .text-delta .text-red-100}
 ```
-
 ```
-></details> 
-<!-- {: .fs-4 .fw-600 .text-red-300}
-> **Comments** -->
-
+></details>
+>{: .fs-3 .text-delta .text-red-100}
+><!-- {: .fs-4 .fw-600 .text-red-300}
+>**Comments** -->
 <!-- Mention the highlights or known issues of the dataset. -->
 
 
@@ -137,11 +133,10 @@ to be added.
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
 >  {: .fs-3 .text-delta .text-red-100}
+><summary>Illustrative Example</summary>
 ```
-
 ```
-></details> 
-
+></details>
 <!-- {: .fs-4 .fw-600 .text-red-300}
 > **Comments** -->
 
@@ -168,10 +163,10 @@ to be added.
 ```
 
 ```
-></details> 
 
 
 <!-- {: .fs-4 .fw-600 .text-red-300}
+
 > **Comments** -->
 >
 > We used the English part of MTOP as SKG benchmark.
@@ -207,6 +202,7 @@ Correct Choice: D
 ></details> 
 
 <!-- {: .fs-4 .fw-600 .text-red-300}
+
 > **Comments** -->
 
 <!-- Mention the highlights or known issues of the dataset. -->
@@ -237,6 +233,7 @@ Correct Choice: C
 ></details> 
 
 <!-- {: .fs-4 .fw-600 .text-red-300}
+
 > **Comments** -->
 
 <!-- Mention the highlights or known issues of the dataset. -->
