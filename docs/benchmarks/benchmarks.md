@@ -58,6 +58,7 @@ to be added.
 ..
 ```
 ></details>
+
 <!-- {: .fs-4 .fw-600 .text-red-300}
 > **Comments**
 
@@ -81,9 +82,10 @@ to be added.
 >  <summary>Illustrative Example</summary>
 >  {: .fs-3 .text-delta .text-red-100}
 ```
-
+..
 ```
 ></details> 
+
 <!-- {: .fs-4 .fw-600 .text-red-300}
 > **Comments** -->
 
@@ -105,13 +107,16 @@ to be added.
 > - **Keywords**: Weakly supervised; Multihop
 
 ><details markdown="block">
-><summary>Illustrative Example</summary>
+>  <summary>Illustrative Example</summary>
+>  {: .fs-3 .text-delta .text-red-100}
 ```
+..
 ```
-></details>
->{: .fs-3 .text-delta .text-red-100}
-><!-- {: .fs-4 .fw-600 .text-red-300}
->**Comments** -->
+></details> 
+
+<!-- {: .fs-4 .fw-600 .text-red-300}
+> **Comments** -->
+
 <!-- Mention the highlights or known issues of the dataset. -->
 
 
@@ -133,8 +138,10 @@ to be added.
 >  <summary>Illustrative Example</summary>
 >  {: .fs-3 .text-delta .text-red-100}
 ```
-
+..
 ```
+></details> 
+
 <!-- {: .fs-4 .fw-600 .text-red-300}
 > **Comments** -->
 
@@ -159,9 +166,9 @@ to be added.
 >  <summary>Illustrative Example</summary>
 >  {: .fs-3 .text-delta .text-red-100}
 ```
-
+..
 ```
-
+></details> 
 
 <!-- {: .fs-4 .fw-600 .text-red-300}
 
