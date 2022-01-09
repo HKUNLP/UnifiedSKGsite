@@ -59,11 +59,6 @@ to be added.
 ```
 ></details>
 
-<!-- {: .fs-4 .fw-600 .text-red-300}
-> **Comments**
-
-<!-- Mention the highlights or known issues of the dataset. -->
-
 
 ### GrailQA 
 {: .no_toc }
@@ -85,11 +80,6 @@ to be added.
 ..
 ```
 ></details> 
-
-<!-- {: .fs-4 .fw-600 .text-red-300}
-> **Comments** -->
-
-<!-- Mention the highlights or known issues of the dataset. -->
 
 
 
@@ -114,10 +104,6 @@ to be added.
 ```
 ></details> 
 
-<!-- {: .fs-4 .fw-600 .text-red-300}
-> **Comments** -->
-
-<!-- Mention the highlights or known issues of the dataset. -->
 
 
 
@@ -133,7 +119,6 @@ to be added.
 > - **Knowledge**: Knowledge Graph
 > - **Type**: Text2S-Expression
 
-- **Dataset creation:** 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
 >  {: .fs-3 .text-delta .text-red-100}
@@ -142,10 +127,6 @@ to be added.
 ```
 ></details> 
 
-<!-- {: .fs-4 .fw-600 .text-red-300}
-> **Comments** -->
-
-<!-- Mention the highlights or known issues of the dataset. -->
 
 
 
@@ -160,7 +141,7 @@ to be added.
 
 > - **Knowledge**: API
 > - **Type**: Text2TOP-representation
->   - **Keywords**: Spoken Language Understanding; TOP representation
+> - **Keywords**: Spoken Language Understanding; TOP representation
 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
@@ -170,14 +151,10 @@ to be added.
 ```
 ></details> 
 
-<!-- {: .fs-4 .fw-600 .text-red-300}
-
-> **Comments** -->
->
+> **Comments**
 > We used the English part of MTOP as SKG benchmark.
-
 <!-- Mention the highlights or known issues of the dataset. -->
-
+{: .fs-4 .fw-600 .text-red-300}
 
 ### SWAG and HellaSWAG
 {: .no_toc }
