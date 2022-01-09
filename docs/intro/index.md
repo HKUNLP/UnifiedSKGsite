@@ -30,7 +30,7 @@ td{
 {:toc}
 
 ---
-## What is structured knowledge, what are differences with the unstructured knowledge?
+## What is structured knowledge?
 TO BE ADDED
 ## What is structured knowledge grounding?
 TO BE ADDED

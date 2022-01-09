@@ -69,12 +69,6 @@ Join us on Github to improve this portal site as editors. We also have a Slack w
 
 <!-- **Cited as**
 ```bib
-@article{commonsenserun,
-  title   = "An Online Compendium for Commonsense Reasoning Research.",
-  author  = "Lin, Bill Yuchen and Qiao, Yang and Ilievski, Filip and Zhou, Pei and Wang, Peifeng and Ren, Xiang", 
-  journal = "commonsense.run",
-  year    = "2021",
-  url     = "https://commonsense.run"
-}
+@article{to_be_added
 ``` --> 
 <!-- used for generating the html -->
