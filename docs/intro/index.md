@@ -11,7 +11,7 @@ last_modified_date: April 24 2021
 
 
 
-# Introduction to Commonsense Reasoning
+# Introduction to Structured Knowledge Grounding
 {: .no_toc }
 
 Editors: [Tianbao Xie](https://tianbaoxie.com), ...
