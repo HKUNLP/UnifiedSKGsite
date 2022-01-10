@@ -36,7 +36,7 @@ Structured knowledge(e.g., web tables, knowledge graphs, and databases) stores l
 ## What is structured knowledge grounding?
 To promote the efficiencyof data access, structured knowledge grounding(SKG) grounds user requests in structured knowledge and produces various outputs including computer programs(e.g., SQL and SPARQL),  cell values, and natural language responses(as shown in the picture below).
 
-<img src="../../images/resources/unifiedskg.pdf" width="100%" height="auto"/>
+<img src="../../images/resources/unifiedskg.png" width="100%" height="auto"/>
 
 For example, semantic parsing converts natural language questions into formal programs; question answering derives answers from tables or knowledge graphs.
 
