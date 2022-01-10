@@ -10,7 +10,7 @@ last_modified_date: April 24 2021
 # UnifiedSKG.com - A Portal Site for Structured Knowledge Grounding(SKG) Resources
 {: .fs-7 .fw-700 .text-blue-300 }
 
-<img src="images/resources/logos.png" width="60%" height="auto" align="center"/>
+<img src="images/resources/logos.png" width="60%" align = "middle" height="auto"/>
 
 <table>
 <tr><td markdown="block" class="fs-4">
