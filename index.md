@@ -15,12 +15,12 @@ last_modified_date: April 24 2021
 --- ***An online compendium of Structured Knowledge Grounding(SKG) research***
 </td></tr>
 <tr><td markdown="block" class="fs-4">
-
-**Faculty Advisors:** [Tao Yu](https://taoyds.github.io/){: target="_blank"} (Assistant Professor in HKU, post-doc in UW),  ...
+**Advisors:** [Tao Yu](https://taoyds.github.io/){: target="_blank"} (Assistant Professor in HKU, post-doc in UW),  ...
 
 **Main contributors:** [Tianbao Xie](https://tianbaoxie.com){: target="_blank"}, [Henry Chen Wu](https://scholar.google.com/citations?hl=zh-CN&user=WFKit_4AAAAJ){: target="_blank"}, ..., and [you](#how-can-i-contribute)!
 
 </td></tr>
+
 </table>
 ---
 
