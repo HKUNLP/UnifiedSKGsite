@@ -231,6 +231,27 @@ to be added.
 ```
 ></details> 
 
+### OTT-QA
+{: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*Open Question Answering over Tables and Text *.<br> Wenhu Chen, Ming-Wei Chang, Eva Schlinger, William Yang Wang, William W. Cohen. **ICLR-21**
+
+<span class="fs-1">
+[Paper](https://arxiv.org/abs/2010.10439){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://github.com/wenhuchen/OTT-QA){: target="_blank" .btn .btn-green .mr-1 } </span>
+> - **Knowledge**: Table + Text passages
+> - **User Input**: Question
+> - **Output**: Answer
+> - **Keywords**: More open table/text; Extractive ans
+
+><details markdown="block">
+>  <summary>Illustrative Example</summary>
+>  {: .fs-3 .text-delta .text-red-100}
+```
+..
+```
+></details> 
+
 ### MultiModalQA
 {: .no_toc }
 
@@ -265,6 +286,27 @@ to be added.
 > - **User Input**: Question
 > - **Output**: Free-Form Answer
 > - **Keywords**: Free-form answer
+
+><details markdown="block">
+>  <summary>Illustrative Example</summary>
+>  {: .fs-3 .text-delta .text-red-100}
+```
+..
+```
+></details> 
+
+### TAT-QA
+{: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*TAT-QA: A Question Answering Benchmark on a Hybrid of Tabular and Textual Content in Finance*.<br> Fengbin Zhu, Wenqiang Lei, Youcheng Huang, Chao Wang, Shuo Zhang, Jiancheng Lv, Fuli Feng, Tat-Seng Chua. **ACL-21**
+
+<span class="fs-1">
+[Paper](https://aclanthology.org/2021.acl-long.254/){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://nextplusplus.github.io/TAT-QA/){: target="_blank" .btn .btn-green .mr-1 } </span>
+> - **Knowledge**: Table + Text
+> - **User Input**: Question
+> - **Output**: Answer(diverse form, including single span, multiple spans and free-form)
+> - **Keywords**: Context hybrid; Numerical reasoning; Financial
 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
