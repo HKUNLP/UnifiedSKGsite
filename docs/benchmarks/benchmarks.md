@@ -325,68 +325,59 @@ to be added.
 
 ## Conversational
 
+
+
 ---
 
 ## Fact Verification
 
+### TabFact
+{: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*TabFact: A Large-scale Dataset for Table-based Fact Verification*.<br> Wenhu Chen, Hongmin Wang, Jianshu Chen, Yunkai Zhang, Hong Wang, Shiyang Li, Xiyou Zhou, William Yang Wang. **ICLR-20**
+
+<span class="fs-1">
+[Paper](https://arxiv.org/abs/1909.02164){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://tabfact.github.io/){: target="_blank" .btn .btn-green .mr-1 } </span>
+> - **Knowledge**: Table
+> - **User Input**: Statement
+> - **Output**: Boolean
+> - **Keywords**: NL inference; Large data
+
+><details markdown="block">
+>  <summary>Illustrative Example</summary>
+>  {: .fs-3 .text-delta .text-red-100}
+```
+..
+```
+></details> 
+
+### FEVEROUS
+{: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*The Fact Extraction and VERification Over Unstructured and Structured information (FEVEROUS) Shared Task*.<br> Rami Aly, Zhijiang Guo, Michael Sejr Schlichtkrull, James Thorne, Andreas Vlachos, Christos Christodoulopoulos, Oana Cocarascu, Arpit Mittal. **ICLR-21**
+
+<span class="fs-1">
+[Paper](https://aclanthology.org/2021.fever-1.1){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://fever.ai/dataset/feverous.html){: target="_blank" .btn .btn-green .mr-1 } </span>
+> - **Knowledge**: Table + Text
+> - **User Input**: Statement
+> - **Output**: Boolean
+> - **Keywords**: NL inference; Large data
+
+><details markdown="block">
+>  <summary>Illustrative Example</summary>
+>  {: .fs-3 .text-delta .text-red-100}
+```
+..
+```
+></details> 
 ---
 
 ## Formal-Language-to-Text
+
 
 ---
 
 ## Other Related Datasets
 
-### Rainbow Benchmark
-{: .no_toc }
-
-{: .fs-4 .fw-800 .text-blue-100}
-*UNICORN on RAINBOW: A Universal Commonsense Reasoning Model on a New Multitask Benchmark*.<br> Nicholas Lourie, Ronan Le Bras, Chandra Bhagavatula, Yejin Choi. **AAAI-21**
-
-<span class="fs-1">
-[Paper](https://arxiv.org/abs/2103.13009){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://allenai.org/data/rainbow){: target="_blank" .btn .btn-green .mr-1 } </span>
-
-> - **Topics:** Rainbow is a universal commonsense reasoning benchmark spanning both social and physical common sense. Rainbow brings together 6 existing commonsense reasoning tasks: aNLI, Cosmos QA, HellaSWAG, Physical IQa, Social IQa, and WinoGrande.
-- **Task format:**  text-to-text 
-- **Size & Split:**  
-- **Dataset creation:** reformatting specific versions of the above datasets to a text-to-text format so that models like T5 and BART.
-
-
-
-### GLUE and SuperGLUE Benchmark 
-{: .no_toc }
-
-{: .fs-4 .fw-800 .text-blue-100}
-*GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding*. <br> Alex Wang, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, Samuel R. Bowman. **ICLR-19**
-
-<span class="fs-1">
-[Paper](https://arxiv.org/abs/1804.07461){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://gluebenchmark.com/){: target="_blank" .btn .btn-green .mr-1 } [Huggingface Card](https://huggingface.co/datasets/glue){: target="_blank" .btn .btn-purple .mr-1 }</span>
-
-
-
-### LocatedNear Relation Extraction
-{: .no_toc }
-
-{: .fs-4 .fw-800 .text-blue-100}
-*Automatic Extraction of Commonsense LocatedNear Knowledge*. <br> Frank F. Xu, Bill Yuchen Lin, Kenny Q. Zhu. **ACL-18**
-
-<span class="fs-1">
-[Paper](https://arxiv.org/abs/1711.04204){: .btn .btn-blue .mr-1 target="_blank" } [Github Page](https://github.com/adapt-sjtu/commonsense-locatednear){: target="_blank" .btn .btn-grey .mr-1 } </span>
-
-> - **Topics:** Objects. Mostly about physical objects that are typically found near each other in real life.
-- **Task format:** Task 1 -- judge if a sentence describes two objects (mentioned in the sentence) being physically close by; Task 2 -- produce a ranked list of LOCATEDNEAR facts with the given classified results of large number of sentences.
-- **Size & Split:** 5,000 sentences describe a scene of two physical objects and with a label indicating if the two objects are co-located in the scene --- train(4,000), test(1,000).
-- **Dataset creation:** 
-><details markdown="block">
->  <summary>Illustrative Example</summary>
->  {: .fs-3 .text-delta .text-red-100}
-```
-ID: 9888840
-Sentence: In a few minutes more the mission ship was forsaken by her strange Sabbath congregation, and left with all the fleet around her floating quietly on the tranquil sea.	
-Object 1: ship
-Object 2: sea
-Confidence: 1
-```
-></details> 
-<!-- {: .fs-4 .fw-600 .text-red-300}
-> **Comments** -->
