@@ -325,7 +325,124 @@ to be added.
 
 ## Conversational
 
+### MultiWoZ21
+{: .no_toc }
 
+{: .fs-4 .fw-800 .text-blue-100}
+*MultiWOZ 2.1: A Consolidated Multi-Domain Dialogue Dataset with State Corrections and State Tracking Baselines*.<br> Mihail Eric, Rahul Goel, Shachi Paul, Abhishek Sethi, Sanchit Agarwal, Shuyang Gao, Adarsh Kumar, Anuj Kumar Goyal, Peter Ku, Dilek Hakkani-Tür. **LREC-20**
+
+<span class="fs-1">
+[Paper](https://arxiv.org/abs/1907.01669){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://github.com/budzianowski/multiwoz){: target="_blank" .btn .btn-green .mr-1 } </span>
+> - **Knowledge**: Ontology
+> - **User Input**: Dialogue
+> - **Output**: Dialogue State
+> - **Keywords**: Dialog system
+
+><details markdown="block">
+>  <summary>Illustrative Example</summary>
+>  {: .fs-3 .text-delta .text-red-100}
+```
+..
+```
+></details> 
+
+> **Comments**
+> There are many version of MultiWoZ, 2.1 and 2.2 are mostly used currently. We used the 2.1 version in our SKG benchmark. Some pre-procession on this dataset is needed, pls refer to [MultiWoZ](https://github.com/budzianowski/multiwoz) and [Trade-DST](https://github.com/jasonwu0731/trade-dst).
+<!-- Mention the highlights or known issues of the dataset. -->
+{: .fs-4 .fw-600 .text-red-300}
+
+
+
+
+### KVRET(SMD)
+{: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*Key-Value Retrieval Networks for Task-Oriented Dialogue*.<br> Mihail Eric, Christopher D. Manning. **SIGdial-17**
+
+<span class="fs-1">
+[Paper](https://aclanthology.org/W17-5506/){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://nlp.stanford.edu/blog/a-new-multi-turn-multi-domain-task-oriented-dialogue-dataset/){: target="_blank" .btn .btn-green .mr-1 } </span>
+> - **Knowledge**: Table
+> - **User Input**: Statement
+> - **Output**: Boolean
+> - **Keywords**: Dialogue system; Each dialogue has a seperate table as kb
+
+><details markdown="block">
+>  <summary>Illustrative Example</summary>
+>  {: .fs-3 .text-delta .text-red-100}
+```
+..
+```
+></details> 
+
+> **Comments**
+> KVRET is also called SMD(Stanford Multi-Domain task-oriented dialogue dataset). The de-facto widely used version of this dataset is the pre-processed verison in [Mem2seq](https://github.com/HLTCHKUST/Mem2Seq).
+<!-- Mention the highlights or known issues of the dataset. -->
+{: .fs-4 .fw-600 .text-red-300}
+
+### SParC
+{: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*Submitted on 5 Jun 2019]
+SParC: Cross-Domain Semantic Parsing in Context*.<br> Tao Yu, Rui Zhang, Michihiro Yasunaga, Yi Chern Tan, Xi Victoria Lin, Suyi Li, Heyang Er, Irene Li, Bo Pang, Tao Chen, Emily Ji, Shreya Dixit, David Proctor, Sungrok Shim, Jonathan Kraft, Vincent Zhang, Caiming Xiong, Richard Socher, Dragomir Radev. **ACL-19**
+
+<span class="fs-1">
+[Paper](https://arxiv.org/abs/1906.02285){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://yale-lily.github.io/sparc){: target="_blank" .btn .btn-green .mr-1 } </span>
+> - **Knowledge**: Database
+> - **User Input**: Multi-turn query
+> - **Output**: SQL
+> - **Keywords**: Fully supervised semantic parsing; Multi-turn
+
+><details markdown="block">
+>  <summary>Illustrative Example</summary>
+>  {: .fs-3 .text-delta .text-red-100}
+```
+..
+```
+></details> 
+
+### CoSQL
+{: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*CoSQL: A Conversational Text-to-SQL Challenge Towards Cross-Domain Natural Language Interfaces to Databases*.<br> Tao Yu, Rui Zhang, He Yang Er, Suyi Li, Eric Xue, Bo Pang, Xi Victoria Lin, Yi Chern Tan, Tianze Shi, Zihan Li, Youxuan Jiang, Michihiro Yasunaga, Sungrok Shim, Tao Chen, Alexander Fabbri, Zifan Li, Luyao Chen, Yuwen Zhang, Shreya Dixit, Vincent Zhang, Caiming Xiong, Richard Socher, Walter S Lasecki, Dragomir Radev. **EMNLP-19**
+
+<span class="fs-1">
+[Paper](https://arxiv.org/abs/1909.05378){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://yale-lily.github.io/cosql){: target="_blank" .btn .btn-green .mr-1 } </span>
+> - **Knowledge**: Database
+> - **User Input**: Dialog
+> - **Output**: SQL
+> - **Keywords**: Fully supervised semantic parsing; Dialogue
+
+><details markdown="block">
+>  <summary>Illustrative Example</summary>
+>  {: .fs-3 .text-delta .text-red-100}
+```
+..
+```
+></details>
+
+### SQA(MSR SQA)
+{: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*Search-based Neural Structured Learning for Sequential Question Answering*.<br> Mohit Iyyer, Wen-tau Yih, Ming-Wei Chang. **ACL-17**
+
+<span class="fs-1">
+[Paper](https://aclanthology.org/P17-1167){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](hhttps://www.microsoft.com/en-us/download/details.aspx?id=54253){: target="_blank" .btn .btn-green .mr-1 } </span>
+> - **Knowledge**: Table
+> - **User Input**: Multi-turn query
+> - **Output**: Answer
+> - **Keywords**: Weakly supervised semantic parsing; Sequential
+
+><details markdown="block">
+>  <summary>Illustrative Example</summary>
+>  {: .fs-3 .text-delta .text-red-100}
+```
+..
+```
+></details> 
 
 ---
 
@@ -371,7 +488,8 @@ to be added.
 ```
 ..
 ```
-></details> 
+></details>
+
 ---
 
 ## Formal-Language-to-Text
@@ -417,7 +535,10 @@ to be added.
 ..
 ```
 ></details> 
+
 ---
 
 ## Other Related Datasets
+
+
 
