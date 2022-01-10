@@ -376,7 +376,47 @@ to be added.
 
 ## Formal-Language-to-Text
 
+### SQL2Text
+{: .no_toc }
 
+{: .fs-4 .fw-800 .text-blue-100}
+*Logic-Consistency Text Generation from Semantic Parses*.<br> Chang Shu, Yusen Zhang, Xiangyu Dong, Peng Shi, Tao Yu, Rui Zhang. **ACL-21**
+
+<span class="fs-1">
+[Paper](https://aclanthology.org/2021.findings-acl.388/){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://github.com/Ciaranshu/relogic){: target="_blank" .btn .btn-green .mr-1 } </span>
+> - **Knowledge**: Optional Database
+> - **User Input**: SQL
+> - **Output**: Text
+> - **Keywords**: High-fidelity NLG
+
+><details markdown="block">
+>  <summary>Illustrative Example</summary>
+>  {: .fs-3 .text-delta .text-red-100}
+```
+..
+```
+></details> 
+
+### Logic2Text
+{: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*Logic2Text: High-Fidelity Natural Language Generation from Logical Forms*.<br> Zhiyu Chen, Wenhu Chen, Hanwen Zha, Xiyou Zhou, Yunkai Zhang, Sairam Sundaresan, William Yang Wang. **EMNLP-20**
+
+<span class="fs-1">
+[Paper](https://arxiv.org/abs/2004.14579){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://github.com/czyssrs/Logic2Text){: target="_blank" .btn .btn-green .mr-1 } </span>
+> - **Knowledge**: Table Schema
+> - **User Input**: Python-like program
+> - **Output**: Text
+> - **Keywords**: High-fidelity NLG
+
+><details markdown="block">
+>  <summary>Illustrative Example</summary>
+>  {: .fs-3 .text-delta .text-red-100}
+```
+..
+```
+></details> 
 ---
 
 ## Other Related Datasets
