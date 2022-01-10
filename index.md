@@ -16,7 +16,7 @@ last_modified_date: April 24 2021
 </td></tr>
 <tr><td markdown="block" class="fs-4">
 
-**Faculty Advisors:** [Tao Yu](http://ink-ron.usc.edu/xiangren/){: target="_blank"} (Assistant Professor in HKU, post-doc in UW),  ...
+**Faculty Advisors:** [Tao Yu](https://taoyds.github.io/){: target="_blank"} (Assistant Professor in HKU, post-doc in UW),  ...
 
 **Main contributors:** [Tianbao Xie](https://tianbaoxie.com){: target="_blank"}, [Henry Chen Wu](https://scholar.google.com/citations?hl=zh-CN&user=WFKit_4AAAAJ){: target="_blank"}, ..., and [you](#how-can-i-contribute)!
 
