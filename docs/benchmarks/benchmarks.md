@@ -363,6 +363,26 @@ to be added.
 ```
 ></details> 
 
+### LogicNLG
+{: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*Logical Natural Language Generation from Open-Domain Tables*.<br> Wenhu Chen, Jianshu Chen, Yu Su, Zhiyu Chen, William Yang Wang. **ACL-20**
+
+<span class="fs-1">
+[Paper](https://aclanthology.org/2020.acl-main.708/){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://github.com/wenhuchen/LogicNLG){: target="_blank" .btn .btn-green .mr-1 } </span>
+> - **Knowledge**: Table
+> - **User Input**: None
+> - **Output**: Logical Natural Language Generation
+> - **Keywords**: Logical NL generation
+
+><details markdown="block">
+>  <summary>Illustrative Example</summary>
+>  {: .fs-3 .text-delta .text-red-100}
+```
+..
+```
+></details>
 ---
 
 ## Conversational
@@ -531,6 +551,7 @@ SParC: Cross-Domain Semantic Parsing in Context*.<br> Tao Yu, Rui Zhang, Michihi
 ..
 ```
 ></details>
+
 
 ---
 

@@ -176,5 +176,92 @@ The following papers aim to use inearized the struc-tured knowledge and concaten
 
 ---
 
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 TaBERT: Pretraining for Joint Understanding of Textual and Tabular Data**. <br> ✍ Pengcheng Yin, Graham Neubig, Wen-tau Yih, Sebastian Riedel
+ *(ACL-20)*
+
+<span class="fs-2">
+   [Paper](https://arxiv.org/abs/2005.08314){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Code](http://fburl.com/TaBERT){: target="_blank" .btn .btn-green .mr-1 }
+   [Semantic Scholar](https://www.semanticscholar.org/paper/TaBERT%3A-Pretraining-for-Joint-Understanding-of-and-Yin-Neubig/a5b1d1cab073cb746a990b37d42dc7b67763f881){: .btn .btn-purple .mr-1 target="_blank" }
+</span> 
+
+**Evaluation Tasks:** [WikiSQL](/datasets#wikisql), [Spider　](/datasets#spider)
+
+<details markdown="block">
+  <summary>Abstract</summary>
+  {: .fs-3 .text-delta .text-blue-100}
+  ```
+  Recent years have witnessed the burgeoning of pretrained language models (LMs) for text-based natural language (NL) understanding tasks. Such models are typically trained on free-form NL text, hence may not be suitable for tasks like semantic parsing over structured data, which require reasoning over both free-form NL questions and structured tabular data (e.g., database tables). In this paper we present TaBERT, a pretrained LM that jointly learns representations for NL sentences and (semi-)structured tables. TaBERT is trained on a large corpus of 26 million tables and their English contexts. In experiments, neural semantic parsers using TaBERT as feature representation layers achieve new best results on the challenging weakly-supervised semantic parsing benchmark WikiTableQuestions, while performing competitively on the text-to-SQL dataset Spider. Implementation of the model will be available at this [http URL](http://fburl.com/TaBERT) .
+  ``` 
+</details> 
+{: .fs-5 .fw-600 .text-blue-300}
+
+<details markdown="block">
+  <summary>Comments</summary>
+  {: .fs-3 .text-delta .text-red-100}
+</details> 
+{: .fs-3 .fw-600 .text-red-300}
+
+---
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 Logical Natural Language Generation from Open-Domain Tables**. <br> ✍ Wenhu Chen, Jianshu Chen, Yu Su, Zhiyu Chen, William Yang Wang
+ *(ACL-20)*
+
+<span class="fs-2">
+   [Paper](https://arxiv.org/abs/2004.02349){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Code](https://github.com/wenhuchen/LogicNLG){: target="_blank" .btn .btn-green .mr-1 }
+   [Semantic Scholar](https://www.semanticscholar.org/paper/Logical-Natural-Language-Generation-from-Tables-Chen-Chen/342ec2f1c1b3d29d3269a2566c44f239f0141aeb){: .btn .btn-purple .mr-1 target="_blank" }
+</span> 
+
+**Evaluation Tasks:** [LogicNLG](datastes#logicnlg)
+
+<details markdown="block">
+  <summary>Abstract</summary>
+  {: .fs-3 .text-delta .text-blue-100}
+  ```
+  Answering natural language questions over tables is usually seen as a semantic parsing task. To alleviate the collection cost of full logical forms, one popular approach focuses on weak supervision consisting of denotations instead of logical forms. However, training semantic parsers from weak supervision poses difficulties, and in addition, the generated logical forms are only used as an intermediate step prior to retrieving the denotation. In this paper, we present TAPAS, an approach to question answering over tables without generating logical forms. TAPAS trains from weak supervision, and predicts the denotation by selecting table cells and optionally applying a corresponding aggregation operator to such selection. TAPAS extends BERT's architecture to encode tables as input, initializes from an effective joint pre-training of text segments and tables crawled from Wikipedia, and is trained end-to-end. We experiment with three different semantic parsing datasets, and find that TAPAS outperforms or rivals semantic parsing models by improving state-of-the-art accuracy on SQA from 55.1 to 67.2 and performing on par with the state-of-the-art on WIKISQL and WIKITQ, but with a simpler model architecture. We additionally find that transfer learning, which is trivial in our setting, from WIKISQL to WIKITQ, yields 48.7 accuracy, 4.2 points above the state-of-the-art.
+  ``` 
+</details> 
+{: .fs-5 .fw-600 .text-blue-300}
+
+<details markdown="block">
+  <summary>Comments</summary>
+  {: .fs-3 .text-delta .text-red-100}
+</details> 
+{: .fs-3 .fw-600 .text-red-300}
+
+---
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 TAPAS: Weakly Supervised Table Parsing via Pre-training**. <br> ✍ Jonathan Herzig, Paweł Krzysztof Nowak, Thomas Müller, Francesco Piccinno, Julian Martin Eisenschlos
+ *(ACL-20)*
+
+<span class="fs-2">
+   [Paper](https://arxiv.org/abs/2004.02349){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Code](https://github.com/google-research/tapas){: target="_blank" .btn .btn-green .mr-1 }
+   [Semantic Scholar](https://www.semanticscholar.org/paper/TaPas%3A-Weakly-Supervised-Table-Parsing-via-Herzig-Nowak/52cb05d721688cb766c6e282e9d55c3b8e3dc0cf){: .btn .btn-purple .mr-1 target="_blank" }
+</span> 
+
+**Evaluation Tasks:** [WikiSQL](/datasets#wikisql), [WikiTableQuestion](/datasets#wikitablequestion), [SQA](/datasets#msr-sqa)
+
+<details markdown="block">
+  <summary>Abstract</summary>
+  {: .fs-3 .text-delta .text-blue-100}
+  ```
+  Answering natural language questions over tables is usually seen as a semantic parsing task. To alleviate the collection cost of full logical forms, one popular approach focuses on weak supervision consisting of denotations instead of logical forms. However, training semantic parsers from weak supervision poses difficulties, and in addition, the generated logical forms are only used as an intermediate step prior to retrieving the denotation. In this paper, we present TAPAS, an approach to question answering over tables without generating logical forms. TAPAS trains from weak supervision, and predicts the denotation by selecting table cells and optionally applying a corresponding aggregation operator to such selection. TAPAS extends BERT's architecture to encode tables as input, initializes from an effective joint pre-training of text segments and tables crawled from Wikipedia, and is trained end-to-end. We experiment with three different semantic parsing datasets, and find that TAPAS outperforms or rivals semantic parsing models by improving state-of-the-art accuracy on SQA from 55.1 to 67.2 and performing on par with the state-of-the-art on WIKISQL and WIKITQ, but with a simpler model architecture. We additionally find that transfer learning, which is trivial in our setting, from WIKISQL to WIKITQ, yields 48.7 accuracy, 4.2 points above the state-of-the-art.
+  ``` 
+</details> 
+{: .fs-5 .fw-600 .text-blue-300}
+
+<details markdown="block">
+  <summary>Comments</summary>
+  {: .fs-3 .text-delta .text-red-100}
+</details> 
+{: .fs-3 .fw-600 .text-red-300}
+
+---
+
 ## Others
 
