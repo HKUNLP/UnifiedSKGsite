@@ -22,7 +22,7 @@ We present a collection of insightful research papers that focus on structured k
 {:toc}
 
 
-## Linearized and concat
+## Linearized and Concat
 
 <table>
 <td>
@@ -317,7 +317,7 @@ The following papers aim to use inearized the struc-tured knowledge and concaten
 {: .fs-3 .fw-600 .text-red-300}
 
 ---
-##  Manipulating transformers
+##  Manipulating Transformers
 
 <table>
 <td>
@@ -384,7 +384,7 @@ This work presents a sparse-attention Transformer architecture for modeling docu
 
 ---
 
-## Hierarchical encoding
+## Hierarchical Encoding
 
 <table>
 <td>

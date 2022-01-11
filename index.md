@@ -50,11 +50,12 @@ https://unifiedskg.com/datasets/#other-related-datasets
 
 #### [Methods to Structured Knowledge Grounding](/methods)
 {: .no_toc .text-delta .fs-3 style="font-weight:600"}
-<ul id="markdown-toc"> <li><a href="/methods#lm-only-methods" id="markdown-toc-lm-only-methods">LM-only Methods</a></li> <li><a href="/methods#kg-aware-methods" id="markdown-toc-kg-aware-methods">KG-aware Methods</a></li> <li><a href="/methods#weak-supervision" id="markdown-toc-weak-supervision">Weak Supervision</a></li> <li><a href="/methods#others" id="markdown-toc-others">Others</a></li> </ul>
+https://unifiedskg.com/methods/#convert2nl
+<ul id="markdown-toc"> <li><a href="/methods#linearized-and-concat" id="markdown-toc-linearized-and-concat">Linearized and Concat</a></li> <li><a href="/methods#manipulating-transformers" id="markdown-toc-manipulating-transformers">Manipulating Transformers</a></li> <li><a href="/methods#hierarchical-encoding" id="markdown-toc-hierarchical-encoding">Hierarchical Encoding</a></li> <li><a href="/methods#convert2nl" id="markdown-toc-convert2nl">Convert2NL</a></li> <li><a href="/methods#others" id="markdown-toc-others">Others</a></li> </ul>
 
 #### [Analysis about Structured Knowledge Grounding](/analysis)
 {: .no_toc .text-delta .fs-3 style="font-weight:600"}
-<ul id="markdown-toc"> <li><a href="/analysis#analyzing-language-models" id="markdown-toc-analyzing-language-models">Analyzing Language Models</a></li> <li><a href="/analysis#analyzing-reasoning-methods" id="markdown-toc-analyzing-reasoning-methods">Analyzing Reasoning Methods</a></li> <li><a href="/analysis#analysis-on-data" id="markdown-toc-analysis-on-data">Analysis on Data</a></li> <li><a href="/analysis#others" id="markdown-toc-others">Others</a></li> </ul>
+<ul id="markdown-toc"> </ul>
 
 #### [Additional materials](/misc)
 {: .no_toc .text-delta .fs-3 style="font-weight:600"}
