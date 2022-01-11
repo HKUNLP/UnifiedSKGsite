@@ -43,14 +43,12 @@ This portal site is here to provide easy access to a comprehensive collection of
 
 #### [Benchmark Datasets for Structured Knowledge Grounding](/datasets)
 {: .no_toc .text-delta .fs-3 style="font-weight:600"}
-https://unifiedskg.com/datasets/#other-related-datasets
 <ul id="markdown-toc"> <li><a href="/datasets#semantic-parsing-tasks" id="markdown-toc-semantic-parsing-tasks">Semantic Parsing Tasks</a></li> <li><a href="/datasets#question-answering" id="markdown-toc-question-answering">Question Answering</a></li> <li><a href="/datasets#data-to-text" id="markdown-toc-data-to-text">Data-to-Text</a></li> <li><a href="/datasets#conversational" id="markdown-toc-conversational">Conversational</a></li> <li><a href="/datasets#fact-verification" id="markdown-toc-fact-verification">Fact Verifications</a></li> <li><a href="/datasets#formal-language-to-text" id="markdown-toc-formal-language-to-text">Formal-Language-to-Text</a></li> <li><a href="/datasets#other-related-datasets" id="markdown-toc-other-related-datasets">Other Related Datasets</a></li> </ul>
 
 
 
 #### [Methods to Structured Knowledge Grounding](/methods)
 {: .no_toc .text-delta .fs-3 style="font-weight:600"}
-https://unifiedskg.com/methods/#convert2nl
 <ul id="markdown-toc"> <li><a href="/methods#linearized-and-concat" id="markdown-toc-linearized-and-concat">Linearized and Concat</a></li> <li><a href="/methods#manipulating-transformers" id="markdown-toc-manipulating-transformers">Manipulating Transformers</a></li> <li><a href="/methods#hierarchical-encoding" id="markdown-toc-hierarchical-encoding">Hierarchical Encoding</a></li> <li><a href="/methods#convert2nl" id="markdown-toc-convert2nl">Convert2NL</a></li> <li><a href="/methods#others" id="markdown-toc-others">Others</a></li> </ul>
 
 #### [Analysis about Structured Knowledge Grounding](/analysis)
