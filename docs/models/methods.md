@@ -377,5 +377,98 @@ This work presents a sparse-attention Transformer architecture for modeling docu
 {: .fs-3 .fw-600 .text-red-300}
 
 ---
+
+## Hierarchical encoding
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 TUTA: Tree-based Transformers for Generally Structured Table Pre-training**. <br> ✍ Zhiruo Wang, Haoyu Dong, Ran Jia, Jia Li, Zhiyi Fu, Shi Han, Dongmei Zhang
+ *(KDD-21)*
+
+<span class="fs-2">
+   [Paper](https://arxiv.org/abs/2010.12537){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Code](https://github.com/microsoft/TUTA_table_understanding/){: target="_blank" .btn .btn-green .mr-1 }
+   [Semantic Scholar](https://www.semanticscholar.org/paper/TUTA%3A-Tree-based-Transformers-for-Generally-Table-Wang-Dong/24a12899ce97bd4a56f7c6b49d3979b9465f0190){: .btn .btn-purple .mr-1 target="_blank" }
+</span> 
+
+**Evaluation Tasks:** Cell Type Classification (CTC) tasks, Table Type Classification (TTC) tasks
+
+<details markdown="block">
+  <summary>Abstract</summary>
+  {: .fs-3 .text-delta .text-blue-100}
+  ```
+  Tables are widely used with various structures to organize and present data. Recent attempts on table understanding mainly focus on relational tables, yet overlook to other common table structures. In this paper, we propose TUTA, a unified pre-training architecture for understanding generally structured tables. Noticing that understanding a table requires spatial, hierarchical, and semantic information, we enhance transformers with three novel structure-aware mechanisms. First, we devise a unified tree-based structure, called a bi-dimensional coordinate tree, to describe both the spatial and hierarchical information of generally structured tables. Upon this, we propose tree-based attention and position embedding to better capture the spatial and hierarchical information. Moreover, we devise three progressive pre-training objectives to enable representations at the token, cell, and table levels. We pre-train TUTA on a wide range of unlabeled web and spreadsheet tables and fine-tune it on two critical tasks in the field of table structure understanding: cell type classification and table type classification. Experiments show that TUTA is highly effective, achieving state-of-the-art on five widely-studied datasets.
+  ``` 
+</details> 
+{: .fs-5 .fw-600 .text-blue-300}
+
+<details markdown="block">
+  <summary>Comments</summary>
+  {: .fs-3 .text-delta .text-red-100}
+</details> 
+{: .fs-3 .fw-600 .text-red-300}
+
+---
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 TABBIE: Pretrained Representations of Tabular Data**. <br> ✍ Hiroshi Iida, Dung Thai, Varun Manjunatha, Mohit Iyyer
+ *(NAACL-21)*
+
+<span class="fs-2">
+   [Paper](https://arxiv.org/abs/2105.02584){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Code](https://github.com/SFIG611/tabbie){: target="_blank" .btn .btn-green .mr-1 }
+   [Semantic Scholar](https://www.semanticscholar.org/paper/TABBIE%3A-Pretrained-Representations-of-Tabular-Data-Iida-Thai/386bfd0e411dee4f512a8737c55dd84846981182){: .btn .btn-purple .mr-1 target="_blank" }
+</span> 
+
+**Evaluation Tasks:** Column population, Row population, and Column type prediction tasks
+
+<details markdown="block">
+  <summary>Abstract</summary>
+  {: .fs-3 .text-delta .text-blue-100}
+  ```
+  Existing work on tabular representation learning jointly models tables and associated text using self-supervised objective functions derived from pretrained language models such as BERT. While this joint pretraining improves tasks involving paired tables and text (e.g., answering questions about tables), we show that it underperforms on tasks that operate over tables without any associated text (e.g., populating missing cells). We devise a simple pretraining objective (corrupt cell detection) that learns exclusively from tabular data and reaches the state-of-the-art on a suite of table based prediction tasks. Unlike competing approaches, our model (TABBIE) provides embeddings of all table substructures (cells, rows, and columns), and it also requires far less compute to train. A qualitative analysis of our model's learned cell, column, and row representations shows that it understands complex table semantics and numerical trends.
+  ``` 
+</details> 
+{: .fs-5 .fw-600 .text-blue-300}
+
+<details markdown="block">
+  <summary>Comments</summary>
+  {: .fs-3 .text-delta .text-red-100}
+</details> 
+{: .fs-3 .fw-600 .text-red-300}
+
+---
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 HittER: Hierarchical Transformers for Knowledge Graph Embeddings**. <br> ✍ Sanxing Chen, Xiaodong Liu, Jianfeng Gao, Jian Jiao, Ruofei Zhang, Yangfeng Ji
+ *(EMNLP-21)*
+
+<span class="fs-2">
+   [Paper](https://arxiv.org/abs/2008.12813){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Code](https://github.com/sanxing-chen/HittER){: target="_blank" .btn .btn-green .mr-1 }
+   [Semantic Scholar](https://www.semanticscholar.org/paper/HittER%3A-Hierarchical-Transformers-for-Knowledge-Chen-Liu/7e7499b47fe57033768f26ef98a3b644688eb2a2){: .btn .btn-purple .mr-1 target="_blank" }
+</span> 
+
+**Evaluation Tasks:** FB15K-237, WN18RR, FreebaseQA, [WebQuestionSP](/datasets#webqsp)
+
+<details markdown="block">
+  <summary>Abstract</summary>
+  {: .fs-3 .text-delta .text-blue-100}
+  ```
+  This paper examines the challenging problem of learning representations of entities and relations in a complex multi-relational knowledge graph. We propose HittER, a Hierarchical Transformer model to jointly learn Entity-relation composition and Relational contextualization based on a source entity's neighborhood. Our proposed model consists of two different Transformer blocks: the bottom block extracts features of each entity-relation pair in the local neighborhood of the source entity and the top block aggregates the relational information from outputs of the bottom block. We further design a masked entity prediction task to balance information from the relational context and the source entity itself. Experimental results show that HittER achieves new state-of-the-art results on multiple link prediction datasets. We additionally propose a simple approach to integrate HittER into BERT and demonstrate its effectiveness on two Freebase factoid question answering datasets.
+  ``` 
+</details> 
+{: .fs-5 .fw-600 .text-blue-300}
+
+<details markdown="block">
+  <summary>Comments</summary>
+  {: .fs-3 .text-delta .text-red-100}
+</details> 
+{: .fs-3 .fw-600 .text-red-300}
+
+---
+
+## Convert2NL
+
+
 ## Others
 
