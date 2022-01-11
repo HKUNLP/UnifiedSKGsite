@@ -7,7 +7,7 @@ last_modified_date: Jan 11 2022
 permalink: /analysis/
 ---
 
-# Analysis about Commonsense Reasoning
+# Analysis about to Structured Knowledge Grounding
 {: .no_toc }
 
 Editors: [Tianbao Xie](https://tianbaoxie.com/){: target="_blank"}, ...
