@@ -321,6 +321,14 @@ The following papers aim to use inearized the struc-tured knowledge and concaten
 ---
 ##  Manipulating transformers
 
+<table>
+<td>
+<span class="fs-4">
+The following papers aim to manipulate the attention matrix of transformers to model cell-columnalignment.
+</span>
+</td>
+</table>
+
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 MATE: Multi-view Attention for Table Transformer Efficiency**. <br> ✍ Julian Martin Eisenschlos, Maharshi Gor, Thomas Müller, William W. Cohen
  *(EMNLP-21)*
@@ -330,7 +338,7 @@ The following papers aim to use inearized the struc-tured knowledge and concaten
    [Code](https://github.com/google-research/tapas){: target="_blank" .btn .btn-green .mr-1 }
 </span> 
 
-**Evaluation Tasks:** [HybridQA](/datasets#hybridqa), [SQA](/datasets#msr-sqa), WikiTableQuestion(/datasets#wikitablequestion), TabFact(/datasets#tabfact)
+**Evaluation Tasks:** [HybridQA](/datasets#hybridqa), [SQA](/datasets#msr-sqa), [WikiTableQuestion](/datasets#wikitablequestion), [TabFact](/datasets#tabfact)
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -379,6 +387,14 @@ This work presents a sparse-attention Transformer architecture for modeling docu
 ---
 
 ## Hierarchical encoding
+
+<table>
+<td>
+<span class="fs-4">
+Hierarchical encoding is another way to represent the structure. 
+</span>
+</td>
+</table>
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 TUTA: Tree-based Transformers for Generally Structured Table Pre-training**. <br> ✍ Zhiruo Wang, Haoyu Dong, Ran Jia, Jia Li, Zhiyi Fu, Shi Han, Dongmei Zhang
@@ -468,6 +484,17 @@ This work presents a sparse-attention Transformer architecture for modeling docu
 ---
 
 ## Convert2NL
+
+<table>
+<td>
+<span class="fs-4">
+SKG’s outputs include, but are not limited to, formal language,dialogue state, natural language, set of answers, and boolean value. Among them, the formal language plays a special role because most PLMs are trained to generate natural language.
+
+The following papers aim to bridge the gap and proposed to convert the formal language intoEnglish-like representations.
+</span>
+</td>
+</table>
+
 
 
 ## Others
