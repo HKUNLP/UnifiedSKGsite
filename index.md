@@ -35,14 +35,15 @@ This portal site is here to provide easy access to a comprehensive collection of
 
 #### [Introduction to Structured Knowledge Grounding](/intro)
 {: .no_toc .text-delta .fs-3 style="font-weight:600"}
-<ul id="markdown-toc"> <li><a href="intro#what-is-structured-knowledge/" id="markdown-toc-what-is-structured-knowledge">What is structured knowledge?</a></li> <li><a href="/intro#what-is-structured-knowledge-grounding" id="markdown-toc-what-is-structured-knowledge-grounding">What is structured knowledge grounding?</a></li>
+<ul id="markdown-toc"> <li><a href="intro#what-is-structured-knowledge/" id="markdown-toc-what-is-structured-knowledge">What is structured knowledge?</a></li> <li><a href="/intro#what-is-structured-knowledge-grounding" id="markdown-toc-what-is-structured-knowledge-grounding">What is structured knowledge grounding?</a></li></ul>
+
 #### [Knowledge Resources for Structured Knowledge Grounding](/resources)
 {: .no_toc .text-delta .fs-3 style="font-weight:600"}
-<ul id="markdown-toc"> <li><a href="/resources#commonsense-knowledge" id="markdown-toc-commonsense-knowledge">Commonsense Knowledge</a></li> <li><a href="/resources#common-knowledge" id="markdown-toc-common-knowledge">Common Knowledge</a></li> <li><a href="/resources#lexical-knowledge" id="markdown-toc-lexical-knowledge">Lexical Knowledge</a></li> <li><a href="/resources#visual-knowledge" id="markdown-toc-visual-knowledge">Visual Knowledge</a></li> <li><a href="/resources#consolidation--surveys" id="markdown-toc-consolidation--surveys">Consolidation &amp; Surveys</a></li> </ul>
+<ul id="markdown-toc"> </ul>
 
 #### [Benchmark Datasets for Structured Knowledge Grounding](/datasets)
 {: .no_toc .text-delta .fs-3 style="font-weight:600"}
-<ul id="markdown-toc"> <li><a href="/datasets#multiple-choice-tasks" id="markdown-toc-multiple-choice-tasks">Multiple-Choice Tasks</a></li> <li><a href="/datasets#visually-grounded-qa" id="markdown-toc-visually-grounded-qa">Visually-Grounded QA</a></li> <li><a href="/datasets#open-ended-qa" id="markdown-toc-open-ended-qa">Open-Ended QA</a></li> <li><a href="/datasets#constrained-nlg" id="markdown-toc-constrained-nlg">Constrained NLG</a></li> <li><a href="/datasets#lm-probing-tasks" id="markdown-toc-lm-probing-tasks">LM Probing Tasks</a></li> <li><a href="/datasets#reading-comprehension" id="markdown-toc-reading-comprehension">Reading Comprehension</a></li> <li><a href="/datasets#text-game" id="markdown-toc-text-game">Text Game</a></li> <li><a href="/datasets#other-related-datasets" id="markdown-toc-other-related-datasets">Other Related Datasets</a></li> </ul>
+<ul id="markdown-toc"> <li><a href="/datasets#semantic-parsing-tasks" id="markdown-toc-semantic-parsing-tasks">Semantic Parsing Tasks</a></li> <li><a href="/datasets#question-answering" id="markdown-toc-question-answering">Question Answering</a></li> <li><a href="/datasets#open-ended-qa" id="markdown-toc-open-ended-qa">Open-Ended QA</a></li> <li><a href="/datasets#constrained-nlg" id="markdown-toc-constrained-nlg">Constrained NLG</a></li> <li><a href="/datasets#lm-probing-tasks" id="markdown-toc-lm-probing-tasks">LM Probing Tasks</a></li> <li><a href="/datasets#reading-comprehension" id="markdown-toc-reading-comprehension">Reading Comprehension</a></li> <li><a href="/datasets#text-game" id="markdown-toc-text-game">Text Game</a></li> <li><a href="/datasets#other-related-datasets" id="markdown-toc-other-related-datasets">Other Related Datasets</a></li> </ul>
 
 
 
