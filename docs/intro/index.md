@@ -14,9 +14,6 @@ last_modified_date: Jan 11 2022
 # Introduction to Structured Knowledge Grounding
 {: .no_toc }
 
-Editors: [Tianbao Xie](https://tianbaoxie.com), ...
-
-
 <style>
 td{
     font-size: 15pt;

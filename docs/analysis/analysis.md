@@ -10,8 +10,6 @@ permalink: /analysis/
 # Analysis about to Structured Knowledge Grounding
 {: .no_toc }
 
-Editors: [Tianbao Xie](https://tianbaoxie.com/){: target="_blank"}, ...
-
 {: .fs-5 .fw-300 }
 Here we present a collection of papers focusing on the analysis about structured knowledge grounding. 
 

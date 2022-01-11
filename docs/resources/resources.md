@@ -9,7 +9,6 @@ permalink: /resources/
 
 # Knowledge Resources for Structured Knowledge Grounding 
 {: .no_toc }
-Editors: [Tianbao Xie](https://tianbaoxie.com){: target="_blank"}
 
 {: .fs-5 .fw-300 }
 

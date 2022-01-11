@@ -9,8 +9,6 @@ permalink: /misc/
 # Additional materials
 {: .no_toc }
 
-Editors: [Bill Yuchen Lin](https://yuchenlin.xyz/), [Jun Yan](https://junyann.github.io/){: target="_blank"}, [Yang Qiao](https://www.linkedin.com/in/xiaoyang-qiao/){: target="_blank"}
-
 ## Table of contents
 {: .no_toc .text-delta .fs-4 style="font-weight:800"}
 

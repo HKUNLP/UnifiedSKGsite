@@ -10,8 +10,6 @@ permalink: /methods/
 # Methods to Structured Knowledge Grounding
 {: .no_toc }
 
-Editors: [Tianbao Xie](https://tianbaoxie.com/), ...
-
 {: .fs-5 .fw-300 }
 We present a collection of insightful research papers that focus on structured knowledge grounding tasks.
 
@@ -495,7 +493,33 @@ The following papers aim to bridge the gap and proposed to convert the formal la
 </td>
 </table>
 
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 Constrained Language Models Yield Few-Shot Semantic Parsers**. <br> ✍ Richard Shin, Christopher H. Lin, Sam Thomson, Charles Chen, Subhro Roy, Emmanouil Antonios Platanios, Adam Pauls, Dan Klein, Jason Eisner, Benjamin Van Durme
+ *(EMNLP-21)*
 
+<span class="fs-2">
+   [Paper](https://arxiv.org/abs/2104.08768){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Code](https://github.com/microsoft/semantic_parsing_with_constrained_lm){: target="_blank" .btn .btn-green .mr-1 }
+</span> 
+
+**Evaluation Tasks:** Overnight, Break, SMCalFlow
+
+<details markdown="block">
+  <summary>Abstract</summary>
+  {: .fs-3 .text-delta .text-blue-100}
+  ```
+  We explore the use of large pretrained language models as few-shot semantic parsers. The goal in semantic parsing is to generate a structured meaning representation given a natural language input. However, language models are trained to generate natural language. To bridge the gap, we use language models to paraphrase inputs into a controlled sublanguage resembling English that can be automatically mapped to a target meaning representation. Our results demonstrate that with only a small amount of data and very little code to convert into English-like representations, our blueprint for rapidly bootstrapping semantic parsers leads to surprisingly effective performance on multiple community tasks, greatly exceeding baseline methods also trained on the same limited data.
+  ``` 
+</details> 
+{: .fs-5 .fw-600 .text-blue-300}
+
+<details markdown="block">
+  <summary>Comments</summary>
+  {: .fs-3 .text-delta .text-red-100}
+</details> 
+{: .fs-3 .fw-600 .text-red-300}
+
+---
 
 ## Others
 

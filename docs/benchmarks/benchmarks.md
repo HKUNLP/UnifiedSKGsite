@@ -10,8 +10,6 @@ permalink: /datasets/
 # Benchmark Datasets for Structured Knowledge Grounding
 {: .no_toc }
 
-Editors: [Tianbao Xie](https://tianbaoxie.com){: target="_blank"}
-
 {: .fs-5 .fw-300 }
 
 We present a comprehensive collection of datasets of Structured Knowledge Grounding.
