@@ -44,7 +44,10 @@ TO BE ADDED
 TO BE ADDED
 
 ## Blogs
-[Reimagining database querying on unstructured data](https://ai.facebook.com/blog/using-ai-for-database-queries-on-any-unstructured-data-set/)
+[Reimagining database querying on unstructured data](https://ai.facebook.com/blog/using-ai-for-database-queries-on-any-unstructured-data-set/){: target="_blank"}
+    - Marzieh Saeidi, Majid Yazdani, Sebastian Riedel, Alon Halevy. August 26, 2021
+
+
 
 ## Useful links
 TO BE ADDED
