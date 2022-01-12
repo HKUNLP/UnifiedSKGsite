@@ -43,5 +43,8 @@ TO BE ADDED
 ## Books 
 TO BE ADDED
 
+## Blogs
+[Reimagining database querying on unstructured data](https://ai.facebook.com/blog/using-ai-for-database-queries-on-any-unstructured-data-set/)
+
 ## Useful links
 TO BE ADDED
