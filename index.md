@@ -62,4 +62,6 @@ Join us on Github to improve this portal site as editors. We also have a Slack w
 ## Organizations
 <img src="images/resources/logos.png" width="100%" height="auto"/>
 
+## Visitors
+<script type='text/javascript' style="width: 50px;" id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=tt&d=lLOlCuZQy0Kh_M45EMrhU6iiFL4FlHcLWyCWLrcXJ7g'></script>
 <!-- used for generating the html -->
