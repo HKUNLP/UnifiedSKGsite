@@ -176,6 +176,68 @@ The following papers aim to use inearized the struc-tured knowledge and concaten
 
 ---
 
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 Structure-Grounded Pretraining for Text-to-SQL**. <br> ✍ Xiang Deng, Ahmed Hassan Awadallah, Christopher Meek, Oleksandr Polozov, Huan Sun, Matthew Richardson
+ *(NAACL-20)*
+
+<span class="fs-2">
+   [Paper](https://arxiv.org/abs/2010.12773){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Code](https://aka.ms/strug){: target="_blank" .btn .btn-green .mr-1 }
+   [Semantic Scholar](https://www.semanticscholar.org/paper/Structure-Grounded-Pretraining-for-Text-to-SQL-Deng-Awadallah/346f54fd61f875ae348f0a38f189ccdacf232df4){: .btn .btn-purple .mr-1 target="_blank" }
+</span> 
+
+**Evaluation Tasks:** Text2SQL datasets(Spider-Realistic, ATIS, GeoQuery, Restaurants, Academic, IMDB, Yelp, Scholar, Advising), [Spider](/datasets#spider), [WikiSQL(fully supervised setting)](/datasets#wikisql)
+
+<details markdown="block">
+  <summary>Abstract</summary>
+  {: .fs-3 .text-delta .text-blue-100}
+  ```
+  Learning to capture text-table alignment is essential for tasks like text-to-SQL. A model needs to correctly recognize natural language references to columns and values and to ground them in the given database schema. In this paper, we present a novel weakly supervised Structure-Grounded pretraining framework (StruG) for text-to-SQL that can effectively learn to capture text-table alignment based on a parallel text-table corpus. We identify a set of novel prediction tasks: column grounding, value grounding and column-value mapping, and leverage them to pretrain a text-table encoder. Additionally, to evaluate different methods under more realistic text-table alignment settings, we create a new evaluation set Spider-Realistic based on Spider dev set with explicit mentions of column names removed, and adopt eight existing text-to-SQL datasets for cross-database evaluation. STRUG brings significant improvement over BERT-LARGE in all settings. Compared with existing pretraining methods such as GRAPPA, STRUG achieves similar performance on Spider, and outperforms all baselines on more realistic sets. All the code and data used in this work is public available at this https URL.
+  ``` 
+</details> 
+{: .fs-5 .fw-600 .text-blue-300}
+
+<details markdown="block">
+  <summary>Comments</summary>
+  {: .fs-3 .text-delta .text-red-100}
+</details> 
+{: .fs-3 .fw-600 .text-red-300}
+
+
+---
+
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 Understanding tables with intermediate pre-training**. <br> ✍ Julian Martin Eisenschlos, Syrine Krichene, Thomas Müller
+ *(EMNLP-20)*
+
+<span class="fs-2">
+   [Paper](https://arxiv.org/abs/2010.00571){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Code](https://github.com/google-research/tapas){: target="_blank" .btn .btn-green .mr-1 }
+   [Semantic Scholar](https://www.semanticscholar.org/paper/Understanding-tables-with-intermediate-pre-training-Eisenschlos-Krichene/65be695739d0fa35212e49ccccd129535e6d9e15){: .btn .btn-purple .mr-1 target="_blank" }
+</span> 
+
+**Evaluation Tasks:** [TabFact](/datasets#tabfact), [SQA](/datasets#msr-sqa)
+
+<details markdown="block">
+  <summary>Abstract</summary>
+  {: .fs-3 .text-delta .text-blue-100}
+  ```
+Table entailment, the binary classification task of finding if a sentence is supported or refuted by the content of a table, requires parsing language and table structure as well as numerical and discrete reasoning. While there is extensive work on textual entailment, table entailment is less well studied. We adapt TAPAS (Herzig et al., 2020), a table-based BERT model, to recognize entailment. Motivated by the benefits of data augmentation, we create a balanced dataset of millions of automatically created training examples which are learned in an intermediate step prior to fine-tuning. This new data is not only useful for table entailment, but also for SQA (Iyyer et al., 2017), a sequential table QA task. To be able to use long examples as input of BERT models, we evaluate table pruning techniques as a pre-processing step to drastically improve the training and prediction efficiency at a moderate drop in accuracy. The different methods set the new state-of-the-art on the TabFact (Chen et al., 2020) and SQA datasets.
+  ``` 
+</details> 
+{: .fs-5 .fw-600 .text-blue-300}
+
+<details markdown="block">
+  <summary>Comments</summary>
+  {: .fs-3 .text-delta .text-red-100}
+</details> 
+{: .fs-3 .fw-600 .text-red-300}
+
+
+---
+
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 UniK-QA: Unified Representations of Structured and Unstructured Knowledge for Open-Domain Question Answering**. <br> ✍ Barlas Oguz, Xilun Chen, Vladimir Karpukhin, Stan Peshterliev, Dmytro Okhonko, Michael Schlichtkrull, Sonal Gupta, Yashar Mehdad, Scott Yih
  *(ACL-20)*
