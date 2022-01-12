@@ -177,35 +177,6 @@ The following papers aim to use inearized the struc-tured knowledge and concaten
 ---
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 Logical Natural Language Generation from Open-Domain Tables**. <br> ✍ Wenhu Chen, Jianshu Chen, Yu Su, Zhiyu Chen, William Yang Wang
- *(ACL-20)*
-
-<span class="fs-2">
-   [Paper](https://arxiv.org/abs/2004.02349){: .btn .btn-blue .mr-1 target="_blank" } 
-   [Code](https://github.com/wenhuchen/LogicNLG){: target="_blank" .btn .btn-green .mr-1 }
-   [Semantic Scholar](https://www.semanticscholar.org/paper/Logical-Natural-Language-Generation-from-Tables-Chen-Chen/342ec2f1c1b3d29d3269a2566c44f239f0141aeb){: .btn .btn-purple .mr-1 target="_blank" }
-</span> 
-
-**Evaluation Tasks:** [LogicNLG](datastes#logicnlg)
-
-<details markdown="block">
-  <summary>Abstract</summary>
-  {: .fs-3 .text-delta .text-blue-100}
-  ```
-  Neural natural language generation (NLG) models have recently shown remarkable progress in fluency and coherence. However, existing studies on neural NLG are primarily focused on surface-level realizations with limited emphasis on logical inference, an important aspect of human thinking and language. In this paper, we suggest a new NLG task where a model is tasked with generating natural language statements that can be \emph{logically entailed} by the facts in an open-domain semi-structured table. To facilitate the study of the proposed logical NLG problem, we use the existing TabFact dataset \cite{chen2019tabfact} featured with a wide range of logical/symbolic inferences as our testbed, and propose new automatic metrics to evaluate the fidelity of generation models w.r.t.\ logical inference. The new task poses challenges to the existing monotonic generation frameworks due to the mismatch between sequence order and logical order. In our experiments, we comprehensively survey different generation architectures (LSTM, Transformer, Pre-Trained LM) trained with different algorithms (RL, Adversarial Training, Coarse-to-Fine) on the dataset and made following observations: 1) Pre-Trained LM can significantly boost both the fluency and logical fidelity metrics, 2) RL and Adversarial Training are trading fluency for fidelity, 3) Coarse-to-Fine generation can help partially alleviate the fidelity issue while maintaining high language fluency. The code and data are available at \url{this https URL}.
-  ``` 
-</details> 
-{: .fs-5 .fw-600 .text-blue-300}
-
-<details markdown="block">
-  <summary>Comments</summary>
-  {: .fs-3 .text-delta .text-red-100}
-</details> 
-{: .fs-3 .fw-600 .text-red-300}
-
----
-
-{: .fs-4 .fw-800 .text-blue-100}
 **📜 UniK-QA: Unified Representations of Structured and Unstructured Knowledge for Open-Domain Question Answering**. <br> ✍ Barlas Oguz, Xilun Chen, Vladimir Karpukhin, Stan Peshterliev, Dmytro Okhonko, Michael Schlichtkrull, Sonal Gupta, Yashar Mehdad, Scott Yih
  *(ACL-20)*
 
@@ -221,6 +192,62 @@ The following papers aim to use inearized the struc-tured knowledge and concaten
   {: .fs-3 .text-delta .text-blue-100}
   ```
   We study open-domain question answering with structured, unstructured and semi-structured knowledge sources, including text, tables, lists and knowledge bases. Departing from prior work, we propose a unifying approach that homogenizes all sources by reducing them to text and applies the retriever-reader model which has so far been limited to text sources only. Our approach greatly improves the results on knowledge-base QA tasks by 11 points, compared to latest graph-based methods. More importantly, we demonstrate that our unified knowledge (UniK-QA) model is a simple and yet effective way to combine heterogeneous sources of knowledge, advancing the state-of-the-art results on two popular question answering benchmarks, NaturalQuestions and WebQuestions, by 3.5 and 2.6 points, respectively.
+  ``` 
+</details> 
+{: .fs-5 .fw-600 .text-blue-300}
+
+<details markdown="block">
+  <summary>Comments</summary>
+  {: .fs-3 .text-delta .text-red-100}
+</details> 
+{: .fs-3 .fw-600 .text-red-300}
+
+---
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 Database Reasoning Over Text**. <br> ✍ James Thorne, Majid Yazdani, Marzieh Saeidi, Fabrizio Silvestri, Sebastian Riedel, Alon Halevy
+ *(ACL-21)*
+
+<span class="fs-2">
+   [Paper](https://arxiv.org/abs/2106.01074){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Code](https://github.com/facebookresearch/NeuralDB){: target="_blank" .btn .btn-green .mr-1 }
+</span> 
+
+**Evaluation Tasks:** WikiNLDB
+
+<details markdown="block">
+  <summary>Abstract</summary>
+  {: .fs-3 .text-delta .text-blue-100}
+  ```
+  Neural models have shown impressive performance gains in answering queries from natural language text. However, existing works are unable to support database queries, such as "List/Count all female athletes who were born in 20th century", which require reasoning over sets of relevant facts with operations such as join, filtering and aggregation. We show that while state-of-the-art transformer models perform very well for small databases, they exhibit limitations in processing noisy data, numerical operations, and queries that aggregate facts. We propose a modular architecture to answer these database-style queries over multiple spans from text and aggregating these at scale. We evaluate the architecture using WikiNLDB, a novel dataset for exploring such queries. Our architecture scales to databases containing thousands of facts whereas contemporary models are limited by how many facts can be encoded. In direct comparison on small databases, our approach increases overall answer accuracy from 85% to 90%. On larger databases, our approach retains its accuracy whereas transformer baselines could not encode the context.
+  ``` 
+</details> 
+{: .fs-5 .fw-600 .text-blue-300}
+
+<details markdown="block">
+  <summary>Comments</summary>
+  {: .fs-3 .text-delta .text-red-100}
+</details> 
+{: .fs-3 .fw-600 .text-red-300}
+
+---
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 Turning Tables: Generating Examples from Semi-structured Tables for Endowing Language Models with Reasoning Skills**. <br> ✍ Ori Yoran, Alon Talmor, Jonathan Berant
+ *(arxiv-21)*
+
+<span class="fs-2">
+   [Paper](https://arxiv.org/abs/2107.07653){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Code](https://github.com/oriyor/turning_tables){: target="_blank" .btn .btn-green .mr-1 }
+</span> 
+
+**Evaluation Tasks:** DROP, IIRC, [MMQA](/datasets#multimodalqA)
+
+<details markdown="block">
+  <summary>Abstract</summary>
+  {: .fs-3 .text-delta .text-blue-100}
+  ```
+  Models pre-trained with a language modeling objective possess ample world knowledge and language skills, but are known to struggle in tasks that require reasoning. In this work, we propose to leverage semi-structured tables, and automatically generate at scale question-paragraph pairs, where answering the question requires reasoning over multiple facts in the paragraph. We add a pre-training step over this synthetic data, which includes examples that require 16 different reasoning skills such as number comparison, conjunction, and fact composition. To improve data efficiency, we propose sampling strategies that focus training on reasoning skills the model is currently lacking. We evaluate our approach on three reading comprehension datasets that are focused on reasoning, and show that our model, PReasM, substantially outperforms T5, a popular pre-trained encoder-decoder model. Moreover, sampling examples based on current model errors leads to faster training and higher overall performance.
   ``` 
 </details> 
 {: .fs-5 .fw-600 .text-blue-300}

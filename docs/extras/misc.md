@@ -18,7 +18,10 @@ permalink: /misc/
 ---
 
 ## Surveys & Position Papers
-TO BE ADDED
+
+- [***Relational World Knowledge Representation in Contextual Language Models: A Review***](https://arxiv.org/abs/2104.05837){: target="_blank"}
+    - Tara Safavi, Danai Koutra
+
 
 ## Tutorials and Talks 
 
