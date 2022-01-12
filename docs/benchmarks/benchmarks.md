@@ -319,6 +319,57 @@ to be added.
 
 
 ## Data-to-Text
+
+### E2E
+{: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*The E2E Dataset: New Challenges For End-to-End Generation*.<br> Jekaterina Novikova, Ondřej Dušek, Verena Rieser. **SIGDIAL-17**
+
+<span class="fs-1">
+[Paper](https://aclanthology.org/W17-5525/){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](http://www.macs.hw.ac.uk/InteractionLab/E2E/){: target="_blank" .btn .btn-green .mr-1 } </span>
+> - **Knowledge**: Table
+> - **User Input**: None
+> - **Output**: Text
+> - **Keywords**: Text generation; Restaurant domain
+
+><details markdown="block">
+>  <summary>Illustrative Example</summary>
+>  {: .fs-3 .text-delta .text-red-100}
+```
+..
+```
+></details> 
+> **Comments**
+> There is another [E2E cleaned version](https://github.com/tuetschek/e2e-cleaning) released by authors. 
+<!-- Mention the highlights or known issues of the dataset. -->
+{: .fs-4 .fw-600 .text-red-300}
+
+### WebNLG
+{: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*The WebNLG Challenge: Generating Text from RDF Data*.<br> Claire Gardent, Anastasia Shimorina, Shashi Narayan, Laura Perez-Beltrachini. **ICLR-21**
+
+<span class="fs-1">
+[Paper](https://aclanthology.org/W17-3518/){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://webnlg-challenge.loria.fr/){: target="_blank" .btn .btn-green .mr-1 } </span>
+> - **Knowledge**: Knowledge Graph(triples)
+> - **User Input**: None
+> - **Output**: Text
+> - **Keywords**: Text generation; RDF Triples
+
+><details markdown="block">
+>  <summary>Illustrative Example</summary>
+>  {: .fs-3 .text-delta .text-red-100}
+```
+..
+```
+></details> 
+> **Comments**
+> WebNLG challenge has many datasets available, the widely used dversion currently is the WebNLG challenge 2017. There is a useful [link](https://github.com/fuzihaofzh/webnlg-dataset) for summarization of this.
+<!-- Mention the highlights or known issues of the dataset. -->
+{: .fs-4 .fw-600 .text-red-300}
+
 ### DART
 {: .no_toc }
 
