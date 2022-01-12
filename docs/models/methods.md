@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Reasoning Methods
+title: Grounding Methods
 nav_order: 4
 toc_list: true
 last_modified_date: Jan 11 2022
