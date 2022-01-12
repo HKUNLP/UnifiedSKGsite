@@ -10,8 +10,6 @@ last_modified_date: April 24 2021
 # UnifiedSKG.com - A Portal Site for Structured Knowledge Grounding(SKG) Resources
 {: .fs-7 .fw-700 .text-blue-300 }
 
-<img src="images/resources/logos.png" width="50%" height="auto"/>
-
 <table>
 <tr><td markdown="block" class="fs-4">
 --- ***An online compendium of Structured Knowledge Grounding(SKG) research***
@@ -67,6 +65,9 @@ Join us on Github to improve this portal site as editors. We also have a Slack w
 
 [Github](https://github.com/HKUNLP/UnifiedSKGsite){: .btn .btn-green .mr-2 target="_blank" .fs-3 }
 
+## Organizations
+<img src="images/resources/logos.png" width="100%" height="auto"/>
+
 ## Vistors
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=2c6c7f&w=a&t=n&d=lLOlCuZQy0Kh_M45EMrhU6iiFL4FlHcLWyCWLrcXJ7g&co=ffffff&cmn=b50e0e&cmo=1843ad' width="50%"></script>
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=2c6c7f&w=a&t=n&d=lLOlCuZQy0Kh_M45EMrhU6iiFL4FlHcLWyCWLrcXJ7g&co=ffffff&cmn=b50e0e&cmo=1843ad'></script>
 <!-- used for generating the html -->
