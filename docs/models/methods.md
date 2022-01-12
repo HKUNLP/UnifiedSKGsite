@@ -289,6 +289,33 @@ The following papers aim to use inearized the struc-tured knowledge and concaten
 
 ---
 
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 RnG-KBQA: Generation Augmented Iterative Ranking for Knowledge Base Question Answering**. <br> ✍ Xi Ye, Semih Yavuz, Kazuma Hashimoto, Yingbo Zhou, Caiming Xiong
+ *(arxiv-21)*
+
+<span class="fs-2">
+   [Paper](https://arxiv.org/abs/2109.08678){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Code](https://github.com/salesforce/rng-kbqa){: target="_blank" .btn .btn-green .mr-1 }
+</span> 
+
+**Evaluation Tasks:** [GrailQA](/datasets#grailqa), [WebQSP](/datasets#webqsp)
+
+<details markdown="block">
+  <summary>Abstract</summary>
+  {: .fs-3 .text-delta .text-blue-100}
+  ```
+  Existing KBQA approaches, despite achieving strong performance on i.i.d. test data, often struggle in generalizing to questions involving unseen KB schema items. Prior ranking-based approaches have shown some success in generalization, but suffer from the coverage issue. We present RnG-KBQA, a Rank-and-Generate approach for KBQA, which remedies the coverage issue with a generation model while preserving a strong generalization capability. Our approach first uses a contrastive ranker to rank a set of candidate logical forms obtained by searching over the knowledge graph. It then introduces a tailored generation model conditioned on the question and the top-ranked candidates to compose the final logical form. We achieve new state-of-the-art results on GrailQA and WebQSP datasets. In particular, our method surpasses the prior state-of-the-art by a large margin on the GrailQA leaderboard. In addition, RnG-KBQA outperforms all prior approaches on the popular WebQSP benchmark, even including the ones that use the oracle entity linking. The experimental results demonstrate the effectiveness of the interplay between ranking and generation, which leads to the superior performance of our proposed approach across all settings with especially strong improvements in zero-shot generalization.
+  ``` 
+</details> 
+{: .fs-5 .fw-600 .text-blue-300}
+
+<details markdown="block">
+  <summary>Comments</summary>
+  {: .fs-3 .text-delta .text-red-100}
+</details> 
+{: .fs-3 .fw-600 .text-red-300}
+
+---
 ##  Manipulating Transformers
 
 <table>
