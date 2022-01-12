@@ -13,7 +13,17 @@ permalink: /methods/
 {: .fs-5 .fw-300 }
 We present a collection of insightful research papers that focus on structured knowledge grounding tasks.
 
+---
 
+<details markdown="block">
+  <summary>🌟 Summary Table 🌟</summary>
+{: .fs-4 .text-delta .text-red-200 style="font-weight:800"}
+
+to be added.
+
+</details>
+
+---
 
 ## Table of contents
 {: .no_toc .text-delta .fs-4 style="font-weight:800"}
