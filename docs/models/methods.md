@@ -241,7 +241,7 @@ The following papers aim to use inearized the struc-tured knowledge and concaten
    [Code](https://github.com/oriyor/turning_tables){: target="_blank" .btn .btn-green .mr-1 }
 </span> 
 
-**Evaluation Tasks:** DROP, IIRC, [MMQA](/datasets#multimodalqA)
+**Evaluation Tasks:** DROP, IIRC, [MMQA](/datasets#multimodalqa)
 
 <details markdown="block">
   <summary>Abstract</summary>
