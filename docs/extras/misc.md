@@ -21,7 +21,10 @@ permalink: /misc/
 TO BE ADDED
 
 ## Tutorials and Talks 
-TO BE ADDED
+| Title | Links | Presenters |  Location  | 
+| :------------:| :-----: | :------: | :----------: |
+| **From Tables to Knowledge: Recent Advances in Table Understanding** <br> (KDD-21 Tutorial) | [Project Page](https://usc-isi-i2.github.io/KDD21Tutorial/){: target="_blank"} | Jay Pujara, Pedro Szekely, Huan Sun, Muhao Chen |  KDD 2021 |
+
 
 
 ## Articles
