@@ -66,4 +66,7 @@ This site needs your help to grow!
 Join us on Github to improve this portal site as editors. We also have a Slack workspace to collect suggestions for this site and to connect people working on structured knowledge grounding. Feel free to just drop in and say hi! :)
 
 [Github](https://github.com/HKUNLP/UnifiedSKGsite){: .btn .btn-green .mr-2 target="_blank" .fs-3 }
+
+
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=lLOlCuZQy0Kh_M45EMrhU6iiFL4FlHcLWyCWLrcXJ7g&cl=ffffff&w=a"></script>
 <!-- used for generating the html -->
