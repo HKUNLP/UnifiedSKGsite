@@ -22,7 +22,7 @@ We present a collection of insightful research papers that focus on structured k
 {:toc}
 
 
-## Linearized and Concat
+## Linearize and Concat
 
 <table>
 <td>
@@ -118,21 +118,22 @@ The following papers aim to use inearized the struc-tured knowledge and concaten
 ---
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 TAPEX: Table Pre-training via Learning a Neural SQL Executor**. <br> ✍ Qian Liu, Bei Chen, Jiaqi Guo, Morteza Ziyadi, Zeqi Lin, Weizhu Chen, Jian-Guang Lou
- *(arxiv-21)*
+**📜 TaBERT: Pretraining for Joint Understanding of Textual and Tabular Data**. <br> ✍ Pengcheng Yin, Graham Neubig, Wen-tau Yih, Sebastian Riedel
+ *(ACL-20)*
 
 <span class="fs-2">
-   [Paper](https://arxiv.org/abs/2107.07653){: .btn .btn-blue .mr-1 target="_blank" } 
-   [Code](https://github.com/microsoft/Table-Pretraining){: target="_blank" .btn .btn-green .mr-1 }
+   [Paper](https://arxiv.org/abs/2005.08314){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Code](http://fburl.com/TaBERT){: target="_blank" .btn .btn-green .mr-1 }
+   [Semantic Scholar](https://www.semanticscholar.org/paper/TaBERT%3A-Pretraining-for-Joint-Understanding-of-and-Yin-Neubig/a5b1d1cab073cb746a990b37d42dc7b67763f881){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-**Evaluation Tasks:** [WikiSQL](/datasets#wikisql), [WikiTableQuestion](/datasets#wikitablequestion), [SQA](/datasets#msr-sqa), [TabFact](/datasets#TabFact)
+**Evaluation Tasks:** [WikiSQL](/datasets#wikisql), [Spider](/datasets#spider)
 
 <details markdown="block">
   <summary>Abstract</summary>
   {: .fs-3 .text-delta .text-blue-100}
   ```
-  Recent progress in language model pre-training has achieved a great success via leveraging large-scale unstructured textual data. However, it is still a challenge to apply pre-training on structured tabular data due to the absence of large-scale high-quality tabular data. In this paper, we propose TAPEX to show that table pre-training can be achieved by learning a neural SQL executor over a synthetic corpus, which is obtained by automatically synthesizing executable SQL queries and their execution outputs. TAPEX addresses the data scarcity challenge via guiding the language model to mimic a SQL executor on the diverse, large-scale and high-quality synthetic corpus. We evaluate TAPEX on four benchmark datasets. Experimental results demonstrate that TAPEX outperforms previous table pre-training approaches by a large margin and achieves new state-of-the-art results on all of them. This includes improvements on the weakly-supervised WikiSQL denotation accuracy to 89.5% (+2.3%), the WikiTableQuestions denotation accuracy to 57.5% (+4.8%), the SQA denotation accuracy to 74.5% (+3.5%), and the TabFact accuracy to 84.2% (+3.2%). To our knowledge, this is the first work to exploit table pre-training via synthetic executable programs and to achieve new state-of-the-art results on various downstream tasks.
+  Recent years have witnessed the burgeoning of pretrained language models (LMs) for text-based natural language (NL) understanding tasks. Such models are typically trained on free-form NL text, hence may not be suitable for tasks like semantic parsing over structured data, which require reasoning over both free-form NL questions and structured tabular data (e.g., database tables). In this paper we present TaBERT, a pretrained LM that jointly learns representations for NL sentences and (semi-)structured tables. TaBERT is trained on a large corpus of 26 million tables and their English contexts. In experiments, neural semantic parsers using TaBERT as feature representation layers achieve new best results on the challenging weakly-supervised semantic parsing benchmark WikiTableQuestions, while performing competitively on the text-to-SQL dataset Spider. Implementation of the model will be available at this [http URL](http://fburl.com/TaBERT) .
   ``` 
 </details> 
 {: .fs-5 .fw-600 .text-blue-300}
@@ -172,34 +173,6 @@ The following papers aim to use inearized the struc-tured knowledge and concaten
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
 
----
-
-{: .fs-4 .fw-800 .text-blue-100}
-**📜 TaBERT: Pretraining for Joint Understanding of Textual and Tabular Data**. <br> ✍ Pengcheng Yin, Graham Neubig, Wen-tau Yih, Sebastian Riedel
- *(ACL-20)*
-
-<span class="fs-2">
-   [Paper](https://arxiv.org/abs/2005.08314){: .btn .btn-blue .mr-1 target="_blank" } 
-   [Code](http://fburl.com/TaBERT){: target="_blank" .btn .btn-green .mr-1 }
-   [Semantic Scholar](https://www.semanticscholar.org/paper/TaBERT%3A-Pretraining-for-Joint-Understanding-of-and-Yin-Neubig/a5b1d1cab073cb746a990b37d42dc7b67763f881){: .btn .btn-purple .mr-1 target="_blank" }
-</span> 
-
-**Evaluation Tasks:** [WikiSQL](/datasets#wikisql), [Spider](/datasets#spider)
-
-<details markdown="block">
-  <summary>Abstract</summary>
-  {: .fs-3 .text-delta .text-blue-100}
-  ```
-  Recent years have witnessed the burgeoning of pretrained language models (LMs) for text-based natural language (NL) understanding tasks. Such models are typically trained on free-form NL text, hence may not be suitable for tasks like semantic parsing over structured data, which require reasoning over both free-form NL questions and structured tabular data (e.g., database tables). In this paper we present TaBERT, a pretrained LM that jointly learns representations for NL sentences and (semi-)structured tables. TaBERT is trained on a large corpus of 26 million tables and their English contexts. In experiments, neural semantic parsers using TaBERT as feature representation layers achieve new best results on the challenging weakly-supervised semantic parsing benchmark WikiTableQuestions, while performing competitively on the text-to-SQL dataset Spider. Implementation of the model will be available at this [http URL](http://fburl.com/TaBERT) .
-  ``` 
-</details> 
-{: .fs-5 .fw-600 .text-blue-300}
-
-<details markdown="block">
-  <summary>Comments</summary>
-  {: .fs-3 .text-delta .text-red-100}
-</details> 
-{: .fs-3 .fw-600 .text-red-300}
 
 ---
 
@@ -258,25 +231,25 @@ The following papers aim to use inearized the struc-tured knowledge and concaten
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
 
+
 ---
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 TaBERT: Pretraining for Joint Understanding of Textual and Tabular Data**. <br> ✍ Pengcheng Yin, Graham Neubig, Wen-tau Yih, Sebastian Riedel
- *(ACL-20)*
+**📜 TAPEX: Table Pre-training via Learning a Neural SQL Executor**. <br> ✍ Qian Liu, Bei Chen, Jiaqi Guo, Morteza Ziyadi, Zeqi Lin, Weizhu Chen, Jian-Guang Lou
+ *(arxiv-21)*
 
 <span class="fs-2">
-   [Paper](https://arxiv.org/abs/2005.08314){: .btn .btn-blue .mr-1 target="_blank" } 
-   [Code](http://fburl.com/TaBERT){: target="_blank" .btn .btn-green .mr-1 }
-   [Semantic Scholar](https://www.semanticscholar.org/paper/TaBERT%3A-Pretraining-for-Joint-Understanding-of-and-Yin-Neubig/a5b1d1cab073cb746a990b37d42dc7b67763f881){: .btn .btn-purple .mr-1 target="_blank" }
+   [Paper](https://arxiv.org/abs/2107.07653){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Code](https://github.com/microsoft/Table-Pretraining){: target="_blank" .btn .btn-green .mr-1 }
 </span> 
 
-**Evaluation Tasks:** [WikiSQL](/datasets#wikisql), [Spider　](/datasets#spider)
+**Evaluation Tasks:** [WikiSQL](/datasets#wikisql), [WikiTableQuestion](/datasets#wikitablequestion), [SQA](/datasets#msr-sqa), [TabFact](/datasets#TabFact)
 
 <details markdown="block">
   <summary>Abstract</summary>
   {: .fs-3 .text-delta .text-blue-100}
   ```
-  Recent years have witnessed the burgeoning of pretrained language models (LMs) for text-based natural language (NL) understanding tasks. Such models are typically trained on free-form NL text, hence may not be suitable for tasks like semantic parsing over structured data, which require reasoning over both free-form NL questions and structured tabular data (e.g., database tables). In this paper we present TaBERT, a pretrained LM that jointly learns representations for NL sentences and (semi-)structured tables. TaBERT is trained on a large corpus of 26 million tables and their English contexts. In experiments, neural semantic parsers using TaBERT as feature representation layers achieve new best results on the challenging weakly-supervised semantic parsing benchmark WikiTableQuestions, while performing competitively on the text-to-SQL dataset Spider. Implementation of the model will be available at this [http URL](http://fburl.com/TaBERT) .
+  Recent progress in language model pre-training has achieved a great success via leveraging large-scale unstructured textual data. However, it is still a challenge to apply pre-training on structured tabular data due to the absence of large-scale high-quality tabular data. In this paper, we propose TAPEX to show that table pre-training can be achieved by learning a neural SQL executor over a synthetic corpus, which is obtained by automatically synthesizing executable SQL queries and their execution outputs. TAPEX addresses the data scarcity challenge via guiding the language model to mimic a SQL executor on the diverse, large-scale and high-quality synthetic corpus. We evaluate TAPEX on four benchmark datasets. Experimental results demonstrate that TAPEX outperforms previous table pre-training approaches by a large margin and achieves new state-of-the-art results on all of them. This includes improvements on the weakly-supervised WikiSQL denotation accuracy to 89.5% (+2.3%), the WikiTableQuestions denotation accuracy to 57.5% (+4.8%), the SQA denotation accuracy to 74.5% (+3.5%), and the TabFact accuracy to 84.2% (+3.2%). To our knowledge, this is the first work to exploit table pre-training via synthetic executable programs and to achieve new state-of-the-art results on various downstream tasks.
   ``` 
 </details> 
 {: .fs-5 .fw-600 .text-blue-300}
@@ -289,34 +262,6 @@ The following papers aim to use inearized the struc-tured knowledge and concaten
 
 ---
 
-{: .fs-4 .fw-800 .text-blue-100}
-**📜 TaBERT: Pretraining for Joint Understanding of Textual and Tabular Data**. <br> ✍ Pengcheng Yin, Graham Neubig, Wen-tau Yih, Sebastian Riedel
- *(ACL-20)*
-
-<span class="fs-2">
-   [Paper](https://arxiv.org/abs/2005.08314){: .btn .btn-blue .mr-1 target="_blank" } 
-   [Code](http://fburl.com/TaBERT){: target="_blank" .btn .btn-green .mr-1 }
-   [Semantic Scholar](https://www.semanticscholar.org/paper/TaBERT%3A-Pretraining-for-Joint-Understanding-of-and-Yin-Neubig/a5b1d1cab073cb746a990b37d42dc7b67763f881){: .btn .btn-purple .mr-1 target="_blank" }
-</span> 
-
-**Evaluation Tasks:** [WikiSQL](/datasets#wikisql), [Spider](/datasets#spider)
-
-<details markdown="block">
-  <summary>Abstract</summary>
-  {: .fs-3 .text-delta .text-blue-100}
-  ```
-  Recent years have witnessed the burgeoning of pretrained language models (LMs) for text-based natural language (NL) understanding tasks. Such models are typically trained on free-form NL text, hence may not be suitable for tasks like semantic parsing over structured data, which require reasoning over both free-form NL questions and structured tabular data (e.g., database tables). In this paper we present TaBERT, a pretrained LM that jointly learns representations for NL sentences and (semi-)structured tables. TaBERT is trained on a large corpus of 26 million tables and their English contexts. In experiments, neural semantic parsers using TaBERT as feature representation layers achieve new best results on the challenging weakly-supervised semantic parsing benchmark WikiTableQuestions, while performing competitively on the text-to-SQL dataset Spider. Implementation of the model will be available at this [http URL](http://fburl.com/TaBERT) .
-  ``` 
-</details> 
-{: .fs-5 .fw-600 .text-blue-300}
-
-<details markdown="block">
-  <summary>Comments</summary>
-  {: .fs-3 .text-delta .text-red-100}
-</details> 
-{: .fs-3 .fw-600 .text-red-300}
-
----
 ##  Manipulating Transformers
 
 <table>
@@ -372,6 +317,34 @@ This work presents a sparse-attention Transformer architecture for modeling docu
   {: .fs-3 .text-delta .text-blue-100}
   ```
   Verifying fact on semi-structured evidence like tables requires the ability to encode structural information and perform symbolic reasoning. Pre-trained language models trained on natural language could not be directly applied to encode tables, because simply linearizing tables into sequences will lose the cell alignment information. To better utilize pre-trained transformers for table representation, we propose a Structure-Aware Transformer (SAT), which injects the table structural information into the mask of the self-attention layer. A method to combine symbolic and linguistic reasoning is also explored for this task. Our method outperforms baseline with 4.93% on TabFact, a large scale table verification dataset.
+  ``` 
+</details> 
+{: .fs-5 .fw-600 .text-blue-300}
+
+<details markdown="block">
+  <summary>Comments</summary>
+  {: .fs-3 .text-delta .text-red-100}
+</details> 
+{: .fs-3 .fw-600 .text-red-300}
+
+---
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 DoT: An efficient Double Transformer for NLP tasks with tables**. <br> ✍ Syrine Krichene, Thomas Müller, Julian Martin Eisenschlos
+ *(ACL-21)*
+
+<span class="fs-2">
+   [Paper](https://arxiv.org/abs/2106.00479){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Code](https://github.com/google-research/tapas){: target="_blank" .btn .btn-green .mr-1 }
+</span> 
+
+**Evaluation Tasks:** [WikiSQL](/datasets#wikisql),  [WikiTableQuestion](/datasets#wikitablequestion), [TabFact](/datasets#tabfact)
+
+<details markdown="block">
+  <summary>Abstract</summary>
+  {: .fs-3 .text-delta .text-blue-100}
+  ```
+Transformer-based approaches have been successfully used to obtain state-of-the-art accuracy on natural language processing (NLP) tasks with semi-structured tables. These model architectures are typically deep, resulting in slow training and inference, especially for long inputs. To improve efficiency while maintaining a high accuracy, we propose a new architecture, DoT, a double transformer model, that decomposes the problem into two sub-tasks: A shallow pruning transformer that selects the top-K tokens, followed by a deep task-specific transformer that takes as input those K tokens. Additionally, we modify the task-specific attention to incorporate the pruning scores. The two transformers are jointly trained by optimizing the task-specific loss. We run experiments on three benchmarks, including entailment and question-answering. We show that for a small drop of accuracy, DoT improves training and inference time by at least 50%. We also show that the pruning transformer effectively selects relevant tokens enabling the end-to-end model to maintain similar accuracy as slower baseline models. Finally, we analyse the pruning and give some insight into its impact on the task model.
   ``` 
 </details> 
 {: .fs-5 .fw-600 .text-blue-300}
