@@ -174,36 +174,6 @@ The following papers aim to use inearized the struc-tured knowledge and concaten
 {: .fs-3 .fw-600 .text-red-300}
 
 
----
-
-
-{: .fs-4 .fw-800 .text-blue-100}
-**📜 SCoRe: Pre-Training for Context Representation in Conversational Semantic Parsing**. <br> ✍ Tao Yu, Rui Zhang, Alex Polozov, Christopher Meek, Ahmed Hassan Awadallah
- *(ACL-20)*
-
-<span class="fs-2">
-   [Paper](https://openreview.net/forum?id=oyZxhRI2RiE){: .btn .btn-blue .mr-1 target="_blank" } 
-   [Code](https://github.com/microsoft/SCoRE){: target="_blank" .btn .btn-green .mr-1 }
-   [Semantic Scholar](https://www.semanticscholar.org/paper/SCoRe%3A-Pre-Training-for-Context-Representation-in-Yu-Zhang/ff1d3698b8d5f942e6a0775e173720210429b8ae){: .btn .btn-purple .mr-1 target="_blank" }
-</span> 
-
-**Evaluation Tasks:** [SParC](/datasets#sparc), [CoSQL](/datasets#cosql), [MultiWoZ2.1](/datasets#multiwoz), [SQA](/datasets#sqa)
-
-<details markdown="block">
-  <summary>Abstract</summary>
-  {: .fs-3 .text-delta .text-blue-100}
-  ```
-  Conversational Semantic Parsing (CSP) is the task of converting a sequence of natural language queries to formal language (e.g., SQL, SPARQL) that can be executed against a structured ontology (e.g.  databases, knowledge bases).  To accomplish  this  task,  a  CSP  system  needs  to  model  the  relation  between  the unstructured language utterance and the structured ontology while representing the multi-turn dynamics of the dialog. Pre-trained language models (LMs) are the state-of-the-art for various natural language processing tasks. However, existing pre-trained LMs that use language modeling training objectives over free-form text have limited ability to represent natural language references to contextual structural data. In this work, we present SCORE, a new pre-training approach for CSP tasks designed to induce representations that capture the alignment between the dialogue flow and the structural context. We demonstrate the broad applicability of SCORE to CSP tasks by combining SCORE with strong base systems on four different tasks (SPARC, COSQL, MWOZ, and SQA). We show that SCORE can improve the performance over all these base systems by a significant margin and achieves state-of-the-art results on three of them.
-  ``` 
-</details> 
-{: .fs-5 .fw-600 .text-blue-300}
-
-<details markdown="block">
-  <summary>Comments</summary>
-  {: .fs-3 .text-delta .text-red-100}
-</details> 
-{: .fs-3 .fw-600 .text-red-300}
-
 
 ---
 
@@ -235,6 +205,37 @@ The following papers aim to use inearized the struc-tured knowledge and concaten
   {: .fs-3 .text-delta .text-red-100}
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
+
+---
+
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 SCoRe: Pre-Training for Context Representation in Conversational Semantic Parsing**. <br> ✍ Tao Yu, Rui Zhang, Alex Polozov, Christopher Meek, Ahmed Hassan Awadallah
+ *(ICLR-20)*
+
+<span class="fs-2">
+   [Paper](https://openreview.net/forum?id=oyZxhRI2RiE){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Code](https://github.com/microsoft/SCoRE){: target="_blank" .btn .btn-green .mr-1 }
+   [Semantic Scholar](https://www.semanticscholar.org/paper/SCoRe%3A-Pre-Training-for-Context-Representation-in-Yu-Zhang/ff1d3698b8d5f942e6a0775e173720210429b8ae){: .btn .btn-purple .mr-1 target="_blank" }
+</span> 
+
+**Evaluation Tasks:** [SParC](/datasets#sparc), [CoSQL](/datasets#cosql), [MultiWoZ2.1](/datasets#multiwoz), [SQA](/datasets#sqa)
+
+<details markdown="block">
+  <summary>Abstract</summary>
+  {: .fs-3 .text-delta .text-blue-100}
+  ```
+  Conversational Semantic Parsing (CSP) is the task of converting a sequence of natural language queries to formal language (e.g., SQL, SPARQL) that can be executed against a structured ontology (e.g.  databases, knowledge bases).  To accomplish  this  task,  a  CSP  system  needs  to  model  the  relation  between  the unstructured language utterance and the structured ontology while representing the multi-turn dynamics of the dialog. Pre-trained language models (LMs) are the state-of-the-art for various natural language processing tasks. However, existing pre-trained LMs that use language modeling training objectives over free-form text have limited ability to represent natural language references to contextual structural data. In this work, we present SCORE, a new pre-training approach for CSP tasks designed to induce representations that capture the alignment between the dialogue flow and the structural context. We demonstrate the broad applicability of SCORE to CSP tasks by combining SCORE with strong base systems on four different tasks (SPARC, COSQL, MWOZ, and SQA). We show that SCORE can improve the performance over all these base systems by a significant margin and achieves state-of-the-art results on three of them.
+  ``` 
+</details> 
+{: .fs-5 .fw-600 .text-blue-300}
+
+<details markdown="block">
+  <summary>Comments</summary>
+  {: .fs-3 .text-delta .text-red-100}
+</details> 
+{: .fs-3 .fw-600 .text-red-300}
+
 
 
 ---
