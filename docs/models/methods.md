@@ -452,6 +452,37 @@ Table entailment, the binary classification task of finding if a sentence is sup
 {: .fs-3 .fw-600 .text-red-300}
 
 ---
+
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 PICARD: Parsing Incrementally for Constrained Auto-Regressive Decoding from Language Models**. <br> ✍ Torsten Scholak, Nathan Schucher, Dzmitry Bahdanau
+ *(EMNLP-21)*
+
+<span class="fs-2">
+   [Paper](https://arxiv.org/abs/2109.05093){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Code](https://github.com/ElementAI/picard){: target="_blank" .btn .btn-green .mr-1 }
+</span> 
+
+**Evaluation Tasks:** [Spider](/datasets#spider), [CoSQL](/datasets#cosql)
+
+<details markdown="block">
+  <summary>Abstract</summary>
+  {: .fs-3 .text-delta .text-blue-100}
+  ```
+  Large pre-trained language models for textual data have an unconstrained output space; at each decoding step, they can produce any of 10,000s of sub-word tokens. When fine-tuned to target constrained formal languages like SQL, these models often generate invalid code, rendering it unusable. We propose PICARD (code and trained models available at this https URL), a method for constraining auto-regressive decoders of language models through incremental parsing. PICARD helps to find valid output sequences by rejecting inadmissible tokens at each decoding step. On the challenging Spider and CoSQL text-to-SQL translation tasks, we show that PICARD transforms fine-tuned T5 models with passable performance into state-of-the-art solutions.
+  ``` 
+</details> 
+{: .fs-5 .fw-600 .text-blue-300}
+
+<details markdown="block">
+  <summary>Comments</summary>
+  {: .fs-3 .text-delta .text-red-100}
+</details> 
+{: .fs-3 .fw-600 .text-red-300}
+
+---
+
+
 ##  Manipulating Transformers
 
 <table>
