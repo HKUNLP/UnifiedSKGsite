@@ -50,4 +50,5 @@ TO BE ADDED
 
 
 ## Useful links
-TO BE ADDED
+- [Openai GPT3&Codex](https://openai.com/api/)
+
