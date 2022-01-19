@@ -3,7 +3,7 @@ layout: default
 title: Grounding Methods
 nav_order: 4
 toc_list: true
-last_modified_date: Jan 11 2022
+last_modified_date: Jan 19 2022
 permalink: /methods/
 ---
 
@@ -11,7 +11,7 @@ permalink: /methods/
 {: .no_toc }
 
 {: .fs-5 .fw-300 }
-We present a collection of insightful research papers that focus on structured knowledge grounding tasks.
+We present a collection of insightful research papers that focus on structured knowledge encoding on structured knowledge grounding tasks.
 
 ---
 

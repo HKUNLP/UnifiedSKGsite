@@ -3,15 +3,15 @@ layout: default
 title: Analysis
 nav_order: 5
 toc_list: true
-last_modified_date: Jan 11 2022
+last_modified_date: Jan 19 2022
 permalink: /analysis/
 ---
 
-# Analysis about to Structured Knowledge Grounding
+# Inspiring Topics about Structured Knowledge Grounding
 {: .no_toc }
 
 {: .fs-5 .fw-300 }
-Here we present a collection of papers focusing on the analysis about structured knowledge grounding. 
+Here we present a collection of papers with inspiring topics that may help structured knowledge grounding. 
 
 
 ---
@@ -24,3 +24,13 @@ Here we present a collection of papers focusing on the analysis about structured
 
 
 ---
+
+## Multi-task learning
+## Prompt learning
+## Calibration
+## Few Shot Learning
+## Task Unification
+## Pre-training
+## Explainable AI
+## Analysis
+## Others
