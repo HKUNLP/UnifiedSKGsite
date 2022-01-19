@@ -4,7 +4,7 @@ title: Home
 nav_order: 1
 description: "UnifiedSKG.com - A Portal Site for Structured Knowledge Grounding(SKG) Resources"
 permalink: /
-last_modified_date: April 24 2021
+last_modified_date: Jan 19 2022
 ---
 
 # UnifiedSKG.com - A Portal Site for Structured Knowledge Grounding(SKG) Resources
@@ -31,7 +31,7 @@ This portal site is here to provide easy access to a comprehensive collection of
 
 #### [Knowledge Resources for Structured Knowledge Grounding](/resources)
 {: .no_toc .text-delta .fs-3 style="font-weight:600"}
-<ul id="markdown-toc"> </ul>
+
 
 #### [Benchmark Datasets for Structured Knowledge Grounding](/datasets)
 {: .no_toc .text-delta .fs-3 style="font-weight:600"}
@@ -43,9 +43,9 @@ This portal site is here to provide easy access to a comprehensive collection of
 {: .no_toc .text-delta .fs-3 style="font-weight:600"}
 <ul id="markdown-toc"> <li><a href="/methods#linearized-and-concat" id="markdown-toc-linearized-and-concat">Linearize and Concat</a></li> <li><a href="/methods#manipulating-transformers" id="markdown-toc-manipulating-transformers">Manipulating Transformers</a></li> <li><a href="/methods#hierarchical-encoding" id="markdown-toc-hierarchical-encoding">Hierarchical Encoding</a></li> <li><a href="/methods#convert2nl" id="markdown-toc-convert2nl">Convert2NL</a></li> <li><a href="/methods#others" id="markdown-toc-others">Others</a></li> </ul>
 
-#### [Analysis about Structured Knowledge Grounding](/analysis)
+#### [Inspiring Topics about Structured Knowledge Grounding](/analysis)
 {: .no_toc .text-delta .fs-3 style="font-weight:600"}
-<ul id="markdown-toc"> </ul>
+<ul id="markdown-toc"> <li><a href="analysis#multi-task-learning" id="markdown-toc-multi-task-learning">Multi-task learning</a></li> <li><a href="analysis#prompt-learning" id="markdown-toc-prompt-learning">Prompt learning</a></li> <li><a href="analysis#calibration" id="markdown-toc-calibration">Calibration</a></li> <li><a href="analysis#few-shot-learning" id="markdown-toc-few-shot-learning">Few Shot Learning</a></li> <li><a href="analysis#task-unification" id="markdown-toc-task-unification">Task Unification</a></li> <li><a href="analysis#pre-training" id="markdown-toc-pre-training">Pre-training</a></li> <li><a href="analysis#explainable-ai" id="markdown-toc-explainable-ai">Explainable AI</a></li> <li><a href="analysis#analysis" id="markdown-toc-analysis">Analysis</a></li> <li><a href="analysis#others" id="markdown-toc-others">Others</a></li></ul>
 
 #### [Additional materials](/misc)
 {: .no_toc .text-delta .fs-3 style="font-weight:600"}

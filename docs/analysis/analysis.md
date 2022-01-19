@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Analysis
+title: Inspiring Topics
 nav_order: 5
 toc_list: true
 last_modified_date: Jan 19 2022
