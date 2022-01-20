@@ -3,7 +3,7 @@ layout: default
 title: Inspiring Topics
 nav_order: 5
 toc_list: true
-last_modified_date: Jan 19 2022
+last_modified_date: Jan 21 2022
 permalink: /analysis/
 ---
 
@@ -11,7 +11,7 @@ permalink: /analysis/
 {: .no_toc }
 
 {: .fs-5 .fw-300 }
-Here we present a collection of papers with inspiring topics that may help structured knowledge grounding. 
+Here we present a collection of papers with inspiring topics that may help structured knowledge grounding. Some paper may also belongs to other category. Contact us or pr on GitHub if we missed anything.
 
 
 ---
@@ -271,6 +271,34 @@ Recent work has demonstrated substantial gains on many NLP tasks and benchmarks 
 ---
 
 {: .fs-4 .fw-800 .text-blue-100}
+**📜 Single-dataset Experts for Multi-dataset Question Answering**. <br> ✍ Dan Friedman, Ben Dodge, Danqi Chen
+ *(EMNLP 2021)*
+
+<span class="fs-2">
+   [Paper](https://arxiv.org/abs/2109.13880){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Code](https://github.com/princeton-nlp/MADE){: target="_blank" .btn .btn-green .mr-1 }
+   [Semantic Scholar](https://www.semanticscholar.org/paper/Single-dataset-Experts-for-Multi-dataset-Question-Friedman-Dodge/67dc4ba4542d5895862c8b5af5023f659c14542c){: .btn .btn-purple .mr-1 target="_blank" }
+</span> 
+
+<details markdown="block">
+  <summary>Abstract</summary>
+  {: .fs-3 .text-delta .text-blue-100}
+```
+  Many datasets have been created for training reading comprehension models, and a natural question is whether we can combine them to build models that (1) perform better on all of the training datasets and (2) generalize and transfer better to new datasets. Prior work has addressed this goal by training one network simultaneously on multiple datasets, which works well on average but is prone to over- or under-fitting different sub-distributions and might transfer worse compared to source models with more overlap with the target dataset. Our approach is to model multi-dataset question answering with a collection of single-dataset experts, by training a collection of lightweight, dataset-specific adapter modules (Houlsby et al., 2019) that share an underlying Transformer model. We find that these Multi-Adapter Dataset Experts (MADE) outperform all our baselines in terms of in-distribution accuracy, and simple methods based on parameter-averaging lead to better zero-shot generalization and few-shot transfer performance, offering a strong and versatile starting point for building new reading comprehension systems.
+``` 
+</details> 
+{: .fs-5 .fw-600 .text-blue-300}
+
+<details markdown="block">
+  <summary>Comments</summary>
+  {: .fs-3 .text-delta .text-red-100}
+</details> 
+{: .fs-3 .fw-600 .text-red-300}
+
+
+---
+
+{: .fs-4 .fw-800 .text-blue-100}
 **📜 Meta-learning via Language Model In-context Tuning**. <br> ✍ Tu Vu, Tong Wang, Tsendsuren Munkhdalai, Alessandro Sordoni, Adam Trischler, Andrew Mattarella-Micke, Subhransu Maji, Mohit Iyyer
  *(arxiv 2021)*
 
@@ -398,7 +426,6 @@ We benchmark our method on two collections of text classification tasks: LAMA an
   {: .fs-3 .text-delta .text-red-100}
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
-
 
 ---
 ## Prompt learning
