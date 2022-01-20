@@ -26,31 +26,6 @@ Here we present a collection of papers with inspiring topics that may help struc
 
 ## Multi-task learning
 
-{: .fs-4 .fw-800 .text-blue-100}
-**📜 A Joint Many-Task Model: Growing a Neural Network for Multiple NLP Tasks**. <br> ✍ Kazuma Hashimoto, Caiming Xiong, Yoshimasa Tsuruoka, Richard Socher
- *(EMNLP 2017)*
-
-<span class="fs-2">
-   [Paper](https://arxiv.org/abs/1611.01587){: .btn .btn-blue .mr-1 target="_blank" } 
-   [Semantic Scholar](https://www.semanticscholar.org/paper/A-Joint-Many-Task-Model%3A-Growing-a-Neural-Network-Hashimoto-Xiong/ade0c116120b54b57a91da51235108b75c28375a){: .btn .btn-purple .mr-1 target="_blank" }
-</span> 
-
-<details markdown="block">
-  <summary>Abstract</summary>
-  {: .fs-3 .text-delta .text-blue-100}
-  ```
-  Transfer and multi-task learning have traditionally focused on either a single source-target pair or very few, similar tasks. Ideally, the linguistic levels of morphology, syntax and semantics would benefit each other by being trained in a single model. We introduce such a joint many-task model together with a strategy for successively growing its depth to solve increasingly complex tasks. All layers include shortcut connections to both word representations and lower-level task predictions. We use a simple regularization term to allow for optimizing all model weights to improve one task's loss without exhibiting catastrophic interference of the other tasks. Our single end-to-end trainable model obtains state-of-the-art results on chunking, dependency parsing, semantic relatedness and textual entailment. It also performs competitively on POS tagging. Our dependency parsing layer relies only on a single feed-forward pass and does not require a beam search.
-  ``` 
-</details> 
-{: .fs-5 .fw-600 .text-blue-300}
-
-<details markdown="block">
-  <summary>Comments</summary>
-  {: .fs-3 .text-delta .text-red-100}
-</details> 
-{: .fs-3 .fw-600 .text-red-300}
-
----
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 A Joint Many-Task Model: Growing a Neural Network for Multiple NLP Tasks**. <br> ✍ Kazuma Hashimoto, Caiming Xiong, Yoshimasa Tsuruoka, Richard Socher
@@ -241,6 +216,34 @@ Alessandro Achille, Michael Lam, Rahul Tewari, Avinash Ravichandran, Subhransu M
 ---
 
 {: .fs-4 .fw-800 .text-blue-100}
+**📜 Cross-Task Generalization via Natural Language Crowdsourcing Instructions**. <br> ✍ Swaroop Mishra, Daniel Khashabi, Chitta Baral, Hannaneh Hajishirzi
+ *(arxiv 2021)*
+
+<span class="fs-2">
+   [Paper](https://arxiv.org/abs/2104.08773){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Website](https://instructions.apps.allenai.org/){: target="_blank" .btn .btn-orange .mr-1 }
+   [Semantic Scholar](https://www.semanticscholar.org/paper/Cross-Task-Generalization-via-Natural-Language-Mishra-Khashabi/0ad46cb2dc0ecec1bd4511dcfd3be5e0b0748ef1){: .btn .btn-purple .mr-1 target="_blank" }
+</span> 
+
+<details markdown="block">
+  <summary>Abstract</summary>
+  {: .fs-3 .text-delta .text-blue-100}
+  ```
+  Humans (e.g., crowdworkers) have a remarkable ability in solving different tasks, by simply reading textual instructions that define them and looking at a few examples. NLP models built with the conventional paradigm, however, often struggle with generalization across tasks (e.g., a question-answering system cannot solve classification tasks). A long-standing challenge in AI is to build a model that learns a new task by understanding the human-readable instructions that define it. To study this, we introduce NATURAL INSTRUCTIONS, a dataset of 61 distinct tasks, their human-authored instructions and 193k task instances. The instructions are obtained from crowdsourcing instructions used to create existing NLP datasets and mapped to a unified schema. We adopt generative pre-trained language models to encode task-specific instructions along with input and generate task output. Our results indicate that models benefit from instructions when evaluated in terms of generalization to unseen tasks. These models, however, are far behind supervised task-specific models, indicating significant room for more progress in this direction.
+  ``` 
+</details> 
+{: .fs-5 .fw-600 .text-blue-300}
+
+<details markdown="block">
+  <summary>Comments</summary>
+  {: .fs-3 .text-delta .text-red-100}
+</details> 
+{: .fs-3 .fw-600 .text-red-300}
+
+
+---
+
+{: .fs-4 .fw-800 .text-blue-100}
 **📜 Finetuned Language Models Are Zero-Shot Learners(FLAN)**. <br> ✍ Jason Wei, Maarten Bosma, Vincent Y. Zhao, Kelvin Guu, Adams Wei Yu, Brian Lester, Nan Du, Andrew M. Dai, Quoc V. Le
  *(arxiv 2021)*
 
@@ -396,31 +399,6 @@ We benchmark our method on two collections of text classification tasks: LAMA an
 </details> 
 {: .fs-3 .fw-600 .text-red-300}
 
----
-
-{: .fs-4 .fw-800 .text-blue-100}
-**📜 Cross-Task Generalization via Natural Language Crowdsourcing Instructions**. <br> ✍ Swaroop Mishra, Daniel Khashabi, Chitta Baral, Hannaneh Hajishirzi
- *(arxiv 2021)*
-
-<span class="fs-2">
-   [Paper](https://arxiv.org/abs/2104.08773){: .btn .btn-blue .mr-1 target="_blank" } 
-   [Semantic Scholar](https://www.semanticscholar.org/paper/Cross-Task-Generalization-via-Natural-Language-Mishra-Khashabi/0ad46cb2dc0ecec1bd4511dcfd3be5e0b0748ef1){: .btn .btn-purple .mr-1 target="_blank" }
-</span> 
-
-<details markdown="block">
-  <summary>Abstract</summary>
-  {: .fs-3 .text-delta .text-blue-100}
-  ```
-  Humans (e.g., crowdworkers) have a remarkable ability in solving different tasks, by simply reading textual instructions that define them and looking at a few examples. NLP models built with the conventional paradigm, however, often struggle with generalization across tasks (e.g., a question-answering system cannot solve classification tasks). A long-standing challenge in AI is to build a model that learns a new task by understanding the human-readable instructions that define it. To study this, we introduce NATURAL INSTRUCTIONS, a dataset of 61 distinct tasks, their human-authored instructions and 193k task instances. The instructions are obtained from crowdsourcing instructions used to create existing NLP datasets and mapped to a unified schema. We adopt generative pre-trained language models to encode task-specific instructions along with input and generate task output. Our results indicate that models benefit from instructions when evaluated in terms of generalization to unseen tasks. These models, however, are far behind supervised task-specific models, indicating significant room for more progress in this direction.
-  ``` 
-</details> 
-{: .fs-5 .fw-600 .text-blue-300}
-
-<details markdown="block">
-  <summary>Comments</summary>
-  {: .fs-3 .text-delta .text-red-100}
-</details> 
-{: .fs-3 .fw-600 .text-red-300}
 
 ---
 ## Prompt learning
