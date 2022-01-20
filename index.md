@@ -4,7 +4,7 @@ title: Home
 nav_order: 1
 description: "UnifiedSKG.com - A Portal Site for Structured Knowledge Grounding(SKG) Resources"
 permalink: /
-last_modified_date: Jan 19 2022
+last_modified_date: Jan 20 2022
 ---
 
 # UnifiedSKG.com - A Portal Site for Structured Knowledge Grounding(SKG) Resources
@@ -19,7 +19,7 @@ last_modified_date: Jan 19 2022
 ---
 
 ## What is this site for?
-This portal site is here to provide easy access to a comprehensive collection of resources, datasets, publications that are related to *structured knowledge grounding*. 
+This portal site is here to provide easy access to a comprehensive collection of resources, datasets, publications that are related to *structured knowledge grounding*. The website is in progress, so please don't hesitate to contact us if we missed any other valuable work.
 
 
 ### Table of contents
