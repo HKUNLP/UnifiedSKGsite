@@ -55,7 +55,7 @@ This portal site is here to provide easy access to a comprehensive collection of
 
 ## How can I contribute?
 This site needs your help to grow! 
-Join us on Github to improve this portal site as editors. We also have a Slack workspace to collect suggestions for this site and to connect people working on structured knowledge grounding. Feel free to just drop in and say hi! :)
+Join us on Github to improve this portal site as editors. :)
 
 [Github](https://github.com/HKUNLP/UnifiedSKGsite){: .btn .btn-green .mr-2 target="_blank" .fs-3 }
 
