@@ -53,13 +53,12 @@ Here we present a collection of papers with inspiring topics that may help struc
 ---
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 Which Tasks Should Be Learned Together in Multi-task Learning?**. <br> ✍ Trevor Standley, Amir R. Zamir, Dawn Chen, Leonidas Guibas, Jitendra Malik, Silvio Savarese
- *(ICML 2020)*
+**📜 A Joint Many-Task Model: Growing a Neural Network for Multiple NLP Tasks**. <br> ✍ Kazuma Hashimoto, Caiming Xiong, Yoshimasa Tsuruoka, Richard Socher
+ *(EMNLP 2017)*
 
 <span class="fs-2">
-   [Paper](https://arxiv.org/abs/1905.07553){: .btn .btn-blue .mr-1 target="_blank" } 
-   [Code](https://github.com/tstandley/taskgrouping){: target="_blank" .btn .btn-green .mr-1 }
-   [Semantic Scholar](https://www.semanticscholar.org/paper/Which-Tasks-Should-Be-Learned-Together-in-Learning-Standley-Zamir/356941da708c6d5b06bce17463aca309fd33151a){: .btn .btn-purple .mr-1 target="_blank" }
+   [Paper](https://arxiv.org/abs/1611.01587){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Semantic Scholar](https://www.semanticscholar.org/paper/A-Joint-Many-Task-Model%3A-Growing-a-Neural-Network-Hashimoto-Xiong/ade0c116120b54b57a91da51235108b75c28375a){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
 <details markdown="block">
@@ -67,6 +66,61 @@ Here we present a collection of papers with inspiring topics that may help struc
   {: .fs-3 .text-delta .text-blue-100}
   ```
   Transfer and multi-task learning have traditionally focused on either a single source-target pair or very few, similar tasks. Ideally, the linguistic levels of morphology, syntax and semantics would benefit each other by being trained in a single model. We introduce such a joint many-task model together with a strategy for successively growing its depth to solve increasingly complex tasks. All layers include shortcut connections to both word representations and lower-level task predictions. We use a simple regularization term to allow for optimizing all model weights to improve one task's loss without exhibiting catastrophic interference of the other tasks. Our single end-to-end trainable model obtains state-of-the-art results on chunking, dependency parsing, semantic relatedness and textual entailment. It also performs competitively on POS tagging. Our dependency parsing layer relies only on a single feed-forward pass and does not require a beam search.
+  ``` 
+</details> 
+{: .fs-5 .fw-600 .text-blue-300}
+
+<details markdown="block">
+  <summary>Comments</summary>
+  {: .fs-3 .text-delta .text-red-100}
+</details> 
+{: .fs-3 .fw-600 .text-red-300}
+
+---
+
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 Taskonomy: Disentangling Task Transfer Learning**. <br> ✍ Amir Zamir, Alexander Sax, William Shen, Leonidas Guibas, Jitendra Malik, Silvio Savarese
+ *(CVPR 2018 best paper)*
+
+<span class="fs-2">
+   [Paper](https://arxiv.org/abs/1804.08328){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Website](http://taskonomy.vision/){: target="_blank" .btn .btn-orange .mr-1 }
+   [Semantic Scholar](https://www.semanticscholar.org/paper/Taskonomy%3A-Disentangling-Task-Transfer-Learning-Zamir-Sax/2fe2cfd98e232f1396f01881853ed6b3d5e37d65){: .btn .btn-purple .mr-1 target="_blank" }
+</span> 
+
+<details markdown="block">
+  <summary>Abstract</summary>
+  {: .fs-3 .text-delta .text-blue-100}
+  ```
+  Do visual tasks have a relationship, or are they unrelated? For instance, could having surface normals simplify estimating the depth of an image? Intuition answers these questions positively, implying existence of a structure among visual tasks. Knowing this structure has notable values; it is the concept underlying transfer learning and provides a principled way for identifying redundancies across tasks, e.g., to seamlessly reuse supervision among related tasks or solve many tasks in one system without piling up the complexity. We proposes a fully computational approach for modeling the structure of space of visual tasks. This is done via finding (first and higher-order) transfer learning dependencies across a dictionary of twenty six 2D, 2.5D, 3D, and semantic tasks in a latent space. The product is a computational taxonomic map for task transfer learning. We study the consequences of this structure, e.g. nontrivial emerged relationships, and exploit them to reduce the demand for labeled data. We provide a set of tools for computing and probing this taxonomical structure including a solver users can employ to find supervision policies for their use cases.
+  ``` 
+</details> 
+{: .fs-5 .fw-600 .text-blue-300}
+
+<details markdown="block">
+  <summary>Comments</summary>
+  {: .fs-3 .text-delta .text-red-100}
+</details> 
+{: .fs-3 .fw-600 .text-red-300}
+
+---
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 Task2Vec: Task Embedding for Meta-Learning**. <br> ✍ 
+Alessandro Achille, Michael Lam, Rahul Tewari, Avinash Ravichandran, Subhransu Maji, Charless Fowlkes, Stefano Soatto, Pietro Perona
+ *(ICCV 2019)*
+
+<span class="fs-2">
+   [Paper](https://arxiv.org/abs/1902.03545){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Semantic Scholar](https://www.semanticscholar.org/paper/Task2Vec%3A-Task-Embedding-for-Meta-Learning-Achille-Lam/3f0e82d56d18787feac8ddbc7c3c8490eb76a4c7){: .btn .btn-purple .mr-1 target="_blank" }
+</span> 
+
+<details markdown="block">
+  <summary>Abstract</summary>
+  {: .fs-3 .text-delta .text-blue-100}
+  ```
+  We introduce a method to provide vectorial representations of visual classification tasks which can be used to reason about the nature of those tasks and their relations. Given a dataset with ground-truth labels and a loss function defined over those labels, we process images through a "probe network" and compute an embedding based on estimates of the Fisher information matrix associated with the probe network parameters. This provides a fixed-dimensional embedding of the task that is independent of details such as the number of classes and does not require any understanding of the class label semantics. We demonstrate that this embedding is capable of predicting task similarities that match our intuition about semantic and taxonomic relations between different visual tasks (e.g., tasks based on classifying different types of plants are similar) We also demonstrate the practical value of this framework for the meta-task of selecting a pre-trained feature extractor for a new task. We present a simple meta-learning framework for learning a metric on embeddings that is capable of predicting which feature extractors will perform well. Selecting a feature extractor with task embedding obtains a performance close to the best available feature extractor, while costing substantially less than exhaustively training and evaluating on all available feature extractors.
   ``` 
 </details> 
 {: .fs-5 .fw-600 .text-blue-300}
@@ -114,6 +168,32 @@ Here we present a collection of papers with inspiring topics that may help struc
    [Paper](https://arxiv.org/abs/2005.00770){: .btn .btn-blue .mr-1 target="_blank" } 
    [Code](https://github.com/tuvuumass/task-transferability){: target="_blank" .btn .btn-green .mr-1 }
    [Semantic Scholar](https://www.semanticscholar.org/paper/Exploring-and-Predicting-Transferability-across-NLP-Vu-Wang/d1206ccabd1980848f14472d6548251c2fab7963){: .btn .btn-purple .mr-1 target="_blank" }
+</span> 
+
+<details markdown="block">
+  <summary>Abstract</summary>
+  {: .fs-3 .text-delta .text-blue-100}
+  ```
+  Recent advances in NLP demonstrate the effectiveness of training large-scale language models and transferring them to downstream tasks. Can fine-tuning these models on tasks other than language modeling further improve performance? In this paper, we conduct an extensive study of the transferability between 33 NLP tasks across three broad classes of problems (text classification, question answering, and sequence labeling). Our results show that transfer learning is more beneficial than previously thought, especially when target task data is scarce, and can improve performance even when the source task is small or differs substantially from the target task (e.g., part-of-speech tagging transfers well to the DROP QA dataset). We also develop task embeddings that can be used to predict the most transferable source tasks for a given target task, and we validate their effectiveness in experiments controlled for source and target data size. Overall, our experiments reveal that factors such as source data size, task and domain similarity, and task complexity all play a role in determining transferability.
+  ``` 
+</details> 
+{: .fs-5 .fw-600 .text-blue-300}
+
+<details markdown="block">
+  <summary>Comments</summary>
+  {: .fs-3 .text-delta .text-red-100}
+</details> 
+{: .fs-3 .fw-600 .text-red-300}
+
+---
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 Structured Prediction as Translation between Augmented Natural Languages**. <br> ✍ Giovanni Paolini, Ben Athiwaratkun, Jason Krone, Jie Ma, Alessandro Achille, Rishita Anubhai, Cicero Nogueira dos Santos, Bing Xiang, Stefano Soatto
+ *(ICLR 2021)*
+
+<span class="fs-2">
+   [Paper](https://arxiv.org/abs/2101.05779){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Code](https://github.com/amazon-research/tanl){: target="_blank" .btn .btn-green .mr-1 }
+   [Semantic Scholar](https://www.semanticscholar.org/paper/Structured-Prediction-as-Translation-between-Paolini-Athiwaratkun/1cb3f6d545b68db3e7fc6055dcf44099c3ac4672){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
 <details markdown="block">
@@ -267,19 +347,18 @@ We benchmark our method on two collections of text classification tasks: LAMA an
 ---
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 Balancing Average and Worst-case Accuracy in Multitask Learning**. <br> ✍ Paul Michel, Sebastian Ruder, Dani Yogatama
+**📜 SPoT: Better Frozen Model Adaptation through Soft Prompt Transfer**. <br> ✍ Tu Vu, Brian Lester, Noah Constant, Rami Al-Rfou, Daniel Cer
  *(arxiv 2021)*
 
 <span class="fs-2">
-   [Paper](https://arxiv.org/abs/2110.05838){: .btn .btn-blue .mr-1 target="_blank" } 
-   [Semantic Scholar](https://www.semanticscholar.org/paper/Balancing-Average-and-Worst-case-Accuracy-in-Michel-Ruder/9f0fe9197f080d042ad406b149ac03a1063c0351){: .btn .btn-purple .mr-1 target="_blank" }
+   [Paper](https://arxiv.org/abs/2110.07904){: .btn .btn-blue .mr-1 target="_blank" } 
 </span> 
 
 <details markdown="block">
   <summary>Abstract</summary>
   {: .fs-3 .text-delta .text-blue-100}
   ```
-  When training and evaluating machine learning models on a large number of tasks, it is important to not only look at average task accuracy—which may be biased by easy or redundant tasks—but also worst-case accuracy (i.e. the performance on the task with the lowest accuracy). In this work, we show how to use techniques from the distributionally robust optimization (DRO) literature to improve worst-case performance in multitask learning. We highlight several failure cases of DRO when applied off-the-shelf and present an improved method, Lookahead-DRO (L-DRO), which mitigates these issues. The core idea of L-DRO is to anticipate the interaction between tasks during training in order to choose a dynamic re-weighting of the various task losses, which will (i) lead to minimal worst-case loss and (ii) train on as many tasks as possible. After demonstrating the efficacy of L-DRO on a small controlled synthetic setting, we evaluate it on two realistic benchmarks: a multitask version of the CIFAR-100 image classification dataset and a large-scale multilingual language modeling experiment. Our empirical results show that LDRO achieves a better trade-off between average and worst-case accuracy with little computational overhead compared to several strong baselines.
+  As pre-trained language models have gotten larger, there has been growing interest in parameter-efficient methods to apply these models to downstream tasks. Building on the PromptTuning approach of Lester et al. (2021), which learns task-specific soft prompts to condition a frozen language model to perform downstream tasks, we propose a novel prompt-based transfer learning approach called SPoT: Soft Prompt Transfer. SPoT first learns a prompt on one or more source tasks and then uses it to initialize the prompt for a target task. We show that SPoT significantly boosts the performance of PromptTuning across many tasks. More importantly, SPoT either matches or outperforms ModelTuning, which fine-tunes the entire model on each individual task, across all model sizes while being more parameter-efficient (up to 27,000x fewer task-specific parameters). We further conduct a large-scale study on task transferability with 26 NLP tasks and 160 combinations of source-target tasks, and demonstrate that tasks can often benefit each other via prompt transfer. Finally, we propose a simple yet efficient retrieval approach that interprets task prompts as task embeddings to identify the similarity between tasks and predict the most transferable source tasks for a given novel target task.
   ``` 
 </details> 
 {: .fs-5 .fw-600 .text-blue-300}
@@ -293,19 +372,20 @@ We benchmark our method on two collections of text classification tasks: LAMA an
 ---
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 Balancing Average and Worst-case Accuracy in Multitask Learning**. <br> ✍ Paul Michel, Sebastian Ruder, Dani Yogatama
+**📜 Towards a Unified View of Parameter-Efficient Transfer Learning**. <br> ✍ Junxian He, Chunting Zhou, Xuezhe Ma, Taylor Berg-Kirkpatrick, Graham Neubig
  *(arxiv 2021)*
 
 <span class="fs-2">
    [Paper](https://arxiv.org/abs/2110.05838){: .btn .btn-blue .mr-1 target="_blank" } 
-   [Semantic Scholar](https://www.semanticscholar.org/paper/Balancing-Average-and-Worst-case-Accuracy-in-Michel-Ruder/9f0fe9197f080d042ad406b149ac03a1063c0351){: .btn .btn-purple .mr-1 target="_blank" }
+   [Code](https://github.com/jxhe/unify-parameter-efficient-tuning){: target="_blank" .btn .btn-green .mr-1 }
+   [Semantic Scholar](https://www.semanticscholar.org/paper/Towards-a-Unified-View-of-Parameter-Efficient-He-Zhou/3179bbfd6d86a8115388dce684a74159fba666a9){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
 <details markdown="block">
   <summary>Abstract</summary>
   {: .fs-3 .text-delta .text-blue-100}
   ```
-  When training and evaluating machine learning models on a large number of tasks, it is important to not only look at average task accuracy—which may be biased by easy or redundant tasks—but also worst-case accuracy (i.e. the performance on the task with the lowest accuracy). In this work, we show how to use techniques from the distributionally robust optimization (DRO) literature to improve worst-case performance in multitask learning. We highlight several failure cases of DRO when applied off-the-shelf and present an improved method, Lookahead-DRO (L-DRO), which mitigates these issues. The core idea of L-DRO is to anticipate the interaction between tasks during training in order to choose a dynamic re-weighting of the various task losses, which will (i) lead to minimal worst-case loss and (ii) train on as many tasks as possible. After demonstrating the efficacy of L-DRO on a small controlled synthetic setting, we evaluate it on two realistic benchmarks: a multitask version of the CIFAR-100 image classification dataset and a large-scale multilingual language modeling experiment. Our empirical results show that LDRO achieves a better trade-off between average and worst-case accuracy with little computational overhead compared to several strong baselines.
+  Fine-tuning large pretrained language models on downstream tasks has become the de-facto learning paradigm in NLP. However, conventional approaches finetune all the parameters of the pretrained model, which becomes prohibitive as the model size and the number of tasks grow. Recent work has proposed a variety of parameter-efficient transfer learning methods that only fine-tune a small number of (extra) parameters to attain strong performance. While effective, the critical ingredients for success and the connections among the various methods are poorly understood. In this paper, we break down the design of state-of-the-art parameter-efficient transfer learning methods and present a unified framework that establishes connections between them. Specifically, we re-frame them as modifications to specific hidden states in pretrained models, and define a set of design dimensions along which different methods vary, such as the function to compute the modification and the position to apply the modification. Through comprehensive empirical studies across machine translation, text summarization, language understanding, and text classification benchmarks, we utilize the unified view to identify important design choices in previous methods. Furthermore, our unified framework enables the transfer of design elements across different approaches, and as a result we are able to instantiate new parameter-efficient fine-tuning methods that tune less parameters than previous methods while being more effective, achieving comparable results to fine-tuning all parameters on all four tasks.
   ``` 
 </details> 
 {: .fs-5 .fw-600 .text-blue-300}
@@ -319,19 +399,19 @@ We benchmark our method on two collections of text classification tasks: LAMA an
 ---
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 Balancing Average and Worst-case Accuracy in Multitask Learning**. <br> ✍ Paul Michel, Sebastian Ruder, Dani Yogatama
+**📜 Cross-Task Generalization via Natural Language Crowdsourcing Instructions**. <br> ✍ Swaroop Mishra, Daniel Khashabi, Chitta Baral, Hannaneh Hajishirzi
  *(arxiv 2021)*
 
 <span class="fs-2">
-   [Paper](https://arxiv.org/abs/2110.05838){: .btn .btn-blue .mr-1 target="_blank" } 
-   [Semantic Scholar](https://www.semanticscholar.org/paper/Balancing-Average-and-Worst-case-Accuracy-in-Michel-Ruder/9f0fe9197f080d042ad406b149ac03a1063c0351){: .btn .btn-purple .mr-1 target="_blank" }
+   [Paper](https://arxiv.org/abs/2104.08773){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Semantic Scholar](https://www.semanticscholar.org/paper/Cross-Task-Generalization-via-Natural-Language-Mishra-Khashabi/0ad46cb2dc0ecec1bd4511dcfd3be5e0b0748ef1){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
 <details markdown="block">
   <summary>Abstract</summary>
   {: .fs-3 .text-delta .text-blue-100}
   ```
-  When training and evaluating machine learning models on a large number of tasks, it is important to not only look at average task accuracy—which may be biased by easy or redundant tasks—but also worst-case accuracy (i.e. the performance on the task with the lowest accuracy). In this work, we show how to use techniques from the distributionally robust optimization (DRO) literature to improve worst-case performance in multitask learning. We highlight several failure cases of DRO when applied off-the-shelf and present an improved method, Lookahead-DRO (L-DRO), which mitigates these issues. The core idea of L-DRO is to anticipate the interaction between tasks during training in order to choose a dynamic re-weighting of the various task losses, which will (i) lead to minimal worst-case loss and (ii) train on as many tasks as possible. After demonstrating the efficacy of L-DRO on a small controlled synthetic setting, we evaluate it on two realistic benchmarks: a multitask version of the CIFAR-100 image classification dataset and a large-scale multilingual language modeling experiment. Our empirical results show that LDRO achieves a better trade-off between average and worst-case accuracy with little computational overhead compared to several strong baselines.
+  Humans (e.g., crowdworkers) have a remarkable ability in solving different tasks, by simply reading textual instructions that define them and looking at a few examples. NLP models built with the conventional paradigm, however, often struggle with generalization across tasks (e.g., a question-answering system cannot solve classification tasks). A long-standing challenge in AI is to build a model that learns a new task by understanding the human-readable instructions that define it. To study this, we introduce NATURAL INSTRUCTIONS, a dataset of 61 distinct tasks, their human-authored instructions and 193k task instances. The instructions are obtained from crowdsourcing instructions used to create existing NLP datasets and mapped to a unified schema. We adopt generative pre-trained language models to encode task-specific instructions along with input and generate task output. Our results indicate that models benefit from instructions when evaluated in terms of generalization to unseen tasks. These models, however, are far behind supervised task-specific models, indicating significant room for more progress in this direction.
   ``` 
 </details> 
 {: .fs-5 .fw-600 .text-blue-300}
