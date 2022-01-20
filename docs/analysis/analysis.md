@@ -11,7 +11,7 @@ permalink: /analysis/
 {: .no_toc }
 
 {: .fs-5 .fw-300 }
-Here we present a collection of papers with inspiring topics that may help structured knowledge grounding. Some paper may also belongs to other category. Contact us or pr on GitHub if we missed anything.
+Here we present a collection of papers with inspiring topics that may help structured knowledge grounding(we focus more on recent work). Some paper may also belongs to other category. Contact us or pr on GitHub if we missed anything.
 
 
 ---
@@ -428,8 +428,121 @@ We benchmark our method on two collections of text classification tasks: LAMA an
 {: .fs-3 .fw-600 .text-red-300}
 
 ---
-## Prompt learning
+
 ## Few Shot Learning
+
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 Making Pre-trained Language Models Better Few-shot Learners(LM-BFF)**. <br> ✍ Tianyu Gao, Adam Fisch, Danqi Chen
+ *(ACL 2021)*
+
+<span class="fs-2">
+   [Paper](https://arxiv.org/abs/2012.15723){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Code](https://github.com/princeton-nlp/LM-BFF){: target="_blank" .btn .btn-green .mr-1 }
+   [Semantic Scholar](https://www.semanticscholar.org/paper/Making-Pre-trained-Language-Models-Better-Few-shot-Gao-Fisch/db58fd13a7b4131a43230317eecb5840188d28a4){: .btn .btn-purple .mr-1 target="_blank" }
+</span> 
+
+<details markdown="block">
+  <summary>Abstract</summary>
+  {: .fs-3 .text-delta .text-blue-100}
+  ```
+  The recent GPT-3 model (Brown et al., 2020) achieves remarkable few-shot performance solely by leveraging a natural-language prompt and a few task demonstrations as input context. Inspired by their findings, we study few-shot learning in a more practical scenario, where we use smaller language models for which fine-tuning is computationally efficient. We present LM-BFF--better few-shot fine-tuning of language models--a suite of simple and complementary techniques for fine-tuning language models on a small number of annotated examples. Our approach includes (1) prompt-based fine-tuning together with a novel pipeline for automating prompt generation; and (2) a refined strategy for dynamically and selectively incorporating demonstrations into each context. Finally, we present a systematic evaluation for analyzing few-shot performance on a range of NLP tasks, including classification and regression. Our experiments demonstrate that our methods combine to dramatically outperform standard fine-tuning procedures in this low resource setting, achieving up to 30% absolute improvement, and 11% on average across all tasks. Our approach makes minimal assumptions on task resources and domain expertise, and hence constitutes a strong task-agnostic method for few-shot learning.
+  ``` 
+</details> 
+{: .fs-5 .fw-600 .text-blue-300}
+
+<details markdown="block">
+  <summary>Comments</summary>
+  {: .fs-3 .text-delta .text-red-100}
+</details> 
+{: .fs-3 .fw-600 .text-red-300}
+
+---
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 CrossFit: A Few-shot Learning Challenge for Cross-task Generalization in NLP**. <br> ✍ Qinyuan Ye, Bill Yuchen Lin, Xiang Ren
+ *(EMNLP 2021)*
+
+<span class="fs-2">
+   [Paper](https://arxiv.org/abs/2104.08835){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Code](https://github.com/INK-USC/CrossFit){: target="_blank" .btn .btn-green .mr-1 }
+   [Semantic Scholar](https://www.semanticscholar.org/paper/CrossFit%3A-A-Few-shot-Learning-Challenge-for-in-NLP-Ye-Lin/7fa273f450251523e6b7fcc2eb3fdbdfd4a30493){: .btn .btn-purple .mr-1 target="_blank" }
+</span> 
+
+<details markdown="block">
+  <summary>Abstract</summary>
+  {: .fs-3 .text-delta .text-blue-100}
+  ```
+  Humans can learn a new language task efficiently with only few examples, by leveraging their knowledge obtained when learning prior tasks. In this paper, we explore whether and how such cross-task generalization ability can be acquired, and further applied to build better few-shot learners across diverse NLP tasks. We introduce CrossFit, a problem setup for studying cross-task generalization ability, which standardizes seen/unseen task partitions, data access during different learning stages, and the evaluation protocols. To instantiate different seen/unseen task partitions in CrossFit and facilitate in-depth analysis, we present the NLP Few-shot Gym, a repository of 160 diverse few-shot NLP tasks created from open-access NLP datasets and converted to a unified text-to-text format. Our analysis reveals that the few-shot learning ability on unseen tasks can be improved via an upstream learning stage using a set of seen tasks. We also observe that the selection of upstream learning tasks can significantly influence few-shot performance on unseen tasks, asking further analysis on task similarity and transferability.
+  ``` 
+</details> 
+{: .fs-5 .fw-600 .text-blue-300}
+
+<details markdown="block">
+  <summary>Comments</summary>
+  {: .fs-3 .text-delta .text-red-100}
+</details> 
+{: .fs-3 .fw-600 .text-red-300}
+
+---
+
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 True Few-Shot Learning with Language Models**. <br> ✍ Ethan Perez, Douwe Kiela, Kyunghyun Cho
+ *(arxiv 2021)*
+
+<span class="fs-2">
+   [Paper](https://arxiv.org/abs/2105.11447){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Code](https://github.com/ethanjperez/true_few_shot){: target="_blank" .btn .btn-green .mr-1 }
+   [Semantic Scholar](https://www.semanticscholar.org/paper/True-Few-Shot-Learning-with-Language-Models-Perez-Kiela/b58d8579ece27a60432e667bfbdb750590fa65d9){: .btn .btn-purple .mr-1 target="_blank" }
+</span> 
+
+<details markdown="block">
+  <summary>Abstract</summary>
+  {: .fs-3 .text-delta .text-blue-100}
+  ```
+  Pretrained language models (LMs) perform well on many tasks even when learning from a few examples, but prior work uses many held-out examples to tune various aspects of learning, such as hyperparameters, training objectives, and natural language templates ("prompts"). Here, we evaluate the few-shot ability of LMs when such held-out examples are unavailable, a setting we call true few-shot learning. We test two model selection criteria, cross-validation and minimum description length, for choosing LM prompts and hyperparameters in the true few-shot setting. On average, both marginally outperform random selection and greatly underperform selection based on held-out examples. Moreover, selection criteria often prefer models that perform significantly worse than randomly-selected ones. We find similar results even when taking into account our uncertainty in a model's true performance during selection, as well as when varying the amount of computation and number of examples used for selection. Overall, our findings suggest that prior work significantly overestimated the true few-shot ability of LMs given the difficulty of few-shot model selection.
+
+  ``` 
+</details> 
+{: .fs-5 .fw-600 .text-blue-300}
+
+<details markdown="block">
+  <summary>Comments</summary>
+  {: .fs-3 .text-delta .text-red-100}
+</details> 
+{: .fs-3 .fw-600 .text-red-300}
+
+---
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 DReCa: A General Task Augmentation Strategy for Few-Shot Natural Language Inference**. <br> ✍ Shikhar Murty, Tatsunori B. Hashimoto, Christopher Manning
+ *(NAACL 2021)*
+
+<span class="fs-2">
+   [Paper](https://aclanthology.org/2021.naacl-main.88/){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Code](https://github.com/MurtyShikhar/DReCA){: target="_blank" .btn .btn-green .mr-1 }
+   [Semantic Scholar](https://www.semanticscholar.org/paper/DReCa%3A-A-General-Task-Augmentation-Strategy-for-Murty-Hashimoto/186c304c782c70b0b5d571ea140a8fb4ebcf31a4){: .btn .btn-purple .mr-1 target="_blank" }
+</span> 
+
+<details markdown="block">
+  <summary>Abstract</summary>
+  {: .fs-3 .text-delta .text-blue-100}
+  ```
+  Meta-learning promises few-shot learners that can adapt to new distributions by repurposing knowledge acquired from previous training. However, we believe meta-learning has not yet succeeded in NLP due to the lack of a well-defined task distribution, leading to attempts that treat datasets as tasks. Such an ad hoc task distribution causes problems of quantity and quality. Since there’s only a handful of datasets for any NLP problem, meta-learners tend to overfit their adaptation mechanism and, since NLP datasets are highly heterogeneous, many learning episodes have poor transfer between their support and query sets, which discourages the meta-learner from adapting. To alleviate these issues, we propose DReCA (Decomposing datasets into Reasoning Categories), a simple method for discovering and using latent reasoning categories in a dataset, to form additional high quality tasks. DReCA works by splitting examples into label groups, embedding them with a finetuned BERT model and then clustering each group into reasoning categories. Across four few-shot NLI problems, we demonstrate that using DReCA improves the accuracy of meta-learners by 1.5-4%
+
+  ``` 
+</details> 
+{: .fs-5 .fw-600 .text-blue-300}
+
+<details markdown="block">
+  <summary>Comments</summary>
+  {: .fs-3 .text-delta .text-red-100}
+</details> 
+{: .fs-3 .fw-600 .text-red-300}
+
+---
+
+
 ## Task Unification
 ## Pre-training
 ## Analysis
