@@ -4,7 +4,7 @@ title: Miscellaneous
 nav_order: 7
 toc_list: true
 last_modified_date: Jan 19 2022
-permalink: /misc/
+permalink: /others/
 ---
 # Additional materials
 {: .no_toc }

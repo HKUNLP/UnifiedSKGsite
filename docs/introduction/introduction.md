@@ -3,7 +3,7 @@ layout: default
 title: Introduction
 nav_order: 2
 has_children: False
-permalink: /intro/
+permalink: /introduction/
 
 toc_list: true
 last_modified_date: Jan 21 2022

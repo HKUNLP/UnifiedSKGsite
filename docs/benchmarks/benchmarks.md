@@ -4,7 +4,7 @@ title: Benchmark Datasets
 nav_order: 3
 toc_list: true
 last_modified_date: Jan 19 2022
-permalink: /datasets/
+permalink: /benchmarks/
 ---
 
 # Benchmark Datasets for Structured Knowledge Grounding
