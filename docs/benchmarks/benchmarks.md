@@ -28,7 +28,8 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 
 {: .fs-4 .fw-800 .text-blue-100}
 *[Spider: A Large-Scale Human-Labeled Dataset for Complex and Cross-Domain Semantic Parsing and Text-to-SQL Task](https://arxiv.org/abs/1809.08887)*. **EMNLP-18**
-[Official Link](https://yale-lily.github.io/spider){: target="_blank" .btn .btn-green .mr-1 }
+
+[comment]: <> ([Official Link]&#40;https://yale-lily.github.io/spider&#41;{: target="_blank" .btn .btn-green .mr-1 })
 
 ---
 
@@ -37,7 +38,8 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 
 {: .fs-4 .fw-800 .text-blue-100}
 *[Beyond I.I.D.: Three Levels of Generalization for Question Answering on Knowledge Bases](https://arxiv.org/abs/2011.07743)*. **WWW-21**
-[Official Link](https://dki-lab.github.io/GrailQA/){: target="_blank" .btn .btn-green .mr-1 }
+
+[comment]: <> ([Official Link]&#40;https://dki-lab.github.io/GrailQA/&#41;{: target="_blank" .btn .btn-green .mr-1 })
 
 ---
 
@@ -45,10 +47,9 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*The Value of Semantic Parse Labeling for Knowledge Base Question Answering*.**ACL-2016**
+*[The Value of Semantic Parse Labeling for Knowledge Base Question Answering](https://aclanthology.org/P16-2033/)*. **ACL-2016**
 
-<span class="fs-1">
-[Paper](https://aclanthology.org/P16-2033/){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](http://aka.ms/WebQSP){: target="_blank" .btn .btn-green .mr-1 }</span>
+[comment]: <> ([Official Link]&#40;http://aka.ms/WebQSP&#41;{: target="_blank" .btn .btn-green .mr-1 })
 
 ---
 
@@ -56,10 +57,9 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*MTOP: A Comprehensive Multilingual Task-Oriented Semantic Parsing Benchmark*.**EACL-21**
+*[MTOP: A Comprehensive Multilingual Task-Oriented Semantic Parsing Benchmark](https://aclanthology.org/2021.eacl-main.257/)*. **EACL-21**
 
-<span class="fs-1">
-[Paper](https://aclanthology.org/2021.eacl-main.257/){: .btn .btn-blue .mr-1 target="_blank" } [Dataset](https://fb.me/mtop_dataset){: target="_blank" .btn .btn-green .mr-1 } </span>
+[comment]: <> ([Dataset]&#40;https://fb.me/mtop_dataset&#41;{: target="_blank" .btn .btn-green .mr-1 })
 
 > **Comments**
 > We used the English part of MTOP as SKG benchmark.
@@ -74,10 +74,9 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*Seq2SQL: Generating Structured Queries from Natural Language using Reinforcement Learning*.**arixv-17**
+*[Seq2SQL: Generating Structured Queries from Natural Language using Reinforcement Learning](https://arxiv.org/abs/1709.00103)*. **arixv-17**
 
-<span class="fs-1">
-[Paper](https://arxiv.org/abs/1709.00103){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://github.com/salesforce/WikiSQL){: target="_blank" .btn .btn-green .mr-1 } </span>
+[comment]: <> ([Official Link]&#40;https://github.com/salesforce/WikiSQL&#41;{: target="_blank" .btn .btn-green .mr-1 })
 
 
 ### WikiTableQuestion
