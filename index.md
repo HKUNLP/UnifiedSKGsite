@@ -44,4 +44,5 @@ Contact us or make pull request on Github to improve this portal site as editors
 ## Organizations
 <img src="assets/images/logos.png" width="100%" height="auto"/>
 
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan style='display:none;' id='cnzz_stat_icon_1279901714'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1279901714%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
 <!-- used for generating the html -->
