@@ -514,6 +514,7 @@ We benchmark our method on two collections of text classification tasks: LAMA an
 {: .fs-3 .fw-600 .text-red-300}
 
 ---
+
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 DReCa: A General Task Augmentation Strategy for Few-Shot Natural Language Inference**. <br> ✍ Shikhar Murty, Tatsunori B. Hashimoto, Christopher Manning
  *(NAACL 2021)*
@@ -542,8 +543,292 @@ We benchmark our method on two collections of text classification tasks: LAMA an
 
 ---
 
-
 ## Task Unification
+
+
 ## Pre-training
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 CodeBERT: A Pre-Trained Model for Programming and Natural Languages**. <br> ✍ Zhangyin Feng, Daya Guo, Duyu Tang, Nan Duan, Xiaocheng Feng, Ming Gong, Linjun Shou, Bing Qin, Ting Liu, Daxin Jiang, Ming Zhou
+ *(EMNLP 2020)*
+
+<span class="fs-2">
+   [Paper](https://arxiv.org/abs/2002.08155){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Code](https://github.com/microsoft/CodeBERT){: target="_blank" .btn .btn-green .mr-1 }
+   [Semantic Scholar](https://www.semanticscholar.org/paper/CodeBERT%3A-A-Pre-Trained-Model-for-Programming-and-Feng-Guo/0fe2636446cd686830da3d971b31a004d6094b3c){: .btn .btn-purple .mr-1 target="_blank" }
+</span> 
+
+<details markdown="block">
+  <summary>Abstract</summary>
+  {: .fs-3 .text-delta .text-blue-100}
+  ```
+  We present CodeBERT, a bimodal pre-trained model for programming language (PL) and nat-ural language (NL). CodeBERT learns general-purpose representations that support downstream NL-PL applications such as natural language codesearch, code documentation generation, etc. We develop CodeBERT with Transformer-based neural architecture, and train it with a hybrid objective function that incorporates the pre-training task of replaced token detection, which is to detect plausible alternatives sampled from generators. This enables us to utilize both bimodal data of NL-PL pairs and unimodal data, where the former provides input tokens for model training while the latter helps to learn better generators. We evaluate CodeBERT on two NL-PL applications by fine-tuning model parameters. Results show that CodeBERT achieves state-of-the-art performance on both natural language code search and code documentation generation tasks. Furthermore, to investigate what type of knowledge is learned in CodeBERT, we construct a dataset for NL-PL probing, and evaluate in a zero-shot setting where parameters of pre-trained models are fixed. Results show that CodeBERT performs better than previous pre-trained models on NL-PL probing.
+
+  ``` 
+</details> 
+{: .fs-5 .fw-600 .text-blue-300}
+
+<details markdown="block">
+  <summary>Comments</summary>
+  {: .fs-3 .text-delta .text-red-100}
+</details> 
+{: .fs-3 .fw-600 .text-red-300}
+
+---
+
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators**. <br> ✍ Kevin Clark, Minh-Thang Luong, Quoc V. Le, Christopher D. Manning
+ *(ICLR 2020)*
+
+<span class="fs-2">
+   [Paper](https://arxiv.org/abs/2003.10555){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Code](https://github.com/google-research/electra){: target="_blank" .btn .btn-green .mr-1 }
+   [Semantic Scholar](https://www.semanticscholar.org/paper/ELECTRA%3A-Pre-training-Text-Encoders-as-Rather-Than-Clark-Luong/756810258e3419af76aff38c895c20343b0602d0){: .btn .btn-purple .mr-1 target="_blank" }
+</span> 
+
+<details markdown="block">
+  <summary>Abstract</summary>
+  {: .fs-3 .text-delta .text-blue-100}
+  ```
+  While masked language modeling (MLM) pre-training methods such as BERT produce excellent results on downstream NLP tasks, they require large amounts of compute to be effective. These approaches corrupt the input by replacing some tokens with [MASK] and then train a model to reconstruct the original tokens. As an alternative, we propose a more sample-efficient pre-training task called replaced token detection. Instead of masking the input, our approach corrupts it by replacing some input tokens with plausible alternatives sampled from a small generator network. Then, instead of training a model that predicts the original identities of the corrupted tokens, we train a discriminative model that predicts whether each token in the corrupted input was replaced by a generator sample or not. Thorough experiments demonstrate this new pre-training task is more efficient than MLM because the model learns from all input tokens rather than just the small subset that was masked out. As a result, the contextual representations learned by our approach substantially outperform the ones learned by methods such as BERT and XLNet given the same model size, data, and compute. The gains are particularly strong for small models; for example, we train a model on one GPU for 4 days that outperforms GPT (trained using 30x more compute) on the GLUE natural language understanding benchmark. Our approach also works well at scale, where we match the performance of RoBERTa, the current state-of-the-art pre-trained transformer, while using less than 1/4 of the compute.
+
+  ``` 
+</details> 
+{: .fs-5 .fw-600 .text-blue-300}
+
+<details markdown="block">
+  <summary>Comments</summary>
+  {: .fs-3 .text-delta .text-red-100}
+</details> 
+{: .fs-3 .fw-600 .text-red-300}
+
+---
+
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 Structure-Grounded Pretraining for Text-to-SQL**. <br> ✍ Xiang Deng, Ahmed Hassan Awadallah, Christopher Meek, Oleksandr Polozov, Huan Sun, Matthew Richardson
+ *(NAACL 2021)*
+
+<span class="fs-2">
+   [Paper](https://arxiv.org/abs/2002.08155){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Code](https://aka.ms/strug){: target="_blank" .btn .btn-green .mr-1 }
+   [Semantic Scholar](https://www.semanticscholar.org/paper/Structure-Grounded-Pretraining-for-Text-to-SQL-Deng-Awadallah/1e84152b10e48ef592917576ca74f814adadcdc7){: .btn .btn-purple .mr-1 target="_blank" }
+</span> 
+
+<details markdown="block">
+  <summary>Abstract</summary>
+  {: .fs-3 .text-delta .text-blue-100}
+  ```
+  Learning to capture text-table alignment is essential for tasks like text-to-SQL. A model needs to correctly recognize natural language references to columns and values and to ground them in the given database schema. In this paper, we present a novel weakly supervised Structure-Grounded pretraining framework (StruG) for text-to-SQL that can effectively learn to capture text-table alignment based on a parallel text-table corpus. We identify a set of novel prediction tasks: column grounding, value grounding and column-value mapping, and leverage them to pretrain a text-table encoder. Additionally, to evaluate different methods under more realistic text-table alignment settings, we create a new evaluation set Spider-Realistic based on Spider dev set with explicit mentions of column names removed, and adopt eight existing text-to-SQL datasets for cross-database evaluation. STRUG brings significant improvement over BERT-LARGE in all settings. Compared with existing pretraining methods such as GRAPPA, STRUG achieves similar performance on Spider, and outperforms all baselines on more realistic sets. All the code and data used in this work is public available at this https URL.
+
+  ``` 
+</details> 
+{: .fs-5 .fw-600 .text-blue-300}
+
+<details markdown="block">
+  <summary>Comments</summary>
+  {: .fs-3 .text-delta .text-red-100}
+</details> 
+{: .fs-3 .fw-600 .text-red-300}
+
+---
+
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 KGPT: Knowledge-Grounded Pre-Training for Data-to-Text Generation**. <br> ✍ Wenhu Chen, Yu Su, Xifeng Yan, William Yang Wang
+ *(EMNLP 2020)*
+
+<span class="fs-2">
+   [Paper](https://arxiv.org/abs/2010.02307){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Code](https://github.com/wenhuchen/KGPT){: target="_blank" .btn .btn-green .mr-1 }
+   [Semantic Scholar](https://www.semanticscholar.org/paper/KGPT%3A-Knowledge-Grounded-Pre-Training-for-Chen-Su/6f33bd4e62955f4d40424f8ae4ec83af4e97862c){: .btn .btn-purple .mr-1 target="_blank" }
+</span> 
+
+<details markdown="block">
+  <summary>Abstract</summary>
+  {: .fs-3 .text-delta .text-blue-100}
+  ```
+  Data-to-text generation has recently attracted substantial interests due to its wide applications. Existing methods have shown impressive performance on an array of tasks. However, they rely on a significant amount of labeled data for each task, which is costly to acquire and thus limits their application to new tasks and domains. In this paper, we propose to leverage pre-training and transfer learning to address this issue. We propose a knowledge-grounded pre-training (KGPT), which consists of two parts, 1) a general knowledge-grounded generation model to generate knowledge-enriched text. 2) a pre-training paradigm on a massive knowledge-grounded text corpus crawled from the web. The pre-trained model can be fine-tuned on various data-to-text generation tasks to generate task-specific text. We adopt three settings, namely fully-supervised, zero-shot, few-shot to evaluate its effectiveness. Under the fully-supervised setting, our model can achieve remarkable gains over the known baselines. Under zero-shot setting, our model without seeing any examples achieves over 30 ROUGE-L on WebNLG while all other baselines fail. Under the few-shot setting, our model only needs about one-fifteenth as many labeled examples to achieve the same level of performance as baseline models. These experiments consistently prove the strong generalization ability of our proposed framework this https URL.
+
+  ``` 
+</details> 
+{: .fs-5 .fw-600 .text-blue-300}
+
+<details markdown="block">
+  <summary>Comments</summary>
+  {: .fs-3 .text-delta .text-red-100}
+</details> 
+{: .fs-3 .fw-600 .text-red-300}
+
+---
+
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 TABBIE: Pretrained Representations of Tabular Data**. <br> ✍ Hiroshi Iida, Dung Thai, Varun Manjunatha, Mohit Iyyer
+ *(arixv 2021)*
+
+<span class="fs-2">
+   [Paper](https://arxiv.org/abs/2105.02584){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Code](https://github.com/SFIG611/tabbie){: target="_blank" .btn .btn-green .mr-1 }
+   [Semantic Scholar](https://www.semanticscholar.org/paper/TABBIE%3A-Pretrained-Representations-of-Tabular-Data-Iida-Thai/386bfd0e411dee4f512a8737c55dd84846981182){: .btn .btn-purple .mr-1 target="_blank" }
+</span> 
+
+<details markdown="block">
+  <summary>Abstract</summary>
+  {: .fs-3 .text-delta .text-blue-100}
+  ```
+  Existing work on tabular representation-learning jointly models tables and associated text using self-supervised objective functions derived from pretrained language models such as BERT. While this joint pretraining improves tasks involving paired tables and text (e.g., answering questions about tables), we show that it underperforms on tasks that operate over tables without any associated text (e.g., populating missing cells). We devise a simple pretraining objective (corrupt cell detection) that learns exclusively from tabular data and reaches the state-of-the-art on a suite of table-based prediction tasks. Unlike competing approaches, our model (TABBIE) provides embeddings of all table substructures (cells, rows, and columns), and it also requires far less compute to train. A qualitative analysis of our model’s learned cell, column, and row representations shows that it understands complex table semantics and numerical trends.
+
+  ``` 
+</details> 
+{: .fs-5 .fw-600 .text-blue-300}
+
+<details markdown="block">
+  <summary>Comments</summary>
+  {: .fs-3 .text-delta .text-red-100}
+</details> 
+{: .fs-3 .fw-600 .text-red-300}
+
+---
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 Question Answering Infused Pre-training of General-Purpose Contextualized Representations**. <br> ✍ Robin Jia, Mike Lewis, Luke Zettlemoyer
+ *(arixv 2021)*
+
+<span classhttps://arxiv.org/abs/2106.08190){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Semantic Scholar](https://www.semanticscholar.org/paper/Question-Answering-Infused-Pre-training-of-Jia-Lewis/e4c13aadc6adeb8131bb08324e2688383fbb8ec9){: .btn .btn-purple .mr-1 target="_blank" }
+</span> 
+
+<details markdown="block">
+  <summary>Abstract</summary>
+  {: .fs-3 .text-delta .text-blue-100}
+  ```
+  This paper proposes a pre-training objective based on question answering (QA) for learning general-purpose contextual representations, motivated by the intuition that the representation of a phrase in a passage should encode all questions that the phrase can answer in context. We accomplish this goal by training a bi-encoder QA model, which independently encodes passages and questions, to match the predictions of a more accurate cross-encoder model on 80 million synthesized QA pairs. By encoding QA-relevant information, the bi-encoder's token-level representations are useful for non-QA downstream tasks without extensive (or in some cases, any) fine-tuning. We show large improvements over both RoBERTa-large and previous state-of-the-art results on zero-shot and few-shot paraphrase detection on four datasets, few-shot named entity recognition on two datasets, and zero-shot sentiment analysis on three datasets.
+
+  ``` 
+</details> 
+{: .fs-5 .fw-600 .text-blue-300}
+
+<details markdown="block">
+  <summary>Comments</summary>
+  {: .fs-3 .text-delta .text-red-100}
+</details> 
+{: .fs-3 .fw-600 .text-red-300}
+
+---
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 Evaluating Large Language Models Trained on Code(Codex)**. <br> ✍ Mark Chen, Jerry Tworek, Heewoo Jun, Qiming Yuan, Henrique Ponde de Oliveira Pinto, Jared Kaplan, Harri Edwards, Yuri Burda, Nicholas Joseph, Greg Brockman, Alex Ray, Raul Puri, Gretchen Krueger, Michael Petrov, Heidy Khlaaf, Girish Sastry, Pamela Mishkin, Brooke Chan, Scott Gray, Nick Ryder, Mikhail Pavlov, Alethea Power, Lukasz Kaiser, Mohammad Bavarian, Clemens Winter, Philippe Tillet, Felipe Petroski Such, Dave Cummings, Matthias Plappert, Fotios Chantzis, Elizabeth Barnes, Ariel Herbert-Voss, William Hebgen Guss, Alex Nichol, Alex Paino, Nikolas Tezak, Jie Tang, Igor Babuschkin, Suchir Balaji, Shantanu Jain, William Saunders, Christopher Hesse, Andrew N. Carr, Jan Leike, Josh Achiam, Vedant Misra, Evan Morikawa, Alec Radford, Matthew Knight, Miles Brundage, Mira Murati, Katie Mayer, Peter Welinder, Bob McGrew, Dario Amodei, Sam McCandlish, Ilya Sutskever, Wojciech Zaremba
+ *(arixv 2021)*
+
+<span class="fs-2">
+   [Paper](https://arxiv.org/abs/2105.02584){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Website](https://openai.com/api/){: target="_blank" .btn .btn-red .mr-1 }
+   [Semantic Scholar](https://www.semanticscholar.org/paper/Evaluating-Large-Language-Models-Trained-on-Code-Chen-Tworek/acbdbf49f9bc3f151b93d9ca9a06009f4f6eb269){: .btn .btn-purple .mr-1 target="_blank" }
+</span> 
+
+<details markdown="block">
+  <summary>Abstract</summary>
+  {: .fs-3 .text-delta .text-blue-100}
+  ```
+  We introduce Codex, a GPT language model finetuned on publicly available code from GitHub, and study its Python code-writing capabilities. A distinct production version of Codex powers GitHub Copilot. On HumanEval, a new evaluation set we release to measure functional correctness for synthesizing programs from docstrings, our model solves 28.8% of the problems, while GPT-3 solves 0% and GPT-J solves 11.4%. Furthermore, we find that repeated sampling from the model is a surprisingly effective strategy for producing working solutions to difficult prompts. Using this method, we solve 70.2% of our problems with 100 samples per problem. Careful investigation of our model reveals its limitations, including difficulty with docstrings describing long chains of operations and with binding operations to variables. Finally, we discuss the potential broader impacts of deploying powerful code generation technologies, covering safety, security, and economics. Equal contribution OpenAI, San Francisco, California, USA. Anthropic AI, San Francisco, California, USA. Work performed while at OpenAI. Zipline, South San Francisco, California, USA. Work performed while at OpenAI. Correspondence to: Mark Chen <mark@openai.com>, Jerry Tworek <jt@openai.com>, Heewoo Jun <heewoo@openai.com>, Qiming Yuan <qiming@openai.com>. 
+  ``` 
+</details> 
+{: .fs-5 .fw-600 .text-blue-300}
+
+<details markdown="block">
+  <summary>Comments</summary>
+  {: .fs-3 .text-delta .text-red-100}
+</details> 
+{: .fs-3 .fw-600 .text-red-300}
+
+---
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 Learning Contextual Representations for Semantic Parsing with Generation-Augmented Pre-Training**. <br> ✍ Peng Shi, Patrick Ng, Zhiguo Wang, Henghui Zhu, Alexander Hanbo Li, Jun Wang, Cicero Nogueira dos Santos, Bing Xiang
+ *(AAAI 2021)*
+
+<span class="fs-2">
+   [Paper](https://arxiv.org/abs/2012.10309){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Code](https://github.com/awslabs/gap-text2sql){: target="_blank" .btn .btn-green .mr-1 }
+   [Semantic Scholar](https://www.semanticscholar.org/paper/Learning-Contextual-Representations-for-Semantic-Shi-Ng/c75a2ee17056d2b8c14ac25f9f328a09eb4cf040){: .btn .btn-purple .mr-1 target="_blank" }
+</span> 
+
+<details markdown="block">
+  <summary>Abstract</summary>
+  {: .fs-3 .text-delta .text-blue-100}
+  ```
+  Most recently, there has been significant interest in learning contextual representations for various NLP tasks, by leveraging large scale text corpora to train large neural language models with self-supervised learning objectives, such as Masked Language Model (MLM). However, based on a pilot study, we observe three issues of existing general-purpose language models when they are applied to text-to-SQL semantic parsers: fail to detect column mentions in the utterances, fail to infer column mentions from cell values, and fail to compose complex SQL queries. To mitigate these issues, we present a model pre-training framework, GenerationAugmented Pre-training (GAP), that jointly learns representations of natural language utterances and table schemas by leveraging generation models to generate pre-train data. GAP MODEL is trained on 2M utterance-schema pairs and 30K utterance-schema-SQL triples, whose utterances are produced by generative models. Based on experimental results, neural semantic parsers that leverage GAP MODEL as a representation encoder obtain new state-of-the-art results on both SPIDER and CRITERIA-TO-SQL benchmarks.
+  ``` 
+</details> 
+{: .fs-5 .fw-600 .text-blue-300}
+
+<details markdown="block">
+  <summary>Comments</summary>
+  {: .fs-3 .text-delta .text-red-100}
+</details> 
+{: .fs-3 .fw-600 .text-red-300}
+
+---
+
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 TAPEX: Table Pre-training via Learning a Neural SQL Executor**. <br> ✍ Qian Liu, Bei Chen, Jiaqi Guo, Morteza Ziyadi, Zeqi Lin, Weizhu Chen, Jian-Guang Lou
+ *(arixv 2021)*
+
+<span class="fs-2">
+   [Paper](https://arxiv.org/abs/2107.07653){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Code](https://github.com/microsoft/Table-Pretraining){: target="_blank" .btn .btn-green .mr-1 }
+   [Website](https://table-pretraining.github.io/){: target="_blank" .btn .btn-green .mr-1 }
+   [Semantic Scholar](https://www.semanticscholar.org/paper/TAPEX%3A-Table-Pre-training-via-Learning-a-Neural-SQL-Liu-Chen/8592953f1ebe38ba4cab05c28a088f5d5691a514){: .btn .btn-purple .mr-1 target="_blank" }
+</span> 
+
+<details markdown="block">
+  <summary>Abstract</summary>
+  {: .fs-3 .text-delta .text-blue-100}
+  ```
+  Recent years pre-trained language models hit a success on modeling natural language sentences and (semi-)structured tables. However, existing table pre-training techniques always suffer from low data quality and low pre-training efficiency. In this paper, we show that table pre-training can be realized by learning a neural SQL executor over a synthetic corpus, which is obtained by automatically synthesizing executable SQL queries. By pre-training on the synthetic corpus, our approach TAPEX dramatically improves the performance on downstream tasks, boosting existing language models by at most 19.5%. Meanwhile, TAPEX has remarkably high pretraining efficiency and yields strong results when using a small pre-trained corpus. Experimental results demonstrate that TAPEX outperforms previous table pre-training approaches by a large margin, and our model achieves new state-of-the-art results on four well-known datasets, including improving the WIKISQL denotation accuracy to 89.6% (+4.9%), the WIKITABLEQUESTIONS denotation accuracy to 57.5% (+4.8%), the SQA denotation accuracy to 74.5% (+3.5%), and the TABFACT accuracy to 84.6% (+3.6%). Our work opens the way to reason over structured data by pre-training on synthetic executable programs. The project homepage is at https: //table-pretraining.github.io/.
+  ``` 
+</details> 
+{: .fs-5 .fw-600 .text-blue-300}
+
+<details markdown="block">
+  <summary>Comments</summary>
+  {: .fs-3 .text-delta .text-red-100}
+</details> 
+{: .fs-3 .fw-600 .text-red-300}
+
+---
+
+
+{: .fs-4 .fw-800 .text-blue-100}
+**📜 CodeT5: Identifier-aware Unified Pre-trained Encoder-Decoder Models for Code Understanding and Generation**. <br> ✍ QYue Wang, Weishi Wang, Shafiq Joty, Steven C.H. Hoi
+ *(EMNLP 2021)*
+
+<span class="fs-2">
+   [Paper](https://arxiv.org/abs/2109.00859){: .btn .btn-blue .mr-1 target="_blank" } 
+   [Code](https: //github.com/salesforce/CodeT5){: target="_blank" .btn .btn-green .mr-1 }
+   [Website](https://table-pretraining.github.io/){: target="_blank" .btn .btn-green .mr-1 }
+   [Semantic Scholar](https://www.semanticscholar.org/paper/TAPEX%3A-Table-Pre-training-via-Learning-a-Neural-SQL-Liu-Chen/8592953f1ebe38ba4cab05c28a088f5d5691a514){: .btn .btn-purple .mr-1 target="_blank" }
+</span> 
+
+<details markdown="block">
+  <summary>Abstract</summary>
+  {: .fs-3 .text-delta .text-blue-100}
+  ```
+  Pre-trained models for Natural Languages (NL) like BERT and GPT have been recently shown to transfer well to Programming Languages (PL) and largely benefit a broad set of code-related tasks. Despite their success, most current methods either rely on an encoder-only (or decoder-only) pre-training that is suboptimal for generation (resp. understanding) tasks or process the code snippet in the same way as NL, neglecting the special characteristics of PL such as token types. We present CodeT5, a unified pre-trained encoder-decoder Transformer model that better leverages the code semantics conveyed from the developer-assigned identifiers. Our model employs a unified framework to seamlessly support both code understanding and generation tasks and allows for multi-task learning. Besides, we propose a novel identifier-aware pre-training task that enables the model to distinguish which code tokens are identifiers and to recover them when they are masked. Furthermore, we propose to exploit the user-written code comments with a bimodal dual generation task for better NL-PL alignment. Comprehensive experiments show that CodeT5 significantly outperforms prior methods on understanding tasks such as code defect detection and clone detection, and generation tasks across various directions including PL-NL, NL-PL, and PL-PL. Further analysis reveals that our model can better capture semantic information from code. Our code and pre-trained models are released at https: //github.com/salesforce/CodeT5 .
+  ``` 
+</details> 
+{: .fs-5 .fw-600 .text-blue-300}
+
+<details markdown="block">
+  <summary>Comments</summary>
+  {: .fs-3 .text-delta .text-red-100}
+</details> 
+{: .fs-3 .fw-600 .text-red-300}
+
+---
+
 ## Analysis
 ## Others
