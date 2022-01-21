@@ -32,19 +32,7 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 <span class="fs-1">
 [Paper](https://arxiv.org/abs/1809.08887){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://yale-lily.github.io/spider){: target="_blank" .btn .btn-green .mr-1 }  </span>
 
-> - **Knowledge**: Database
-> - **User Input**: Question
-> - **Output**: SQL
-> - **Keywords**: Fully supervised; Cross-domain; Single turn
-
-><details markdown="block">
->  <summary>Illustrative Example</summary>
->  {: .fs-3 .text-delta .text-red-100}
-```
-..
-```
-></details>
-
+---
 
 ### GrailQA 
 {: .no_toc }
@@ -55,18 +43,7 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 <span class="fs-1">
 [Paper](https://arxiv.org/abs/2011.07743){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://dki-lab.github.io/GrailQA/){: target="_blank" .btn .btn-green .mr-1 } </span>
 
-> - **Knowledge**: Knowledge Graph
-> - **User Input**: Question
-> - **Output**: S-Expression
-> - **Keywords**: Large, 64k; Test generalization: i.i.d./compositional/zero-shot
-
-><details markdown="block">
->  <summary>Illustrative Example</summary>
->  {: .fs-3 .text-delta .text-red-100}
-```
-..
-```
-></details> 
+---
 
 ### WebQSP
 {: .no_toc }
@@ -77,20 +54,7 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 <span class="fs-1">
 [Paper](https://aclanthology.org/P16-2033/){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](http://aka.ms/WebQSP){: target="_blank" .btn .btn-green .mr-1 }</span>
 
-> - **Knowledge**: Knowledge Graph
-> - **User Input**: Question
-> - **Output**: S-Expression
-
-><details markdown="block">
->  <summary>Illustrative Example</summary>
->  {: .fs-3 .text-delta .text-red-100}
-```
-..
-```
-></details> 
-
-
-
+---
 
 ### MTOP
 {: .no_toc }
@@ -101,22 +65,8 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 <span class="fs-1">
 [Paper](https://aclanthology.org/2021.eacl-main.257/){: .btn .btn-blue .mr-1 target="_blank" } [Dataset](https://fb.me/mtop_dataset){: target="_blank" .btn .btn-green .mr-1 } </span>
 
-> - **Knowledge**: API
-> - **User Input**: Question
-> - **Output**: TOP-representation
-> - **Keywords**: Spoken Language Understanding; TOP representation
-
-><details markdown="block">
->  <summary>Illustrative Example</summary>
->  {: .fs-3 .text-delta .text-red-100}
-```
-..
-```
-></details> 
-
 > **Comments**
 > We used the English part of MTOP as SKG benchmark.
-<!-- Mention the highlights or known issues of the dataset. -->
 {: .fs-4 .fw-600 .text-red-300}
 
 ---
@@ -132,18 +82,6 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 
 <span class="fs-1">
 [Paper](https://arxiv.org/abs/1709.00103){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://github.com/salesforce/WikiSQL){: target="_blank" .btn .btn-green .mr-1 } </span>
-> - **Knowledge**: Table
-> - **User Input**: Question
-> - **Output**: Answer(adopted)/SQL
-> - **Keywords**: Fully/weakly supervised semantic parsing(SQL provided); Large data
-
-><details markdown="block">
->  <summary>Illustrative Example</summary>
->  {: .fs-3 .text-delta .text-red-100}
-```
-..
-```
-></details> 
 
 
 ### WikiTableQuestion
@@ -154,22 +92,9 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 
 <span class="fs-1">
 [Paper](https://aclanthology.org/P15-1142/){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://ppasupat.github.io/WikiTableQuestions/){: target="_blank" .btn .btn-green .mr-1 } </span>
-> - **Knowledge**: Table
-> - **User Input**: Question
-> - **Output**: Answer
-> - **Keywords**: Weakly supervised semantic parsing(using question-answer pairs as supervision); Row sensative(some qa related to row order)
-
-><details markdown="block">
->  <summary>Illustrative Example</summary>
->  {: .fs-3 .text-delta .text-red-100}
-```
-..
-```
-></details> 
 
 > **Comments**
 > The 5-fold validation evaluation in origianl dataset is depracated by latest works. The 1st fold of train set and dev set are used as train set and dev set.
-<!-- Mention the highlights or known issues of the dataset. -->
 {: .fs-4 .fw-600 .text-red-300}
 
 
@@ -182,19 +107,6 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 <span class="fs-1">
 [Paper](https://arxiv.org/abs/1911.11641){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://www.tau-nlp.org/compwebq){: target="_blank" .btn .btn-green .mr-1 } {: target="_blank" .btn .btn-purple .mr-1 } </span>
 
-> - **Knowledge**: Knowledge Graph
-> - **User Input**: Question
-> - **Output**: Answer
-> - **Keywords**: Weakly supervised; Multihop
-
-><details markdown="block">
->  <summary>Illustrative Example</summary>
->  {: .fs-3 .text-delta .text-red-100}
-```
-..
-```
-></details> 
-
 ### HybridQA
 {: .no_toc }
 
@@ -203,18 +115,6 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 
 <span class="fs-1">
 [Paper](https://aclanthology.org/2020.findings-emnlp.91/){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://hybridqa.github.io/){: target="_blank" .btn .btn-green .mr-1 } </span>
-> - **Knowledge**: Table + Text passages
-> - **User Input**: Question
-> - **Output**: Answer
-> - **Keywords**: Multi-hop; Short-form entity/extractive
-
-><details markdown="block">
->  <summary>Illustrative Example</summary>
->  {: .fs-3 .text-delta .text-red-100}
-```
-..
-```
-></details> 
 
 ### OTT-QA
 {: .no_toc }
@@ -224,18 +124,6 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 
 <span class="fs-1">
 [Paper](https://arxiv.org/abs/2010.10439){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://github.com/wenhuchen/OTT-QA){: target="_blank" .btn .btn-green .mr-1 } </span>
-> - **Knowledge**: Table + Text passages
-> - **User Input**: Question
-> - **Output**: Answer
-> - **Keywords**: More open table/text; Extractive ans
-
-><details markdown="block">
->  <summary>Illustrative Example</summary>
->  {: .fs-3 .text-delta .text-red-100}
-```
-..
-```
-></details> 
 
 ### MultiModalQA
 {: .no_toc }
@@ -245,19 +133,6 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 
 <span class="fs-1">
 [Paper](https://arxiv.org/abs/1709.00103){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://allenai.github.io/multimodalqa/){: target="_blank" .btn .btn-green .mr-1 } </span>
-> - **Knowledge**: Table + Text + Images
-> - **User Input**: Question
-> - **Output**: Answer
-> - **Keywords**: Short-form entity/extractive
-
-><details markdown="block">
->  <summary>Illustrative Example</summary>
->  {: .fs-3 .text-delta .text-red-100}
-```
-..
-```
-></details> 
-
 
 ### FeTaQA
 {: .no_toc }
@@ -267,18 +142,6 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 
 <span class="fs-1">
 [Paper](https://arxiv.org/abs/2104.00369){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://github.com/Yale-LILY/FeTaQA){: target="_blank" .btn .btn-green .mr-1 } </span>
-> - **Knowledge**: Table
-> - **User Input**: Question
-> - **Output**: Free-Form Answer
-> - **Keywords**: Free-form answer
-
-><details markdown="block">
->  <summary>Illustrative Example</summary>
->  {: .fs-3 .text-delta .text-red-100}
-```
-..
-```
-></details> 
 
 ### TAT-QA
 {: .no_toc }
@@ -288,22 +151,8 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 
 <span class="fs-1">
 [Paper](https://aclanthology.org/2021.acl-long.254/){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://nextplusplus.github.io/TAT-QA/){: target="_blank" .btn .btn-green .mr-1 } </span>
-> - **Knowledge**: Table + Text
-> - **User Input**: Question
-> - **Output**: Answer(diverse form, including single span, multiple spans and free-form)
-> - **Keywords**: Context hybrid; Numerical reasoning; Financial
-
-><details markdown="block">
->  <summary>Illustrative Example</summary>
->  {: .fs-3 .text-delta .text-red-100}
-```
-..
-```
-></details> 
 
 ---
-
-
 
 ## Data-to-Text
 
@@ -315,21 +164,9 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 
 <span class="fs-1">
 [Paper](https://aclanthology.org/W17-5525/){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](http://www.macs.hw.ac.uk/InteractionLab/E2E/){: target="_blank" .btn .btn-green .mr-1 } </span>
-> - **Knowledge**: Table
-> - **User Input**: None
-> - **Output**: Text
-> - **Keywords**: Text generation; Restaurant domain
 
-><details markdown="block">
->  <summary>Illustrative Example</summary>
->  {: .fs-3 .text-delta .text-red-100}
-```
-..
-```
-></details> 
 > **Comments**
 > There is another [E2E cleaned version](https://github.com/tuetschek/e2e-cleaning) released by authors. 
-<!-- Mention the highlights or known issues of the dataset. -->
 {: .fs-4 .fw-600 .text-red-300}
 
 ### WebNLG
@@ -340,21 +177,9 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 
 <span class="fs-1">
 [Paper](https://aclanthology.org/W17-3518/){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://webnlg-challenge.loria.fr/){: target="_blank" .btn .btn-green .mr-1 } </span>
-> - **Knowledge**: Knowledge Graph(triples)
-> - **User Input**: None
-> - **Output**: Text
-> - **Keywords**: Text generation; RDF Triples
 
-><details markdown="block">
->  <summary>Illustrative Example</summary>
->  {: .fs-3 .text-delta .text-red-100}
-```
-..
-```
-></details> 
 > **Comments**
 > WebNLG challenge has many datasets available, the widely used dversion currently is the WebNLG challenge 2017. There is a useful [link](https://github.com/fuzihaofzh/webnlg-dataset) for summarization of this.
-<!-- Mention the highlights or known issues of the dataset. -->
 {: .fs-4 .fw-600 .text-red-300}
 
 ### DART
@@ -365,18 +190,7 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 
 <span class="fs-1">
 [Paper](https://aclanthology.org/2021.naacl-main.37/){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://github.com/Yale-LILY/dart){: target="_blank" .btn .btn-green .mr-1 } </span>
-> - **Knowledge**: Triples
-> - **User Input**: None
-> - **Output**: Text
-> - **Keywords**: Text generation; Large data; E2E and WebNLG contained
 
-><details markdown="block">
->  <summary>Illustrative Example</summary>
->  {: .fs-3 .text-delta .text-red-100}
-```
-..
-```
-></details> 
 
 ### ToTTo
 {: .no_toc }
@@ -386,18 +200,8 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 
 <span class="fs-1">
 [Paper](https://arxiv.org/abs/2004.14373){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://github.com/google-research-datasets/ToTTo){: target="_blank" .btn .btn-green .mr-1 } </span>
-> - **Knowledge**: Highlighted Table
-> - **User Input**: None
-> - **Output**: Text
-> - **Keywords**: Highlighted Table; Text generation
 
-><details markdown="block">
->  <summary>Illustrative Example</summary>
->  {: .fs-3 .text-delta .text-red-100}
-```
-..
-```
-></details> 
+
 
 ### LogicNLG
 {: .no_toc }
@@ -407,18 +211,8 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 
 <span class="fs-1">
 [Paper](https://aclanthology.org/2020.acl-main.708/){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://github.com/wenhuchen/LogicNLG){: target="_blank" .btn .btn-green .mr-1 } </span>
-> - **Knowledge**: Table
-> - **User Input**: None
-> - **Output**: Logical Natural Language Generation
-> - **Keywords**: Logical NL generation
 
-><details markdown="block">
->  <summary>Illustrative Example</summary>
->  {: .fs-3 .text-delta .text-red-100}
-```
-..
-```
-></details>
+
 ---
 
 ## Conversational
@@ -431,22 +225,11 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 
 <span class="fs-1">
 [Paper](https://arxiv.org/abs/1907.01669){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://github.com/budzianowski/multiwoz){: target="_blank" .btn .btn-green .mr-1 } </span>
-> - **Knowledge**: Ontology
-> - **User Input**: Dialogue
-> - **Output**: Dialogue State
-> - **Keywords**: Dialog system
 
-><details markdown="block">
->  <summary>Illustrative Example</summary>
->  {: .fs-3 .text-delta .text-red-100}
-```
-..
-```
-></details> 
+
 
 > **Comments**
 > There are many version of MultiWoZ, 2.1 and 2.2 are mostly used currently. We used the 2.1 version in our SKG benchmark. Some pre-procession on this dataset is needed, pls refer to [MultiWoZ](https://github.com/budzianowski/multiwoz) and [Trade-DST](https://github.com/jasonwu0731/trade-dst).
-<!-- Mention the highlights or known issues of the dataset. -->
 {: .fs-4 .fw-600 .text-red-300}
 
 
@@ -460,22 +243,9 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 
 <span class="fs-1">
 [Paper](https://aclanthology.org/W17-5506/){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://nlp.stanford.edu/blog/a-new-multi-turn-multi-domain-task-oriented-dialogue-dataset/){: target="_blank" .btn .btn-green .mr-1 } </span>
-> - **Knowledge**: Table
-> - **User Input**: Statement
-> - **Output**: Boolean
-> - **Keywords**: Dialogue system; Each dialogue has a seperate table as kb
-
-><details markdown="block">
->  <summary>Illustrative Example</summary>
->  {: .fs-3 .text-delta .text-red-100}
-```
-..
-```
-></details> 
 
 > **Comments**
 > KVRET is also called SMD(Stanford Multi-Domain task-oriented dialogue dataset). The de-facto widely used version of this dataset is the pre-processed verison in [Mem2seq](https://github.com/HLTCHKUST/Mem2Seq).
-<!-- Mention the highlights or known issues of the dataset. -->
 {: .fs-4 .fw-600 .text-red-300}
 
 ### SParC
@@ -487,18 +257,7 @@ SParC: Cross-Domain Semantic Parsing in Context*.<br> Tao Yu, Rui Zhang, Michihi
 
 <span class="fs-1">
 [Paper](https://arxiv.org/abs/1906.02285){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://yale-lily.github.io/sparc){: target="_blank" .btn .btn-green .mr-1 } </span>
-> - **Knowledge**: Database
-> - **User Input**: Multi-turn query
-> - **Output**: SQL
-> - **Keywords**: Fully supervised semantic parsing; Multi-turn
 
-><details markdown="block">
->  <summary>Illustrative Example</summary>
->  {: .fs-3 .text-delta .text-red-100}
-```
-..
-```
-></details> 
 
 ### CoSQL
 {: .no_toc }
@@ -508,18 +267,7 @@ SParC: Cross-Domain Semantic Parsing in Context*.<br> Tao Yu, Rui Zhang, Michihi
 
 <span class="fs-1">
 [Paper](https://arxiv.org/abs/1909.05378){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://yale-lily.github.io/cosql){: target="_blank" .btn .btn-green .mr-1 } </span>
-> - **Knowledge**: Database
-> - **User Input**: Dialog
-> - **Output**: SQL
-> - **Keywords**: Fully supervised semantic parsing; Dialogue
 
-><details markdown="block">
->  <summary>Illustrative Example</summary>
->  {: .fs-3 .text-delta .text-red-100}
-```
-..
-```
-></details>
 
 ### SQA(MSR SQA)
 {: .no_toc }
@@ -529,18 +277,6 @@ SParC: Cross-Domain Semantic Parsing in Context*.<br> Tao Yu, Rui Zhang, Michihi
 
 <span class="fs-1">
 [Paper](https://aclanthology.org/P17-1167){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](hhttps://www.microsoft.com/en-us/download/details.aspx?id=54253){: target="_blank" .btn .btn-green .mr-1 } </span>
-> - **Knowledge**: Table
-> - **User Input**: Multi-turn query
-> - **Output**: Answer
-> - **Keywords**: Weakly supervised semantic parsing; Sequential
-
-><details markdown="block">
->  <summary>Illustrative Example</summary>
->  {: .fs-3 .text-delta .text-red-100}
-```
-..
-```
-></details> 
 
 ---
 
@@ -554,18 +290,6 @@ SParC: Cross-Domain Semantic Parsing in Context*.<br> Tao Yu, Rui Zhang, Michihi
 
 <span class="fs-1">
 [Paper](https://arxiv.org/abs/1909.02164){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://tabfact.github.io/){: target="_blank" .btn .btn-green .mr-1 } </span>
-> - **Knowledge**: Table
-> - **User Input**: Statement
-> - **Output**: Boolean
-> - **Keywords**: NL inference; Large data
-
-><details markdown="block">
->  <summary>Illustrative Example</summary>
->  {: .fs-3 .text-delta .text-red-100}
-```
-..
-```
-></details> 
 
 ### FEVEROUS
 {: .no_toc }
@@ -575,19 +299,6 @@ SParC: Cross-Domain Semantic Parsing in Context*.<br> Tao Yu, Rui Zhang, Michihi
 
 <span class="fs-1">
 [Paper](https://aclanthology.org/2021.fever-1.1){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://fever.ai/dataset/feverous.html){: target="_blank" .btn .btn-green .mr-1 } </span>
-> - **Knowledge**: Table + Text
-> - **User Input**: Statement
-> - **Output**: Boolean
-> - **Keywords**: NL inference; Large data
-
-><details markdown="block">
->  <summary>Illustrative Example</summary>
->  {: .fs-3 .text-delta .text-red-100}
-```
-..
-```
-></details>
-
 
 ---
 
@@ -601,18 +312,8 @@ SParC: Cross-Domain Semantic Parsing in Context*.<br> Tao Yu, Rui Zhang, Michihi
 
 <span class="fs-1">
 [Paper](https://aclanthology.org/2021.findings-acl.388/){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://github.com/Ciaranshu/relogic){: target="_blank" .btn .btn-green .mr-1 } </span>
-> - **Knowledge**: Optional Database
-> - **User Input**: SQL
-> - **Output**: Text
-> - **Keywords**: High-fidelity NLG
 
-><details markdown="block">
->  <summary>Illustrative Example</summary>
->  {: .fs-3 .text-delta .text-red-100}
-```
-..
-```
-></details> 
+---
 
 ### Logic2Text
 {: .no_toc }
@@ -622,18 +323,6 @@ SParC: Cross-Domain Semantic Parsing in Context*.<br> Tao Yu, Rui Zhang, Michihi
 
 <span class="fs-1">
 [Paper](https://arxiv.org/abs/2004.14579){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://github.com/czyssrs/Logic2Text){: target="_blank" .btn .btn-green .mr-1 } </span>
-> - **Knowledge**: Table Schema
-> - **User Input**: Python-like program
-> - **Output**: Text
-> - **Keywords**: High-fidelity NLG
-
-><details markdown="block">
->  <summary>Illustrative Example</summary>
->  {: .fs-3 .text-delta .text-red-100}
-```
-..
-```
-></details> 
 
 ---
 
