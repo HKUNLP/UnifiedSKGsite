@@ -24,7 +24,7 @@ We present a collection of insightful research papers that focus on structured k
 TODO: re-order papers by date.
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 A Comprehensive Exploration on WikiSQL with Table-Aware Word Contextualization**. <br> ✍ Wonseok Hwang, Jinyeong Yim, Seunghyun Park, Minjoon Seo
+**A Comprehensive Exploration on WikiSQL with Table-Aware Word Contextualization**. 
  *(KR@ML Workshop ar NIPS-19)*
 
 <span class="fs-2">
@@ -53,7 +53,7 @@ TODO: re-order papers by date.
 ---
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 K-BERT: Enabling Language Representation with Knowledge Graph**. <br> ✍ Weijie Liu, Peng Zhou, Zhe Zhao, Zhiruo Wang, Qi Ju, Haotang Deng, Ping Wang
+**K-BERT: Enabling Language Representation with Knowledge Graph**. 
  *(AAAI-20)*
 
 <span class="fs-2">
@@ -80,7 +80,7 @@ TODO: re-order papers by date.
 {: .fs-3 .fw-600 .text-red-300}
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 A Simple Language Model for Task-Oriented Dialogue**. <br> ✍ Ehsan Hosseini-Asl, Bryan McCann, Chien-Sheng Wu, Semih Yavuz, Richard Socher
+**A Simple Language Model for Task-Oriented Dialogue**. 
  *(NIPS-20)*
 
 <span class="fs-2">
@@ -109,7 +109,7 @@ TODO: re-order papers by date.
 ---
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 TaBERT: Pretraining for Joint Understanding of Textual and Tabular Data**. <br> ✍ Pengcheng Yin, Graham Neubig, Wen-tau Yih, Sebastian Riedel
+**TaBERT: Pretraining for Joint Understanding of Textual and Tabular Data**. 
  *(ACL-20)*
 
 <span class="fs-2">
@@ -138,7 +138,7 @@ TODO: re-order papers by date.
 ---
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 TAPAS: Weakly Supervised Table Parsing via Pre-training**. <br> ✍ Jonathan Herzig, Paweł Krzysztof Nowak, Thomas Müller, Francesco Piccinno, Julian Martin Eisenschlos
+**TAPAS: Weakly Supervised Table Parsing via Pre-training**. 
  *(ACL-20)*
 
 <span class="fs-2">
@@ -170,7 +170,7 @@ TODO: re-order papers by date.
 
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 GraPPa: Grammar-Augmented Pre-Training for Table Semantic Parsing**. <br> ✍ Tao Yu, Chien-Sheng Wu, Xi Victoria Lin, Bailin Wang, Yi Chern Tan, Xinyi Yang, Dragomir Radev, Richard Socher, Caiming Xiong
+**GraPPa: Grammar-Augmented Pre-Training for Table Semantic Parsing**. 
  *(ICLR-21)*
 
 <span class="fs-2">
@@ -201,7 +201,7 @@ TODO: re-order papers by date.
 
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 SCoRe: Pre-Training for Context Representation in Conversational Semantic Parsing**. <br> ✍ Tao Yu, Rui Zhang, Alex Polozov, Christopher Meek, Ahmed Hassan Awadallah
+**SCoRe: Pre-Training for Context Representation in Conversational Semantic Parsing**. 
  *(ICLR-20)*
 
 <span class="fs-2">
@@ -233,7 +233,7 @@ TODO: re-order papers by date.
 
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 Structure-Grounded Pretraining for Text-to-SQL**. <br> ✍ Xiang Deng, Ahmed Hassan Awadallah, Christopher Meek, Oleksandr Polozov, Huan Sun, Matthew Richardson
+**Structure-Grounded Pretraining for Text-to-SQL**. 
  *(NAACL-20)*
 
 <span class="fs-2">
@@ -264,7 +264,7 @@ TODO: re-order papers by date.
 
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 Understanding tables with intermediate pre-training**. <br> ✍ Julian Martin Eisenschlos, Syrine Krichene, Thomas Müller
+**Understanding tables with intermediate pre-training**. 
  *(EMNLP-20)*
 
 <span class="fs-2">
@@ -294,7 +294,7 @@ Table entailment, the binary classification task of finding if a sentence is sup
 ---
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 UniK-QA: Unified Representations of Structured and Unstructured Knowledge for Open-Domain Question Answering**. <br> ✍ Barlas Oguz, Xilun Chen, Vladimir Karpukhin, Stan Peshterliev, Dmytro Okhonko, Michael Schlichtkrull, Sonal Gupta, Yashar Mehdad, Scott Yih
+**UniK-QA: Unified Representations of Structured and Unstructured Knowledge for Open-Domain Question Answering**. 
  *(ACL-20)*
 
 <span class="fs-2">
@@ -322,7 +322,7 @@ Table entailment, the binary classification task of finding if a sentence is sup
 ---
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 Database Reasoning Over Text**. <br> ✍ James Thorne, Majid Yazdani, Marzieh Saeidi, Fabrizio Silvestri, Sebastian Riedel, Alon Halevy
+**Database Reasoning Over Text**. 
  *(ACL-21)*
 
 <span class="fs-2">
@@ -350,7 +350,7 @@ Table entailment, the binary classification task of finding if a sentence is sup
 ---
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 Turning Tables: Generating Examples from Semi-structured Tables for Endowing Language Models with Reasoning Skills**. <br> ✍ Ori Yoran, Alon Talmor, Jonathan Berant
+**Turning Tables: Generating Examples from Semi-structured Tables for Endowing Language Models with Reasoning Skills**. 
  *(arxiv-21)*
 
 <span class="fs-2">
@@ -379,7 +379,7 @@ Table entailment, the binary classification task of finding if a sentence is sup
 ---
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 TAPEX: Table Pre-training via Learning a Neural SQL Executor**. <br> ✍ Qian Liu, Bei Chen, Jiaqi Guo, Morteza Ziyadi, Zeqi Lin, Weizhu Chen, Jian-Guang Lou
+**TAPEX: Table Pre-training via Learning a Neural SQL Executor**. 
  *(arxiv-21)*
 
 <span class="fs-2">
@@ -407,7 +407,7 @@ Table entailment, the binary classification task of finding if a sentence is sup
 ---
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 RnG-KBQA: Generation Augmented Iterative Ranking for Knowledge Base Question Answering**. <br> ✍ Xi Ye, Semih Yavuz, Kazuma Hashimoto, Yingbo Zhou, Caiming Xiong
+**RnG-KBQA: Generation Augmented Iterative Ranking for Knowledge Base Question Answering**. 
  *(arxiv-21)*
 
 <span class="fs-2">
@@ -436,7 +436,7 @@ Table entailment, the binary classification task of finding if a sentence is sup
 
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 PICARD: Parsing Incrementally for Constrained Auto-Regressive Decoding from Language Models**. <br> ✍ Torsten Scholak, Nathan Schucher, Dzmitry Bahdanau
+**PICARD: Parsing Incrementally for Constrained Auto-Regressive Decoding from Language Models**. 
  *(EMNLP-21)*
 
 <span class="fs-2">
@@ -465,7 +465,7 @@ Table entailment, the binary classification task of finding if a sentence is sup
 
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 MATE: Multi-view Attention for Table Transformer Efficiency**. <br> ✍ Julian Martin Eisenschlos, Maharshi Gor, Thomas Müller, William W. Cohen
+**MATE: Multi-view Attention for Table Transformer Efficiency**. 
  *(EMNLP-21)*
 
 <span class="fs-2">
@@ -493,7 +493,7 @@ This work presents a sparse-attention Transformer architecture for modeling docu
 ---
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 Table Fact Verification with Structure-Aware Transformer**. <br> ✍ Hongzhi Zhang, Yingyao Wang, Sirui Wang, Xuezhi Cao, Fuzheng Zhang, Zhongyuan Wang
+**Table Fact Verification with Structure-Aware Transformer**. 
  *(ACL-20)*
 
 <span class="fs-2">
@@ -522,7 +522,7 @@ This work presents a sparse-attention Transformer architecture for modeling docu
 ---
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 DoT: An efficient Double Transformer for NLP tasks with tables**. <br> ✍ Syrine Krichene, Thomas Müller, Julian Martin Eisenschlos
+**DoT: An efficient Double Transformer for NLP tasks with tables**. 
  *(ACL-21)*
 
 <span class="fs-2">
@@ -551,7 +551,7 @@ Transformer-based approaches have been successfully used to obtain state-of-the-
 
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 TUTA: Tree-based Transformers for Generally Structured Table Pre-training**. <br> ✍ Zhiruo Wang, Haoyu Dong, Ran Jia, Jia Li, Zhiyi Fu, Shi Han, Dongmei Zhang
+**TUTA: Tree-based Transformers for Generally Structured Table Pre-training**. 
  *(KDD-21)*
 
 <span class="fs-2">
@@ -580,7 +580,7 @@ Transformer-based approaches have been successfully used to obtain state-of-the-
 ---
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 TABBIE: Pretrained Representations of Tabular Data**. <br> ✍ Hiroshi Iida, Dung Thai, Varun Manjunatha, Mohit Iyyer
+**TABBIE: Pretrained Representations of Tabular Data**. 
  *(NAACL-21)*
 
 <span class="fs-2">
@@ -609,7 +609,7 @@ Transformer-based approaches have been successfully used to obtain state-of-the-
 ---
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 HittER: Hierarchical Transformers for Knowledge Graph Embeddings**. <br> ✍ Sanxing Chen, Xiaodong Liu, Jianfeng Gao, Jian Jiao, Ruofei Zhang, Yangfeng Ji
+**HittER: Hierarchical Transformers for Knowledge Graph Embeddings**. 
  *(EMNLP-21)*
 
 <span class="fs-2">
@@ -639,7 +639,7 @@ Transformer-based approaches have been successfully used to obtain state-of-the-
 
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 Constrained Language Models Yield Few-Shot Semantic Parsers**. <br> ✍ Richard Shin, Christopher H. Lin, Sam Thomson, Charles Chen, Subhro Roy, Emmanouil Antonios Platanios, Adam Pauls, Dan Klein, Jason Eisner, Benjamin Van Durme
+**Constrained Language Models Yield Few-Shot Semantic Parsers**. 
  *(EMNLP-21)*
 
 <span class="fs-2">
@@ -669,7 +669,7 @@ Transformer-based approaches have been successfully used to obtain state-of-the-
 ## Pre-training
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 CodeBERT: A Pre-Trained Model for Programming and Natural Languages**. <br> ✍ Zhangyin Feng, Daya Guo, Duyu Tang, Nan Duan, Xiaocheng Feng, Ming Gong, Linjun Shou, Bing Qin, Ting Liu, Daxin Jiang, Ming Zhou
+**CodeBERT: A Pre-Trained Model for Programming and Natural Languages**. 
  *(EMNLP 2020)*
 
 <span class="fs-2">
@@ -698,7 +698,7 @@ Transformer-based approaches have been successfully used to obtain state-of-the-
 
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators**. <br> ✍ Kevin Clark, Minh-Thang Luong, Quoc V. Le, Christopher D. Manning
+**ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators**. 
  *(ICLR 2020)*
 
 <span class="fs-2">
@@ -726,7 +726,7 @@ Transformer-based approaches have been successfully used to obtain state-of-the-
 
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 Structure-Grounded Pretraining for Text-to-SQL**. <br> ✍ Xiang Deng, Ahmed Hassan Awadallah, Christopher Meek, Oleksandr Polozov, Huan Sun, Matthew Richardson
+**Structure-Grounded Pretraining for Text-to-SQL**. 
  *(NAACL 2021)*
 
 <span class="fs-2">
@@ -754,7 +754,7 @@ Transformer-based approaches have been successfully used to obtain state-of-the-
 
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 KGPT: Knowledge-Grounded Pre-Training for Data-to-Text Generation**. <br> ✍ Wenhu Chen, Yu Su, Xifeng Yan, William Yang Wang
+**KGPT: Knowledge-Grounded Pre-Training for Data-to-Text Generation**. 
  *(EMNLP 2020)*
 
 <span class="fs-2">
@@ -782,7 +782,7 @@ Transformer-based approaches have been successfully used to obtain state-of-the-
 
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 TABBIE: Pretrained Representations of Tabular Data**. <br> ✍ Hiroshi Iida, Dung Thai, Varun Manjunatha, Mohit Iyyer
+**TABBIE: Pretrained Representations of Tabular Data**. 
  *(arixv 2021)*
 
 <span class="fs-2">
@@ -809,7 +809,7 @@ Transformer-based approaches have been successfully used to obtain state-of-the-
 ---
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 Question Answering Infused Pre-training of General-Purpose Contextualized Representations**. <br> ✍ Robin Jia, Mike Lewis, Luke Zettlemoyer
+**Question Answering Infused Pre-training of General-Purpose Contextualized Representations**. 
  *(arixv 2021)*
 
 <span classhttps://arxiv.org/abs/2106.08190){: .btn .btn-blue .mr-1 target="_blank" } 
@@ -834,7 +834,7 @@ Transformer-based approaches have been successfully used to obtain state-of-the-
 ---
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 Evaluating Large Language Models Trained on Code(Codex)**. <br> ✍ Mark Chen, Jerry Tworek, Heewoo Jun, Qiming Yuan, Henrique Ponde de Oliveira Pinto, Jared Kaplan, Harri Edwards, Yuri Burda, Nicholas Joseph, Greg Brockman, Alex Ray, Raul Puri, Gretchen Krueger, Michael Petrov, Heidy Khlaaf, Girish Sastry, Pamela Mishkin, Brooke Chan, Scott Gray, Nick Ryder, Mikhail Pavlov, Alethea Power, Lukasz Kaiser, Mohammad Bavarian, Clemens Winter, Philippe Tillet, Felipe Petroski Such, Dave Cummings, Matthias Plappert, Fotios Chantzis, Elizabeth Barnes, Ariel Herbert-Voss, William Hebgen Guss, Alex Nichol, Alex Paino, Nikolas Tezak, Jie Tang, Igor Babuschkin, Suchir Balaji, Shantanu Jain, William Saunders, Christopher Hesse, Andrew N. Carr, Jan Leike, Josh Achiam, Vedant Misra, Evan Morikawa, Alec Radford, Matthew Knight, Miles Brundage, Mira Murati, Katie Mayer, Peter Welinder, Bob McGrew, Dario Amodei, Sam McCandlish, Ilya Sutskever, Wojciech Zaremba
+**Evaluating Large Language Models Trained on Code(Codex)**. 
  *(arixv 2021)*
 
 <span class="fs-2">
@@ -861,7 +861,7 @@ Transformer-based approaches have been successfully used to obtain state-of-the-
 ---
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 Learning Contextual Representations for Semantic Parsing with Generation-Augmented Pre-Training**. <br> ✍ Peng Shi, Patrick Ng, Zhiguo Wang, Henghui Zhu, Alexander Hanbo Li, Jun Wang, Cicero Nogueira dos Santos, Bing Xiang
+**Learning Contextual Representations for Semantic Parsing with Generation-Augmented Pre-Training**. 
  *(AAAI 2021)*
 
 <span class="fs-2">
@@ -889,7 +889,7 @@ Transformer-based approaches have been successfully used to obtain state-of-the-
 
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 TAPEX: Table Pre-training via Learning a Neural SQL Executor**. <br> ✍ Qian Liu, Bei Chen, Jiaqi Guo, Morteza Ziyadi, Zeqi Lin, Weizhu Chen, Jian-Guang Lou
+**TAPEX: Table Pre-training via Learning a Neural SQL Executor**. 
  *(arixv 2021)*
 
 <span class="fs-2">
@@ -918,7 +918,7 @@ Transformer-based approaches have been successfully used to obtain state-of-the-
 
 
 {: .fs-4 .fw-800 .text-blue-100}
-**📜 CodeT5: Identifier-aware Unified Pre-trained Encoder-Decoder Models for Code Understanding and Generation**. <br> ✍ QYue Wang, Weishi Wang, Shafiq Joty, Steven C.H. Hoi
+**CodeT5: Identifier-aware Unified Pre-trained Encoder-Decoder Models for Code Understanding and Generation**. 
  *(EMNLP 2021)*
 
 <span class="fs-2">
