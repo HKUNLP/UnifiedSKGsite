@@ -62,6 +62,6 @@ Contact us or make pull request on Github to improve this portal site as editors
 [Github](https://github.com/HKUNLP/UnifiedSKGsite){: .btn .btn-green .mr-2 target="_blank" .fs-3 }
 
 ## Organizations
-<img src="assets/images/logos.png" width="80%" height="auto"/>
+<img src="assets/images/logos.png" width="90%" height="auto"/>
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=080808&w=300&t=m&d=lLOlCuZQy0Kh_M45EMrhU6iiFL4FlHcLWyCWLrcXJ7g&co=ffffff&ct=808080&cmo=3acc3a&cmn=ff5353'></script>
 <!-- used for generating the html -->
