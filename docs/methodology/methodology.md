@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Grounding Methods
+title: Methodology
 nav_order: 4
 toc_list: true
 last_modified_date: Jan 19 2022

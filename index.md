@@ -59,7 +59,6 @@ This website contains collection of datasets, publications that are related to *
 
 ## Contribute
 Contact us or make pull request on Github to improve this portal site as editors.
-
 [Github](https://github.com/HKUNLP/UnifiedSKGsite){: .btn .btn-green .mr-2 target="_blank" .fs-3 }
 
 ## Organizations
