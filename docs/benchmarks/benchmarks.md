@@ -21,20 +21,7 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 - TOC
 {:toc}
 
----
-
-<details markdown="block">
-  <summary>🌟 Summary Table 🌟</summary>
-{: .fs-4 .text-delta .text-red-200 style="font-weight:800"}
-
-to be added.
-
-</details>
-
----
-
 ## Semantic Parsing
-
 
 ### Spider
 {: .no_toc }
