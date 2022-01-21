@@ -61,9 +61,6 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 
 [comment]: <> ([Dataset]&#40;https://fb.me/mtop_dataset&#41;{: target="_blank" .btn .btn-green .mr-1 })
 
-> **Comments**
-> We used the English part of MTOP as SKG benchmark.
-{: .fs-4 .fw-600 .text-red-300}
 
 ---
 
@@ -83,69 +80,59 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*Compositional Semantic Parsing on Semi-Structured Tables*.**ACL-15**
+*[Compositional Semantic Parsing on Semi-Structured Tables](https://aclanthology.org/P15-1142/)*. **ACL-15**
 
-<span class="fs-1">
-[Paper](https://aclanthology.org/P15-1142/){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://ppasupat.github.io/WikiTableQuestions/){: target="_blank" .btn .btn-green .mr-1 } </span>
+[comment]: <> ([Official Link]&#40;https://ppasupat.github.io/WikiTableQuestions/&#41;{: target="_blank" .btn .btn-green .mr-1 })
 
-> **Comments**
-> The 5-fold validation evaluation in origianl dataset is depracated by latest works. The 1st fold of train set and dev set are used as train set and dev set.
-{: .fs-4 .fw-600 .text-red-300}
+**Comments**
+The 5-fold validation evaluation in origianl dataset is depracated by latest works. The 1st fold of train set and dev set are used as train set and dev set.
 
 
 ### CompWebQ
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*The Web as a Knowledge-base for Answering Complex Questions*.**NAACL-18**
+*[The Web as a Knowledge-base for Answering Complex Questions](https://arxiv.org/abs/1911.11641)*. **NAACL-18**
 
-<span class="fs-1">
-[Paper](https://arxiv.org/abs/1911.11641){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://www.tau-nlp.org/compwebq){: target="_blank" .btn .btn-green .mr-1 } {: target="_blank" .btn .btn-purple .mr-1 } </span>
+[comment]: <> ([Official Link]&#40;https://www.tau-nlp.org/compwebq&#41;{: target="_blank" .btn .btn-green .mr-1 } {: target="_blank" .btn .btn-purple .mr-1 } </span>)
 
 ### HybridQA
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*HybridQA: A Dataset of Multi-Hop Question Answering over Tabular and Textual Data*.**EMNLP-20**
+*[HybridQA: A Dataset of Multi-Hop Question Answering over Tabular and Textual Data](https://aclanthology.org/2020.findings-emnlp.91/)*. **EMNLP-20**
 
-<span class="fs-1">
-[Paper](https://aclanthology.org/2020.findings-emnlp.91/){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://hybridqa.github.io/){: target="_blank" .btn .btn-green .mr-1 } </span>
+[comment]: <> ([Official Link]&#40;https://hybridqa.github.io/&#41;{: target="_blank" .btn .btn-green .mr-1 })
 
 ### OTT-QA
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*Open Question Answering over Tables and Text *.**ICLR-21**
+*[Open Question Answering over Tables and Text](https://arxiv.org/abs/2010.10439)*. **ICLR-21**
 
-<span class="fs-1">
-[Paper](https://arxiv.org/abs/2010.10439){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://github.com/wenhuchen/OTT-QA){: target="_blank" .btn .btn-green .mr-1 } </span>
+[comment]: <> ([Official Link]&#40;https://github.com/wenhuchen/OTT-QA&#41;{: target="_blank" .btn .btn-green .mr-1 })
 
 ### MultiModalQA
 {: .no_toc }
 
-{: .fs-4 .fw-800 .text-blue-100}
-*MultiModalQA: Complex Question Answering over Text, Tables and Images*.**ICLR-21**
+*[MultiModalQA: Complex Question Answering over Text, Tables and Images](https://arxiv.org/abs/1709.00103)*. **ICLR-21**
 
-<span class="fs-1">
-[Paper](https://arxiv.org/abs/1709.00103){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://allenai.github.io/multimodalqa/){: target="_blank" .btn .btn-green .mr-1 } </span>
+[comment]: <> ([Official Link]&#40;https://allenai.github.io/multimodalqa/&#41;{: target="_blank" .btn .btn-green .mr-1 } </span>)
 
 ### FeTaQA
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*FeTaQA: Free-form Table Question Answering*.**ICLR-18**
+*[FeTaQA: Free-form Table Question Answering](https://arxiv.org/abs/2104.00369)*. **ICLR-18**
 
-<span class="fs-1">
-[Paper](https://arxiv.org/abs/2104.00369){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://github.com/Yale-LILY/FeTaQA){: target="_blank" .btn .btn-green .mr-1 } </span>
+[comment]: <> ([Official Link]&#40;https://github.com/Yale-LILY/FeTaQA&#41;{: target="_blank" .btn .btn-green .mr-1 })
 
 ### TAT-QA
 {: .no_toc }
 
-{: .fs-4 .fw-800 .text-blue-100}
-*TAT-QA: A Question Answering Benchmark on a Hybrid of Tabular and Textual Content in Finance*.**ACL-21**
+*[TAT-QA: A Question Answering Benchmark on a Hybrid of Tabular and Textual Content in Finance](https://aclanthology.org/2021.acl-long.254/)*. **ACL-21**
 
-<span class="fs-1">
-[Paper](https://aclanthology.org/2021.acl-long.254/){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://nextplusplus.github.io/TAT-QA/){: target="_blank" .btn .btn-green .mr-1 } </span>
+[comment]: <> ([Official Link]&#40;https://nextplusplus.github.io/TAT-QA/&#41;{: target="_blank" .btn .btn-green .mr-1 })
 
 ---
 
@@ -155,23 +142,20 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*The E2E Dataset: New Challenges For End-to-End Generation*.**SIGDIAL-17**
+*[The E2E Dataset: New Challenges For End-to-End Generation](https://aclanthology.org/W17-5525/)*. **SIGDIAL-17**
 
-<span class="fs-1">
-[Paper](https://aclanthology.org/W17-5525/){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](http://www.macs.hw.ac.uk/InteractionLab/E2E/){: target="_blank" .btn .btn-green .mr-1 } </span>
+[comment]: <> ([Official Link]&#40;http://www.macs.hw.ac.uk/InteractionLab/E2E/&#41;{: target="_blank" .btn .btn-green .mr-1 } </span>)
 
-> **Comments**
-> There is another [E2E cleaned version](https://github.com/tuetschek/e2e-cleaning) released by authors. 
-{: .fs-4 .fw-600 .text-red-300}
+**Comments**
+There is another [E2E cleaned version](https://github.com/tuetschek/e2e-cleaning) released by authors.
 
 ### WebNLG
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*The WebNLG Challenge: Generating Text from RDF Data*.**INLG-17**
+*[The WebNLG Challenge: Generating Text from RDF Data](https://aclanthology.org/W17-3518/)*. **INLG-17**
 
-<span class="fs-1">
-[Paper](https://aclanthology.org/W17-3518/){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://webnlg-challenge.loria.fr/){: target="_blank" .btn .btn-green .mr-1 } </span>
+[comment]: <> ([Official Link]&#40;https://webnlg-challenge.loria.fr/&#41;{: target="_blank" .btn .btn-green .mr-1 })
 
 > **Comments**
 > WebNLG challenge has many datasets available, the widely used dversion currently is the WebNLG challenge 2017. There is a useful [link](https://github.com/fuzihaofzh/webnlg-dataset) for summarization of this.
@@ -181,20 +165,18 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*DART: Open-Domain Structured Data Record to Text Generation*.**ICLR-21**
+*[DART: Open-Domain Structured Data Record to Text Generation](https://aclanthology.org/2021.naacl-main.37/)*. **ICLR-21**
 
-<span class="fs-1">
-[Paper](https://aclanthology.org/2021.naacl-main.37/){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://github.com/Yale-LILY/dart){: target="_blank" .btn .btn-green .mr-1 } </span>
+[comment]: <> ([Official Link]&#40;https://github.com/Yale-LILY/dart&#41;{: target="_blank" .btn .btn-green .mr-1 })
 
 
 ### ToTTo
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*ToTTo: A Controlled Table-To-Text Generation Dataset*.**ICLR-21**
+*[ToTTo: A Controlled Table-To-Text Generation Dataset](https://arxiv.org/abs/2004.14373)*. **ICLR-21**
 
-<span class="fs-1">
-[Paper](https://arxiv.org/abs/2004.14373){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://github.com/google-research-datasets/ToTTo){: target="_blank" .btn .btn-green .mr-1 } </span>
+[comment]: <> ([Official Link]&#40;https://github.com/google-research-datasets/ToTTo&#41;{: target="_blank" .btn .btn-green .mr-1 })
 
 
 
@@ -202,10 +184,9 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*Logical Natural Language Generation from Open-Domain Tables*.**ACL-20**
+*[Logical Natural Language Generation from Open-Domain Tables](https://aclanthology.org/2020.acl-main.708/)*. **ACL-20**
 
-<span class="fs-1">
-[Paper](https://aclanthology.org/2020.acl-main.708/){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://github.com/wenhuchen/LogicNLG){: target="_blank" .btn .btn-green .mr-1 } </span>
+[comment]: <> ([Official Link]&#40;https://github.com/wenhuchen/LogicNLG&#41;{: target="_blank" .btn .btn-green .mr-1 })
 
 
 ---
