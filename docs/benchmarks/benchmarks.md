@@ -349,7 +349,7 @@ to be added.
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*The WebNLG Challenge: Generating Text from RDF Data*.<br> Claire Gardent, Anastasia Shimorina, Shashi Narayan, Laura Perez-Beltrachini. **ICLR-21**
+*The WebNLG Challenge: Generating Text from RDF Data*.<br> Claire Gardent, Anastasia Shimorina, Shashi Narayan, Laura Perez-Beltrachini. **INLG-17**
 
 <span class="fs-1">
 [Paper](https://aclanthology.org/W17-3518/){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://webnlg-challenge.loria.fr/){: target="_blank" .btn .btn-green .mr-1 } </span>
