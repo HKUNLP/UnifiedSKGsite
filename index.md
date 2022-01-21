@@ -8,8 +8,10 @@ last_modified_date: Jan 22 2022
 ---
 
 # Structured Knowledge Grounding(SKG) Resources Collections
-{: .fs-7 .fw-700 .text-blue-300 }
+{: .fs-7 .fw-700 .text-purple-300 }
 
+In progress
+{: .label .label-yellow }
 
 ## About
 This website contains collection of datasets, publications that are related to *structured knowledge grounding* to facilitate researchers. The website is in progress, so please don't hesitate to contact us if we missed any other valuable work.
@@ -42,7 +44,7 @@ Contact us or make pull request on Github to improve this portal site as editors
 [Github](https://github.com/HKUNLP/UnifiedSKGsite){: .btn .btn-green .mr-2 target="_blank" .fs-3 }
 
 ## Organizations
-<img src="assets/images/logos.png" width="100%" height="auto"/>
+<img src="assets/images/logos.png" width="80%" height="auto"/>
 
 <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan style='display:none;' id='cnzz_stat_icon_1279901714'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1279901714%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
 <!-- used for generating the html -->
