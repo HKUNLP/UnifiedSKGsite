@@ -197,17 +197,12 @@ There is another [E2E cleaned version](https://github.com/tuetschek/e2e-cleaning
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*MultiWOZ 2.1: A Consolidated Multi-Domain Dialogue Dataset with State Corrections and State Tracking Baselines*.**LREC-20**
+*[MultiWOZ 2.1: A Consolidated Multi-Domain Dialogue Dataset with State Corrections and State Tracking Baselines](https://arxiv.org/abs/1907.01669)*. **LREC-20**
 
-<span class="fs-1">
-[Paper](https://arxiv.org/abs/1907.01669){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://github.com/budzianowski/multiwoz){: target="_blank" .btn .btn-green .mr-1 } </span>
+[comment]: <> ([Official Link]&#40;https://github.com/budzianowski/multiwoz&#41;{: target="_blank" .btn .btn-green .mr-1 })
 
-
-
-> **Comments**
-> There are many version of MultiWoZ, 2.1 and 2.2 are mostly used currently. We used the 2.1 version in our SKG benchmark. Some pre-procession on this dataset is needed, pls refer to [MultiWoZ](https://github.com/budzianowski/multiwoz) and [Trade-DST](https://github.com/jasonwu0731/trade-dst).
-{: .fs-4 .fw-600 .text-red-300}
-
+**Comments**
+There are many version of MultiWoZ, 2.1 and 2.2 are mostly used currently. We used the 2.1 version in our SKG benchmark. Some pre-procession on this dataset is needed, pls refer to [MultiWoZ](https://github.com/budzianowski/multiwoz) and [Trade-DST](https://github.com/jasonwu0731/trade-dst).
 
 
 
@@ -215,44 +210,38 @@ There is another [E2E cleaned version](https://github.com/tuetschek/e2e-cleaning
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*Key-Value Retrieval Networks for Task-Oriented Dialogue*.**SIGdial-17**
+*[Key-Value Retrieval Networks for Task-Oriented Dialogue](https://aclanthology.org/W17-5506/)*. **SIGdial-17**
 
-<span class="fs-1">
-[Paper](https://aclanthology.org/W17-5506/){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://nlp.stanford.edu/blog/a-new-multi-turn-multi-domain-task-oriented-dialogue-dataset/){: target="_blank" .btn .btn-green .mr-1 } </span>
+[comment]: <> ([Official Link]&#40;https://nlp.stanford.edu/blog/a-new-multi-turn-multi-domain-task-oriented-dialogue-dataset/&#41;{: target="_blank" .btn .btn-green .mr-1 })
 
-> **Comments**
-> KVRET is also called SMD(Stanford Multi-Domain task-oriented dialogue dataset). The de-facto widely used version of this dataset is the pre-processed verison in [Mem2seq](https://github.com/HLTCHKUST/Mem2Seq).
-{: .fs-4 .fw-600 .text-red-300}
+**Comments**
+KVRET is also called SMD(Stanford Multi-Domain task-oriented dialogue dataset). The de-facto widely used version of this dataset is the pre-processed verison in [Mem2seq](https://github.com/HLTCHKUST/Mem2Seq).
 
 ### SParC
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*Submitted on 5 Jun 2019]
-SParC: Cross-Domain Semantic Parsing in Context*.**ACL-19**
+*[SParC: Cross-Domain Semantic Parsing in Context](https://arxiv.org/abs/1906.02285)*. **ACL-19**
 
-<span class="fs-1">
-[Paper](https://arxiv.org/abs/1906.02285){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://yale-lily.github.io/sparc){: target="_blank" .btn .btn-green .mr-1 } </span>
+[comment]: <> ([Official Link]&#40;https://yale-lily.github.io/sparc&#41;{: target="_blank" .btn .btn-green .mr-1 })
 
 
 ### CoSQL
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*CoSQL: A Conversational Text-to-SQL Challenge Towards Cross-Domain Natural Language Interfaces to Databases*.**EMNLP-19**
+*[CoSQL: A Conversational Text-to-SQL Challenge Towards Cross-Domain Natural Language Interfaces to Databases](https://arxiv.org/abs/1909.05378)*. **EMNLP-19**
 
-<span class="fs-1">
-[Paper](https://arxiv.org/abs/1909.05378){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://yale-lily.github.io/cosql){: target="_blank" .btn .btn-green .mr-1 } </span>
+[comment]: <> ([Official Link]&#40;https://yale-lily.github.io/cosql&#41;{: target="_blank" .btn .btn-green .mr-1 })
 
 
 ### SQA(MSR SQA)
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*Search-based Neural Structured Learning for Sequential Question Answering*.**ACL-17**
+*[Search-based Neural Structured Learning for Sequential Question Answering](https://aclanthology.org/P17-1167)*. **ACL-17**
 
-<span class="fs-1">
-[Paper](https://aclanthology.org/P17-1167){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](hhttps://www.microsoft.com/en-us/download/details.aspx?id=54253){: target="_blank" .btn .btn-green .mr-1 } </span>
+[comment]: <> ([Official Link]&#40;hhttps://www.microsoft.com/en-us/download/details.aspx?id=54253&#41;{: target="_blank" .btn .btn-green .mr-1 })
 
 ---
 
@@ -262,19 +251,17 @@ SParC: Cross-Domain Semantic Parsing in Context*.**ACL-19**
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*TabFact: A Large-scale Dataset for Table-based Fact Verification*.**ICLR-20**
+*[TabFact: A Large-scale Dataset for Table-based Fact Verification](https://arxiv.org/abs/1909.02164)*. **ICLR-20**
 
-<span class="fs-1">
-[Paper](https://arxiv.org/abs/1909.02164){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://tabfact.github.io/){: target="_blank" .btn .btn-green .mr-1 } </span>
+[comment]: <> ([Official Link]&#40;https://tabfact.github.io/&#41;{: target="_blank" .btn .btn-green .mr-1 })
 
 ### FEVEROUS
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*The Fact Extraction and VERification Over Unstructured and Structured information (FEVEROUS) Shared Task*.**ICLR-21**
+*[The Fact Extraction and VERification Over Unstructured and Structured information (FEVEROUS) Shared Task](https://aclanthology.org/2021.fever-1.1)*. **ICLR-21**
 
-<span class="fs-1">
-[Paper](https://aclanthology.org/2021.fever-1.1){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://fever.ai/dataset/feverous.html){: target="_blank" .btn .btn-green .mr-1 } </span>
+[comment]: <> ([Official Link]&#40;https://fever.ai/dataset/feverous.html&#41;{: target="_blank" .btn .btn-green .mr-1 })
 
 ---
 
@@ -284,10 +271,9 @@ SParC: Cross-Domain Semantic Parsing in Context*.**ACL-19**
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*Logic-Consistency Text Generation from Semantic Parses*.**ACL-21**
+*[Logic-Consistency Text Generation from Semantic Parses](https://aclanthology.org/2021.findings-acl.388/)*.**ACL-21**
 
-<span class="fs-1">
-[Paper](https://aclanthology.org/2021.findings-acl.388/){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://github.com/Ciaranshu/relogic){: target="_blank" .btn .btn-green .mr-1 } </span>
+[comment]: <> ([Official Link]&#40;https://github.com/Ciaranshu/relogic&#41;{: target="_blank" .btn .btn-green .mr-1 })
 
 ---
 
@@ -295,10 +281,9 @@ SParC: Cross-Domain Semantic Parsing in Context*.**ACL-19**
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*Logic2Text: High-Fidelity Natural Language Generation from Logical Forms* **EMNLP-20**
+*[Logic2Text: High-Fidelity Natural Language Generation from Logical Forms](https://arxiv.org/abs/2004.14579)* **EMNLP-20**
 
-<span class="fs-1">
-[Paper](https://arxiv.org/abs/2004.14579){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://github.com/czyssrs/Logic2Text){: target="_blank" .btn .btn-green .mr-1 } </span>
+[comment]: <> ([Official Link]&#40;https://github.com/czyssrs/Logic2Text&#41;{: target="_blank" .btn .btn-green .mr-1 })
 
 ---
 
