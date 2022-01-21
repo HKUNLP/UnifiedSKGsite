@@ -63,6 +63,5 @@ Contact us or make pull request on Github to improve this portal site as editors
 
 ## Organizations
 <img src="assets/images/logos.png" width="80%" height="auto"/>
-
-<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan style='display:none;' id='cnzz_stat_icon_1279901714'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1279901714%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=080808&w=300&t=m&d=lLOlCuZQy0Kh_M45EMrhU6iiFL4FlHcLWyCWLrcXJ7g&co=ffffff&ct=808080&cmo=3acc3a&cmn=ff5353'></script>
 <!-- used for generating the html -->
