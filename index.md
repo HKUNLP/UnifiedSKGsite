@@ -41,11 +41,8 @@ This website contains collection of datasets, publications that are related to *
 #### [Methodology](/methodology)
 {: .no_toc .text-delta .fs-3 style="font-weight:600"}
 <ul id="markdown-toc"> 
-    <li><a href="/methodology#linearized-and-concat" id="markdown-toc-linearized-and-concat">Linearize and Concat</a></li> 
-    <li><a href="/methodology#manipulating-transformers" id="markdown-toc-manipulating-transformers">Manipulating Transformers</a></li> 
-    <li><a href="/methodology#hierarchical-encoding" id="markdown-toc-hierarchical-encoding">Hierarchical Encoding</a></li> 
-    <li><a href="/methodology#convert2nl" id="markdown-toc-convert2nl">Convert2NL</a></li> 
-    <li><a href="/methodology#others" id="markdown-toc-others">Others</a></li> 
+    <li><a href="/methodology#structured-knowledge-encoding" id="markdown-toc-structured-knowledge-encoding">Structured Knowledge Encoding</a></li> 
+    <li><a href="/methodology#pre-training" id="markdown-toc-pre-training">Pre-training</a></li>
 </ul>
 
 #### [Others](/others)

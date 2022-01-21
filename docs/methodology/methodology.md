@@ -20,15 +20,8 @@ We present a collection of insightful research papers that focus on structured k
 {:toc}
 
 
-## Linearize and Concat
-
-<table>
-<td>
-<span class="fs-4">
-The following papers aim to use inearized the struc-tured knowledge and concatenated it with the text, some has been augmented by positional encoding(e.g., row/column embedding) for tables and template-based linearzation for tables and knowledge graphs.
-</span>
-</td>
-</table>
+## Structured Knowledge Encoding
+TODO: re-order papers by date.
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 A Comprehensive Exploration on WikiSQL with Table-Aware Word Contextualization**. <br> ✍ Wonseok Hwang, Jinyeong Yim, Seunghyun Park, Minjoon Seo
@@ -471,16 +464,6 @@ Table entailment, the binary classification task of finding if a sentence is sup
 ---
 
 
-##  Manipulating Transformers
-
-<table>
-<td>
-<span class="fs-4">
-The following papers aim to manipulate the attention matrix of transformers to model cell-columnalignment.
-</span>
-</td>
-</table>
-
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 MATE: Multi-view Attention for Table Transformer Efficiency**. <br> ✍ Julian Martin Eisenschlos, Maharshi Gor, Thomas Müller, William W. Cohen
  *(EMNLP-21)*
@@ -566,15 +549,6 @@ Transformer-based approaches have been successfully used to obtain state-of-the-
 
 ---
 
-## Hierarchical Encoding
-
-<table>
-<td>
-<span class="fs-4">
-Hierarchical encoding is another way to represent the structure. 
-</span>
-</td>
-</table>
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 TUTA: Tree-based Transformers for Generally Structured Table Pre-training**. <br> ✍ Zhiruo Wang, Haoyu Dong, Ran Jia, Jia Li, Zhiyi Fu, Shi Han, Dongmei Zhang
@@ -663,17 +637,6 @@ Hierarchical encoding is another way to represent the structure.
 
 ---
 
-## Convert2NL
-
-<table>
-<td>
-<span class="fs-4">
-SKG’s outputs include, but are not limited to, formal language,dialogue state, natural language, set of answers, and boolean value. Among them, the formal language plays a special role because most PLMs are trained to generate natural language.
-
-The following papers aim to bridge the gap and proposed to convert the formal language intoEnglish-like representations.
-</span>
-</td>
-</table>
 
 {: .fs-4 .fw-800 .text-blue-100}
 **📜 Constrained Language Models Yield Few-Shot Semantic Parsers**. <br> ✍ Richard Shin, Christopher H. Lin, Sam Thomson, Charles Chen, Subhro Roy, Emmanouil Antonios Platanios, Adam Pauls, Dan Klein, Jason Eisner, Benjamin Van Durme
