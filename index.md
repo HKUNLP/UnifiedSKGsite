@@ -9,7 +9,6 @@ last_modified_date: Jan 22 2022
 
 # Structured Knowledge Grounding(SKG) Resources Collections
 {: .fs-7 .fw-700 .text-purple-300 }
-
 In progress
 {: .label .label-yellow }
 

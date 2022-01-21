@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Miscellaneous
+title: Others
 nav_order: 7
 toc_list: true
-last_modified_date: Jan 19 2022
+last_modified_date: Jan 22 2022
 permalink: /others/
 ---
-# Additional materials
+# Others
 {: .no_toc }
 
 ## Table of contents
@@ -16,37 +16,10 @@ permalink: /others/
 {:toc}
 
 ---
-
-## Surveys & Position Papers
-
-- [***Relational World Knowledge Representation in Contextual Language Models: A Review***](https://arxiv.org/abs/2104.05837){: target="_blank"}
-    - Tara Safavi, Danai Koutra
-
-
-## Tutorials and Talks 
-
-| Title | Links | Presenters |  Location  | 
-| :------------:| :-----: | :------: | :----------: |
-| **From Tables to Knowledge: Recent Advances in Table Understanding** <br> (KDD-21 Tutorial) | [Project Page](https://usc-isi-i2.github.io/KDD21Tutorial/){: target="_blank"} | Jay Pujara, Pedro Szekely, Huan Sun, Muhao Chen |  KDD 2021 |
-
-
-
-## Articles
-TO BE ADDED
-
-## Workshops
-TO BE ADDED
-
-## Lectures 
-TO BE ADDED
-
-## Books 
-TO BE ADDED
-
-## Blogs
-[Reimagining database querying on unstructured data](https://ai.facebook.com/blog/using-ai-for-database-queries-on-any-unstructured-data-set/){: target="_blank"}
-    - Marzieh Saeidi, Majid Yazdani, Sebastian Riedel, Alon Halevy. August 26, 2021
-
+## Other resources
+- [Relational World Knowledge Representation in Contextual Language Models: A Review](https://arxiv.org/abs/2104.05837)
+- [From Tables to Knowledge: Recent Advances in Table Understanding **KDD-21 Tutorial**](https://usc-isi-i2.github.io/KDD21Tutorial/)
+- [Reimagining database querying on unstructured data](https://ai.facebook.com/blog/using-ai-for-database-queries-on-any-unstructured-data-set/)
 
 
 ## Useful links
