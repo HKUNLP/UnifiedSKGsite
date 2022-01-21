@@ -48,7 +48,7 @@ h5,
 h6 {
   margin-top: 0;
   margin-bottom: 1em;
-  font-weight: 700;
+  font-weight: 500;
   line-height: $body-heading-line-height;
   color: $body-heading-color;
 }
@@ -100,18 +100,9 @@ img {
 }
 
 hr {
-  height: 2.5px;
+  height: 1px;
   padding: 0;
   margin: $sp-6 0;
-  background-color: $border-color;
-  border: 0;
-}
-
-hr.thin {
-  height: 0.5px;
-  padding: 0;
-  width: 60%;
-  margin: $sp-4 0;
   background-color: $border-color;
   border: 0;
 }

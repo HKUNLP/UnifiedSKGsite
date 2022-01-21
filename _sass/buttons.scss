@@ -116,7 +116,3 @@
 .btn-green {
   @include btn-color($white, $green-100);
 }
-
-.btn-yellow {
-  @include btn-color($white, $yellow-200);
-}

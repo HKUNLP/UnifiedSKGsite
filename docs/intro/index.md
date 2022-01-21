@@ -33,7 +33,7 @@ Structured knowledge(e.g., web tables, knowledge graphs, and databases) stores l
 ## What is structured knowledge grounding?
 To promote the efficiencyof data access, structured knowledge grounding(SKG) grounds user requests in structured knowledge and produces various outputs including computer programs(e.g., SQL and SPARQL),  cell values, and natural language responses(as shown below).
 
-<img src="../../images/resources/unifiedskg.png" width="100%" height="auto"/>
+<img src="../../assets/images/unifiedskg.png" width="100%" height="auto"/>
 
 For example, semantic parsing converts natural language questions into formal programs; question answering derives answers from tables or knowledge graphs.
 
@@ -43,5 +43,5 @@ It is widely believed that there is no "free lunch" in machine learning field, w
 In 2022, it seems there are two trends forward: 
 - One is more **distributed**, continue to explore more powerful and efficient models for each task. Sacrifies ability in generalization for better performance in field we focused.
 - The other is more **centralized**, which relies on one bigger model, aims to unify all tasks into it(by ways of prompt-learning, in-context-learning etc.). It has stronger ability in generalization and zero/few shot scenario, but large in size.
-<img src="../../images/resources/trends.gif" width="100%" height="auto"/>
+<img src="../../assets/images/trends.gif" width="100%" height="auto"/>
 Each direction has its benefits and trade-off. UnifiedSKG framework can benefit each on sides, but more on the centralized way.

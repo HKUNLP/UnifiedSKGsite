@@ -2,27 +2,20 @@
 layout: default
 title: Home
 nav_order: 1
-description: "UnifiedSKG.com - A Portal Site for Structured Knowledge Grounding(SKG) Resources"
+description: "Structured Knowledge Grounding(SKG) Resources Collections"
 permalink: /
-last_modified_date: Jan 20 2022
+last_modified_date: Jan 22 2022
 ---
 
-# UnifiedSKG.com - A Portal Site for Structured Knowledge Grounding(SKG) Resources
+# Structured Knowledge Grounding(SKG) Resources Collections
 {: .fs-7 .fw-700 .text-blue-300 }
 
-<table>
-<tr><td markdown="block" class="fs-4">
---- ***An online compendium of Structured Knowledge Grounding(SKG) research***
-</td></tr>
 
-</table>
----
-
-## What is this site for?
+## About
 This portal site is here to provide easy access to a comprehensive collection of resources, datasets, publications that are related to *structured knowledge grounding*. The website is in progress, so please don't hesitate to contact us if we missed any other valuable work.
 
 
-### Table of contents
+### Content
 {: .no_toc .text-delta .fs-4 style="font-weight:800"}
 
 #### [Introduction to Structured Knowledge Grounding](/intro)
@@ -53,13 +46,12 @@ This portal site is here to provide easy access to a comprehensive collection of
 
 ---
 
-## How can I contribute?
-This site needs your help to grow! 
-Join us on Github to improve this portal site as editors. :)
+## Contribute
+Contact us or make pull request on Github to improve this portal site as editors.
 
 [Github](https://github.com/HKUNLP/UnifiedSKGsite){: .btn .btn-green .mr-2 target="_blank" .fs-3 }
 
 ## Organizations
-<img src="images/resources/logos.png" width="100%" height="auto"/>
+<img src="assets/images/logos.png" width="100%" height="auto"/>
 
 <!-- used for generating the html -->
