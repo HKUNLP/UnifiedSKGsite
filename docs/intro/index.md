@@ -37,6 +37,11 @@ To promote the efficiencyof data access, structured knowledge grounding(SKG) gro
 
 For example, semantic parsing converts natural language questions into formal programs; question answering derives answers from tables or knowledge graphs.
 
-## Thoughts on directions
+## How we study structured knowledge grounding(Thoughts on directions)
+It is widely believed that there is no "free lunch" in machine learning field, when model gets improved in some aspects, it loses its ability in other certain aspects implicitly or explicitly. Therefore the point is to find a proper trade-off.
 
+In 2022, it seems there are two trends forward: 
+- One is more **distributed**, continue to explore more powerful and efficient models for each task. Sacrifies ability in generalization for better performance in field we focused.
+- The other is more **centralized**, which relies on one bigger model, aims to unify all tasks into it(by ways of prompt-learning, in-context-learning etc.). It has stronger ability in generalization and zero/few shot scenario, but large in size.
 <img src="../../images/resources/trends.gif" width="100%" height="auto"/>
+Each direction has its benefits and trade-off. UnifiedSKG framework can benefit each on sides, but more on the centralized way.
