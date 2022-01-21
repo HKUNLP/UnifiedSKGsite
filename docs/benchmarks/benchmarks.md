@@ -33,7 +33,7 @@ to be added.
 
 ---
 
-## Semantic Parsing Tasks
+## Semantic Parsing
 
 
 ### Spider
@@ -141,7 +141,7 @@ to be added.
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*Seq2SQL: Generating Structured Queries from Natural Language using Reinforcement Learning*.<br> Victor Zhong, Caiming Xiong, Richard Socher. **ICLR-18**
+*Seq2SQL: Generating Structured Queries from Natural Language using Reinforcement Learning*.<br> Victor Zhong, Caiming Xiong, Richard Socher. **arixv-17**
 
 <span class="fs-1">
 [Paper](https://arxiv.org/abs/1709.00103){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://github.com/salesforce/WikiSQL){: target="_blank" .btn .btn-green .mr-1 } </span>
