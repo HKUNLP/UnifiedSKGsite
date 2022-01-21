@@ -28,8 +28,6 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 
 {: .fs-4 .fw-800 .text-blue-100}
 *Spider: A Large-Scale Human-Labeled Dataset for Complex and Cross-Domain Semantic Parsing and Text-to-SQL Task*. **EMNLP-18**
-
-<span class="fs-1">
 [Paper](https://arxiv.org/abs/1809.08887){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://yale-lily.github.io/spider){: target="_blank" .btn .btn-green .mr-1 }  </span>
 
 ---
@@ -38,9 +36,7 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*Beyond I.I.D.: Three Levels of Generalization for Question Answering on Knowledge Bases*.Conference-21**
-
-<span class="fs-1">
+*Beyond I.I.D.: Three Levels of Generalization for Question Answering on Knowledge Bases*. **WWW-21**
 [Paper](https://arxiv.org/abs/2011.07743){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://dki-lab.github.io/GrailQA/){: target="_blank" .btn .btn-green .mr-1 } </span>
 
 ---
