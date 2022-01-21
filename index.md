@@ -21,21 +21,38 @@ This website contains collection of datasets, publications that are related to *
 
 #### [Introduction](/introduction)
 {: .no_toc .text-delta .fs-3 style="font-weight:600"}
-<ul id="markdown-toc"> <li><a href="intro#what-is-structured-knowledge/" id="markdown-toc-what-is-structured-knowledge">What is structured knowledge?</a></li> <li><a href="/intro#what-is-structured-knowledge-grounding" id="markdown-toc-what-is-structured-knowledge-grounding">What is structured knowledge grounding?</a></li></ul>
+<ul id="markdown-toc"> 
+    <li><a href="/introduction#what-is-structured-knowledge/" id="markdown-toc-what-is-structured-knowledge">What is structured knowledge?</a></li> 
+    <li><a href="/introduction#what-is-structured-knowledge-grounding" id="markdown-toc-what-is-structured-knowledge-grounding">What is structured knowledge grounding?</a></li>
+</ul>
 
 #### [Benchmarks](/benchmarks)
 {: .no_toc .text-delta .fs-3 style="font-weight:600"}
-<ul id="markdown-toc"> <li><a href="/datasets#semantic-parsing" id="markdown-toc-semantic-parsing">Semantic Parsing</a></li> <li><a href="/datasets#question-answering" id="markdown-toc-question-answering">Question Answering</a></li> <li><a href="/datasets#data-to-text" id="markdown-toc-data-to-text">Data-to-Text</a></li> <li><a href="/datasets#conversational" id="markdown-toc-conversational">Conversational</a></li> <li><a href="/datasets#fact-verification" id="markdown-toc-fact-verification">Fact Verifications</a></li> <li><a href="/datasets#formal-language-to-text" id="markdown-toc-formal-language-to-text">Formal-Language-to-Text</a></li> <li><a href="/datasets#other-related-datasets" id="markdown-toc-other-related-datasets">Other Related Datasets</a></li> </ul>
+<ul id="markdown-toc"> 
+    <li><a href="/benchmarks#semantic-parsing" id="markdown-toc-semantic-parsing">Semantic Parsing</a></li> 
+    <li><a href="/benchmarks#question-answering" id="markdown-toc-question-answering">Question Answering</a></li> 
+    <li><a href="/benchmarks#data-to-text" id="markdown-toc-data-to-text">Data-to-Text</a></li> 
+    <li><a href="/benchmarks#conversational" id="markdown-toc-conversational">Conversational</a></li> 
+    <li><a href="/benchmarks#fact-verification" id="markdown-toc-fact-verification">Fact Verifications</a></li> 
+    <li><a href="/benchmarks#formal-language-to-text" id="markdown-toc-formal-language-to-text">Formal-Language-to-Text</a></li> 
+    <li><a href="/benchmarks#other-related-datasets" id="markdown-toc-other-related-datasets">Other Related Datasets</a></li> 
+</ul>
 
 #### [Methodology](/methodology)
 {: .no_toc .text-delta .fs-3 style="font-weight:600"}
-<ul id="markdown-toc"> <li><a href="/methods#linearized-and-concat" id="markdown-toc-linearized-and-concat">Linearize and Concat</a></li> <li><a href="/methods#manipulating-transformers" id="markdown-toc-manipulating-transformers">Manipulating Transformers</a></li> <li><a href="/methods#hierarchical-encoding" id="markdown-toc-hierarchical-encoding">Hierarchical Encoding</a></li> <li><a href="/methods#convert2nl" id="markdown-toc-convert2nl">Convert2NL</a></li> <li><a href="/methods#others" id="markdown-toc-others">Others</a></li> </ul>
+<ul id="markdown-toc"> 
+    <li><a href="/methodology#linearized-and-concat" id="markdown-toc-linearized-and-concat">Linearize and Concat</a></li> 
+    <li><a href="/methodology#manipulating-transformers" id="markdown-toc-manipulating-transformers">Manipulating Transformers</a></li> 
+    <li><a href="/methodology#hierarchical-encoding" id="markdown-toc-hierarchical-encoding">Hierarchical Encoding</a></li> 
+    <li><a href="/methodology#convert2nl" id="markdown-toc-convert2nl">Convert2NL</a></li> 
+    <li><a href="/methodology#others" id="markdown-toc-others">Others</a></li> 
+</ul>
 
 #### [Others](/others)
 {: .no_toc .text-delta .fs-3 style="font-weight:600"}
 <ul id="markdown-toc"> 
-<li><a href="/misc#surveys--position-papers" id="markdown-toc-other-resources">Other Resources</a></li>
-<li><a href="/misc#useful-links" id="markdown-toc-useful-links">Useful Links</a></li> 
+    <li><a href="/others#other-resources" id="markdown-toc-other-resources">Other Resources</a></li>
+    <li><a href="/others#useful-links" id="markdown-toc-useful-links">Useful Links</a></li> 
 </ul>
 
 ---
