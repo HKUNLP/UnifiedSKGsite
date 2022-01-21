@@ -16,12 +16,12 @@ permalink: /others/
 {:toc}
 
 ---
-## Other resources
+## Other Resources
 - [Relational World Knowledge Representation in Contextual Language Models: A Review](https://arxiv.org/abs/2104.05837)
 - [From Tables to Knowledge: Recent Advances in Table Understanding **KDD-21 Tutorial**](https://usc-isi-i2.github.io/KDD21Tutorial/)
 - [Reimagining database querying on unstructured data](https://ai.facebook.com/blog/using-ai-for-database-queries-on-any-unstructured-data-set/)
 
 
-## Useful links
-- [Openai GPT3&Codex](https://openai.com/api/)
+## Useful Links
+- [OpenAI GPT3&Codex](https://openai.com/api/)
 

@@ -33,7 +33,10 @@ This website contains collection of datasets, publications that are related to *
 
 #### [Others](/others)
 {: .no_toc .text-delta .fs-3 style="font-weight:600"}
-<ul id="markdown-toc"> <li><a href="/misc#surveys--position-papers" id="markdown-toc-surveys--position-papers">Surveys &amp; Position Papers</a></li> <li><a href="/misc#tutorials-and-talks" id="markdown-toc-tutorials-and-talks">Tutorials and Talks</a></li> <li><a href="/misc#articles" id="markdown-toc-articles">Articles</a></li> <li><a href="/misc#workshops" id="markdown-toc-workshops">Workshops</a></li> <li><a href="/misc#books" id="markdown-toc-books">Books</a></li> <li><a href="/misc#useful-links" id="markdown-toc-useful-links">Useful links</a></li> <li><a href="/misc#blogs" id="markdown-toc-blogs">Blogs</a></li> </ul>
+<ul id="markdown-toc"> 
+<li><a href="/misc#surveys--position-papers" id="markdown-toc-other-resources">Other Resources</a></li>
+<li><a href="/misc#useful-links" id="markdown-toc-useful-links">Useful Links</a></li> 
+</ul>
 
 ---
 
