@@ -27,7 +27,7 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*Spider: A Large-Scale Human-Labeled Dataset for Complex and Cross-Domain Semantic Parsing and Text-to-SQL Task*. <br> Tao Yu, Rui Zhang, Kai Yang, Michihiro Yasunaga, Dongxu Wang, Zifan Li, James Ma, Irene Li, Qingning Yao, Shanelle Roman, Zilin Zhang, Dragomir Radev. **EMNLP-18**
+*Spider: A Large-Scale Human-Labeled Dataset for Complex and Cross-Domain Semantic Parsing and Text-to-SQL Task*. **EMNLP-18**
 
 <span class="fs-1">
 [Paper](https://arxiv.org/abs/1809.08887){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://yale-lily.github.io/spider){: target="_blank" .btn .btn-green .mr-1 }  </span>
@@ -38,7 +38,7 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*Beyond I.I.D.: Three Levels of Generalization for Question Answering on Knowledge Bases*.<br>Yu Gu, Sue Kase, Michelle Vanni, Brian Sadler, Percy Liang, Xifeng Yan, Yu Su. **Proceedings of the Web Conference-21**
+*Beyond I.I.D.: Three Levels of Generalization for Question Answering on Knowledge Bases*.Conference-21**
 
 <span class="fs-1">
 [Paper](https://arxiv.org/abs/2011.07743){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://dki-lab.github.io/GrailQA/){: target="_blank" .btn .btn-green .mr-1 } </span>
@@ -49,7 +49,7 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*The Value of Semantic Parse Labeling for Knowledge Base Question Answering*.<br> Wen-tau Yih, Matthew Richardson, Chris Meek, Ming-Wei Chang, Jina Suh. **ACL-2016**
+*The Value of Semantic Parse Labeling for Knowledge Base Question Answering*.**ACL-2016**
 
 <span class="fs-1">
 [Paper](https://aclanthology.org/P16-2033/){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](http://aka.ms/WebQSP){: target="_blank" .btn .btn-green .mr-1 }</span>
@@ -60,7 +60,7 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*MTOP: A Comprehensive Multilingual Task-Oriented Semantic Parsing Benchmark*.<br>Haoran Li, Abhinav Arora, Shuohui Chen, Anchit Gupta, Sonal Gupta, Yashar Mehdad. **EACL-21**
+*MTOP: A Comprehensive Multilingual Task-Oriented Semantic Parsing Benchmark*.**EACL-21**
 
 <span class="fs-1">
 [Paper](https://aclanthology.org/2021.eacl-main.257/){: .btn .btn-blue .mr-1 target="_blank" } [Dataset](https://fb.me/mtop_dataset){: target="_blank" .btn .btn-green .mr-1 } </span>
@@ -78,7 +78,7 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*Seq2SQL: Generating Structured Queries from Natural Language using Reinforcement Learning*.<br> Victor Zhong, Caiming Xiong, Richard Socher. **arixv-17**
+*Seq2SQL: Generating Structured Queries from Natural Language using Reinforcement Learning*.**arixv-17**
 
 <span class="fs-1">
 [Paper](https://arxiv.org/abs/1709.00103){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://github.com/salesforce/WikiSQL){: target="_blank" .btn .btn-green .mr-1 } </span>
@@ -88,7 +88,7 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*Compositional Semantic Parsing on Semi-Structured Tables*.<br> Panupong Pasupat, Percy Liang. **ACL-15**
+*Compositional Semantic Parsing on Semi-Structured Tables*.**ACL-15**
 
 <span class="fs-1">
 [Paper](https://aclanthology.org/P15-1142/){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://ppasupat.github.io/WikiTableQuestions/){: target="_blank" .btn .btn-green .mr-1 } </span>
@@ -102,7 +102,7 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*The Web as a Knowledge-base for Answering Complex Questions*.<br> Alon Talmor, Jonathan Berant. **NAACL-18**
+*The Web as a Knowledge-base for Answering Complex Questions*.**NAACL-18**
 
 <span class="fs-1">
 [Paper](https://arxiv.org/abs/1911.11641){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://www.tau-nlp.org/compwebq){: target="_blank" .btn .btn-green .mr-1 } {: target="_blank" .btn .btn-purple .mr-1 } </span>
@@ -111,7 +111,7 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*HybridQA: A Dataset of Multi-Hop Question Answering over Tabular and Textual Data*.<br> Wenhu Chen, Hanwen Zha, Zhiyu Chen, Wenhan Xiong, Hong Wang, William Wang. **EMNLP-20**
+*HybridQA: A Dataset of Multi-Hop Question Answering over Tabular and Textual Data*.**EMNLP-20**
 
 <span class="fs-1">
 [Paper](https://aclanthology.org/2020.findings-emnlp.91/){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://hybridqa.github.io/){: target="_blank" .btn .btn-green .mr-1 } </span>
@@ -120,7 +120,7 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*Open Question Answering over Tables and Text *.<br> Wenhu Chen, Ming-Wei Chang, Eva Schlinger, William Yang Wang, William W. Cohen. **ICLR-21**
+*Open Question Answering over Tables and Text *.**ICLR-21**
 
 <span class="fs-1">
 [Paper](https://arxiv.org/abs/2010.10439){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://github.com/wenhuchen/OTT-QA){: target="_blank" .btn .btn-green .mr-1 } </span>
@@ -129,7 +129,7 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*MultiModalQA: Complex Question Answering over Text, Tables and Images*.<br> Alon Talmor, Ori Yoran, Amnon Catav, Dan Lahav, Yizhong Wang, Akari Asai, Gabriel Ilharco, Hannaneh Hajishirzi, Jonathan Berant. **ICLR-21**
+*MultiModalQA: Complex Question Answering over Text, Tables and Images*.**ICLR-21**
 
 <span class="fs-1">
 [Paper](https://arxiv.org/abs/1709.00103){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://allenai.github.io/multimodalqa/){: target="_blank" .btn .btn-green .mr-1 } </span>
@@ -138,7 +138,7 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*FeTaQA: Free-form Table Question Answering*.<br> Linyong Nan, Chiachun Hsieh, Ziming Mao, Xi Victoria Lin, Neha Verma, Rui Zhang, Wojciech Kryściński, Nick Schoelkopf, Riley Kong, Xiangru Tang, Murori Mutuma, Ben Rosand, Isabel Trindade, Renusree Bandaru, Jacob Cunningham, Caiming Xiong, Dragomir Radev. **ICLR-18**
+*FeTaQA: Free-form Table Question Answering*.**ICLR-18**
 
 <span class="fs-1">
 [Paper](https://arxiv.org/abs/2104.00369){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://github.com/Yale-LILY/FeTaQA){: target="_blank" .btn .btn-green .mr-1 } </span>
@@ -147,7 +147,7 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*TAT-QA: A Question Answering Benchmark on a Hybrid of Tabular and Textual Content in Finance*.<br> Fengbin Zhu, Wenqiang Lei, Youcheng Huang, Chao Wang, Shuo Zhang, Jiancheng Lv, Fuli Feng, Tat-Seng Chua. **ACL-21**
+*TAT-QA: A Question Answering Benchmark on a Hybrid of Tabular and Textual Content in Finance*.**ACL-21**
 
 <span class="fs-1">
 [Paper](https://aclanthology.org/2021.acl-long.254/){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://nextplusplus.github.io/TAT-QA/){: target="_blank" .btn .btn-green .mr-1 } </span>
@@ -160,7 +160,7 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*The E2E Dataset: New Challenges For End-to-End Generation*.<br> Jekaterina Novikova, Ondřej Dušek, Verena Rieser. **SIGDIAL-17**
+*The E2E Dataset: New Challenges For End-to-End Generation*.**SIGDIAL-17**
 
 <span class="fs-1">
 [Paper](https://aclanthology.org/W17-5525/){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](http://www.macs.hw.ac.uk/InteractionLab/E2E/){: target="_blank" .btn .btn-green .mr-1 } </span>
@@ -173,7 +173,7 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*The WebNLG Challenge: Generating Text from RDF Data*.<br> Claire Gardent, Anastasia Shimorina, Shashi Narayan, Laura Perez-Beltrachini. **INLG-17**
+*The WebNLG Challenge: Generating Text from RDF Data*.**INLG-17**
 
 <span class="fs-1">
 [Paper](https://aclanthology.org/W17-3518/){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://webnlg-challenge.loria.fr/){: target="_blank" .btn .btn-green .mr-1 } </span>
@@ -186,7 +186,7 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*DART: Open-Domain Structured Data Record to Text Generation*.<br> Linyong Nan, Dragomir Radev, Rui Zhang, Amrit Rau, Abhinand Sivaprasad, Chiachun Hsieh, Xiangru Tang, Aadit Vyas, Neha Verma, Pranav Krishna, Yangxiaokang Liu, Nadia Irwanto, Jessica Pan, Faiaz Rahman, Ahmad Zaidi, Mutethia Mutuma, Yasin Tarabar, Ankit Gupta, Tao Yu, Yi Chern Tan, Xi Victoria Lin, Caiming Xiong, Richard Socher, Nazneen Fatema Rajani. **ICLR-21**
+*DART: Open-Domain Structured Data Record to Text Generation*.**ICLR-21**
 
 <span class="fs-1">
 [Paper](https://aclanthology.org/2021.naacl-main.37/){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://github.com/Yale-LILY/dart){: target="_blank" .btn .btn-green .mr-1 } </span>
@@ -196,7 +196,7 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*ToTTo: A Controlled Table-To-Text Generation Dataset*.<br> Ankur P. Parikh, Xuezhi Wang, Sebastian Gehrmann, Manaal Faruqui, Bhuwan Dhingra, Diyi Yang, Dipanjan Das. **ICLR-21**
+*ToTTo: A Controlled Table-To-Text Generation Dataset*.**ICLR-21**
 
 <span class="fs-1">
 [Paper](https://arxiv.org/abs/2004.14373){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://github.com/google-research-datasets/ToTTo){: target="_blank" .btn .btn-green .mr-1 } </span>
@@ -207,7 +207,7 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*Logical Natural Language Generation from Open-Domain Tables*.<br> Wenhu Chen, Jianshu Chen, Yu Su, Zhiyu Chen, William Yang Wang. **ACL-20**
+*Logical Natural Language Generation from Open-Domain Tables*.**ACL-20**
 
 <span class="fs-1">
 [Paper](https://aclanthology.org/2020.acl-main.708/){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://github.com/wenhuchen/LogicNLG){: target="_blank" .btn .btn-green .mr-1 } </span>
@@ -221,7 +221,7 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*MultiWOZ 2.1: A Consolidated Multi-Domain Dialogue Dataset with State Corrections and State Tracking Baselines*.<br> Mihail Eric, Rahul Goel, Shachi Paul, Abhishek Sethi, Sanchit Agarwal, Shuyang Gao, Adarsh Kumar, Anuj Kumar Goyal, Peter Ku, Dilek Hakkani-Tür. **LREC-20**
+*MultiWOZ 2.1: A Consolidated Multi-Domain Dialogue Dataset with State Corrections and State Tracking Baselines*.**LREC-20**
 
 <span class="fs-1">
 [Paper](https://arxiv.org/abs/1907.01669){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://github.com/budzianowski/multiwoz){: target="_blank" .btn .btn-green .mr-1 } </span>
@@ -239,7 +239,7 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*Key-Value Retrieval Networks for Task-Oriented Dialogue*.<br> Mihail Eric, Christopher D. Manning. **SIGdial-17**
+*Key-Value Retrieval Networks for Task-Oriented Dialogue*.**SIGdial-17**
 
 <span class="fs-1">
 [Paper](https://aclanthology.org/W17-5506/){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://nlp.stanford.edu/blog/a-new-multi-turn-multi-domain-task-oriented-dialogue-dataset/){: target="_blank" .btn .btn-green .mr-1 } </span>
@@ -253,7 +253,7 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 
 {: .fs-4 .fw-800 .text-blue-100}
 *Submitted on 5 Jun 2019]
-SParC: Cross-Domain Semantic Parsing in Context*.<br> Tao Yu, Rui Zhang, Michihiro Yasunaga, Yi Chern Tan, Xi Victoria Lin, Suyi Li, Heyang Er, Irene Li, Bo Pang, Tao Chen, Emily Ji, Shreya Dixit, David Proctor, Sungrok Shim, Jonathan Kraft, Vincent Zhang, Caiming Xiong, Richard Socher, Dragomir Radev. **ACL-19**
+SParC: Cross-Domain Semantic Parsing in Context*.**ACL-19**
 
 <span class="fs-1">
 [Paper](https://arxiv.org/abs/1906.02285){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://yale-lily.github.io/sparc){: target="_blank" .btn .btn-green .mr-1 } </span>
@@ -263,7 +263,7 @@ SParC: Cross-Domain Semantic Parsing in Context*.<br> Tao Yu, Rui Zhang, Michihi
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*CoSQL: A Conversational Text-to-SQL Challenge Towards Cross-Domain Natural Language Interfaces to Databases*.<br> Tao Yu, Rui Zhang, He Yang Er, Suyi Li, Eric Xue, Bo Pang, Xi Victoria Lin, Yi Chern Tan, Tianze Shi, Zihan Li, Youxuan Jiang, Michihiro Yasunaga, Sungrok Shim, Tao Chen, Alexander Fabbri, Zifan Li, Luyao Chen, Yuwen Zhang, Shreya Dixit, Vincent Zhang, Caiming Xiong, Richard Socher, Walter S Lasecki, Dragomir Radev. **EMNLP-19**
+*CoSQL: A Conversational Text-to-SQL Challenge Towards Cross-Domain Natural Language Interfaces to Databases*.**EMNLP-19**
 
 <span class="fs-1">
 [Paper](https://arxiv.org/abs/1909.05378){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://yale-lily.github.io/cosql){: target="_blank" .btn .btn-green .mr-1 } </span>
@@ -273,7 +273,7 @@ SParC: Cross-Domain Semantic Parsing in Context*.<br> Tao Yu, Rui Zhang, Michihi
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*Search-based Neural Structured Learning for Sequential Question Answering*.<br> Mohit Iyyer, Wen-tau Yih, Ming-Wei Chang. **ACL-17**
+*Search-based Neural Structured Learning for Sequential Question Answering*.**ACL-17**
 
 <span class="fs-1">
 [Paper](https://aclanthology.org/P17-1167){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](hhttps://www.microsoft.com/en-us/download/details.aspx?id=54253){: target="_blank" .btn .btn-green .mr-1 } </span>
@@ -286,7 +286,7 @@ SParC: Cross-Domain Semantic Parsing in Context*.<br> Tao Yu, Rui Zhang, Michihi
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*TabFact: A Large-scale Dataset for Table-based Fact Verification*.<br> Wenhu Chen, Hongmin Wang, Jianshu Chen, Yunkai Zhang, Hong Wang, Shiyang Li, Xiyou Zhou, William Yang Wang. **ICLR-20**
+*TabFact: A Large-scale Dataset for Table-based Fact Verification*.**ICLR-20**
 
 <span class="fs-1">
 [Paper](https://arxiv.org/abs/1909.02164){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://tabfact.github.io/){: target="_blank" .btn .btn-green .mr-1 } </span>
@@ -295,7 +295,7 @@ SParC: Cross-Domain Semantic Parsing in Context*.<br> Tao Yu, Rui Zhang, Michihi
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*The Fact Extraction and VERification Over Unstructured and Structured information (FEVEROUS) Shared Task*.<br> Rami Aly, Zhijiang Guo, Michael Sejr Schlichtkrull, James Thorne, Andreas Vlachos, Christos Christodoulopoulos, Oana Cocarascu, Arpit Mittal. **ICLR-21**
+*The Fact Extraction and VERification Over Unstructured and Structured information (FEVEROUS) Shared Task*.**ICLR-21**
 
 <span class="fs-1">
 [Paper](https://aclanthology.org/2021.fever-1.1){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://fever.ai/dataset/feverous.html){: target="_blank" .btn .btn-green .mr-1 } </span>
@@ -308,7 +308,7 @@ SParC: Cross-Domain Semantic Parsing in Context*.<br> Tao Yu, Rui Zhang, Michihi
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*Logic-Consistency Text Generation from Semantic Parses*.<br> Chang Shu, Yusen Zhang, Xiangyu Dong, Peng Shi, Tao Yu, Rui Zhang. **ACL-21**
+*Logic-Consistency Text Generation from Semantic Parses*.**ACL-21**
 
 <span class="fs-1">
 [Paper](https://aclanthology.org/2021.findings-acl.388/){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://github.com/Ciaranshu/relogic){: target="_blank" .btn .btn-green .mr-1 } </span>
@@ -319,7 +319,7 @@ SParC: Cross-Domain Semantic Parsing in Context*.<br> Tao Yu, Rui Zhang, Michihi
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*Logic2Text: High-Fidelity Natural Language Generation from Logical Forms*.<br> Zhiyu Chen, Wenhu Chen, Hanwen Zha, Xiyou Zhou, Yunkai Zhang, Sairam Sundaresan, William Yang Wang. **EMNLP-20**
+*Logic2Text: High-Fidelity Natural Language Generation from Logical Forms* **EMNLP-20**
 
 <span class="fs-1">
 [Paper](https://arxiv.org/abs/2004.14579){: .btn .btn-blue .mr-1 target="_blank" } [Official Link](https://github.com/czyssrs/Logic2Text){: target="_blank" .btn .btn-green .mr-1 } </span>
