@@ -6,7 +6,7 @@ has_children: False
 permalink: /intro/
 
 toc_list: true
-last_modified_date: Jan 19 2022
+last_modified_date: Jan 21 2022
 ---
 
 
@@ -36,3 +36,7 @@ To promote the efficiencyof data access, structured knowledge grounding(SKG) gro
 <img src="../../images/resources/unifiedskg.png" width="100%" height="auto"/>
 
 For example, semantic parsing converts natural language questions into formal programs; question answering derives answers from tables or knowledge graphs.
+
+## Thoughts on directions
+
+<img src="../../images/resources/trends.gif" width="100%" height="auto"/>
