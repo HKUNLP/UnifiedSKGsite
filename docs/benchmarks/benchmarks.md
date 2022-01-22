@@ -61,8 +61,6 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 
 [comment]: <> ([Official Link]&#40;https://yale-lily.github.io/spider&#41;{: target="_blank" .btn .btn-green .mr-1 })
 
----
-
 ### GrailQA 
 {: .no_toc }
 
