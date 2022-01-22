@@ -23,32 +23,32 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 ## Summary
 
 |   Dataset |   Knowledge   |   User Input  |   Output  |   Keywords    |   Contain in UnifiedSKG   |
-|	Spider	|	 Database	|	 Question	|	 SQL	|	 Fully supervised; Cross-domain; Single turn	|	v1	|
-|	GrailQA	|	 Knowledge Graph	|	 Question	|	 S-Expression	|	 Large, 64k; Test generalization: i.i.d./compositional/zero-shot	|	v1	|
-|	WebQSP	|	 Knowledge Graph	|	 Question	|	 S-Expression	|	 -	|	v1	|
-|	MTOP	|	 API	|	 Question	|	 TOP-representation	|	 Spoken Language Understanding; TOP representation	|	v1	|
-|	WikiSQL	|	 Table	|	 Question	|	 Answer(adopted)/SQL	|	 Fully/weakly supervised semantic parsing(SQL provided); Large data	|	v1	|
-|	WikiTableQuestion	|	 Table	|	 Question	|	 Answer	|	 Weakly supervised semantic parsing(using question-answer pairs as supervision); Row sensative(some qa related to row order)	|	v1	|
-|	CompWebQ	|	 Knowledge Graph	|	 Question	|	 Answer	|	 Weakly supervised; Multihop	|	v1	|
-|	HybridQA	|	 Table + Text passages	|	 Question	|	 Answer	|	 Multi-hop; Short-form entity/extractive	|	v1	|
-|	OTT-QA	|	 Table + Text passages	|	 Question	|	 Answer	|	 More open table/text; Extractive ans	|	v1	|
-|	MultiModalQA	|	 Table + Text + Images	|	 Question	|	 Answer	|	 Short-form entity/extractive	|	v1	|
-|	FeTaQA	|	 Table	|	 Question	|	 Free-Form Answer	|	 Free-form answer	|	v1	|
-|	TAT-QA	|	 Table + Text	|	 Question	|	 Answer(diverse form, including single span, multiple spans and free-form)	|	 Context hybrid; Numerical reasoning; Financial	|		|
-|	E2E	|	 Table	|	 None	|	 Text	|	 Text generation; Restaurant domain	|		|
-|	WebNLG	|	 Knowledge Graph(triples)	|	 None	|	 Text	|	 Text generation; RDF Triples	|		|
-|	DART	|	 Triples	|	 None	|	 Text	|	 Text generation; Large data; E2E and WebNLG contained	|	v1	|
-|	ToTTo	|	 Highlighted Table	|	 None	|	 Text	|	 Highlighted Table; Text generation	|	v1	|
-|	LogicNLG	|	 Table	|	 None	|	 Logical Natural Language Generation	|	 Logical NL generation	|		|
-|	MultiWoZ21	|	 Ontology	|	 Dialogue	|	 Dialogue State	|	 Dialog system	|	v1	|
-|	KVRET(SMD)	|	 Table	|	 Statement	|	 Boolean	|	 Dialogue system; Each dialogue has a seperate table as kb	|	v1	|
-|	SParC	|	 Database	|	 Multi-turn query	|	 SQL	|	 Fully supervised semantic parsing; Multi-turn	|	v1	|
-|	CoSQL	|	 Database	|	 Dialog	|	 SQL	|	 Fully supervised semantic parsing; Dialogue	|	v1	|
-|	SQA(MSR SQA)	|	 Table	|	 Multi-turn query	|	 Answer	|	 Weakly supervised semantic parsing; Sequential	|	v1	|
-|	TabFact	|	 Table	|	 Statement	|	 Boolean	|	 NL inference; Large data	|	v1	|
-|	FEVEROUS	|	 Table + Text	|	 Statement	|	 Boolean	|	 NL inference; Large data	|	v1	|
-|	SQL2Text	|	 Optional Database	|	 SQL	|	 Text	|	 High-fidelity NLG	|	v1	|
-|	Logic2Text	|	 Table Schema	|	 Python-like program	|	 Text	|	 High-fidelity NLG	|	v1	|
+|	[Spider](https://unifiedskg.com/benchmarks/#spider)	|	 Database	|	 Question	|	 SQL	|	 Fully supervised; Cross-domain; Single turn	|	v1	|
+|	[GrailQA](https://unifiedskg.com/benchmarks/#grailqa)	|	 Knowledge Graph	|	 Question	|	 S-Expression	|	 Large, 64k; Test generalization: i.i.d./compositional/zero-shot	|	v1	|
+|	[WebQSP](https://unifiedskg.com/benchmarks/#webqsp)	|	 Knowledge Graph	|	 Question	|	 S-Expression	|	 -	|	v1	|
+|	[MTOP]	|	 API	|	 Question	|	 TOP-representation	|	 Spoken Language Understanding; TOP representation	|	v1	|
+|	[WikiSQL]	|	 Table	|	 Question	|	 Answer(adopted)/SQL	|	 Fully/weakly supervised semantic parsing(SQL provided); Large data	|	v1	|
+|	[WikiTableQuestion]	|	 Table	|	 Question	|	 Answer	|	 Weakly supervised semantic parsing(using question-answer pairs as supervision); Row sensative(some qa related to row order)	|	v1	|
+|	[CompWebQ]	|	 Knowledge Graph	|	 Question	|	 Answer	|	 Weakly supervised; Multihop	|	v1	|
+|	[HybridQA]	|	 Table + Text passages	|	 Question	|	 Answer	|	 Multi-hop; Short-form entity/extractive	|	v1	|
+|	[OTT-QA]	|	 Table + Text passages	|	 Question	|	 Answer	|	 More open table/text; Extractive ans	|	v1	|
+|	[MultiModalQA]	|	 Table + Text + Images	|	 Question	|	 Answer	|	 Short-form entity/extractive	|	v1	|
+|	[FeTaQA]	|	 Table	|	 Question	|	 Free-Form Answer	|	 Free-form answer	|	v1	|
+|	[TAT-QA]	|	 Table + Text	|	 Question	|	 Answer(diverse form, including single span, multiple spans and free-form)	|	 Context hybrid; Numerical reasoning; Financial	|		|
+|	[E2E]	|	 Table	|	 None	|	 Text	|	 Text generation; Restaurant domain	|		|
+|	[WebNLG]	|	 Knowledge Graph(triples)	|	 None	|	 Text	|	 Text generation; RDF Triples	|		|
+|	[DART]	|	 Triples	|	 None	|	 Text	|	 Text generation; Large data; E2E and WebNLG contained	|	v1	|
+|	[ToTTo]	|	 Highlighted Table	|	 None	|	 Text	|	 Highlighted Table; Text generation	|	v1	|
+|	[LogicNLG]	|	 Table	|	 None	|	 Logical Natural Language Generation	|	 Logical NL generation	|		|
+|	[MultiWoZ]	|	 Ontology	|	 Dialogue	|	 Dialogue State	|	 Dialog system	|	v1	|
+|	[KVRET(SMD)]	|	 Table	|	 Statement	|	 Boolean	|	 Dialogue system; Each dialogue has a seperate table as kb	|	v1	|
+|	[SParC]	|	 Database	|	 Multi-turn query	|	 SQL	|	 Fully supervised semantic parsing; Multi-turn	|	v1	|
+|	[CoSQL]	|	 Database	|	 Dialog	|	 SQL	|	 Fully supervised semantic parsing; Dialogue	|	v1	|
+|	[SQA(MSR SQA)]	|	 Table	|	 Multi-turn query	|	 Answer	|	 Weakly supervised semantic parsing; Sequential	|	v1	|
+|	[TabFact]	|	 Table	|	 Statement	|	 Boolean	|	 NL inference; Large data	|	v1	|
+|	[FEVEROUS]	|	 Table + Text	|	 Statement	|	 Boolean	|	 NL inference; Large data	|	v1	|
+|	[SQL2Text]	|	 Optional Database	|	 SQL	|	 Text	|	 High-fidelity NLG	|	v1	|
+|	[Logic2Text]	|	 Table Schema	|	 Python-like program	|	 Text	|	 High-fidelity NLG	|	v1	|
 
 
 ## Semantic Parsing
