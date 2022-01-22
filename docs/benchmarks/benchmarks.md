@@ -221,17 +221,17 @@ WebNLG challenge has many datasets available, the widely used dversion currently
 
 ## Conversational
 
-### MultiWoZ21
+### MultiWoZ
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*[MultiWOZ 2.1: A Consolidated Multi-Domain Dialogue Dataset with State Corrections and State Tracking Baselines](https://arxiv.org/abs/1907.01669)*. **LREC-20**
+*[MultiWOZ -- A Large-Scale Multi-Domain Wizard-of-Oz Dataset for Task-Oriented Dialogue Modelling](https://arxiv.org/abs/1810.00278)*. **EMNLP-18**
 
 [comment]: <> ([Official Link]&#40;https://github.com/budzianowski/multiwoz&#41;{: target="_blank" .btn .btn-green .mr-1 })
 
-**Comments**
-There are many version of MultiWoZ, 2.1 and 2.2 are mostly used currently. We used the 2.1 version in our SKG benchmark. Some pre-procession on this dataset is needed, please refer to [MultiWoZ](https://github.com/budzianowski/multiwoz) and [Trade-DST](https://github.com/jasonwu0731/trade-dst).
+[comment]: <> (**Comments**)
 
+[comment]: <> (There are many version of [MultiWoZ]&#40;https://github.com/budzianowski/multiwoz&#41;. We used the [v2.1]&#40;&#41; in our SKG benchmark. Some pre-procession on this dataset is needed, please refer to [MultiWoZ]&#40;https://github.com/budzianowski/multiwoz&#41; and [Trade-DST]&#40;https://github.com/jasonwu0731/trade-dst&#41;.)
 
 
 ### KVRET(SMD)
