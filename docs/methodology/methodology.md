@@ -54,7 +54,7 @@ We present a collection of research papers that related to structured knowledge 
 
 {: .fs-4 .fw-800 .text-blue-100}
 [CodeBERT: A Pre-Trained Model for Programming and Natural Languages](https://arxiv.org/abs/2002.08155). 
-**EMNLP 2020**
+**EMNLP 20**
 
 [comment]: <> (<span class="fs-1">)
 
@@ -66,7 +66,7 @@ We present a collection of research papers that related to structured knowledge 
 
 {: .fs-4 .fw-800 .text-blue-100}
 [Structure-Grounded Pretraining for Text-to-SQL](https://arxiv.org/abs/2002.08155). 
-**NAACL 2021**
+**NAACL 21**
 
 [comment]: <> (<span class="fs-1">)
 
@@ -156,7 +156,7 @@ We present a collection of research papers that related to structured knowledge 
 
 [comment]: <> (   [Code]&#40;https://github.com/microsoft/SCoRE&#41;{: target="_blank" .btn .btn-green .mr-1 })
 
-[comment]: <> (   [Semantic Scholar]&#40;https://www.semanticscholar.org/paper/SCoRe%3A-Pre-Training-for-Context-Representation-in-Yu-Zhang/ff1d3698b8d5f942e6a0775e173720210429b8ae&#41;{: .btn .btn-purple .mr-1 target="_blank" })
+[comment]: <> (   [Semantic Scholar]&#40;https://www.semanticscholar.org/paper/SCoRe%3A-Pre-Training-for-Context-Representation-in-Yu-Zhang/ff1d3698b8d5f942e6a0775e1737210429b8ae&#41;{: .btn .btn-purple .mr-1 target="_blank" })
 
 [comment]: <> (</span> )
 
@@ -206,7 +206,7 @@ We present a collection of research papers that related to structured knowledge 
 
 {: .fs-4 .fw-800 .text-blue-100}
 [KGPT: Knowledge-Grounded Pre-Training for Data-to-Text Generation](https://arxiv.org/abs/2010.02307). 
-**EMNLP 2020**
+**EMNLP 20**
 
 [comment]: <> (<span class="fs-1">)
 
@@ -230,7 +230,7 @@ We present a collection of research papers that related to structured knowledge 
 
 {: .fs-4 .fw-800 .text-blue-100}
 [Learning Contextual Representations for Semantic Parsing with Generation-Augmented Pre-Training](https://arxiv.org/abs/2012.10309). 
-**AAAI 2021**
+**AAAI 21**
 
 [comment]: <> (<span class="fs-1">)
 
@@ -243,7 +243,7 @@ We present a collection of research papers that related to structured knowledge 
 [comment]: <> (**Evaluation Tasks:** WikiNLDB)
 
 {: .fs-4 .fw-800 .text-blue-100}
-[Table Fact Verification with Structure-Aware Transformer](https://aclanthology.org/2020.emnlp-main.126/). 
+[Table Fact Verification with Structure-Aware Transformer](https://aclanthology.org/20.emnlp-main.126/). 
 **ACL-20**
 
 [comment]: <> (<span class="fs-1">)
@@ -270,7 +270,7 @@ We present a collection of research papers that related to structured knowledge 
 
 {: .fs-4 .fw-800 .text-blue-100}
 [TABBIE: Pretrained Representations of Tabular Data](https://arxiv.org/abs/2105.02584). 
-**arixv 2021**
+**arixv 21**
 
 [comment]: <> (<span class="fs-1">)
 
@@ -282,7 +282,7 @@ We present a collection of research papers that related to structured knowledge 
 
 {: .fs-4 .fw-800 .text-blue-100}
 [Evaluating Large Language Models Trained on Code(Codex)](https://arxiv.org/abs/2105.02584). 
-**arixv 2021**
+**arixv 21**
 
 [comment]: <> (<span class="fs-1">)
 
@@ -306,7 +306,7 @@ We present a collection of research papers that related to structured knowledge 
 
 {: .fs-4 .fw-800 .text-blue-100}
 [Question Answering Infused Pre-training of General-Purpose Contextualized Representations](https://arxiv.org/abs/2106.08190). 
-**arixv 2021**
+**arixv 21**
 
 [comment]: <> (<span class="fs-1">)
 
@@ -338,7 +338,7 @@ We present a collection of research papers that related to structured knowledge 
 
 {: .fs-4 .fw-800 .text-blue-100}
 [TAPEX: Table Pre-training via Learning a Neural SQL Executor](https://arxiv.org/abs/2107.07653). 
-**arixv 2021**
+**arixv 21**
 
 [comment]: <> (<span class="fs-1">)
 
@@ -352,7 +352,7 @@ We present a collection of research papers that related to structured knowledge 
 
 {: .fs-4 .fw-800 .text-blue-100}
 [CodeT5: Identifier-aware Unified Pre-trained Encoder-Decoder Models for Code Understanding and Generation](https://arxiv.org/abs/2109.00859). 
-**EMNLP 2021**
+**EMNLP 21**
 
 [comment]: <> (<span class="fs-1">)
 
