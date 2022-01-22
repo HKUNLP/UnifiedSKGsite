@@ -31,7 +31,7 @@ td{
 Structured knowledge(e.g., web tables, knowledge graphs, and databases) stores large amounts of data in an organized structure and forms a basis for a wide range of applications, e.g., medical records, personal assistants, and customer relations management. Accessing and searching data in structured knowledge typically requires query languages or professional training. 
 
 ## What is structured knowledge grounding?
-To promote the efficiencyof data access, structured knowledge grounding(SKG) grounds user requests in structured knowledge and produces various outputs including computer programs(e.g., SQL and SPARQL),  cell values, and natural language responses(as shown below).
+To promote the efficiency of data access, structured knowledge grounding(SKG) grounds user requests in structured knowledge and produces various outputs including computer programs(e.g., SQL and SPARQL),  cell values, and natural language responses(as shown below).
 
 <img src="../../assets/images/unifiedskg.png" width="90%" height="auto"/>
 
