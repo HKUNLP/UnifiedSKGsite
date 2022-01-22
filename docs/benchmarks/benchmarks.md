@@ -21,11 +21,33 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 {:toc}
 
 ## Summary
-
 |   Dataset |   Knowledge   |   User Input  |   Output  |   Keywords    |   Contain in UnifiedSKG   |
-|   Spider  |   Database    |   Question    |   SQL     |   Fully supervised; Cross-domain; Single turn    |   v1   |
-
-
+|	Spider	|	 Database	|	 Question	|	 SQL	|	 Fully supervised; Cross-domain; Single turn	|		|
+|	GrailQA	|	 Knowledge Graph	|	 Question	|	 S-Expression	|	 Large, 64k; Test generalization: i.i.d./compositional/zero-shot	|		|
+|	WebQSP	|	 Knowledge Graph	|	 Question	|	 S-Expression	|	 null	|		|
+|	MTOP	|	 API	|	 Question	|	 TOP-representation	|	 Spoken Language Understanding; TOP representation	|		|
+|	WikiSQL	|	 Table	|	 Question	|	 Answer(adopted)/SQL	|	 Fully/weakly supervised semantic parsing(SQL provided); Large data	|		|
+|	WikiTableQuestion	|	 Table	|	 Question	|	 Answer	|	 Weakly supervised semantic parsing(using question-answer pairs as supervision); Row sensative(some qa related to row order)	|		|
+|	CompWebQ	|	 Knowledge Graph	|	 Question	|	 Answer	|	 Weakly supervised; Multihop	|		|
+|	HybridQA	|	 Table + Text passages	|	 Question	|	 Answer	|	 Multi-hop; Short-form entity/extractive	|		|
+|	OTT-QA	|	 Table + Text passages	|	 Question	|	 Answer	|	 More open table/text; Extractive ans	|		|
+|	MultiModalQA	|	 Table + Text + Images	|	 Question	|	 Answer	|	 Short-form entity/extractive	|		|
+|	FeTaQA	|	 Table	|	 Question	|	 Free-Form Answer	|	 Free-form answer	|		|
+|	TAT-QA	|	 Table + Text	|	 Question	|	 Answer(diverse form, including single span, multiple spans and free-form)	|	 Context hybrid; Numerical reasoning; Financial	|		|
+|	E2E	|	 Table	|	 None	|	 Text	|	 Text generation; Restaurant domain	|		|
+|	WebNLG	|	 Knowledge Graph(triples)	|	 None	|	 Text	|	 Text generation; RDF Triples	|		|
+|	DART	|	 Triples	|	 None	|	 Text	|	 Text generation; Large data; E2E and WebNLG contained	|		|
+|	ToTTo	|	 Highlighted Table	|	 None	|	 Text	|	 Highlighted Table; Text generation	|		|
+|	LogicNLG	|	 Table	|	 None	|	 Logical Natural Language Generation	|	 Logical NL generation	|		|
+|	MultiWoZ21	|	 Ontology	|	 Dialogue	|	 Dialogue State	|	 Dialog system	|		|
+|	KVRET(SMD)	|	 Table	|	 Statement	|	 Boolean	|	 Dialogue system; Each dialogue has a seperate table as kb	|		|
+|	SParC	|	 Database	|	 Multi-turn query	|	 SQL	|	 Fully supervised semantic parsing; Multi-turn	|		|
+|	CoSQL	|	 Database	|	 Dialog	|	 SQL	|	 Fully supervised semantic parsing; Dialogue	|		|
+|	SQA(MSR SQA)	|	 Table	|	 Multi-turn query	|	 Answer	|	 Weakly supervised semantic parsing; Sequential	|		|
+|	TabFact	|	 Table	|	 Statement	|	 Boolean	|	 NL inference; Large data	|		|
+|	FEVEROUS	|	 Table + Text	|	 Statement	|	 Boolean	|	 NL inference; Large data	|		|
+|	SQL2Text	|	 Optional Database	|	 SQL	|	 Text	|	 High-fidelity NLG	|		|
+|	Logic2Text	|	 Table Schema	|	 Python-like program	|	 Text	|	 High-fidelity NLG	|		|
 
 ## Semantic Parsing
 

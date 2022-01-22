@@ -93,6 +93,7 @@ to be added.
 > - **Knowledge**: Knowledge Graph
 > - **User Input**: Question
 > - **Output**: S-Expression
+> - **Keywords**: null
 
 ><details markdown="block">
 >  <summary>Illustrative Example</summary>
