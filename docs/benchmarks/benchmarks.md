@@ -71,7 +71,6 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 
 [comment]: <> ([Official Link]&#40;https://dki-lab.github.io/GrailQA/&#41;{: target="_blank" .btn .btn-green .mr-1 })
 
----
 
 ### WebQSP
 {: .no_toc }
@@ -81,7 +80,6 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 
 [comment]: <> ([Official Link]&#40;http://aka.ms/WebQSP&#41;{: target="_blank" .btn .btn-green .mr-1 })
 
----
 
 ### MTOP
 {: .no_toc }
