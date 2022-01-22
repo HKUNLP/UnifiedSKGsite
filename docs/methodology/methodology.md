@@ -21,7 +21,6 @@ We present a collection of research papers that related to structured knowledge 
 
 
 ## Structured Knowledge Encoding
-TODO: re-order papers by date.
 
 {: .fs-4 .fw-800 .text-blue-100}
 [A Comprehensive Exploration on WikiSQL with Table-Aware Word Contextualization]((https://arxiv.org/abs/1902.01069)). 
