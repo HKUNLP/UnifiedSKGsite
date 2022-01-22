@@ -3,7 +3,7 @@ layout: default
 title: Benchmark Datasets
 nav_order: 3
 toc_list: true
-last_modified_date: Jan 19 2022
+last_modified_date: Jan 23 2022
 permalink: /benchmarks/
 ---
 
@@ -14,6 +14,7 @@ permalink: /benchmarks/
 
 We present a comprehensive collection of datasets of Structured Knowledge Grounding.
 
+
 ## Table of contents
 {: .no_toc .text-delta .fs-4 style="font-weight:800"}
 
@@ -21,6 +22,7 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 {:toc}
 
 ## Summary
+{: .no_toc }
 
 |   Dataset |   Knowledge   |   User Input  |   Output  |   Keywords    |   Contain in UnifiedSKG   |
 |	[Spider](https://unifiedskg.com/benchmarks/#spider)	|	 Database	|	 Question	|	 SQL	|	 Fully supervised; Cross-domain; Single turn	|	v1	|

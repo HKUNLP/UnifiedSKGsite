@@ -13,22 +13,27 @@ permalink: /methodology/
 {: .fs-5 .fw-300 }
 We present a collection of research papers that related to structured knowledge grounding tasks.
 
-## Table of contents
-{: .no_toc .text-delta .fs-4 style="font-weight:800"}
+[comment]: <> (## Table of contents)
 
-- TOC
-{:toc}
+[comment]: <> ({: .no_toc .text-delta .fs-4 style="font-weight:800"})
+
+[comment]: <> (- TOC)
+
+[comment]: <> ({:toc})
 
 
-## Structured Knowledge Encoding
 
 {: .fs-4 .fw-800 .text-blue-100}
 [A Comprehensive Exploration on WikiSQL with Table-Aware Word Contextualization]((https://arxiv.org/abs/1902.01069)). 
  **NIPS-19**
-<span class="fs-1">
-   [Code](https://github.com/naver/sqlova){: target="_blank" .btn .btn-green .mr-1 }
-   [Semantic Scholar](https://www.semanticscholar.org/paper/A-Comprehensive-Exploration-on-WikiSQL-with-Word-Hwang-Yim/46b5d1bfe9bc72e056626c7f8cfd4936a4a00c0d){: .btn .btn-purple .mr-1 target="_blank" }
-</span>
+
+[comment]: <> (<span class="fs-1">)
+
+[comment]: <> (   [Code]&#40;https://github.com/naver/sqlova&#41;{: target="_blank" .btn .btn-green .mr-1 })
+
+[comment]: <> (   [Semantic Scholar]&#40;https://www.semanticscholar.org/paper/A-Comprehensive-Exploration-on-WikiSQL-with-Word-Hwang-Yim/46b5d1bfe9bc72e056626c7f8cfd4936a4a00c0d&#41;{: .btn .btn-purple .mr-1 target="_blank" })
+
+[comment]: <> (</span>)
 
 [comment]: <> (**Evaluation Tasks:** [WikiSQL]&#40;/benchmarks#wikisql&#41;)
 
@@ -36,12 +41,40 @@ We present a collection of research papers that related to structured knowledge 
 {: .fs-4 .fw-800 .text-blue-100}
 [K-BERT: Enabling Language Representation with Knowledge Graph](https://arxiv.org/abs/1909.07606). 
 **AAAI-20**
-<span class="fs-1">
-   [Code](https://github.com/autoliuweijie/K-BERT){: target="_blank" .btn .btn-green .mr-1 }
-   [Semantic Scholar](https://www.semanticscholar.org/paper/K-BERT%3A-Enabling-Language-Representation-with-Graph-Liu-Zhou/06a73ad09664435f8b3cd90293f4e05a047cf375){: .btn .btn-purple .mr-1 target="_blank" }
-</span> 
+
+[comment]: <> (<span class="fs-1">)
+
+[comment]: <> (   [Code]&#40;https://github.com/autoliuweijie/K-BERT&#41;{: target="_blank" .btn .btn-green .mr-1 })
+
+[comment]: <> (   [Semantic Scholar]&#40;https://www.semanticscholar.org/paper/K-BERT%3A-Enabling-Language-Representation-with-Graph-Liu-Zhou/06a73ad09664435f8b3cd90293f4e05a047cf375&#41;{: .btn .btn-purple .mr-1 target="_blank" })
+
+[comment]: <> (</span> )
 
 [comment]: <> (**Evaluation Tasks:** Book, review,Chnsenticorp, Shopping, Weibo, XNLI, LCQMC, NLPCC-DBQA, MSRA-NER, Finance Q&A, Law Q&A, Finance NER, Medicine NER)
+
+{: .fs-4 .fw-800 .text-blue-100}
+[CodeBERT: A Pre-Trained Model for Programming and Natural Languages](https://arxiv.org/abs/2002.08155). 
+**EMNLP 2020**
+
+[comment]: <> (<span class="fs-1">)
+
+[comment]: <> (   [Code]&#40;https://github.com/microsoft/CodeBERT&#41;{: target="_blank" .btn .btn-green .mr-1 })
+
+[comment]: <> (   [Semantic Scholar]&#40;https://www.semanticscholar.org/paper/CodeBERT%3A-A-Pre-Trained-Model-for-Programming-and-Feng-Guo/0fe2636446cd686830da3d971b31a004d6094b3c&#41;{: .btn .btn-purple .mr-1 target="_blank" })
+
+[comment]: <> (</span>)
+
+{: .fs-4 .fw-800 .text-blue-100}
+[Structure-Grounded Pretraining for Text-to-SQL](https://arxiv.org/abs/2002.08155). 
+**NAACL 2021**
+
+[comment]: <> (<span class="fs-1">)
+
+[comment]: <> (   [Code]&#40;https://aka.ms/strug&#41;{: target="_blank" .btn .btn-green .mr-1 })
+
+[comment]: <> (   [Semantic Scholar]&#40;https://www.semanticscholar.org/paper/Structure-Grounded-Pretraining-for-Text-to-SQL-Deng-Awadallah/1e84152b10e48ef592917576ca74f814adadcdc7&#41;{: .btn .btn-purple .mr-1 target="_blank" })
+
+[comment]: <> (</span>)
 
 {: .fs-4 .fw-800 .text-blue-100}
 [A Simple Language Model for Task-Oriented Dialogue](https://arxiv.org/abs/2005.00796). 
@@ -74,6 +107,16 @@ We present a collection of research papers that related to structured knowledge 
 [comment]: <> (**Evaluation Tasks:** [WikiSQL]&#40;/benchmarks#wikisql&#41;, [WikiTableQuestion]&#40;/benchmarks#wikitablequestion&#41;, [SQA]&#40;/benchmarks#msr-sqa&#41;)
 
 {: .fs-4 .fw-800 .text-blue-100}
+[HittER: Hierarchical Transformers for Knowledge Graph Embeddings](https://arxiv.org/abs/2008.12813). 
+**EMNLP-21**
+<span class="fs-1">
+   [Code](https://github.com/sanxing-chen/HittER){: target="_blank" .btn .btn-green .mr-1 }
+   [Semantic Scholar](https://www.semanticscholar.org/paper/HittER%3A-Hierarchical-Transformers-for-Knowledge-Chen-Liu/7e7499b47fe57033768f26ef98a3b644688eb2a2){: .btn .btn-purple .mr-1 target="_blank" }
+</span> 
+
+[comment]: <> (**Evaluation Tasks:** FB15K-237, WN18RR, FreebaseQA, [WebQuestionSP]&#40;/benchmarks#webqsp&#41;)
+
+{: .fs-4 .fw-800 .text-blue-100}
 [GraPPa: Grammar-Augmented Pre-Training for Table Semantic Parsing](https://arxiv.org/abs/2009.13845). 
 **ICLR-21**
 <span class="fs-1">
@@ -93,6 +136,16 @@ We present a collection of research papers that related to structured knowledge 
 </span> 
 
 [comment]: <> (**Evaluation Tasks:** [SParC]&#40;/benchmarks#sparc&#41;, [CoSQL]&#40;/benchmarks#cosql&#41;, [MultiWoZ2.1]&#40;/benchmarks#multiwoz&#41;, [SQA]&#40;/benchmarks#sqa&#41;)
+
+{: .fs-4 .fw-800 .text-blue-100}
+[TUTA: Tree-based Transformers for Generally Structured Table Pre-training](https://arxiv.org/abs/2010.12537). 
+**KDD-21**
+<span class="fs-1">
+   [Code](https://github.com/microsoft/TUTA_table_understanding/){: target="_blank" .btn .btn-green .mr-1 }
+   [Semantic Scholar](https://www.semanticscholar.org/paper/TUTA%3A-Tree-based-Transformers-for-Generally-Table-Wang-Dong/24a12899ce97bd4a56f7c6b49d3979b9465f0190){: .btn .btn-purple .mr-1 target="_blank" }
+</span> 
+
+[comment]: <> (**Evaluation Tasks:** Cell Type Classification &#40;CTC&#41; tasks, Table Type Classification &#40;TTC&#41; tasks)
 
 {: .fs-4 .fw-800 .text-blue-100}
 [Structure-Grounded Pretraining for Text-to-SQL](https://arxiv.org/abs/2010.12773). 
@@ -115,6 +168,14 @@ We present a collection of research papers that related to structured knowledge 
 [comment]: <> (**Evaluation Tasks:** [TabFact]&#40;/benchmarks#tabfact&#41;, [SQA]&#40;/benchmarks#msr-sqa&#41;)
 
 {: .fs-4 .fw-800 .text-blue-100}
+[KGPT: Knowledge-Grounded Pre-Training for Data-to-Text Generation](https://arxiv.org/abs/2010.02307). 
+**EMNLP 2020**
+<span class="fs-1">
+   [Code](https://github.com/wenhuchen/KGPT){: target="_blank" .btn .btn-green .mr-1 }
+   [Semantic Scholar](https://www.semanticscholar.org/paper/KGPT%3A-Knowledge-Grounded-Pre-Training-for-Chen-Su/6f33bd4e62955f4d40424f8ae4ec83af4e97862c){: .btn .btn-purple .mr-1 target="_blank" }
+</span>
+
+{: .fs-4 .fw-800 .text-blue-100}
 [UniK-QA: Unified Representations of Structured and Unstructured Knowledge for Open-Domain Question Answering](https://arxiv.org/abs/2012.14610) . 
 **arxiv-20**
 <span class="fs-1">
@@ -124,13 +185,72 @@ We present a collection of research papers that related to structured knowledge 
 [comment]: <> (**Evaluation Tasks:**  NaturalQuestions, WebQuestions)
 
 {: .fs-4 .fw-800 .text-blue-100}
+[Learning Contextual Representations for Semantic Parsing with Generation-Augmented Pre-Training](https://arxiv.org/abs/2012.10309). 
+**AAAI 2021**
+<span class="fs-1">
+   [Code](https://github.com/awslabs/gap-text2sql){: target="_blank" .btn .btn-green .mr-1 }
+   [Semantic Scholar](https://www.semanticscholar.org/paper/Learning-Contextual-Representations-for-Semantic-Shi-Ng/c75a2ee17056d2b8c14ac25f9f328a09eb4cf040){: .btn .btn-purple .mr-1 target="_blank" }
+</span>
+
+[comment]: <> (**Evaluation Tasks:** WikiNLDB)
+
+{: .fs-4 .fw-800 .text-blue-100}
+[Table Fact Verification with Structure-Aware Transformer](https://aclanthology.org/2020.emnlp-main.126/). 
+**ACL-20**
+<span class="fs-1">
+   [Code](https://github.com/zhhongzhi/sat){: target="_blank" .btn .btn-green .mr-1 }
+   [Semantic Scholar](https://www.semanticscholar.org/paper/Table-Fact-Verification-with-Structure-Aware-Zhang-Wang/38b3c835e272a25fca4fe523dad627feb6552bd3){: .btn .btn-purple .mr-1 target="_blank" }
+</span> 
+
+[comment]: <> (**Evaluation Tasks:** [TabFact]&#40;/benchmarks#tabfact&#41;)
+
+{: .fs-4 .fw-800 .text-blue-100}
+[Constrained Language Models Yield Few-Shot Semantic Parsers](https://arxiv.org/abs/2104.08768). 
+**EMNLP-21**
+<span class="fs-1">
+   [Code](https://github.com/microsoft/semantic_parsing_with_constrained_lm){: target="_blank" .btn .btn-green .mr-1 }
+</span> 
+
+[comment]: <> (**Evaluation Tasks:** Overnight, Break, SMCalFlow)
+
+{: .fs-4 .fw-800 .text-blue-100}
+[TABBIE: Pretrained Representations of Tabular Data](https://arxiv.org/abs/2105.02584). 
+**arixv 2021**
+<span class="fs-1">
+   [Code](https://github.com/SFIG611/tabbie){: target="_blank" .btn .btn-green .mr-1 }
+   [Semantic Scholar](https://www.semanticscholar.org/paper/TABBIE%3A-Pretrained-Representations-of-Tabular-Data-Iida-Thai/386bfd0e411dee4f512a8737c55dd84846981182){: .btn .btn-purple .mr-1 target="_blank" }
+</span> 
+
+{: .fs-4 .fw-800 .text-blue-100}
+[Evaluating Large Language Models Trained on Code(Codex)](https://arxiv.org/abs/2105.02584). 
+**arixv 2021**
+<span class="fs-1">
+   [Website](https://openai.com/api/){: target="_blank" .btn .btn-red .mr-1 }
+   [Semantic Scholar](https://www.semanticscholar.org/paper/Evaluating-Large-Language-Models-Trained-on-Code-Chen-Tworek/acbdbf49f9bc3f151b93d9ca9a06009f4f6eb269){: .btn .btn-purple .mr-1 target="_blank" }
+</span>
+
+{: .fs-4 .fw-800 .text-blue-100}
+[DoT: An efficient Double Transformer for NLP tasks with tables](https://arxiv.org/abs/2106.00479). 
+**ACL-21**
+<span class="fs-1">
+   [Code](https://github.com/google-research/tapas){: target="_blank" .btn .btn-green .mr-1 }
+</span> 
+
+[comment]: <> (**Evaluation Tasks:** [WikiSQL]&#40;/benchmarks#wikisql&#41;,  [WikiTableQuestion]&#40;/benchmarks#wikitablequestion&#41;, [TabFact]&#40;/benchmarks#tabfact&#41;)
+
+{: .fs-4 .fw-800 .text-blue-100}
+[Question Answering Infused Pre-training of General-Purpose Contextualized Representations](https://arxiv.org/abs/2106.08190). 
+**arixv 2021**
+<span class="fs-1">
+   [Semantic Scholar](https://www.semanticscholar.org/paper/Question-Answering-Infused-Pre-training-of-Jia-Lewis/e4c13aadc6adeb8131bb08324e2688383fbb8ec9){: .btn .btn-purple .mr-1 target="_blank" }
+</span>
+
+{: .fs-4 .fw-800 .text-blue-100}
 [Database Reasoning Over Text](https://arxiv.org/abs/2106.01074). 
 **ACL-21**
 <span class="fs-1">
    [Code](https://github.com/facebookresearch/NeuralDB){: target="_blank" .btn .btn-green .mr-1 }
 </span> 
-
-[comment]: <> (**Evaluation Tasks:** WikiNLDB)
 
 {: .fs-4 .fw-800 .text-blue-100}
 [Turning Tables: Generating Examples from Semi-structured Tables for Endowing Language Models with Reasoning Skills](https://arxiv.org/abs/2107.07653). 
@@ -143,12 +263,30 @@ We present a collection of research papers that related to structured knowledge 
 
 {: .fs-4 .fw-800 .text-blue-100}
 [TAPEX: Table Pre-training via Learning a Neural SQL Executor](https://arxiv.org/abs/2107.07653). 
-**arxiv-21**
+**arixv 2021**
 <span class="fs-1">
    [Code](https://github.com/microsoft/Table-Pretraining){: target="_blank" .btn .btn-green .mr-1 }
+   [Website](https://table-pretraining.github.io/){: target="_blank" .btn .btn-green .mr-1 }
+   [Semantic Scholar](https://www.semanticscholar.org/paper/TAPEX%3A-Table-Pre-training-via-Learning-a-Neural-SQL-Liu-Chen/8592953f1ebe38ba4cab05c28a088f5d5691a514){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-[comment]: <> (**Evaluation Tasks:** [WikiSQL]&#40;/benchmarks#wikisql&#41;, [WikiTableQuestion]&#40;/benchmarks#wikitablequestion&#41;, [SQA]&#40;/benchmarks#msr-sqa&#41;, [TabFact]&#40;/benchmarks#TabFact&#41;)
+{: .fs-4 .fw-800 .text-blue-100}
+[CodeT5: Identifier-aware Unified Pre-trained Encoder-Decoder Models for Code Understanding and Generation](https://arxiv.org/abs/2109.00859). 
+**EMNLP 2021**
+<span class="fs-1">
+   [Code](https: //github.com/salesforce/CodeT5){: target="_blank" .btn .btn-green .mr-1 }
+   [Website](https://table-pretraining.github.io/){: target="_blank" .btn .btn-green .mr-1 }
+   [Semantic Scholar](https://www.semanticscholar.org/paper/TAPEX%3A-Table-Pre-training-via-Learning-a-Neural-SQL-Liu-Chen/8592953f1ebe38ba4cab05c28a088f5d5691a514){: .btn .btn-purple .mr-1 target="_blank" }
+</span>
+
+{: .fs-4 .fw-800 .text-blue-100}
+[MATE: Multi-view Attention for Table Transformer Efficiency](https://arxiv.org/abs/2109.04312).
+**EMNLP-21**
+<span class="fs-1">
+   [Code](https://github.com/google-research/tapas){: target="_blank" .btn .btn-green .mr-1 }
+</span> 
+
+[comment]: <> (**Evaluation Tasks:** [HybridQA]&#40;/benchmarks#hybridqa&#41;, [SQA]&#40;/benchmarks#msr-sqa&#41;, [WikiTableQuestion]&#40;/benchmarks#wikitablequestion&#41;, [TabFact]&#40;/benchmarks#tabfact&#41;)
 
 {: .fs-4 .fw-800 .text-blue-100}
 [RnG-KBQA: Generation Augmented Iterative Ranking for Knowledge Base Question Answering](https://arxiv.org/abs/2109.08678). 
@@ -168,147 +306,4 @@ We present a collection of research papers that related to structured knowledge 
 
 [comment]: <> (**Evaluation Tasks:** [Spider]&#40;/benchmarks#spider&#41;, [CoSQL]&#40;/benchmarks#cosql&#41;)
 
-{: .fs-4 .fw-800 .text-blue-100}
-[MATE: Multi-view Attention for Table Transformer Efficiency](https://arxiv.org/abs/2109.04312).
-**EMNLP-21**
-<span class="fs-1">
-   [Code](https://github.com/google-research/tapas){: target="_blank" .btn .btn-green .mr-1 }
-</span> 
-
-[comment]: <> (**Evaluation Tasks:** [HybridQA]&#40;/benchmarks#hybridqa&#41;, [SQA]&#40;/benchmarks#msr-sqa&#41;, [WikiTableQuestion]&#40;/benchmarks#wikitablequestion&#41;, [TabFact]&#40;/benchmarks#tabfact&#41;)
-
-{: .fs-4 .fw-800 .text-blue-100}
-[Table Fact Verification with Structure-Aware Transformer](https://aclanthology.org/2020.emnlp-main.126/). 
-**ACL-20**
-<span class="fs-1">
-   [Code](https://github.com/zhhongzhi/sat){: target="_blank" .btn .btn-green .mr-1 }
-   [Semantic Scholar](https://www.semanticscholar.org/paper/Table-Fact-Verification-with-Structure-Aware-Zhang-Wang/38b3c835e272a25fca4fe523dad627feb6552bd3){: .btn .btn-purple .mr-1 target="_blank" }
-</span> 
-
-[comment]: <> (**Evaluation Tasks:** [TabFact]&#40;/benchmarks#tabfact&#41;)
-
-{: .fs-4 .fw-800 .text-blue-100}
-[DoT: An efficient Double Transformer for NLP tasks with tables](https://arxiv.org/abs/2106.00479). 
-**ACL-21**
-<span class="fs-1">
-   [Code](https://github.com/google-research/tapas){: target="_blank" .btn .btn-green .mr-1 }
-</span> 
-
-[comment]: <> (**Evaluation Tasks:** [WikiSQL]&#40;/benchmarks#wikisql&#41;,  [WikiTableQuestion]&#40;/benchmarks#wikitablequestion&#41;, [TabFact]&#40;/benchmarks#tabfact&#41;)
-
-{: .fs-4 .fw-800 .text-blue-100}
-[TUTA: Tree-based Transformers for Generally Structured Table Pre-training](https://arxiv.org/abs/2010.12537). 
-**KDD-21**
-<span class="fs-1">
-   [Code](https://github.com/microsoft/TUTA_table_understanding/){: target="_blank" .btn .btn-green .mr-1 }
-   [Semantic Scholar](https://www.semanticscholar.org/paper/TUTA%3A-Tree-based-Transformers-for-Generally-Table-Wang-Dong/24a12899ce97bd4a56f7c6b49d3979b9465f0190){: .btn .btn-purple .mr-1 target="_blank" }
-</span> 
-
-[comment]: <> (**Evaluation Tasks:** Cell Type Classification &#40;CTC&#41; tasks, Table Type Classification &#40;TTC&#41; tasks)
-
-{: .fs-4 .fw-800 .text-blue-100}
-[TABBIE: Pretrained Representations of Tabular Data](https://arxiv.org/abs/2105.02584). 
-**NAACL-21**
-<span class="fs-1">
-   [Code](https://github.com/SFIG611/tabbie){: target="_blank" .btn .btn-green .mr-1 }
-   [Semantic Scholar](https://www.semanticscholar.org/paper/TABBIE%3A-Pretrained-Representations-of-Tabular-Data-Iida-Thai/386bfd0e411dee4f512a8737c55dd84846981182){: .btn .btn-purple .mr-1 target="_blank" }
-</span> 
-
-[comment]: <> (**Evaluation Tasks:** Column population, Row population, and Column type prediction tasks)
-
-{: .fs-4 .fw-800 .text-blue-100}
-[HittER: Hierarchical Transformers for Knowledge Graph Embeddings](https://arxiv.org/abs/2008.12813). 
-**EMNLP-21**
-<span class="fs-1">
-   [Code](https://github.com/sanxing-chen/HittER){: target="_blank" .btn .btn-green .mr-1 }
-   [Semantic Scholar](https://www.semanticscholar.org/paper/HittER%3A-Hierarchical-Transformers-for-Knowledge-Chen-Liu/7e7499b47fe57033768f26ef98a3b644688eb2a2){: .btn .btn-purple .mr-1 target="_blank" }
-</span> 
-
-[comment]: <> (**Evaluation Tasks:** FB15K-237, WN18RR, FreebaseQA, [WebQuestionSP]&#40;/benchmarks#webqsp&#41;)
-
-{: .fs-4 .fw-800 .text-blue-100}
-[Constrained Language Models Yield Few-Shot Semantic Parsers](https://arxiv.org/abs/2104.08768). 
-**EMNLP-21**
-<span class="fs-1">
-   [Code](https://github.com/microsoft/semantic_parsing_with_constrained_lm){: target="_blank" .btn .btn-green .mr-1 }
-</span> 
-
-[comment]: <> (**Evaluation Tasks:** Overnight, Break, SMCalFlow)
-
-## Pre-training
-
-{: .fs-4 .fw-800 .text-blue-100}
-[CodeBERT: A Pre-Trained Model for Programming and Natural Languages](https://arxiv.org/abs/2002.08155). 
-**EMNLP 2020**
-<span class="fs-1">
-   [Code](https://github.com/microsoft/CodeBERT){: target="_blank" .btn .btn-green .mr-1 }
-   [Semantic Scholar](https://www.semanticscholar.org/paper/CodeBERT%3A-A-Pre-Trained-Model-for-Programming-and-Feng-Guo/0fe2636446cd686830da3d971b31a004d6094b3c){: .btn .btn-purple .mr-1 target="_blank" }
-</span>
-
-{: .fs-4 .fw-800 .text-blue-100}
-[Structure-Grounded Pretraining for Text-to-SQL](https://arxiv.org/abs/2002.08155). 
-**NAACL 2021**
-<span class="fs-1">
-   [Code](https://aka.ms/strug){: target="_blank" .btn .btn-green .mr-1 }
-   [Semantic Scholar](https://www.semanticscholar.org/paper/Structure-Grounded-Pretraining-for-Text-to-SQL-Deng-Awadallah/1e84152b10e48ef592917576ca74f814adadcdc7){: .btn .btn-purple .mr-1 target="_blank" }
-</span>
-
-{: .fs-4 .fw-800 .text-blue-100}
-[KGPT: Knowledge-Grounded Pre-Training for Data-to-Text Generation](https://arxiv.org/abs/2010.02307). 
-**EMNLP 2020**
-<span class="fs-1">
-   [Code](https://github.com/wenhuchen/KGPT){: target="_blank" .btn .btn-green .mr-1 }
-   [Semantic Scholar](https://www.semanticscholar.org/paper/KGPT%3A-Knowledge-Grounded-Pre-Training-for-Chen-Su/6f33bd4e62955f4d40424f8ae4ec83af4e97862c){: .btn .btn-purple .mr-1 target="_blank" }
-</span>
-
-{: .fs-4 .fw-800 .text-blue-100}
-[Learning Contextual Representations for Semantic Parsing with Generation-Augmented Pre-Training](https://arxiv.org/abs/2012.10309). 
-**AAAI 2021**
-<span class="fs-1">
-   [Code](https://github.com/awslabs/gap-text2sql){: target="_blank" .btn .btn-green .mr-1 }
-   [Semantic Scholar](https://www.semanticscholar.org/paper/Learning-Contextual-Representations-for-Semantic-Shi-Ng/c75a2ee17056d2b8c14ac25f9f328a09eb4cf040){: .btn .btn-purple .mr-1 target="_blank" }
-</span> 
-
-{: .fs-4 .fw-800 .text-blue-100}
-[TABBIE: Pretrained Representations of Tabular Data](https://arxiv.org/abs/2105.02584). 
-**arixv 2021**
-<span class="fs-1">
-   [Code](https://github.com/SFIG611/tabbie){: target="_blank" .btn .btn-green .mr-1 }
-   [Semantic Scholar](https://www.semanticscholar.org/paper/TABBIE%3A-Pretrained-Representations-of-Tabular-Data-Iida-Thai/386bfd0e411dee4f512a8737c55dd84846981182){: .btn .btn-purple .mr-1 target="_blank" }
-</span> 
-
-{: .fs-4 .fw-800 .text-blue-100}
-[Evaluating Large Language Models Trained on Code(Codex)](https://arxiv.org/abs/2105.02584). 
-**arixv 2021**
-<span class="fs-1">
-   [Website](https://openai.com/api/){: target="_blank" .btn .btn-red .mr-1 }
-   [Semantic Scholar](https://www.semanticscholar.org/paper/Evaluating-Large-Language-Models-Trained-on-Code-Chen-Tworek/acbdbf49f9bc3f151b93d9ca9a06009f4f6eb269){: .btn .btn-purple .mr-1 target="_blank" }
-</span>
-
-{: .fs-4 .fw-800 .text-blue-100}
-[Question Answering Infused Pre-training of General-Purpose Contextualized Representations](https://arxiv.org/abs/2106.08190). 
-**arixv 2021**
-<span class="fs-1">
-   [Semantic Scholar](https://www.semanticscholar.org/paper/Question-Answering-Infused-Pre-training-of-Jia-Lewis/e4c13aadc6adeb8131bb08324e2688383fbb8ec9){: .btn .btn-purple .mr-1 target="_blank" }
-</span>
-
-{: .fs-4 .fw-800 .text-blue-100}
-[TAPEX: Table Pre-training via Learning a Neural SQL Executor](https://arxiv.org/abs/2107.07653). 
-**arixv 2021**
-<span class="fs-1">
-   [Code](https://github.com/microsoft/Table-Pretraining){: target="_blank" .btn .btn-green .mr-1 }
-   [Website](https://table-pretraining.github.io/){: target="_blank" .btn .btn-green .mr-1 }
-   [Semantic Scholar](https://www.semanticscholar.org/paper/TAPEX%3A-Table-Pre-training-via-Learning-a-Neural-SQL-Liu-Chen/8592953f1ebe38ba4cab05c28a088f5d5691a514){: .btn .btn-purple .mr-1 target="_blank" }
-</span> 
-
-{: .fs-4 .fw-800 .text-blue-100}
-[CodeT5: Identifier-aware Unified Pre-trained Encoder-Decoder Models for Code Understanding and Generation](https://arxiv.org/abs/2109.00859). 
-**EMNLP 2021**
-<span class="fs-1">
-   [Code](https: //github.com/salesforce/CodeT5){: target="_blank" .btn .btn-green .mr-1 }
-   [Website](https://table-pretraining.github.io/){: target="_blank" .btn .btn-green .mr-1 }
-   [Semantic Scholar](https://www.semanticscholar.org/paper/TAPEX%3A-Table-Pre-training-via-Learning-a-Neural-SQL-Liu-Chen/8592953f1ebe38ba4cab05c28a088f5d5691a514){: .btn .btn-purple .mr-1 target="_blank" }
-</span> 
-
-## Others
 
