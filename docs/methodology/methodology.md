@@ -66,7 +66,7 @@ We present a collection of research papers that related to structured knowledge 
 
 {: .fs-4 .fw-800 .text-blue-100}
 [Structure-Grounded Pretraining for Text-to-SQL](https://arxiv.org/abs/2002.08155). 
-**NAACL 21**
+**NAACL 2021**
 
 [comment]: <> (<span class="fs-1">)
 
@@ -156,7 +156,7 @@ We present a collection of research papers that related to structured knowledge 
 
 [comment]: <> (   [Code]&#40;https://github.com/microsoft/SCoRE&#41;{: target="_blank" .btn .btn-green .mr-1 })
 
-[comment]: <> (   [Semantic Scholar]&#40;https://www.semanticscholar.org/paper/SCoRe%3A-Pre-Training-for-Context-Representation-in-Yu-Zhang/ff1d3698b8d5f942e6a0775e1737210429b8ae&#41;{: .btn .btn-purple .mr-1 target="_blank" })
+[comment]: <> (   [Semantic Scholar]&#40;https://www.semanticscholar.org/paper/SCoRe%3A-Pre-Training-for-Context-Representation-in-Yu-Zhang/ff1d3698b8d5f942e6a0775e173720210429b8ae&#41;{: .btn .btn-purple .mr-1 target="_blank" })
 
 [comment]: <> (</span> )
 
@@ -230,7 +230,7 @@ We present a collection of research papers that related to structured knowledge 
 
 {: .fs-4 .fw-800 .text-blue-100}
 [Learning Contextual Representations for Semantic Parsing with Generation-Augmented Pre-Training](https://arxiv.org/abs/2012.10309). 
-**AAAI 21**
+**AAAI 2021**
 
 [comment]: <> (<span class="fs-1">)
 
@@ -243,7 +243,7 @@ We present a collection of research papers that related to structured knowledge 
 [comment]: <> (**Evaluation Tasks:** WikiNLDB)
 
 {: .fs-4 .fw-800 .text-blue-100}
-[Table Fact Verification with Structure-Aware Transformer](https://aclanthology.org/20.emnlp-main.126/). 
+[Table Fact Verification with Structure-Aware Transformer](https://aclanthology.org/2020.emnlp-main.126/). 
 **ACL-20**
 
 [comment]: <> (<span class="fs-1">)
