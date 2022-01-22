@@ -21,6 +21,7 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 {:toc}
 
 ## Summary
+
 |   Dataset |   Knowledge   |   User Input  |   Output  |   Keywords    |   Contain in UnifiedSKG   |
 |	Spider	|	 Database	|	 Question	|	 SQL	|	 Fully supervised; Cross-domain; Single turn	|		|
 |	GrailQA	|	 Knowledge Graph	|	 Question	|	 S-Expression	|	 Large, 64k; Test generalization: i.i.d./compositional/zero-shot	|		|
@@ -48,6 +49,7 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 |	FEVEROUS	|	 Table + Text	|	 Statement	|	 Boolean	|	 NL inference; Large data	|		|
 |	SQL2Text	|	 Optional Database	|	 SQL	|	 Text	|	 High-fidelity NLG	|		|
 |	Logic2Text	|	 Table Schema	|	 Python-like program	|	 Text	|	 High-fidelity NLG	|		|
+
 
 ## Semantic Parsing
 
