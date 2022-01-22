@@ -29,8 +29,7 @@ TODO: re-order papers by date.
 <span class="fs-1">
    [Code](https://github.com/naver/sqlova){: target="_blank" .btn .btn-green .mr-1 }
    [Semantic Scholar](https://www.semanticscholar.org/paper/A-Comprehensive-Exploration-on-WikiSQL-with-Word-Hwang-Yim/46b5d1bfe9bc72e056626c7f8cfd4936a4a00c0d){: .btn .btn-purple .mr-1 target="_blank" }
-</span> 
-
+</span>
 **Evaluation Tasks:** [WikiSQL](/benchmarks#wikisql)
 
 ---
