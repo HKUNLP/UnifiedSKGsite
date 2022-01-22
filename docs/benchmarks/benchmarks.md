@@ -14,12 +14,18 @@ permalink: /benchmarks/
 
 We present a comprehensive collection of datasets of Structured Knowledge Grounding.
 
-## TODO: Here is a task table for all information
 ## Table of contents
 {: .no_toc .text-delta .fs-4 style="font-weight:800"}
 
 - TOC
 {:toc}
+
+## Summary
+
+|   Dataset |   Knowledge   |   User Input  |   Output  |   Keywords    |   Contain in UnifiedSKG   |
+|   Spider  |   Database    |   Question    |   SQL     |   Fully supervised; Cross-domain; Single turn    |   v1   |
+
+
 
 ## Semantic Parsing
 
@@ -201,7 +207,7 @@ WebNLG challenge has many datasets available, the widely used dversion currently
 [comment]: <> ([Official Link]&#40;https://github.com/budzianowski/multiwoz&#41;{: target="_blank" .btn .btn-green .mr-1 })
 
 **Comments**
-There are many version of MultiWoZ, 2.1 and 2.2 are mostly used currently. We used the 2.1 version in our SKG benchmark. Some pre-procession on this dataset is needed, pls refer to [MultiWoZ](https://github.com/budzianowski/multiwoz) and [Trade-DST](https://github.com/jasonwu0731/trade-dst).
+There are many version of MultiWoZ, 2.1 and 2.2 are mostly used currently. We used the 2.1 version in our SKG benchmark. Some pre-procession on this dataset is needed, please refer to [MultiWoZ](https://github.com/budzianowski/multiwoz) and [Trade-DST](https://github.com/jasonwu0731/trade-dst).
 
 
 
@@ -258,7 +264,7 @@ KVRET is also called SMD(Stanford Multi-Domain task-oriented dialogue dataset). 
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*[The Fact Extraction and VERification Over Unstructured and Structured information (FEVEROUS) Shared Task](https://aclanthology.org/2021.fever-1.1)*. **ICLR-21**
+*[The Fact Extraction and VERification Over Unstructured and Structured information (FEVEROUS) Shared Task](https://aclanthology.org/2021.fever-1.1)*. **EMNLP-21**
 
 [comment]: <> ([Official Link]&#40;https://fever.ai/dataset/feverous.html&#41;{: target="_blank" .btn .btn-green .mr-1 })
 
