@@ -31,32 +31,30 @@ TODO: re-order papers by date.
    [Semantic Scholar](https://www.semanticscholar.org/paper/A-Comprehensive-Exploration-on-WikiSQL-with-Word-Hwang-Yim/46b5d1bfe9bc72e056626c7f8cfd4936a4a00c0d){: .btn .btn-purple .mr-1 target="_blank" }
 </span>
 
-**Evaluation Tasks:** [WikiSQL](/benchmarks#wikisql)
+[comment]: <> (**Evaluation Tasks:** [WikiSQL]&#40;/benchmarks#wikisql&#41;)
 
 
 {: .fs-4 .fw-800 .text-blue-100}
 **K-BERT: Enabling Language Representation with Knowledge Graph**. 
 **AAAI-20**
-
-<span class="fs-2">
+<span class="fs-1">
    [Paper](https://arxiv.org/abs/1909.07606){: .btn .btn-blue .mr-1 target="_blank" } 
    [Code](https://github.com/autoliuweijie/K-BERT){: target="_blank" .btn .btn-green .mr-1 }
    [Semantic Scholar](https://www.semanticscholar.org/paper/K-BERT%3A-Enabling-Language-Representation-with-Graph-Liu-Zhou/06a73ad09664435f8b3cd90293f4e05a047cf375){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-**Evaluation Tasks:** Book, review,Chnsenticorp, Shopping, Weibo, XNLI, LCQMC, NLPCC-DBQA, MSRA-NER, Finance Q&A, Law Q&A, Finance NER, Medicine NER
+[comment]: <> (**Evaluation Tasks:** Book, review,Chnsenticorp, Shopping, Weibo, XNLI, LCQMC, NLPCC-DBQA, MSRA-NER, Finance Q&A, Law Q&A, Finance NER, Medicine NER)
 
 {: .fs-4 .fw-800 .text-blue-100}
 **A Simple Language Model for Task-Oriented Dialogue**. 
 **NIPS-20**
-
-<span class="fs-2">
+<span class="fs-1">
    [Paper](https://arxiv.org/abs/2005.00796){: .btn .btn-blue .mr-1 target="_blank" } 
    [Code](https://github.com/salesforce/simpletod){: target="_blank" .btn .btn-green .mr-1 }
    [Semantic Scholar](https://www.semanticscholar.org/paper/A-Simple-Language-Model-for-Task-Oriented-Dialogue-Hosseini-Asl-McCann/71d64c24dc0ac9726d2be57f4936ac4528430f64){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-**Evaluation Tasks:** [MultiWoZ](/benchmarks#multiwoz21)
+[comment]: <> (**Evaluation Tasks:** [MultiWoZ]&#40;/benchmarks#multiwoz21&#41;)
 
 {: .fs-4 .fw-800 .text-blue-100}
 **TaBERT: Pretraining for Joint Understanding of Textual and Tabular Data**. 
