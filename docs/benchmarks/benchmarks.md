@@ -302,8 +302,6 @@ KVRET is also called SMD(Stanford Multi-Domain task-oriented dialogue dataset). 
 
 [comment]: <> ([Official Link]&#40;https://github.com/Ciaranshu/relogic&#41;{: target="_blank" .btn .btn-green .mr-1 })
 
----
-
 ### Logic2Text
 {: .no_toc }
 
