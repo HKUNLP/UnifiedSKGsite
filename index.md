@@ -26,7 +26,7 @@ This website contains collection of datasets, publications that are related to *
     <li><a href="/introduction#what-is-structured-knowledge-grounding" id="markdown-toc-what-is-structured-knowledge-grounding">What is structured knowledge grounding?</a></li>
 </ul>
 
-#### [Benchmarks](/benchmarks)
+#### [Benchmarks Dataset](/benchmarks)
 {: .no_toc .text-delta .fs-3 style="font-weight:600"}
 <ul id="markdown-toc"> 
     <li><a href="/benchmarks#semantic-parsing" id="markdown-toc-semantic-parsing">Semantic Parsing</a></li> 
