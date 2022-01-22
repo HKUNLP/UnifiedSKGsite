@@ -24,4 +24,5 @@ permalink: /others/
 
 ## Useful Links
 - [OpenAI GPT3&Codex](https://openai.com/api/)
+- [Stanford Open Virtual Assistant Lab](https://oval.cs.stanford.edu/)
 
