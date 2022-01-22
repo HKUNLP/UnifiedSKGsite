@@ -26,11 +26,10 @@ TODO: re-order papers by date.
 {: .fs-4 .fw-800 .text-blue-100}
 [A Comprehensive Exploration on WikiSQL with Table-Aware Word Contextualization]((https://arxiv.org/abs/1902.01069)). 
  **KR2ML Workshop at NIPS-19**
-<span class="fs-1">
-   [Code](https://github.com/naver/sqlova){: target="_blank" .btn .btn-green .mr-1 }
-   [Semantic Scholar](https://www.semanticscholar.org/paper/A-Comprehensive-Exploration-on-WikiSQL-with-Word-Hwang-Yim/46b5d1bfe9bc72e056626c7f8cfd4936a4a00c0d){: .btn .btn-purple .mr-1 target="_blank" }
-</span>
-**Evaluation Tasks:** [WikiSQL](/benchmarks#wikisql)
+[Code](https://github.com/naver/sqlova)
+[Semantic Scholar](https://www.semanticscholar.org/paper/A-Comprehensive-Exploration-on-WikiSQL-with-Word-Hwang-Yim/46b5d1bfe9bc72e056626c7f8cfd4936a4a00c0d)
+
+**Tasks:** [WikiSQL](/benchmarks#wikisql)
 
 ---
 
