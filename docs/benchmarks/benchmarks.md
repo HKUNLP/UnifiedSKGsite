@@ -28,6 +28,7 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 |	[Spider](https://unifiedskg.com/benchmarks/#spider)	|	 Database	|	 Question	|	 SQL	|	 Fully supervised; Cross-domain; Single turn	|	v1	|
 |	[GrailQA](https://unifiedskg.com/benchmarks/#grailqa)	|	 Knowledge Graph	|	 Question	|	 S-Expression	|	 Large, 64k; Test generalization: i.i.d./compositional/zero-shot	|	v1	|
 |	[WebQSP](https://unifiedskg.com/benchmarks/#webqsp)	|	 Knowledge Graph	|	 Question	|	 S-Expression	|	 -	|	v1	|
+|	[Russ](https://unifiedskg.com/benchmarks/#russ)	|	 API	|	 Question	|	 Query	|	Small in size	|		|
 |	[MTOP](https://unifiedskg.com/benchmarks/#mtop)	|	 API	|	 Question	|	 TOP-representation	|	 Spoken Language Understanding; TOP representation	|	v1	|
 |	[WikiSQL](https://unifiedskg.com/benchmarks/#wikisql)	|	 Table	|	 Question	|	 Answer(adopted)/SQL	|	 Fully/weakly supervised semantic parsing(SQL provided); Large data	|	v1	|
 |	[WikiTableQuestion](https://unifiedskg.com/benchmarks/#wikitablequestion)	|	 Table	|	 Question	|	 Answer	|	 Weakly supervised semantic parsing(using question-answer pairs as supervision); Row sensative(some qa related to row order)	|	v1	|
@@ -80,6 +81,12 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 *[The Value of Semantic Parse Labeling for Knowledge Base Question Answering](https://aclanthology.org/P16-2033/)*. **ACL-2016**
 
 [comment]: <> ([Official Link]&#40;http://aka.ms/WebQSP&#41;{: target="_blank" .btn .btn-green .mr-1 })
+
+### Russ
+{: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*[Grounding Open-Domain Instructions to Automate Web Support Tasks](https://arxiv.org/abs/2103.16057)*. **NAACL-2021**
 
 
 ### MTOP
