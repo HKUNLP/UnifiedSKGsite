@@ -263,6 +263,14 @@ TODO: re-order papers by date.
 </span>
 
 {: .fs-4 .fw-800 .text-blue-100}
+[Learning Contextual Representations for Semantic Parsing with Generation-Augmented Pre-Training](https://arxiv.org/abs/2012.10309). 
+**AAAI 2021**
+<span class="fs-1">
+   [Code](https://github.com/awslabs/gap-text2sql){: target="_blank" .btn .btn-green .mr-1 }
+   [Semantic Scholar](https://www.semanticscholar.org/paper/Learning-Contextual-Representations-for-Semantic-Shi-Ng/c75a2ee17056d2b8c14ac25f9f328a09eb4cf040){: .btn .btn-purple .mr-1 target="_blank" }
+</span> 
+
+{: .fs-4 .fw-800 .text-blue-100}
 [TABBIE: Pretrained Representations of Tabular Data](https://arxiv.org/abs/2105.02584). 
 **arixv 2021**
 <span class="fs-1">
@@ -271,27 +279,19 @@ TODO: re-order papers by date.
 </span> 
 
 {: .fs-4 .fw-800 .text-blue-100}
-[Question Answering Infused Pre-training of General-Purpose Contextualized Representations](https://arxiv.org/abs/2106.08190). 
-**arixv 2021**
-<span class="fs-1">
-   [Semantic Scholar](https://www.semanticscholar.org/paper/Question-Answering-Infused-Pre-training-of-Jia-Lewis/e4c13aadc6adeb8131bb08324e2688383fbb8ec9){: .btn .btn-purple .mr-1 target="_blank" }
-</span> 
-
-{: .fs-4 .fw-800 .text-blue-100}
 [Evaluating Large Language Models Trained on Code(Codex)](https://arxiv.org/abs/2105.02584). 
 **arixv 2021**
 <span class="fs-1">
    [Website](https://openai.com/api/){: target="_blank" .btn .btn-red .mr-1 }
    [Semantic Scholar](https://www.semanticscholar.org/paper/Evaluating-Large-Language-Models-Trained-on-Code-Chen-Tworek/acbdbf49f9bc3f151b93d9ca9a06009f4f6eb269){: .btn .btn-purple .mr-1 target="_blank" }
-</span> 
+</span>
 
 {: .fs-4 .fw-800 .text-blue-100}
-[Learning Contextual Representations for Semantic Parsing with Generation-Augmented Pre-Training](https://arxiv.org/abs/2012.10309). 
-**AAAI 2021**
+[Question Answering Infused Pre-training of General-Purpose Contextualized Representations](https://arxiv.org/abs/2106.08190). 
+**arixv 2021**
 <span class="fs-1">
-   [Code](https://github.com/awslabs/gap-text2sql){: target="_blank" .btn .btn-green .mr-1 }
-   [Semantic Scholar](https://www.semanticscholar.org/paper/Learning-Contextual-Representations-for-Semantic-Shi-Ng/c75a2ee17056d2b8c14ac25f9f328a09eb4cf040){: .btn .btn-purple .mr-1 target="_blank" }
-</span> 
+   [Semantic Scholar](https://www.semanticscholar.org/paper/Question-Answering-Infused-Pre-training-of-Jia-Lewis/e4c13aadc6adeb8131bb08324e2688383fbb8ec9){: .btn .btn-purple .mr-1 target="_blank" }
+</span>
 
 {: .fs-4 .fw-800 .text-blue-100}
 [TAPEX: Table Pre-training via Learning a Neural SQL Executor](https://arxiv.org/abs/2107.07653). 
