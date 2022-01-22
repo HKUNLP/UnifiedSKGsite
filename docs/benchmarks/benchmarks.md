@@ -50,6 +50,7 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 |	[SQL2Text](https://unifiedskg.com/benchmarks/#sql2text)	|	 Optional Database	|	 SQL	|	 Text	|	 High-fidelity NLG	|	v1	|
 |	[Logic2Text](https://unifiedskg.com/benchmarks/#logic2text)	|	 Table Schema	|	 Python-like program	|	 Text	|	 High-fidelity NLG	|	v1	|
 
+---
 
 ## Semantic Parsing
 
