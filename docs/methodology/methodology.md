@@ -25,7 +25,7 @@ TODO: re-order papers by date.
 
 {: .fs-4 .fw-800 .text-blue-100}
 [A Comprehensive Exploration on WikiSQL with Table-Aware Word Contextualization]((https://arxiv.org/abs/1902.01069)). 
- **KR2ML Workshop at NIPS-19**
+ **NIPS-19**
 <span class="fs-1">
    [Code](https://github.com/naver/sqlova){: target="_blank" .btn .btn-green .mr-1 }
    [Semantic Scholar](https://www.semanticscholar.org/paper/A-Comprehensive-Exploration-on-WikiSQL-with-Word-Hwang-Yim/46b5d1bfe9bc72e056626c7f8cfd4936a4a00c0d){: .btn .btn-purple .mr-1 target="_blank" }
@@ -87,7 +87,7 @@ TODO: re-order papers by date.
 
 {: .fs-4 .fw-800 .text-blue-100}
 [SCoRe: Pre-Training for Context Representation in Conversational Semantic Parsing](https://openreview.net/forum?id=oyZxhRI2RiE). 
-**ICLR-20**
+**ICLR-21**
 <span class="fs-1">
    [Code](https://github.com/microsoft/SCoRE){: target="_blank" .btn .btn-green .mr-1 }
    [Semantic Scholar](https://www.semanticscholar.org/paper/SCoRe%3A-Pre-Training-for-Context-Representation-in-Yu-Zhang/ff1d3698b8d5f942e6a0775e173720210429b8ae){: .btn .btn-purple .mr-1 target="_blank" }
@@ -97,7 +97,7 @@ TODO: re-order papers by date.
 
 {: .fs-4 .fw-800 .text-blue-100}
 [Structure-Grounded Pretraining for Text-to-SQL](https://arxiv.org/abs/2010.12773). 
-**NAACL-20**
+**NAACL-21**
 <span class="fs-1">
    [Code](https://aka.ms/strug){: target="_blank" .btn .btn-green .mr-1 }
    [Semantic Scholar](https://www.semanticscholar.org/paper/Structure-Grounded-Pretraining-for-Text-to-SQL-Deng-Awadallah/346f54fd61f875ae348f0a38f189ccdacf232df4){: .btn .btn-purple .mr-1 target="_blank" }
@@ -117,7 +117,7 @@ TODO: re-order papers by date.
 
 {: .fs-4 .fw-800 .text-blue-100}
 [UniK-QA: Unified Representations of Structured and Unstructured Knowledge for Open-Domain Question Answering](https://arxiv.org/abs/2012.14610) . 
-**ACL-20**
+**arxiv-20**
 <span class="fs-1">
    [Semantic Scholar](https://www.semanticscholar.org/paper/UniK-QA%3A-Unified-Representations-of-Structured-and-O%C4%9Fuz-Chen/0ccf167707dddebe9bbfd2095256804698e3a81d){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
@@ -234,7 +234,7 @@ TODO: re-order papers by date.
    [Code](https://github.com/microsoft/semantic_parsing_with_constrained_lm){: target="_blank" .btn .btn-green .mr-1 }
 </span> 
 
-**Evaluation Tasks:** Overnight, Break, SMCalFlow
+[comment]: <> (**Evaluation Tasks:** Overnight, Break, SMCalFlow)
 
 ## Pre-training
 
