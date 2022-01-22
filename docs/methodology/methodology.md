@@ -33,7 +33,7 @@ TODO: re-order papers by date.
    [Semantic Scholar](https://www.semanticscholar.org/paper/A-Comprehensive-Exploration-on-WikiSQL-with-Word-Hwang-Yim/46b5d1bfe9bc72e056626c7f8cfd4936a4a00c0d){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-**Evaluation Tasks:** [WikiSQL](/datasets#wikisql)
+**Evaluation Tasks:** [WikiSQL](/benchmarks#wikisql)
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -89,7 +89,7 @@ TODO: re-order papers by date.
    [Semantic Scholar](https://www.semanticscholar.org/paper/A-Simple-Language-Model-for-Task-Oriented-Dialogue-Hosseini-Asl-McCann/71d64c24dc0ac9726d2be57f4936ac4528430f64){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-**Evaluation Tasks:** [MultiWoZ](/datasets#multiwoz21)
+**Evaluation Tasks:** [MultiWoZ](/benchmarks#multiwoz21)
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -118,7 +118,7 @@ TODO: re-order papers by date.
    [Semantic Scholar](https://www.semanticscholar.org/paper/TaBERT%3A-Pretraining-for-Joint-Understanding-of-and-Yin-Neubig/a5b1d1cab073cb746a990b37d42dc7b67763f881){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-**Evaluation Tasks:** [WikiSQL](/datasets#wikisql), [Spider](/datasets#spider)
+**Evaluation Tasks:** [WikiSQL](/benchmarks#wikisql), [Spider](/benchmarks#spider)
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -147,7 +147,7 @@ TODO: re-order papers by date.
    [Semantic Scholar](https://www.semanticscholar.org/paper/TaPas%3A-Weakly-Supervised-Table-Parsing-via-Herzig-Nowak/52cb05d721688cb766c6e282e9d55c3b8e3dc0cf){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-**Evaluation Tasks:** [WikiSQL](/datasets#wikisql), [WikiTableQuestion](/datasets#wikitablequestion), [SQA](/datasets#msr-sqa)
+**Evaluation Tasks:** [WikiSQL](/benchmarks#wikisql), [WikiTableQuestion](/benchmarks#wikitablequestion), [SQA](/benchmarks#msr-sqa)
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -180,7 +180,7 @@ TODO: re-order papers by date.
    [Semantic Scholar](https://www.semanticscholar.org/paper/GraPPa%3A-Grammar-Augmented-Pre-Training-for-Table-Yu-Wu/eedf45f62dea0eaef5643c42c84f7cc7b80ee782){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-**Evaluation Tasks:** [Spider](/datasets#spider), [WikiSQL fully-supervised-setting&weakly-supervised-setting](/datasets#wikisql), [WikiTableQuestion](/datasets#wikitablequestion)
+**Evaluation Tasks:** [Spider](/benchmarks#spider), [WikiSQL fully-supervised-setting&weakly-supervised-setting](/benchmarks#wikisql), [WikiTableQuestion](/benchmarks#wikitablequestion)
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -210,7 +210,7 @@ TODO: re-order papers by date.
    [Semantic Scholar](https://www.semanticscholar.org/paper/SCoRe%3A-Pre-Training-for-Context-Representation-in-Yu-Zhang/ff1d3698b8d5f942e6a0775e173720210429b8ae){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-**Evaluation Tasks:** [SParC](/datasets#sparc), [CoSQL](/datasets#cosql), [MultiWoZ2.1](/datasets#multiwoz), [SQA](/datasets#sqa)
+**Evaluation Tasks:** [SParC](/benchmarks#sparc), [CoSQL](/benchmarks#cosql), [MultiWoZ2.1](/benchmarks#multiwoz), [SQA](/benchmarks#sqa)
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -242,7 +242,7 @@ TODO: re-order papers by date.
    [Semantic Scholar](https://www.semanticscholar.org/paper/Structure-Grounded-Pretraining-for-Text-to-SQL-Deng-Awadallah/346f54fd61f875ae348f0a38f189ccdacf232df4){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-**Evaluation Tasks:** Text2SQL datasets(Spider-Realistic, ATIS, GeoQuery, Restaurants, Academic, IMDB, Yelp, Scholar, Advising), [Spider](/datasets#spider), [WikiSQL(fully supervised setting)](/datasets#wikisql)
+**Evaluation Tasks:** Text2SQL datasets(Spider-Realistic, ATIS, GeoQuery, Restaurants, Academic, IMDB, Yelp, Scholar, Advising), [Spider](/benchmarks#spider), [WikiSQL(fully supervised setting)](/benchmarks#wikisql)
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -273,7 +273,7 @@ TODO: re-order papers by date.
    [Semantic Scholar](https://www.semanticscholar.org/paper/Understanding-tables-with-intermediate-pre-training-Eisenschlos-Krichene/65be695739d0fa35212e49ccccd129535e6d9e15){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-**Evaluation Tasks:** [TabFact](/datasets#tabfact), [SQA](/datasets#msr-sqa)
+**Evaluation Tasks:** [TabFact](/benchmarks#tabfact), [SQA](/benchmarks#msr-sqa)
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -358,7 +358,7 @@ Table entailment, the binary classification task of finding if a sentence is sup
    [Code](https://github.com/oriyor/turning_tables){: target="_blank" .btn .btn-green .mr-1 }
 </span> 
 
-**Evaluation Tasks:** DROP, IIRC, [MMQA](/datasets#multimodalqa)
+**Evaluation Tasks:** DROP, IIRC, [MMQA](/benchmarks#multimodalqa)
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -387,7 +387,7 @@ Table entailment, the binary classification task of finding if a sentence is sup
    [Code](https://github.com/microsoft/Table-Pretraining){: target="_blank" .btn .btn-green .mr-1 }
 </span> 
 
-**Evaluation Tasks:** [WikiSQL](/datasets#wikisql), [WikiTableQuestion](/datasets#wikitablequestion), [SQA](/datasets#msr-sqa), [TabFact](/datasets#TabFact)
+**Evaluation Tasks:** [WikiSQL](/benchmarks#wikisql), [WikiTableQuestion](/benchmarks#wikitablequestion), [SQA](/benchmarks#msr-sqa), [TabFact](/benchmarks#TabFact)
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -415,7 +415,7 @@ Table entailment, the binary classification task of finding if a sentence is sup
    [Code](https://github.com/salesforce/rng-kbqa){: target="_blank" .btn .btn-green .mr-1 }
 </span> 
 
-**Evaluation Tasks:** [GrailQA](/datasets#grailqa), [WebQSP](/datasets#webqsp)
+**Evaluation Tasks:** [GrailQA](/benchmarks#grailqa), [WebQSP](/benchmarks#webqsp)
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -444,7 +444,7 @@ Table entailment, the binary classification task of finding if a sentence is sup
    [Code](https://github.com/ElementAI/picard){: target="_blank" .btn .btn-green .mr-1 }
 </span> 
 
-**Evaluation Tasks:** [Spider](/datasets#spider), [CoSQL](/datasets#cosql)
+**Evaluation Tasks:** [Spider](/benchmarks#spider), [CoSQL](/benchmarks#cosql)
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -473,7 +473,7 @@ Table entailment, the binary classification task of finding if a sentence is sup
    [Code](https://github.com/google-research/tapas){: target="_blank" .btn .btn-green .mr-1 }
 </span> 
 
-**Evaluation Tasks:** [HybridQA](/datasets#hybridqa), [SQA](/datasets#msr-sqa), [WikiTableQuestion](/datasets#wikitablequestion), [TabFact](/datasets#tabfact)
+**Evaluation Tasks:** [HybridQA](/benchmarks#hybridqa), [SQA](/benchmarks#msr-sqa), [WikiTableQuestion](/benchmarks#wikitablequestion), [TabFact](/benchmarks#tabfact)
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -502,7 +502,7 @@ This work presents a sparse-attention Transformer architecture for modeling docu
    [Semantic Scholar](https://www.semanticscholar.org/paper/Table-Fact-Verification-with-Structure-Aware-Zhang-Wang/38b3c835e272a25fca4fe523dad627feb6552bd3){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-**Evaluation Tasks:** [TabFact](/datasets#tabfact)
+**Evaluation Tasks:** [TabFact](/benchmarks#tabfact)
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -530,7 +530,7 @@ This work presents a sparse-attention Transformer architecture for modeling docu
    [Code](https://github.com/google-research/tapas){: target="_blank" .btn .btn-green .mr-1 }
 </span> 
 
-**Evaluation Tasks:** [WikiSQL](/datasets#wikisql),  [WikiTableQuestion](/datasets#wikitablequestion), [TabFact](/datasets#tabfact)
+**Evaluation Tasks:** [WikiSQL](/benchmarks#wikisql),  [WikiTableQuestion](/benchmarks#wikitablequestion), [TabFact](/benchmarks#tabfact)
 
 <details markdown="block">
   <summary>Abstract</summary>
@@ -618,7 +618,7 @@ Transformer-based approaches have been successfully used to obtain state-of-the-
    [Semantic Scholar](https://www.semanticscholar.org/paper/HittER%3A-Hierarchical-Transformers-for-Knowledge-Chen-Liu/7e7499b47fe57033768f26ef98a3b644688eb2a2){: .btn .btn-purple .mr-1 target="_blank" }
 </span> 
 
-**Evaluation Tasks:** FB15K-237, WN18RR, FreebaseQA, [WebQuestionSP](/datasets#webqsp)
+**Evaluation Tasks:** FB15K-237, WN18RR, FreebaseQA, [WebQuestionSP](/benchmarks#webqsp)
 
 <details markdown="block">
   <summary>Abstract</summary>
