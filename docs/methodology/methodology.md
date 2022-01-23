@@ -167,6 +167,10 @@ We present a collection of research papers that related to structured knowledge 
 [comment]: <> (**Evaluation Tasks:** [Spider]&#40;/benchmarks#spider&#41;, [WikiSQL fully-supervised-setting&weakly-supervised-setting]&#40;/benchmarks#wikisql&#41;, [WikiTableQuestion]&#40;/benchmarks#wikitablequestion&#41;)
 
 {: .fs-4 .fw-800 .text-blue-100}
+[Knowledge Graph Based Synthetic Corpus Generation for Knowledge-Enhanced Language Model Pre-training](https://arxiv.org/abs/2010.12688). 
+**NAACL-21**
+
+{: .fs-4 .fw-800 .text-blue-100}
 [Structure-Grounded Pretraining for Text-to-SQL](https://arxiv.org/abs/2010.12773). 
 **NAACL-21**
 
