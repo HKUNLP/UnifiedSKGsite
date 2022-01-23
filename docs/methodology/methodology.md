@@ -400,4 +400,6 @@ We present a collection of research papers that related to structured knowledge 
 
 [comment]: <> (**Evaluation Tasks:** [Spider]&#40;/benchmarks#spider&#41;, [CoSQL]&#40;/benchmarks#cosql&#41;)
 
-
+{: .fs-4 .fw-800 .text-blue-100}
+[FORTAP: Using Formulae for Numerical-Reasoning-Aware Table Pretraining](https://arxiv.org/abs/2109.07323). 
+**arxiv-21**
