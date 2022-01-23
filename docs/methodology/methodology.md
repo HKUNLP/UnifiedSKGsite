@@ -65,18 +65,6 @@ We present a collection of research papers that related to structured knowledge 
 [comment]: <> (</span>)
 
 {: .fs-4 .fw-800 .text-blue-100}
-[Structure-Grounded Pretraining for Text-to-SQL](https://arxiv.org/abs/2002.08155). 
-**NAACL-21**
-
-[comment]: <> (<span class="fs-1">)
-
-[comment]: <> (   [Code]&#40;https://aka.ms/strug&#41;{: target="_blank" .btn .btn-green .mr-1 })
-
-[comment]: <> (   [Semantic Scholar]&#40;https://www.semanticscholar.org/paper/Structure-Grounded-Pretraining-for-Text-to-SQL-Deng-Awadallah/1e84152b10e48ef592917576ca74f814adadcdc7&#41;{: .btn .btn-purple .mr-1 target="_blank" })
-
-[comment]: <> (</span>)
-
-{: .fs-4 .fw-800 .text-blue-100}
 [A Simple Language Model for Task-Oriented Dialogue](https://arxiv.org/abs/2005.00796). 
 **NIPS-20**
 
@@ -161,6 +149,18 @@ We present a collection of research papers that related to structured knowledge 
 [comment]: <> (</span> )
 
 [comment]: <> (**Evaluation Tasks:** [SParC]&#40;/benchmarks#sparc&#41;, [CoSQL]&#40;/benchmarks#cosql&#41;, [MultiWoZ2.1]&#40;/benchmarks#multiwoz&#41;, [SQA]&#40;/benchmarks#sqa&#41;)
+
+{: .fs-4 .fw-800 .text-blue-100}
+[Structure-Grounded Pretraining for Text-to-SQL](https://arxiv.org/abs/2010.12773). 
+**NAACL-21**
+
+[comment]: <> (<span class="fs-1">)
+
+[comment]: <> (   [Code]&#40;https://aka.ms/strug&#41;{: target="_blank" .btn .btn-green .mr-1 })
+
+[comment]: <> (   [Semantic Scholar]&#40;https://www.semanticscholar.org/paper/Structure-Grounded-Pretraining-for-Text-to-SQL-Deng-Awadallah/1e84152b10e48ef592917576ca74f814adadcdc7&#41;{: .btn .btn-purple .mr-1 target="_blank" })
+
+[comment]: <> (</span>)
 
 {: .fs-4 .fw-800 .text-blue-100}
 [TUTA: Tree-based Transformers for Generally Structured Table Pre-training](https://arxiv.org/abs/2010.12537). 
