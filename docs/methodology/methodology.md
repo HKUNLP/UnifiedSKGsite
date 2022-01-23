@@ -177,20 +177,6 @@ We present a collection of research papers that related to structured knowledge 
 [comment]: <> (**Evaluation Tasks:** Cell Type Classification &#40;CTC&#41; tasks, Table Type Classification &#40;TTC&#41; tasks)
 
 {: .fs-4 .fw-800 .text-blue-100}
-[Structure-Grounded Pretraining for Text-to-SQL](https://arxiv.org/abs/2010.12773). 
-**NAACL-21**
-
-[comment]: <> (<span class="fs-1">)
-
-[comment]: <> (   [Code]&#40;https://aka.ms/strug&#41;{: target="_blank" .btn .btn-green .mr-1 })
-
-[comment]: <> (   [Semantic Scholar]&#40;https://www.semanticscholar.org/paper/Structure-Grounded-Pretraining-for-Text-to-SQL-Deng-Awadallah/346f54fd61f875ae348f0a38f189ccdacf232df4&#41;{: .btn .btn-purple .mr-1 target="_blank" })
-
-[comment]: <> (</span> )
-
-[comment]: <> (**Evaluation Tasks:** Text2SQL datasets&#40;Spider-Realistic, ATIS, GeoQuery, Restaurants, Academic, IMDB, Yelp, Scholar, Advising&#41;, [Spider]&#40;/benchmarks#spider&#41;, [WikiSQL&#40;fully supervised setting&#41;]&#40;/benchmarks#wikisql&#41;)
-
-{: .fs-4 .fw-800 .text-blue-100}
 [Understanding tables with intermediate pre-training](https://arxiv.org/abs/2010.00571). 
 **EMNLP-20**
 
