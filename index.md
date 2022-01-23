@@ -35,15 +35,21 @@ This website contains collection of datasets, publications that are related to *
     <li><a href="/benchmarks#conversational" id="markdown-toc-conversational">Conversational</a></li> 
     <li><a href="/benchmarks#fact-verification" id="markdown-toc-fact-verification">Fact Verifications</a></li> 
     <li><a href="/benchmarks#formal-language-to-text" id="markdown-toc-formal-language-to-text">Formal-Language-to-Text</a></li> 
-    <li><a href="/benchmarks#other-related-datasets" id="markdown-toc-other-related-datasets">Other Related Datasets</a></li> 
+    <li><a href="/benchmarks#nl-to-program" id="markdown-toc-formal-language-to-text">NL-to-Program</a></li> 
+
+[comment]: <> (    <li><a href="/benchmarks#other-related-datasets" id="markdown-toc-other-related-datasets">Other Related Datasets</a></li> )
 </ul>
 
 #### [Methodology](/methodology)
 {: .no_toc .text-delta .fs-3 style="font-weight:600"}
-<ul id="markdown-toc"> 
-    <li><a href="/methodology#structured-knowledge-encoding" id="markdown-toc-structured-knowledge-encoding">Structured Knowledge Encoding</a></li> 
-    <li><a href="/methodology#pre-training" id="markdown-toc-pre-training">Pre-training</a></li>
-</ul>
+
+[comment]: <> (<ul id="markdown-toc"> )
+
+[comment]: <> (    <li><a href="/methodology#structured-knowledge-encoding" id="markdown-toc-structured-knowledge-encoding">Structured Knowledge Encoding</a></li> )
+
+[comment]: <> (    <li><a href="/methodology#pre-training" id="markdown-toc-pre-training">Pre-training</a></li>)
+
+[comment]: <> (</ul>)
 
 #### [Others](/others)
 {: .no_toc .text-delta .fs-3 style="font-weight:600"}
