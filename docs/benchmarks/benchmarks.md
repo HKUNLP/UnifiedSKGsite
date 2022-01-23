@@ -184,14 +184,14 @@ The 5-fold validation evaluation in origianl dataset is depracated by latest wor
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*[HiTab: A Hierarchical Table Dataset for Question Answering and Natural Language Generation](http://arxiv.org/abs/2108.06712)*. **ACL-21**
+*[HiTab: A Hierarchical Table Dataset for Question Answering and Natural Language Generation](http://arxiv.org/abs/2108.06712)*. **arxiv-21**
 
 
 ### WikiSQL-TS_WikiTQ-TS
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*[Topic Transferable Table Question Answering](https://arxiv.org/abs/2109.07377)*. **arxiv-21**
+*[Topic Transferable Table Question Answering](https://arxiv.org/abs/2109.07377)*. **EMNLP-21**
 
 
 ---
