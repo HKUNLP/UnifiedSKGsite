@@ -336,6 +336,9 @@ We present a collection of research papers that related to structured knowledge 
 
 [comment]: <> (</span> )
 
+[HTLM: Hyper-Text Pre-Training and Prompting of Language Models](https://arxiv.org/abs/2107.06955).
+**arxiv-21**
+
 {: .fs-4 .fw-800 .text-blue-100}
 [CodeT5: Identifier-aware Unified Pre-trained Encoder-Decoder Models for Code Understanding and Generation](https://arxiv.org/abs/2109.00859). 
 **EMNLP-21**
