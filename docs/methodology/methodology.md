@@ -24,7 +24,7 @@ We present a collection of research papers that related to structured knowledge 
 
 
 {: .fs-4 .fw-800 .text-blue-100}
-[A Comprehensive Exploration on WikiSQL with Table-Aware Word Contextualization]((https://arxiv.org/abs/1902.01069)). 
+[A Comprehensive Exploration on WikiSQL with Table-Aware Word Contextualization](https://arxiv.org/abs/1902.01069). 
  **NIPS-19**
 
 [comment]: <> (<span class="fs-1">)
