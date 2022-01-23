@@ -65,6 +65,20 @@ We present a collection of research papers that related to structured knowledge 
 [comment]: <> (</span>)
 
 {: .fs-4 .fw-800 .text-blue-100}
+[TAPAS: Weakly Supervised Table Parsing via Pre-training](https://arxiv.org/abs/2004.02349). 
+**ACL-20**
+
+[comment]: <> (<span class="fs-1">)
+
+[comment]: <> (   [Code]&#40;https://github.com/google-research/tapas&#41;{: target="_blank" .btn .btn-green .mr-1 })
+
+[comment]: <> (   [Semantic Scholar]&#40;https://www.semanticscholar.org/paper/TaPas%3A-Weakly-Supervised-Table-Parsing-via-Herzig-Nowak/52cb05d721688cb766c6e282e9d55c3b8e3dc0cf&#41;{: .btn .btn-purple .mr-1 target="_blank" })
+
+[comment]: <> (</span> )
+
+[comment]: <> (**Evaluation Tasks:** [WikiSQL]&#40;/benchmarks#wikisql&#41;, [WikiTableQuestion]&#40;/benchmarks#wikitablequestion&#41;, [SQA]&#40;/benchmarks#msr-sqa&#41;)
+
+{: .fs-4 .fw-800 .text-blue-100}
 [A Simple Language Model for Task-Oriented Dialogue](https://arxiv.org/abs/2005.00796). 
 **NIPS-20**
 
@@ -91,20 +105,6 @@ We present a collection of research papers that related to structured knowledge 
 [comment]: <> (</span> )
 
 [comment]: <> (**Evaluation Tasks:** [WikiSQL]&#40;/benchmarks#wikisql&#41;, [Spider]&#40;/benchmarks#spider&#41;)
-
-{: .fs-4 .fw-800 .text-blue-100}
-[TAPAS: Weakly Supervised Table Parsing via Pre-training](https://arxiv.org/abs/2004.02349). 
-**ACL-20**
-
-[comment]: <> (<span class="fs-1">)
-
-[comment]: <> (   [Code]&#40;https://github.com/google-research/tapas&#41;{: target="_blank" .btn .btn-green .mr-1 })
-
-[comment]: <> (   [Semantic Scholar]&#40;https://www.semanticscholar.org/paper/TaPas%3A-Weakly-Supervised-Table-Parsing-via-Herzig-Nowak/52cb05d721688cb766c6e282e9d55c3b8e3dc0cf&#41;{: .btn .btn-purple .mr-1 target="_blank" })
-
-[comment]: <> (</span> )
-
-[comment]: <> (**Evaluation Tasks:** [WikiSQL]&#40;/benchmarks#wikisql&#41;, [WikiTableQuestion]&#40;/benchmarks#wikitablequestion&#41;, [SQA]&#40;/benchmarks#msr-sqa&#41;)
 
 {: .fs-4 .fw-800 .text-blue-100}
 [HittER: Hierarchical Transformers for Knowledge Graph Embeddings](https://arxiv.org/abs/2008.12813). 
