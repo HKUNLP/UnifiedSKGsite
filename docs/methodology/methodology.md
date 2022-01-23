@@ -151,6 +151,22 @@ We present a collection of research papers that related to structured knowledge 
 [comment]: <> (**Evaluation Tasks:** [SParC]&#40;/benchmarks#sparc&#41;, [CoSQL]&#40;/benchmarks#cosql&#41;, [MultiWoZ2.1]&#40;/benchmarks#multiwoz&#41;, [SQA]&#40;/benchmarks#sqa&#41;)
 
 {: .fs-4 .fw-800 .text-blue-100}
+[GraphCodeBERT: Pre-training Code Representations with Data Flow](https://arxiv.org/abs/2009.08366). 
+**ICLR-21**
+
+[comment]: <> (<span class="fs-1">)
+
+[comment]: <> (   [Code]&#40;https://github.com/taoyds/grappa&#41;{: target="_blank" .btn .btn-green .mr-1 })
+
+[comment]: <> (   [Pre-trained Model]&#40;https://huggingface.co/Salesforce/grappa_large_jnt&#41;{: .btn .btn-purple .mr-1 target="_blank" })
+
+[comment]: <> (   [Semantic Scholar]&#40;https://www.semanticscholar.org/paper/GraPPa%3A-Grammar-Augmented-Pre-Training-for-Table-Yu-Wu/eedf45f62dea0eaef5643c42c84f7cc7b80ee782&#41;{: .btn .btn-purple .mr-1 target="_blank" })
+
+[comment]: <> (</span> )
+
+[comment]: <> (**Evaluation Tasks:** [Spider]&#40;/benchmarks#spider&#41;, [WikiSQL fully-supervised-setting&weakly-supervised-setting]&#40;/benchmarks#wikisql&#41;, [WikiTableQuestion]&#40;/benchmarks#wikitablequestion&#41;)
+
+{: .fs-4 .fw-800 .text-blue-100}
 [Structure-Grounded Pretraining for Text-to-SQL](https://arxiv.org/abs/2010.12773). 
 **NAACL-21**
 
