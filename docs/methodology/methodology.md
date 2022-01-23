@@ -178,19 +178,21 @@ We present a collection of research papers that related to structured knowledge 
 
 [comment]: <> (</span>)
 
-{: .fs-4 .fw-800 .text-blue-100}
-[TUTA: Tree-based Transformers for Generally Structured Table Pre-training](https://arxiv.org/abs/2010.12537). 
-**KDD-21**
+[comment]: <> ({: .fs-4 .fw-800 .text-blue-100})
+
+[comment]: <> ([TUTA: Tree-based Transformers for Generally Structured Table Pre-training]&#40;https://arxiv.org/abs/2010.12537&#41;. )
+
+[comment]: <> (**KDD-21**)
 
 [comment]: <> (<span class="fs-1">)
 
-[comment]: <> (   [Code]&#40;https://github.com/microsoft/TUTA_table_understanding/&#41;{: target="_blank" .btn .btn-green .mr-1 })
+[comment]: <> (   [Code](https://github.com/microsoft/TUTA_table_understanding/){: target="_blank" .btn .btn-green .mr-1 })
 
-[comment]: <> (   [Semantic Scholar]&#40;https://www.semanticscholar.org/paper/TUTA%3A-Tree-based-Transformers-for-Generally-Table-Wang-Dong/24a12899ce97bd4a56f7c6b49d3979b9465f0190&#41;{: .btn .btn-purple .mr-1 target="_blank" })
+[comment]: <> (   [Semantic Scholar](https://www.semanticscholar.org/paper/TUTA%3A-Tree-based-Transformers-for-Generally-Table-Wang-Dong/24a12899ce97bd4a56f7c6b49d3979b9465f0190){: .btn .btn-purple .mr-1 target="_blank" })
 
 [comment]: <> (</span> )
 
-[comment]: <> (**Evaluation Tasks:** Cell Type Classification &#40;CTC&#41; tasks, Table Type Classification &#40;TTC&#41; tasks)
+[comment]: <> (**Evaluation Tasks:** Cell Type Classification (CTC) tasks, Table Type Classification (TTC) tasks)
 
 {: .fs-4 .fw-800 .text-blue-100}
 [Understanding tables with intermediate pre-training](https://arxiv.org/abs/2010.00571). 
@@ -270,9 +272,11 @@ We present a collection of research papers that related to structured knowledge 
 
 [comment]: <> (**Evaluation Tasks:** Overnight, Break, SMCalFlow)
 
-{: .fs-4 .fw-800 .text-blue-100}
-[TABBIE: Pretrained Representations of Tabular Data](https://arxiv.org/abs/2105.02584). 
-**arixv-21**
+[comment]: <> ({: .fs-4 .fw-800 .text-blue-100})
+
+[comment]: <> ([TABBIE: Pretrained Representations of Tabular Data]&#40;https://arxiv.org/abs/2105.02584&#41;. )
+
+[comment]: <> (**arixv-21**)
 
 [comment]: <> (<span class="fs-1">)
 
