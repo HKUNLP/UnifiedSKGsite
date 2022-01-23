@@ -172,6 +172,28 @@ The 5-fold validation evaluation in origianl dataset is depracated by latest wor
 
 [comment]: <> ([Official Link]&#40;https://nextplusplus.github.io/TAT-QA/&#41;{: target="_blank" .btn .btn-green .mr-1 })
 
+
+### AIT-QA
+{: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*[AIT-QA: Question Answering Dataset over Complex Tables in the Airline Industry](https://arxiv.org/abs/2106.12944)*. **arxiv-21**
+
+
+### HiTab
+{: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*[HiTab: A Hierarchical Table Dataset for Question Answering and Natural Language Generation](http://arxiv.org/abs/2108.06712)*. **ACL-21**
+
+
+### WikiSQL-TS_WikiTQ-TS
+{: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*[Topic Transferable Table Question Answering](https://arxiv.org/abs/2109.07377)*. **arxiv-21**
+
+
 ---
 
 ## Data-to-Text
@@ -197,6 +219,12 @@ There is another [E2E cleaned version](https://github.com/tuetschek/e2e-cleaning
 
 **Comments**
 WebNLG challenge has many datasets available, the widely used dversion currently is the WebNLG challenge 2017. There is a useful [link](https://github.com/fuzihaofzh/webnlg-dataset) for summarization of this.
+
+### Table-to-Text
+{: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*[Table-to-Text: Describing Table Region with Natural Language](https://arxiv.org/abs/1805.11234)*. **AAAI-18**
 
 ### DART
 {: .no_toc }
@@ -224,7 +252,6 @@ WebNLG challenge has many datasets available, the widely used dversion currently
 *[Logical Natural Language Generation from Open-Domain Tables](https://aclanthology.org/2020.acl-main.708/)*. **ACL-20**
 
 [comment]: <> ([Official Link]&#40;https://github.com/wenhuchen/LogicNLG&#41;{: target="_blank" .btn .btn-green .mr-1 })
-
 
 ---
 
