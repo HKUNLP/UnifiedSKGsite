@@ -57,6 +57,8 @@ We present a collection of research papers that related to structured knowledge 
 {: .fs-4 .fw-800 .text-blue-100}
 [TAPAS: Weakly Supervised Table Parsing via Pre-training](https://arxiv.org/abs/2004.02349). 
 **ACL-20**
+pre-training
+{: .label .label-green }
 
 [comment]: <> (<span class="fs-1">)
 
@@ -85,6 +87,8 @@ We present a collection of research papers that related to structured knowledge 
 {: .fs-4 .fw-800 .text-blue-100}
 [TaBERT: Pretraining for Joint Understanding of Textual and Tabular Data](https://arxiv.org/abs/2005.08314). 
 **ACL-20**
+pre-training
+{: .label .label-green }
 
 [comment]: <> (<span class="fs-1">)
 
@@ -113,6 +117,8 @@ We present a collection of research papers that related to structured knowledge 
 {: .fs-4 .fw-800 .text-blue-100}
 [GraPPa: Grammar-Augmented Pre-Training for Table Semantic Parsing](https://arxiv.org/abs/2009.13845). 
 **ICLR-21**
+pre-training
+{: .label .label-green }
 
 [comment]: <> (<span class="fs-1">)
 
@@ -129,6 +135,8 @@ We present a collection of research papers that related to structured knowledge 
 {: .fs-4 .fw-800 .text-blue-100}
 [SCoRe: Pre-Training for Context Representation in Conversational Semantic Parsing](https://openreview.net/forum?id=oyZxhRI2RiE). 
 **ICLR-21**
+pre-training
+{: .label .label-green }
 
 [comment]: <> (<span class="fs-1">)
 
@@ -141,28 +149,16 @@ We present a collection of research papers that related to structured knowledge 
 [comment]: <> (**Evaluation Tasks:** [SParC]&#40;/benchmarks#sparc&#41;, [CoSQL]&#40;/benchmarks#cosql&#41;, [MultiWoZ2.1]&#40;/benchmarks#multiwoz&#41;, [SQA]&#40;/benchmarks#sqa&#41;)
 
 {: .fs-4 .fw-800 .text-blue-100}
-[GraphCodeBERT: Pre-training Code Representations with Data Flow](https://arxiv.org/abs/2009.08366). 
-**ICLR-21**
-
-[comment]: <> (<span class="fs-1">)
-
-[comment]: <> (   [Code]&#40;https://github.com/taoyds/grappa&#41;{: target="_blank" .btn .btn-green .mr-1 })
-
-[comment]: <> (   [Pre-trained Model]&#40;https://huggingface.co/Salesforce/grappa_large_jnt&#41;{: .btn .btn-purple .mr-1 target="_blank" })
-
-[comment]: <> (   [Semantic Scholar]&#40;https://www.semanticscholar.org/paper/GraPPa%3A-Grammar-Augmented-Pre-Training-for-Table-Yu-Wu/eedf45f62dea0eaef5643c42c84f7cc7b80ee782&#41;{: .btn .btn-purple .mr-1 target="_blank" })
-
-[comment]: <> (</span> )
-
-[comment]: <> (**Evaluation Tasks:** [Spider]&#40;/benchmarks#spider&#41;, [WikiSQL fully-supervised-setting&weakly-supervised-setting]&#40;/benchmarks#wikisql&#41;, [WikiTableQuestion]&#40;/benchmarks#wikitablequestion&#41;)
-
-{: .fs-4 .fw-800 .text-blue-100}
 [Knowledge Graph Based Synthetic Corpus Generation for Knowledge-Enhanced Language Model Pre-training](https://arxiv.org/abs/2010.12688). 
 **NAACL-21**
+pre-train
+{: .label .label-green }
 
 {: .fs-4 .fw-800 .text-blue-100}
 [Structure-Grounded Pretraining for Text-to-SQL](https://arxiv.org/abs/2010.12773). 
 **NAACL-21**
+pre-training
+{: .label .label-green }
 
 [comment]: <> (<span class="fs-1">)
 
@@ -191,6 +187,8 @@ We present a collection of research papers that related to structured knowledge 
 {: .fs-4 .fw-800 .text-blue-100}
 [Understanding tables with intermediate pre-training](https://arxiv.org/abs/2010.00571). 
 **EMNLP-20**
+pre-training
+{: .label .label-green }
 
 [comment]: <> (<span class="fs-1">)
 
@@ -205,6 +203,8 @@ We present a collection of research papers that related to structured knowledge 
 {: .fs-4 .fw-800 .text-blue-100}
 [KGPT: Knowledge-Grounded Pre-Training for Data-to-Text Generation](https://arxiv.org/abs/2010.02307). 
 **EMNLP-20**
+pre-training
+{: .label .label-green }
 
 [comment]: <> (<span class="fs-1">)
 
@@ -229,6 +229,8 @@ We present a collection of research papers that related to structured knowledge 
 {: .fs-4 .fw-800 .text-blue-100}
 [Learning Contextual Representations for Semantic Parsing with Generation-Augmented Pre-Training](https://arxiv.org/abs/2012.10309). 
 **AAAI-21**
+pre-training
+{: .label .label-green }
 
 [comment]: <> (<span class="fs-1">)
 
@@ -293,16 +295,6 @@ We present a collection of research papers that related to structured knowledge 
 [comment]: <> (**Evaluation Tasks:** [WikiSQL]&#40;/benchmarks#wikisql&#41;,  [WikiTableQuestion]&#40;/benchmarks#wikitablequestion&#41;, [TabFact]&#40;/benchmarks#tabfact&#41;)
 
 {: .fs-4 .fw-800 .text-blue-100}
-[Question Answering Infused Pre-training of General-Purpose Contextualized Representations](https://arxiv.org/abs/2106.08190). 
-**arxiv-21**
-
-[comment]: <> (<span class="fs-1">)
-
-[comment]: <> (   [Semantic Scholar]&#40;https://www.semanticscholar.org/paper/Question-Answering-Infused-Pre-training-of-Jia-Lewis/e4c13aadc6adeb8131bb08324e2688383fbb8ec9&#41;{: .btn .btn-purple .mr-1 target="_blank" })
-
-[comment]: <> (</span>)
-
-{: .fs-4 .fw-800 .text-blue-100}
 [Database Reasoning Over Text](https://arxiv.org/abs/2106.01074). 
 **ACL-21**
 
@@ -313,8 +305,10 @@ We present a collection of research papers that related to structured knowledge 
 [comment]: <> (</span> )
 
 {: .fs-4 .fw-800 .text-blue-100}
-[Turning Tables: Generating Examples from Semi-structured Tables for Endowing Language Models with Reasoning Skills](https://arxiv.org/abs/2107.07653). 
+[Turning Tables: Generating Examples from Semi-structured Tables for Endowing Language Models with Reasoning Skills](https://arxiv.org/abs/2107.07261). 
 **arxiv-21**
+pre-training
+{: .label .label-green }
 
 [comment]: <> (<span class="fs-1">)
 
@@ -327,6 +321,8 @@ We present a collection of research papers that related to structured knowledge 
 {: .fs-4 .fw-800 .text-blue-100}
 [TAPEX: Table Pre-training via Learning a Neural SQL Executor](https://arxiv.org/abs/2107.07653). 
 **arxiv-21**
+pre-training
+{: .label .label-green }
 
 [comment]: <> (<span class="fs-1">)
 
@@ -341,6 +337,8 @@ We present a collection of research papers that related to structured knowledge 
 {: .fs-4 .fw-800 .text-blue-100}
 [HTLM: Hyper-Text Pre-Training and Prompting of Language Models](https://arxiv.org/abs/2107.06955).
 **arxiv-21**
+pre-training
+{: .label .label-green }
 
 {: .fs-4 .fw-800 .text-blue-100}
 [MATE: Multi-view Attention for Table Transformer Efficiency](https://arxiv.org/abs/2109.04312).
