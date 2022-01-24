@@ -13,6 +13,8 @@ last_modified_date: Jan 23 2022
 
 # Introduction to Structured Knowledge Grounding
 {: .no_toc }
+In progress
+{: .label .label-yellow }
 
 <style>
 td{

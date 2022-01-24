@@ -8,6 +8,8 @@ permalink: /others/
 ---
 # Others
 {: .no_toc }
+In progress
+{: .label .label-yellow }
 
 ## Table of contents
 {: .no_toc .text-delta .fs-4 style="font-weight:800"}

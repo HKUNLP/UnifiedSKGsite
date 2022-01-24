@@ -9,6 +9,8 @@ permalink: /methodology/
 
 # Methods to Structured Knowledge Grounding
 {: .no_toc }
+In progress
+{: .label .label-yellow }
 
 {: .fs-5 .fw-300 }
 We present a collection of research papers that related to structured knowledge grounding tasks.
