@@ -23,7 +23,13 @@ We present a collection of research papers that related to structured knowledge 
 
 [comment]: <> ({:toc})
 
+`sk-encoding`: Exploring structured knowledge encoding methods(concatenation of text and structured knowledge, positional embeddings design, manipulation in transformers etc.) on structured knowledge grounding tasks.
 
+`pre-training`: Exploring pre-train(unsupervised training data source, self-supervised tasks etc.) on structured knowledge grounding tasks.
+
+`constrained-decoding`: Exploring decoding methods(constrained decoding etc.) on structured knowledge grounding tasks.
+
+`unifying`: Exploring unification of structured knowledge grounding tasks.
 
 {: .fs-4 .fw-800 .text-blue-100}
 [A Comprehensive Exploration on WikiSQL with Table-Aware Word Contextualization](https://arxiv.org/abs/1902.01069). 
@@ -42,7 +48,7 @@ We present a collection of research papers that related to structured knowledge 
 
 {: .fs-4 .fw-800 .text-blue-100}
 [K-BERT: Enabling Language Representation with Knowledge Graph](https://arxiv.org/abs/1909.07606). 
-**AAAI-20**
+**AAAI-20** `sk-encoding`
 
 [comment]: <> (<span class="fs-1">)
 
@@ -56,7 +62,7 @@ We present a collection of research papers that related to structured knowledge 
 
 {: .fs-4 .fw-800 .text-blue-100}
 [TAPAS: Weakly Supervised Table Parsing via Pre-training](https://arxiv.org/abs/2004.02349). 
-**ACL-20** `pre-training`
+**ACL-20** `sk-encoding` `pre-training`
 
 [comment]: <> (<span class="fs-1">)
 
@@ -70,7 +76,7 @@ We present a collection of research papers that related to structured knowledge 
 
 {: .fs-4 .fw-800 .text-blue-100}
 [A Simple Language Model for Task-Oriented Dialogue](https://arxiv.org/abs/2005.00796). 
-**NIPS-20**
+**NIPS-20** `sk-encoding`
 
 [comment]: <> (<span class="fs-1">)
 
@@ -84,7 +90,7 @@ We present a collection of research papers that related to structured knowledge 
 
 {: .fs-4 .fw-800 .text-blue-100}
 [TaBERT: Pretraining for Joint Understanding of Textual and Tabular Data](https://arxiv.org/abs/2005.08314). 
-**ACL-20** `pre-training`
+**ACL-20** `sk-encoding` `pre-training`
 
 [comment]: <> (<span class="fs-1">)
 
@@ -98,7 +104,7 @@ We present a collection of research papers that related to structured knowledge 
 
 {: .fs-4 .fw-800 .text-blue-100}
 [HittER: Hierarchical Transformers for Knowledge Graph Embeddings](https://arxiv.org/abs/2008.12813). 
-**EMNLP-21**
+**EMNLP-21** `sk-encoding`
 
 [comment]: <> (<span class="fs-1">)
 
@@ -128,7 +134,7 @@ We present a collection of research papers that related to structured knowledge 
 
 {: .fs-4 .fw-800 .text-blue-100}
 [SCoRe: Pre-Training for Context Representation in Conversational Semantic Parsing](https://openreview.net/forum?id=oyZxhRI2RiE). 
-**ICLR-21** `pre-training`
+**ICLR-21** `sk-encoding` `pre-training`
 
 [comment]: <> (<span class="fs-1">)
 
@@ -142,7 +148,7 @@ We present a collection of research papers that related to structured knowledge 
 
 {: .fs-4 .fw-800 .text-blue-100}
 [Knowledge Graph Based Synthetic Corpus Generation for Knowledge-Enhanced Language Model Pre-training](https://arxiv.org/abs/2010.12688). 
-**NAACL-21** `pre-training`
+**NAACL-21** `sk-encoding` `pre-training`
 
 {: .fs-4 .fw-800 .text-blue-100}
 [Structure-Grounded Pretraining for Text-to-SQL](https://arxiv.org/abs/2010.12773). 
@@ -188,7 +194,7 @@ We present a collection of research papers that related to structured knowledge 
 
 {: .fs-4 .fw-800 .text-blue-100}
 [KGPT: Knowledge-Grounded Pre-Training for Data-to-Text Generation](https://arxiv.org/abs/2010.02307). 
-**EMNLP-20** `pre-training`
+**EMNLP-20** `sk-encoding` `pre-training` `unifying`
 
 [comment]: <> (<span class="fs-1">)
 
@@ -200,7 +206,7 @@ We present a collection of research papers that related to structured knowledge 
 
 {: .fs-4 .fw-800 .text-blue-100}
 [UniK-QA: Unified Representations of Structured and Unstructured Knowledge for Open-Domain Question Answering](https://arxiv.org/abs/2012.14610) . 
-**arxiv-20**
+**arxiv-20** `sk-encoding` `unifying`
 
 [comment]: <> (<span class="fs-1">)
 
@@ -226,7 +232,7 @@ We present a collection of research papers that related to structured knowledge 
 
 {: .fs-4 .fw-800 .text-blue-100}
 [Table Fact Verification with Structure-Aware Transformer](https://aclanthology.org/2020.emnlp-main.126/). 
-**ACL-20**
+**ACL-20** `sk-encoding`
 
 [comment]: <> (<span class="fs-1">)
 
@@ -240,7 +246,7 @@ We present a collection of research papers that related to structured knowledge 
 
 {: .fs-4 .fw-800 .text-blue-100}
 [Constrained Language Models Yield Few-Shot Semantic Parsers](https://arxiv.org/abs/2104.08768). 
-**EMNLP-21** `constrained-decoding`
+**EMNLP-21** `sk-encoding` `constrained-decoding`
 
 [comment]: <> (<span class="fs-1">)
 
@@ -266,7 +272,7 @@ We present a collection of research papers that related to structured knowledge 
 
 {: .fs-4 .fw-800 .text-blue-100}
 [DoT: An efficient Double Transformer for NLP tasks with tables](https://arxiv.org/abs/2106.00479). 
-**ACL-21**
+**ACL-21** `sk-encoding`
 
 [comment]: <> (<span class="fs-1">)
 
@@ -278,7 +284,7 @@ We present a collection of research papers that related to structured knowledge 
 
 {: .fs-4 .fw-800 .text-blue-100}
 [Database Reasoning Over Text](https://arxiv.org/abs/2106.01074). 
-**ACL-21**
+**ACL-21** `sk-encoding`
 
 [comment]: <> (<span class="fs-1">)
 
@@ -318,7 +324,7 @@ We present a collection of research papers that related to structured knowledge 
 
 {: .fs-4 .fw-800 .text-blue-100}
 [MATE: Multi-view Attention for Table Transformer Efficiency](https://arxiv.org/abs/2109.04312).
-**EMNLP-21**
+**EMNLP-21** `sk-encoding`
 
 [comment]: <> (<span class="fs-1">)
 
@@ -328,17 +334,19 @@ We present a collection of research papers that related to structured knowledge 
 
 [comment]: <> (**Evaluation Tasks:** [HybridQA]&#40;/benchmarks#hybridqa&#41;, [SQA]&#40;/benchmarks#msr-sqa&#41;, [WikiTableQuestion]&#40;/benchmarks#wikitablequestion&#41;, [TabFact]&#40;/benchmarks#tabfact&#41;)
 
-{: .fs-4 .fw-800 .text-blue-100}
-[RnG-KBQA: Generation Augmented Iterative Ranking for Knowledge Base Question Answering](https://arxiv.org/abs/2109.08678). 
-**arxiv-21**
+[comment]: <> ({: .fs-4 .fw-800 .text-blue-100})
 
-[comment]: <> (<span class="fs-1">)
+[comment]: <> ([RnG-KBQA: Generation Augmented Iterative Ranking for Knowledge Base Question Answering]&#40;https://arxiv.org/abs/2109.08678&#41;. )
 
-[comment]: <> (   [Code]&#40;https://github.com/salesforce/rng-kbqa&#41;{: target="_blank" .btn .btn-green .mr-1 })
+[comment]: <> (**arxiv-21** )
 
-[comment]: <> (</span> )
+[comment]: <> ([comment]: <> &#40;<span class="fs-1">&#41;)
 
-[comment]: <> (**Evaluation Tasks:** [GrailQA]&#40;/benchmarks#grailqa&#41;, [WebQSP]&#40;/benchmarks#webqsp&#41;)
+[comment]: <> ([comment]: <> &#40;   [Code]&#40;https://github.com/salesforce/rng-kbqa&#41;{: target="_blank" .btn .btn-green .mr-1 }&#41;)
+
+[comment]: <> ([comment]: <> &#40;</span> &#41;)
+
+[comment]: <> ([comment]: <> &#40;**Evaluation Tasks:** [GrailQA]&#40;/benchmarks#grailqa&#41;, [WebQSP]&#40;/benchmarks#webqsp&#41;&#41;)
 
 {: .fs-4 .fw-800 .text-blue-100}
 [PICARD: Parsing Incrementally for Constrained Auto-Regressive Decoding from Language Models](https://arxiv.org/abs/2109.05093). 
@@ -354,8 +362,8 @@ We present a collection of research papers that related to structured knowledge 
 
 {: .fs-4 .fw-800 .text-blue-100}
 [FORTAP: Using Formulae for Numerical-Reasoning-Aware Table Pretraining](https://arxiv.org/abs/2109.07323). 
-**arxiv-21**
+**arxiv-21** `pre-training`
 
 {: .fs-4 .fw-800 .text-blue-100}
 [UnifiedSKG: Unifying and Multi-Tasking Structured Knowledge Grounding with Text-to-Text Language Models](https://arxiv.org/abs/2201.05966). 
-**arxiv-22**
+**arxiv-22** `unifying`
