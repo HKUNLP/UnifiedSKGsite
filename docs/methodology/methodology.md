@@ -56,10 +56,7 @@ We present a collection of research papers that related to structured knowledge 
 
 {: .fs-4 .fw-800 .text-blue-100}
 [TAPAS: Weakly Supervised Table Parsing via Pre-training](https://arxiv.org/abs/2004.02349). 
-**ACL-20**
-
-pre-training
-{: .label .label-green }
+**ACL-20** `pre-training`
 
 [comment]: <> (<span class="fs-1">)
 
@@ -87,10 +84,7 @@ pre-training
 
 {: .fs-4 .fw-800 .text-blue-100}
 [TaBERT: Pretraining for Joint Understanding of Textual and Tabular Data](https://arxiv.org/abs/2005.08314). 
-**ACL-20**
-
-pre-training
-{: .label .label-green }
+**ACL-20** `pre-training`
 
 [comment]: <> (<span class="fs-1">)
 
@@ -118,10 +112,7 @@ pre-training
 
 {: .fs-4 .fw-800 .text-blue-100}
 [GraPPa: Grammar-Augmented Pre-Training for Table Semantic Parsing](https://arxiv.org/abs/2009.13845). 
-**ICLR-21**
-
-pre-training
-{: .label .label-green }
+**ICLR-21** `pre-training`
 
 [comment]: <> (<span class="fs-1">)
 
@@ -137,10 +128,7 @@ pre-training
 
 {: .fs-4 .fw-800 .text-blue-100}
 [SCoRe: Pre-Training for Context Representation in Conversational Semantic Parsing](https://openreview.net/forum?id=oyZxhRI2RiE). 
-**ICLR-21**
-
-pre-training
-{: .label .label-green }
+**ICLR-21** `pre-training`
 
 [comment]: <> (<span class="fs-1">)
 
@@ -154,17 +142,11 @@ pre-training
 
 {: .fs-4 .fw-800 .text-blue-100}
 [Knowledge Graph Based Synthetic Corpus Generation for Knowledge-Enhanced Language Model Pre-training](https://arxiv.org/abs/2010.12688). 
-**NAACL-21**
-
-pre-training
-{: .label .label-green }
+**NAACL-21** `pre-training`
 
 {: .fs-4 .fw-800 .text-blue-100}
 [Structure-Grounded Pretraining for Text-to-SQL](https://arxiv.org/abs/2010.12773). 
-**NAACL-21**
-
-pre-training
-{: .label .label-green }
+**NAACL-21** `pre-training`
 
 [comment]: <> (<span class="fs-1">)
 
@@ -192,10 +174,7 @@ pre-training
 
 {: .fs-4 .fw-800 .text-blue-100}
 [Understanding tables with intermediate pre-training](https://arxiv.org/abs/2010.00571). 
-**EMNLP-20**
-
-pre-training
-{: .label .label-green }
+**EMNLP-20** `pre-training`
 
 [comment]: <> (<span class="fs-1">)
 
@@ -209,10 +188,7 @@ pre-training
 
 {: .fs-4 .fw-800 .text-blue-100}
 [KGPT: Knowledge-Grounded Pre-Training for Data-to-Text Generation](https://arxiv.org/abs/2010.02307). 
-**EMNLP-20**
-
-pre-training
-{: .label .label-green }
+**EMNLP-20** `pre-training`
 
 [comment]: <> (<span class="fs-1">)
 
@@ -236,10 +212,7 @@ pre-training
 
 {: .fs-4 .fw-800 .text-blue-100}
 [Learning Contextual Representations for Semantic Parsing with Generation-Augmented Pre-Training](https://arxiv.org/abs/2012.10309). 
-**AAAI-21**
-
-pre-training
-{: .label .label-green }
+**AAAI-21** `pre-training`
 
 [comment]: <> (<span class="fs-1">)
 
@@ -267,10 +240,7 @@ pre-training
 
 {: .fs-4 .fw-800 .text-blue-100}
 [Constrained Language Models Yield Few-Shot Semantic Parsers](https://arxiv.org/abs/2104.08768). 
-**EMNLP-21**
-
-constrained-decoding
-{: .label .label-blue }
+**EMNLP-21** `constrained-decoding`
 
 [comment]: <> (<span class="fs-1">)
 
@@ -318,10 +288,7 @@ constrained-decoding
 
 {: .fs-4 .fw-800 .text-blue-100}
 [Turning Tables: Generating Examples from Semi-structured Tables for Endowing Language Models with Reasoning Skills](https://arxiv.org/abs/2107.07261). 
-**arxiv-21**
-
-pre-training
-{: .label .label-green }
+**arxiv-21** `pre-training`
 
 [comment]: <> (<span class="fs-1">)
 
@@ -333,10 +300,7 @@ pre-training
 
 {: .fs-4 .fw-800 .text-blue-100}
 [TAPEX: Table Pre-training via Learning a Neural SQL Executor](https://arxiv.org/abs/2107.07653). 
-**arxiv-21**
-
-pre-training
-{: .label .label-green }
+**arxiv-21** `pre-training`
 
 [comment]: <> (<span class="fs-1">)
 
@@ -350,10 +314,7 @@ pre-training
 
 {: .fs-4 .fw-800 .text-blue-100}
 [HTLM: Hyper-Text Pre-Training and Prompting of Language Models](https://arxiv.org/abs/2107.06955).
-**arxiv-21**
-
-pre-training
-{: .label .label-green }
+**arxiv-21** `pre-training`
 
 {: .fs-4 .fw-800 .text-blue-100}
 [MATE: Multi-view Attention for Table Transformer Efficiency](https://arxiv.org/abs/2109.04312).
@@ -381,10 +342,7 @@ pre-training
 
 {: .fs-4 .fw-800 .text-blue-100}
 [PICARD: Parsing Incrementally for Constrained Auto-Regressive Decoding from Language Models](https://arxiv.org/abs/2109.05093). 
-**EMNLP-21**
-
-constrained-decoding
-{: .label .label-blue }
+**EMNLP-21** `constrained-decoding`
 
 [comment]: <> (<span class="fs-1">)
 
