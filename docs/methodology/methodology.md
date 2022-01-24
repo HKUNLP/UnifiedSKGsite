@@ -307,6 +307,7 @@ pre-training
 {: .fs-4 .fw-800 .text-blue-100}
 [Turning Tables: Generating Examples from Semi-structured Tables for Endowing Language Models with Reasoning Skills](https://arxiv.org/abs/2107.07261). 
 **arxiv-21**
+
 pre-training
 {: .label .label-green }
 
@@ -321,6 +322,7 @@ pre-training
 {: .fs-4 .fw-800 .text-blue-100}
 [TAPEX: Table Pre-training via Learning a Neural SQL Executor](https://arxiv.org/abs/2107.07653). 
 **arxiv-21**
+
 pre-training
 {: .label .label-green }
 
@@ -337,6 +339,7 @@ pre-training
 {: .fs-4 .fw-800 .text-blue-100}
 [HTLM: Hyper-Text Pre-Training and Prompting of Language Models](https://arxiv.org/abs/2107.06955).
 **arxiv-21**
+
 pre-training
 {: .label .label-green }
 
