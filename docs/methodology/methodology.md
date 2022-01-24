@@ -57,6 +57,7 @@ We present a collection of research papers that related to structured knowledge 
 {: .fs-4 .fw-800 .text-blue-100}
 [TAPAS: Weakly Supervised Table Parsing via Pre-training](https://arxiv.org/abs/2004.02349). 
 **ACL-20**
+
 pre-training
 {: .label .label-green }
 
@@ -87,6 +88,7 @@ pre-training
 {: .fs-4 .fw-800 .text-blue-100}
 [TaBERT: Pretraining for Joint Understanding of Textual and Tabular Data](https://arxiv.org/abs/2005.08314). 
 **ACL-20**
+
 pre-training
 {: .label .label-green }
 
@@ -117,6 +119,7 @@ pre-training
 {: .fs-4 .fw-800 .text-blue-100}
 [GraPPa: Grammar-Augmented Pre-Training for Table Semantic Parsing](https://arxiv.org/abs/2009.13845). 
 **ICLR-21**
+
 pre-training
 {: .label .label-green }
 
@@ -135,6 +138,7 @@ pre-training
 {: .fs-4 .fw-800 .text-blue-100}
 [SCoRe: Pre-Training for Context Representation in Conversational Semantic Parsing](https://openreview.net/forum?id=oyZxhRI2RiE). 
 **ICLR-21**
+
 pre-training
 {: .label .label-green }
 
@@ -157,6 +161,7 @@ pre-train
 {: .fs-4 .fw-800 .text-blue-100}
 [Structure-Grounded Pretraining for Text-to-SQL](https://arxiv.org/abs/2010.12773). 
 **NAACL-21**
+
 pre-training
 {: .label .label-green }
 
@@ -187,6 +192,7 @@ pre-training
 {: .fs-4 .fw-800 .text-blue-100}
 [Understanding tables with intermediate pre-training](https://arxiv.org/abs/2010.00571). 
 **EMNLP-20**
+
 pre-training
 {: .label .label-green }
 
@@ -203,6 +209,7 @@ pre-training
 {: .fs-4 .fw-800 .text-blue-100}
 [KGPT: Knowledge-Grounded Pre-Training for Data-to-Text Generation](https://arxiv.org/abs/2010.02307). 
 **EMNLP-20**
+
 pre-training
 {: .label .label-green }
 
@@ -229,6 +236,7 @@ pre-training
 {: .fs-4 .fw-800 .text-blue-100}
 [Learning Contextual Representations for Semantic Parsing with Generation-Augmented Pre-Training](https://arxiv.org/abs/2012.10309). 
 **AAAI-21**
+
 pre-training
 {: .label .label-green }
 
