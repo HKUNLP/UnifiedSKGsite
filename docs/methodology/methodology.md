@@ -55,18 +55,6 @@ We present a collection of research papers that related to structured knowledge 
 [comment]: <> (**Evaluation Tasks:** Book, review,Chnsenticorp, Shopping, Weibo, XNLI, LCQMC, NLPCC-DBQA, MSRA-NER, Finance Q&A, Law Q&A, Finance NER, Medicine NER)
 
 {: .fs-4 .fw-800 .text-blue-100}
-[CodeBERT: A Pre-Trained Model for Programming and Natural Languages](https://arxiv.org/abs/2002.08155). 
-**EMNLP-20**
-
-[comment]: <> (<span class="fs-1">)
-
-[comment]: <> (   [Code]&#40;https://github.com/microsoft/CodeBERT&#41;{: target="_blank" .btn .btn-green .mr-1 })
-
-[comment]: <> (   [Semantic Scholar]&#40;https://www.semanticscholar.org/paper/CodeBERT%3A-A-Pre-Trained-Model-for-Programming-and-Feng-Guo/0fe2636446cd686830da3d971b31a004d6094b3c&#41;{: .btn .btn-purple .mr-1 target="_blank" })
-
-[comment]: <> (</span>)
-
-{: .fs-4 .fw-800 .text-blue-100}
 [TAPAS: Weakly Supervised Table Parsing via Pre-training](https://arxiv.org/abs/2004.02349). 
 **ACL-20**
 
@@ -293,18 +281,6 @@ We present a collection of research papers that related to structured knowledge 
 [comment]: <> (</span> )
 
 {: .fs-4 .fw-800 .text-blue-100}
-[Evaluating Large Language Models Trained on Code(Codex)](https://arxiv.org/abs/2105.02584). 
-**arixv-21**
-
-[comment]: <> (<span class="fs-1">)
-
-[comment]: <> (   [Website]&#40;https://openai.com/api/&#41;{: target="_blank" .btn .btn-red .mr-1 })
-
-[comment]: <> (   [Semantic Scholar]&#40;https://www.semanticscholar.org/paper/Evaluating-Large-Language-Models-Trained-on-Code-Chen-Tworek/acbdbf49f9bc3f151b93d9ca9a06009f4f6eb269&#41;{: .btn .btn-purple .mr-1 target="_blank" })
-
-[comment]: <> (</span>)
-
-{: .fs-4 .fw-800 .text-blue-100}
 [DoT: An efficient Double Transformer for NLP tasks with tables](https://arxiv.org/abs/2106.00479). 
 **ACL-21**
 
@@ -367,20 +343,6 @@ We present a collection of research papers that related to structured knowledge 
 **arxiv-21**
 
 {: .fs-4 .fw-800 .text-blue-100}
-[CodeT5: Identifier-aware Unified Pre-trained Encoder-Decoder Models for Code Understanding and Generation](https://arxiv.org/abs/2109.00859). 
-**EMNLP-21**
-
-[comment]: <> (<span class="fs-1">)
-
-[comment]: <> (   [Code]&#40;https: //github.com/salesforce/CodeT5&#41;{: target="_blank" .btn .btn-green .mr-1 })
-
-[comment]: <> (   [Website]&#40;https://table-pretraining.github.io/&#41;{: target="_blank" .btn .btn-green .mr-1 })
-
-[comment]: <> (   [Semantic Scholar]&#40;https://www.semanticscholar.org/paper/TAPEX%3A-Table-Pre-training-via-Learning-a-Neural-SQL-Liu-Chen/8592953f1ebe38ba4cab05c28a088f5d5691a514&#41;{: .btn .btn-purple .mr-1 target="_blank" })
-
-[comment]: <> (</span>)
-
-{: .fs-4 .fw-800 .text-blue-100}
 [MATE: Multi-view Attention for Table Transformer Efficiency](https://arxiv.org/abs/2109.04312).
 **EMNLP-21**
 
@@ -422,8 +384,4 @@ We present a collection of research papers that related to structured knowledge 
 
 {: .fs-4 .fw-800 .text-blue-100}
 [UnifiedSKG: Unifying and Multi-Tasking Structured Knowledge Grounding with Text-to-Text Language Models](https://arxiv.org/abs/2201.05966). 
-**arxiv-22**
-
-{: .fs-4 .fw-800 .text-blue-100}
-[LEMON: Language-Based Environment Manipulation via Execution-Guided Pre-training](https://arxiv.org/abs/2201.08081). 
 **arxiv-22**

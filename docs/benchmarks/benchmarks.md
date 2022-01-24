@@ -349,48 +349,6 @@ KVRET is also called SMD(Stanford Multi-Domain task-oriented dialogue dataset). 
 
 [comment]: <> ([Official Link]&#40;https://github.com/czyssrs/Logic2Text&#41;{: target="_blank" .btn .btn-green .mr-1 })
 
----
-
-## NL-to-Program
-
-### Django
-{: .no_toc }
-
-{: .fs-4 .fw-800 .text-blue-100}
-*[Learning to Generate Pseudo-Code from Source Code Using Statistical Machine Translation](https://ieeexplore.ieee.org/document/7372045/)*. **ASE-15**
-
-### ConCode
-{: .no_toc }
-
-{: .fs-4 .fw-800 .text-blue-100}
-*[Mapping Language to Code in Programmatic Context](https://arxiv.org/abs/1808.09588)*. **EMNLP-18**
-
-### CoNala
-{: .no_toc }
-
-{: .fs-4 .fw-800 .text-blue-100}
-*[Learning to Mine Aligned Code and Natural Language Pairs from Stack Overflow](https://arxiv.org/abs/1805.08949)*. **MSR-18**
-
-### SPoC
-{: .no_toc }
-
-{: .fs-4 .fw-800 .text-blue-100}
-*[SPoC: Search-based Pseudocode to Code](https://arxiv.org/abs/1906.04908)*. **NIPS-19**
-
-### CodeXGLUE
-{: .no_toc }
-
-{: .fs-4 .fw-800 .text-blue-100}
-*[CodeXGLUE: A Machine Learning Benchmark Dataset for Code Understanding and Generation](https://arxiv.org/abs/2102.04664)*. **arxiv-21**
-
-### CodeXHumanEval
-{: .no_toc }
-
-{: .fs-4 .fw-800 .text-blue-100}
-*[Evaluating Large Language Models Trained on Code](https://arxiv.org/abs/2107.03374)*. **arxiv-21**
-
----
-
 ## Other Related Datasets
 
 
