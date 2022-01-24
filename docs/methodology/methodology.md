@@ -380,6 +380,9 @@ pre-training
 [PICARD: Parsing Incrementally for Constrained Auto-Regressive Decoding from Language Models](https://arxiv.org/abs/2109.05093). 
 **EMNLP-21**
 
+constrained-decoding
+{: .label .label-pink }
+
 [comment]: <> (<span class="fs-1">)
 
 [comment]: <> (   [Code]&#40;https://github.com/ElementAI/picard&#41;{: target="_blank" .btn .btn-green .mr-1 })
