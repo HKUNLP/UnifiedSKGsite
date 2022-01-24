@@ -29,6 +29,9 @@ We present a collection of research papers that related to structured knowledge 
 [A Comprehensive Exploration on WikiSQL with Table-Aware Word Contextualization](https://arxiv.org/abs/1902.01069). 
  **NIPS-19**
 
+sk-encoding
+{: .label .label-purple }
+
 [comment]: <> (<span class="fs-1">)
 
 [comment]: <> (   [Code]&#40;https://github.com/naver/sqlova&#41;{: target="_blank" .btn .btn-green .mr-1 })
@@ -156,7 +159,7 @@ pre-training
 [Knowledge Graph Based Synthetic Corpus Generation for Knowledge-Enhanced Language Model Pre-training](https://arxiv.org/abs/2010.12688). 
 **NAACL-21**
 
-pre-train
+pre-training
 {: .label .label-green }
 
 {: .fs-4 .fw-800 .text-blue-100}
@@ -268,6 +271,9 @@ pre-training
 {: .fs-4 .fw-800 .text-blue-100}
 [Constrained Language Models Yield Few-Shot Semantic Parsers](https://arxiv.org/abs/2104.08768). 
 **EMNLP-21**
+
+constrained-decoding
+{: .label .label-blue }
 
 [comment]: <> (<span class="fs-1">)
 
@@ -381,7 +387,7 @@ pre-training
 **EMNLP-21**
 
 constrained-decoding
-{: .label .label-pink }
+{: .label .label-blue }
 
 [comment]: <> (<span class="fs-1">)
 
