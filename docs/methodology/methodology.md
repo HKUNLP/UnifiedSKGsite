@@ -421,3 +421,7 @@ We present a collection of research papers that related to structured knowledge 
 {: .fs-4 .fw-800 .text-blue-100}
 [UnifiedSKG: Unifying and Multi-Tasking Structured Knowledge Grounding with Text-to-Text Language Models](https://arxiv.org/abs/2201.05966). 
 **arxiv-22**
+
+{: .fs-4 .fw-800 .text-blue-100}
+[LEMON: Language-Based Environment Manipulation via Execution-Guided Pre-training](https://arxiv.org/abs/2201.08081). 
+**arxiv-22**
