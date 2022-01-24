@@ -31,6 +31,8 @@ We present a collection of research papers that related to structured knowledge 
 
 `unifying`: Exploring unification of structured knowledge grounding tasks.
 
+---
+
 {: .fs-4 .fw-800 .text-blue-100}
 [A Comprehensive Exploration on WikiSQL with Table-Aware Word Contextualization](https://arxiv.org/abs/1902.01069). 
  **NIPS-19** `sk-encoding`
