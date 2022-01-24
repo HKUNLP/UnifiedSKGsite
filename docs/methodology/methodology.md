@@ -360,6 +360,7 @@ We present a collection of research papers that related to structured knowledge 
 
 [comment]: <> (</span> )
 
+{: .fs-4 .fw-800 .text-blue-100}
 [HTLM: Hyper-Text Pre-Training and Prompting of Language Models](https://arxiv.org/abs/2107.06955).
 **arxiv-21**
 
