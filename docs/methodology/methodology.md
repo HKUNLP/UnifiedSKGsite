@@ -294,7 +294,7 @@ We present a collection of research papers that related to structured knowledge 
 
 {: .fs-4 .fw-800 .text-blue-100}
 [Question Answering Infused Pre-training of General-Purpose Contextualized Representations](https://arxiv.org/abs/2106.08190). 
-**arixv-21**
+**arxiv-21**
 
 [comment]: <> (<span class="fs-1">)
 
@@ -326,7 +326,7 @@ We present a collection of research papers that related to structured knowledge 
 
 {: .fs-4 .fw-800 .text-blue-100}
 [TAPEX: Table Pre-training via Learning a Neural SQL Executor](https://arxiv.org/abs/2107.07653). 
-**arixv-21**
+**arxiv-21**
 
 [comment]: <> (<span class="fs-1">)
 
