@@ -220,7 +220,7 @@ There is another [E2E cleaned version](https://github.com/tuetschek/e2e-cleaning
 [comment]: <> ([Official Link]&#40;https://webnlg-challenge.loria.fr/&#41;{: target="_blank" .btn .btn-green .mr-1 })
 
 **Comments**
-WebNLG challenge has many datasets available, the widely used dversion currently is the WebNLG challenge 2017. There is a useful [link](https://github.com/fuzihaofzh/webnlg-dataset) for summarization of this.
+WebNLG challenge has many datasets available。 There is a useful [link](https://gitlab.com/shimorina/webnlg-dataset) for summarization of this.
 
 ### Table-to-Text
 {: .no_toc }
