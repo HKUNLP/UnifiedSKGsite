@@ -78,3 +78,4 @@ If you find our work helpful, please cite as
       year={2022},
 }
 ```
+Also check out our UnifiedSKG framework [here](https://github.com/HKUNLP/UnifiedSKG)!
