@@ -27,4 +27,4 @@ In progress
 ## Useful Links
 - [OpenAI GPT3&Codex](https://openai.com/api/)
 - [Stanford Open Virtual Assistant Lab](https://oval.cs.stanford.edu/)
-- [Semantic Machine](https://www.microsoft.com/en-us/research/project/semantic-machines/)
+- [Semantic Machines](https://www.microsoft.com/en-us/research/project/semantic-machines/)
