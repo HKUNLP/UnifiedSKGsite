@@ -207,7 +207,7 @@ We present a collection of research papers that related to structured knowledge 
 [comment]: <> (</span>)
 
 {: .fs-4 .fw-800 .text-blue-100}
-[UniK-QA: Unified Representations of Structured and Unstructured Knowledge for Open-Domain Question Answering](https://arxiv.org/abs/2012.14610) . 
+[UniK-QA: Unified Representations of Structured and Unstructured Knowledge for Open-Domain Question Answering](https://arxiv.org/abs/2012.14610). 
 **arxiv-20** `sk-encoding` `unifying`
 
 [comment]: <> (<span class="fs-1">)
@@ -217,6 +217,10 @@ We present a collection of research papers that related to structured knowledge 
 [comment]: <> (</span> )
 
 [comment]: <> (**Evaluation Tasks:**  NaturalQuestions, WebQuestions)
+
+{: .fs-4 .fw-800 .text-blue-100}
+[JAKET: Joint Pre-training of Knowledge Graph and Language Understanding](https://arxiv.org/abs/2010.00796). 
+**arxiv-20** `sk-encoding` `pre-training`
 
 {: .fs-4 .fw-800 .text-blue-100}
 [Learning Contextual Representations for Semantic Parsing with Generation-Augmented Pre-Training](https://arxiv.org/abs/2012.10309). 
