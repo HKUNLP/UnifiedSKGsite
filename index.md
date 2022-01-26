@@ -67,3 +67,14 @@ Contact [us](mailto:tianbaoxiexxx@gmail.com) or make pull request on [Github](ht
 <img src="assets/images/logos.png" width="90%" height="auto"/>
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=080808&w=300&t=m&d=lLOlCuZQy0Kh_M45EMrhU6iiFL4FlHcLWyCWLrcXJ7g&co=ffffff&ct=808080&cmo=3acc3a&cmn=ff5353'></script>
 <!-- used for generating the html -->
+
+## Citation
+If you find our work helpful, please cite as
+```
+@article{UnifiedSKG,
+      title={UnifiedSKG: Unifying and Multi-Tasking Structured Knowledge Grounding with Text-to-Text Language Models}, 
+      author={Tianbao Xie and Chen Henry Wu and Peng Shi and Ruiqi Zhong and Torsten Scholak and Michihiro Yasunaga and Chien-Sheng Wu and Ming Zhong and Pengcheng Yin and Sida I. Wang and Victor Zhong and Bailin Wang and Chengzu Li and Connor Boyle and Ansong Ni and Ziyu Yao and Dragomir Radev and Caiming Xiong and Lingpeng Kong and Rui Zhang and Noah A. Smith and Luke Zettlemoyer and Tao Yu},
+      journal={arXiv preprint arXiv:2201.05966},
+      year={2022},
+}
+```
