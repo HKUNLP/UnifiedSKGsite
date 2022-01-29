@@ -246,7 +246,6 @@ WebNLG challenge has many datasets available。 There is a useful [link](https:/
 [comment]: <> ([Official Link]&#40;https://github.com/google-research-datasets/ToTTo&#41;{: target="_blank" .btn .btn-green .mr-1 })
 
 
-
 ### LogicNLG
 {: .no_toc }
 
@@ -254,6 +253,13 @@ WebNLG challenge has many datasets available。 There is a useful [link](https:/
 *[Logical Natural Language Generation from Open-Domain Tables](https://aclanthology.org/2020.acl-main.708/)*. **ACL-20**
 
 [comment]: <> ([Official Link]&#40;https://github.com/wenhuchen/LogicNLG&#41;{: target="_blank" .btn .btn-green .mr-1 })
+
+
+### HiTab
+{: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*[HiTab: A Hierarchical Table Dataset for Question Answering and Natural Language Generation](http://arxiv.org/abs/2108.06712)*. **arxiv-21**
 
 ---
 
