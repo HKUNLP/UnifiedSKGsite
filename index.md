@@ -35,7 +35,6 @@ This website contains collection of datasets, publications that are related to *
     <li><a href="/benchmarks#conversational" id="markdown-toc-conversational">Conversational</a></li> 
     <li><a href="/benchmarks#fact-verification" id="markdown-toc-fact-verification">Fact Verifications</a></li> 
     <li><a href="/benchmarks#formal-language-to-text" id="markdown-toc-formal-language-to-text">Formal-Language-to-Text</a></li> 
-    <li><a href="/benchmarks#nl-to-program" id="markdown-toc-formal-language-to-text">NL-to-Program</a></li>
 </ul>
 
 [comment]: <> (    <li><a href="/benchmarks#other-related-datasets" id="markdown-toc-other-related-datasets">Other Related Datasets</a></li> )
