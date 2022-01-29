@@ -195,6 +195,12 @@ The 5-fold validation evaluation in origianl dataset is depracated by latest wor
 {: .fs-4 .fw-800 .text-blue-100}
 *[Topic Transferable Table Question Answering](https://arxiv.org/abs/2109.07377)*. **EMNLP-21**
 
+### Fin-QA
+{: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*[FinQA: A Dataset of Numerical Reasoning over Financial Data](https://arxiv.org/abs/2109.00122)*. **EMNLP-21**
+
 
 ---
 
