@@ -13,7 +13,7 @@ In progress
 {: .label .label-yellow }
 
 ## About
-This website contains collection of datasets, publications that are related to *structured knowledge grounding* to facilitate researchers. The website is in progress, so please don't hesitate to contact [us](mailto:tianbaoxiexxx@gmail.com) if we missed any other valuable work.
+This website contains collection of datasets, publications that are related to *structured knowledge grounding* to facilitate researchers. **The website is in progress, so please don't hesitate to contact [us](mailto:tianbaoxiexxx@gmail.com) if we missed any other valuable work.**
 
 
 ### Content
