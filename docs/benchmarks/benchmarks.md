@@ -28,11 +28,13 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 
 |   Dataset |   Knowledge   |   User Input  |   Output  |   Keywords    |   Contain in UnifiedSKG   |
 |	[Spider](https://unifiedskg.com/benchmarks/#spider)	|	 Database	|	 Question	|	 SQL	|	 Fully supervised; Cross-domain; Single turn	|	v1	|
-|	[Single Domain Text2SQL](https://github.com/jkkummerfeld/text2sql-data)	|	 Database	|	 Question	|	 SQL	|	 Fully supervised; Single turn	|		|
+|	[Single Domain Text2SQL](https://unifiedskg.com/benchmarks/#single-domain-text2sql)	|	 Database	|	 Question	|	 SQL	|	 Fully supervised; Single turn	|		|
+|	[Break](https://unifiedskg.com/benchmarks/#break)	|	 	|	 	|	 	|	 	|		|
 |	[GrailQA](https://unifiedskg.com/benchmarks/#grailqa)	|	 Knowledge Graph	|	 Question	|	 S-Expression	|	 Large, 64k; Test generalization: i.i.d./compositional/zero-shot	|	v1	|
 |	[WebQSP](https://unifiedskg.com/benchmarks/#webqsp)	|	 Knowledge Graph	|	 Question	|	 S-Expression	|	 -	|	v1	|
 |	[Russ](https://unifiedskg.com/benchmarks/#russ)	|	 API	|	 Question	|	 Query	|	-	|		|
 |	[MTOP](https://unifiedskg.com/benchmarks/#mtop)	|	 API	|	 Question	|	 TOP-representation	|	 Spoken Language Understanding; TOP representation	|	v1	|
+|	[WebAPI](https://unifiedskg.com/benchmarks/#webapi)	|	 	|	 	|	 	|	 	|		|
 |	[WikiSQL](https://unifiedskg.com/benchmarks/#wikisql)	|	 Table	|	 Question	|	 Answer(adopted)/SQL	|	 Fully/weakly supervised semantic parsing(SQL provided); Large data	|	v1	|
 |	[WikiTableQuestion](https://unifiedskg.com/benchmarks/#wikitablequestion)	|	 Table	|	 Question	|	 Answer	|	 Weakly supervised semantic parsing(using question-answer pairs as supervision); Row sensative(some qa related to row order)	|	v1	|
 |	[CompWebQ](https://unifiedskg.com/benchmarks/#compwebq)	|	 Knowledge Graph	|	 Question	|	 Answer	|	 Weakly supervised; Multihop	|	v1	|
@@ -41,16 +43,22 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 |	[MultiModalQA](https://unifiedskg.com/benchmarks/#multimodalqa)	|	 Table + Text + Images	|	 Question	|	 Answer	|	 Short-form entity/extractive	|	v1	|
 |	[FeTaQA](https://unifiedskg.com/benchmarks/#fetaqa)	|	 Table	|	 Question	|	 Free-Form Answer	|	 Free-form answer	|	v1	|
 |	[TAT-QA](https://unifiedskg.com/benchmarks/#tat-qa)	|	 Table + Text	|	 Question	|	 Answer(diverse form, including single span, multiple spans and free-form)	|	 Context hybrid; Numerical reasoning; Financial	|		|
+|	[AIT-QA](https://unifiedskg.com/benchmarks/#ait-qa)	|	 Complex Table	|	Question	|	 Answer	|	Airline industry; Complex table 	|		|
+|	[HiTab_qa](https://unifiedskg.com/benchmarks/#hitab)	|	 Hierarchical Table	|	Question	|	 Answer	|	 Hierarchical table; TableQA & Table-to-Text	|		|
+|	[WikiSQL-TS_WikiTQ-TS](https://unifiedskg.com/benchmarks/#wikisql-ts_wikitq-ts)	|	 	|	 	|	 	|	 	|		|
+|	[FinQA](https://unifiedskg.com/benchmarks/#fin-qa)	|	 Table	|	Question 	|	 Answer	|	 Numerical reasoning; Financial data	|		|
 |	[E2E](https://unifiedskg.com/benchmarks/#e2e)	|	 Table	|	 None	|	 Text	|	 Text generation; Restaurant domain	|		|
 |	[WebNLG](https://unifiedskg.com/benchmarks/#webnlg)	|	 Knowledge Graph(triples)	|	 None	|	 Text	|	 Text generation; RDF Triples	|		|
 |	[DART](https://unifiedskg.com/benchmarks/#dart)	|	 Triples	|	 None	|	 Text	|	 Text generation; Large data; E2E and WebNLG contained	|	v1	|
 |	[ToTTo](https://unifiedskg.com/benchmarks/#totto)	|	 Highlighted Table	|	 None	|	 Text	|	 Highlighted Table; Text generation	|	v1	|
 |	[LogicNLG](https://unifiedskg.com/benchmarks/#logicnlg)	|	 Table	|	 None	|	 Logical Natural Language Generation	|	 Logical NL generation	|		|
+|	[HiTab_NLG](https://unifiedskg.com/benchmarks/#hitab1)	|	  Hierarchical Table	|	 None	|	Text 	|	Hierarchical table; TableQA & Table-to-Text 	|		|
 |	[MultiWoZ](https://unifiedskg.com/benchmarks/#multiwoz21)	|	 Ontology	|	 Dialogue	|	 Dialogue State	|	 Dialog system	|	v1	|
 |	[KVRET(SMD)](https://unifiedskg.com/benchmarks/#kvretsmd)	|	 Table	|	 Statement	|	 Boolean	|	 Dialogue system; Each dialogue has a seperate table as kb	|	v1	|
 |	[SParC](https://unifiedskg.com/benchmarks/#sparc)	|	 Database	|	 Multi-turn query	|	 SQL	|	 Fully supervised semantic parsing; Multi-turn	|	v1	|
 |	[CoSQL](https://unifiedskg.com/benchmarks/#cosql)	|	 Database	|	 Dialog	|	 SQL	|	 Fully supervised semantic parsing; Dialogue	|	v1	|
 |	[SQA(MSR SQA)](https://unifiedskg.com/benchmarks/#sqamsr-sqa)	|	 Table	|	 Multi-turn query	|	 Answer	|	 Weakly supervised semantic parsing; Sequential	|	v1	|
+|	[SMCALFLOW](https://unifiedskg.com/benchmarks/#smcalflow)	|	 	|	 	|	 	|	 	|		|
 |	[TabFact](https://unifiedskg.com/benchmarks/#tabfact)	|	 Table	|	 Statement	|	 Boolean	|	 NL inference; Large data	|	v1	|
 |	[FEVEROUS](https://unifiedskg.com/benchmarks/#feverous)	|	 Table + Text	|	 Statement	|	 Boolean	|	 NL inference; Large data	|	v1	|
 |	[SQL2Text](https://unifiedskg.com/benchmarks/#sql2text)	|	 Optional Database	|	 SQL	|	 Text	|	 High-fidelity NLG	|	v1	|
@@ -74,6 +82,12 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 {: .fs-4 .fw-800 .text-blue-100}
 *[Improving Text-to-SQL Evaluation Methodology](https://arxiv.org/abs/1806.09029)*. **ACL-18**
 
+
+### Break
+{: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*[Break It Down: A Question Understanding Benchmark](https://arxiv.org/abs/2001.11770)*. **TACL-20**
 
 ### GrailQA 
 {: .no_toc }
@@ -107,6 +121,11 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 
 [comment]: <> ([Dataset]&#40;https://fb.me/mtop_dataset&#41;{: target="_blank" .btn .btn-green .mr-1 })
 
+### WebAPI
+{: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*[Compositional Generalization for Natural Language Interfaces to Web APIs](https://arxiv.org/abs/2112.05209)*. **arxiv-21**
 
 ---
 
@@ -328,6 +347,13 @@ KVRET is also called SMD(Stanford Multi-Domain task-oriented dialogue dataset). 
 *[Search-based Neural Structured Learning for Sequential Question Answering](https://aclanthology.org/P17-1167)*. **ACL-17**
 
 [comment]: <> ([Official Link]&#40;hhttps://www.microsoft.com/en-us/download/details.aspx?id=54253&#41;{: target="_blank" .btn .btn-green .mr-1 })
+
+
+### SMCALFLOW
+{: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*[Task-Oriented Dialogue as Dataflow Synthesis](https://arxiv.org/abs/2009.11423)*. **TACL-20**
 
 ---
 
