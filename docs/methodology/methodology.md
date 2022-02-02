@@ -135,6 +135,10 @@ We present a collection of research papers that related to structured knowledge 
 [comment]: <> (**Evaluation Tasks:** [Spider]&#40;/benchmarks#spider&#41;, [WikiSQL fully-supervised-setting&weakly-supervised-setting]&#40;/benchmarks#wikisql&#41;, [WikiTableQuestion]&#40;/benchmarks#wikitablequestion&#41;)
 
 {: .fs-4 .fw-800 .text-blue-100}
+[Multi-Task Pre-training for Plug-and-play Task-oriented Dialogue System](https://arxiv.org/abs/2109.14739). 
+**EMNLP-21** `pre-training` `unifying`
+
+{: .fs-4 .fw-800 .text-blue-100}
 [SCoRe: Pre-Training for Context Representation in Conversational Semantic Parsing](https://openreview.net/forum?id=oyZxhRI2RiE). 
 **ICLR-21** `sk-encoding` `pre-training`
 
