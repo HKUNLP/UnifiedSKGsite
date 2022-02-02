@@ -28,7 +28,7 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 
 |   Dataset |   Knowledge   |   User Input  |   Output  |   Keywords    |   Contain in UnifiedSKG   |
 |	[Spider](https://unifiedskg.com/benchmarks/#spider)	|	 Database	|	 Question	|	 SQL	|	 Fully supervised; Cross-domain; Single turn	|	v1	|
-|	[Traditional Text2SQL dataset](https://github.com/jkkummerfeld/text2sql-data)	|	 Table	|	 Question	|	 SQL	|	 Fully supervised; Single turn	|		|
+|	[Single Domain Text2SQL](https://github.com/jkkummerfeld/text2sql-data)	|	 Database	|	 Question	|	 SQL	|	 Fully supervised; Single turn	|		|
 |	[GrailQA](https://unifiedskg.com/benchmarks/#grailqa)	|	 Knowledge Graph	|	 Question	|	 S-Expression	|	 Large, 64k; Test generalization: i.i.d./compositional/zero-shot	|	v1	|
 |	[WebQSP](https://unifiedskg.com/benchmarks/#webqsp)	|	 Knowledge Graph	|	 Question	|	 S-Expression	|	 -	|	v1	|
 |	[Russ](https://unifiedskg.com/benchmarks/#russ)	|	 API	|	 Question	|	 Query	|	-	|		|
@@ -68,7 +68,7 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 
 [comment]: <> ([Official Link]&#40;https://yale-lily.github.io/spider&#41;{: target="_blank" .btn .btn-green .mr-1 })
 
-### Traditional Text2SQL dataset
+### Single Domain Text2SQL
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
