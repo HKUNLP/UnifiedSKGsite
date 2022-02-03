@@ -26,16 +26,24 @@ This website contains collection of datasets, publications that are related to *
     <li><a href="/introduction#what-is-structured-knowledge-grounding" id="markdown-toc-what-is-structured-knowledge-grounding">What is structured knowledge grounding?</a></li>
 </ul>
 
-#### [Benchmarks Dataset](/benchmarks)
+#### [Benchmarks Datasets](/benchmarks)
 {: .no_toc .text-delta .fs-3 style="font-weight:600"}
-<ul id="markdown-toc"> 
-    <li><a href="/benchmarks#semantic-parsing" id="markdown-toc-semantic-parsing">Semantic Parsing</a></li> 
-    <li><a href="/benchmarks#question-answering" id="markdown-toc-question-answering">Question Answering</a></li> 
-    <li><a href="/benchmarks#data-to-text" id="markdown-toc-data-to-text">Data-to-Text</a></li> 
-    <li><a href="/benchmarks#conversational" id="markdown-toc-conversational">Conversational</a></li> 
-    <li><a href="/benchmarks#fact-verification" id="markdown-toc-fact-verification">Fact Verifications</a></li> 
-    <li><a href="/benchmarks#formal-language-to-text" id="markdown-toc-formal-language-to-text">Formal-Language-to-Text</a></li> 
-</ul>
+
+[comment]: <> (<ul id="markdown-toc"> )
+
+[comment]: <> (    <li><a href="/benchmarks#semantic-parsing" id="markdown-toc-semantic-parsing">Semantic Parsing</a></li> )
+
+[comment]: <> (    <li><a href="/benchmarks#question-answering" id="markdown-toc-question-answering">Question Answering</a></li> )
+
+[comment]: <> (    <li><a href="/benchmarks#data-to-text" id="markdown-toc-data-to-text">Data-to-Text</a></li> )
+
+[comment]: <> (    <li><a href="/benchmarks#conversational" id="markdown-toc-conversational">Conversational</a></li> )
+
+[comment]: <> (    <li><a href="/benchmarks#fact-verification" id="markdown-toc-fact-verification">Fact Verifications</a></li> )
+
+[comment]: <> (    <li><a href="/benchmarks#formal-language-to-text" id="markdown-toc-formal-language-to-text">Formal-Language-to-Text</a></li> )
+
+[comment]: <> (</ul>)
 
 [comment]: <> (    <li><a href="/benchmarks#other-related-datasets" id="markdown-toc-other-related-datasets">Other Related Datasets</a></li> )
 
@@ -52,10 +60,14 @@ This website contains collection of datasets, publications that are related to *
 
 #### [Others](/others)
 {: .no_toc .text-delta .fs-3 style="font-weight:600"}
-<ul id="markdown-toc"> 
-    <li><a href="/others#other-resources" id="markdown-toc-other-resources">Other Resources</a></li>
-    <li><a href="/others#useful-links" id="markdown-toc-useful-links">Useful Links</a></li> 
-</ul>
+
+[comment]: <> (<ul id="markdown-toc"> )
+
+[comment]: <> (    <li><a href="/others#other-resources" id="markdown-toc-other-resources">Other Resources</a></li>)
+
+[comment]: <> (    <li><a href="/others#useful-links" id="markdown-toc-useful-links">Useful Links</a></li> )
+
+[comment]: <> (</ul>)
 
 ---
 
