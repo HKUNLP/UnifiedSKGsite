@@ -344,11 +344,9 @@ We present a collection of research papers that related to structured knowledge 
 
 [comment]: <> (**Evaluation Tasks:** [HybridQA]&#40;/benchmarks#hybridqa&#41;, [SQA]&#40;/benchmarks#msr-sqa&#41;, [WikiTableQuestion]&#40;/benchmarks#wikitablequestion&#41;, [TabFact]&#40;/benchmarks#tabfact&#41;)
 
-[comment]: <> ({: .fs-4 .fw-800 .text-blue-100})
-
-[comment]: <> ([RnG-KBQA: Generation Augmented Iterative Ranking for Knowledge Base Question Answering]&#40;https://arxiv.org/abs/2109.08678&#41;. )
-
-[comment]: <> (**arxiv-21** )
+{: .fs-4 .fw-800 .text-blue-100}
+[RnG-KBQA: Generation Augmented Iterative Ranking for Knowledge Base Question Answering](https://arxiv.org/abs/2109.08678).
+**arxiv-21** 
 
 [comment]: <> ([comment]: <> &#40;<span class="fs-1">&#41;)
 
