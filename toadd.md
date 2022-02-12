@@ -12,5 +12,5 @@
 - [The 2nd Workshop on Unstructured and Structured KBs](https://uskb-workshop.github.io/) @AKBC 2021✅
 - [IntEx-SemPar: Interactive and Executable Semantic Parsing](https://intex-sempar.github.io/) @EMNLP 2020✅
 - [Unstructured and Structured KBs](https://uskb-workshop.github.io/2020/) @AKBC 2020✅
-- [Semiparametric Methods in NLP: Decoupling Logic from Knowledge](http://www.semiparametric.ml/)
-- [GreaseLM: Graph REASoning Enhanced Language Models for Question Answering](https://arxiv.org/abs/2201.08860)
+- [Semi-parametric Methods in NLP: Decoupling Logic from Knowledge](http://www.semiparametric.ml/) @ACL 2022✅
+

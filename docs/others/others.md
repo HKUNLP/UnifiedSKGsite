@@ -21,6 +21,7 @@ In progress
 
 ## Workshops
 - [SUKI: Workshop on Structured and Unstructured Knowledge Integration](https://suki-workshop.github.io/) **NAACL 22**
+- [Semi-parametric Methods in NLP: Decoupling Logic from Knowledge](http://www.semiparametric.ml/) **ACL 22**
 - [The 2nd Workshop on Unstructured and Structured KBs](https://uskb-workshop.github.io/) **AKBC 21**
 - [IntEx-SemPar: Interactive and Executable Semantic Parsing](https://intex-sempar.github.io/) **EMNLP 20**
 - [Unstructured and Structured KBs](https://uskb-workshop.github.io/2020/) **AKBC 20**
