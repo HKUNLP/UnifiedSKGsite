@@ -255,6 +255,10 @@ We present a collection of research papers that related to structured knowledge 
 [comment]: <> (**Evaluation Tasks:** [TabFact]&#40;/benchmarks#tabfact&#41;)
 
 {: .fs-4 .fw-800 .text-blue-100}
+[Structural Adapters in Pretrained Language Models for AMR-to-Text Generation](https://arxiv.org/abs/2103.09120). 
+**EMNLP-21** `sk-encoding`
+
+{: .fs-4 .fw-800 .text-blue-100}
 [Constrained Language Models Yield Few-Shot Semantic Parsers](https://arxiv.org/abs/2104.08768). 
 **EMNLP-21** `sk-encoding` `constrained-decoding`
 
