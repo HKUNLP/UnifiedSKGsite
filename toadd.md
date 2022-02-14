@@ -2,8 +2,8 @@
 
 
 ## Methodology
-
 - [RNG-KBQA: Generation Augmented Iterative Ranking for Knowledge Base Question Answering](https://arxiv.org/abs/2109.08678)✅
+- [Structural Adapters in Pretrained Language Models for AMR-to-Text Generation](https://arxiv.org/abs/2103.09120)✅
 
 ## Others
 
