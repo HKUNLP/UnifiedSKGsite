@@ -31,7 +31,7 @@ We present a collection of research papers that related to structured knowledge 
 
 `unifying`: Exploring unification of structured knowledge grounding tasks.
 
-`in-context-learning`: Exploring in-context methods on structured knowledge grounding tasks.
+`in-context-learning`: Exploring in-context-learning methods on structured knowledge grounding tasks.
 
 ---
 
