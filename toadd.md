@@ -4,9 +4,9 @@
 ## Methodology
 - [RNG-KBQA: Generation Augmented Iterative Ranking for Knowledge Base Question Answering](https://arxiv.org/abs/2109.08678)✅
 - [Structural Adapters in Pretrained Language Models for AMR-to-Text Generation](https://arxiv.org/abs/2103.09120)✅
-- [Case-based Reasoning for Natural Language Queries over Knowledge Bases](https://arxiv.org/abs/2104.08762)
-- [Synchromesh: Reliable Code Generation from Pre-trained Language Models](https://openreview.net/forum?id=KmtVD97J43e)
-- [Learning To Retrieve Prompts for In-Context Learning](https://arxiv.org/abs/2112.08633)
+- [Case-based Reasoning for Natural Language Queries over Knowledge Bases](https://arxiv.org/abs/2104.08762)✅
+- [Synchromesh: Reliable Code Generation from Pre-trained Language Models](https://openreview.net/forum?id=KmtVD97J43e)✅
+- [Learning To Retrieve Prompts for In-Context Learning](https://arxiv.org/abs/2112.08633)✅
 
 ## Others
 

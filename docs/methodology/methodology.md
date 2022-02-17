@@ -31,6 +31,8 @@ We present a collection of research papers that related to structured knowledge 
 
 `unifying`: Exploring unification of structured knowledge grounding tasks.
 
+`in-context-learning`: Exploring in-context methods on structured knowledge grounding tasks.
+
 ---
 
 {: .fs-4 .fw-800 .text-blue-100}
@@ -262,6 +264,10 @@ We present a collection of research papers that related to structured knowledge 
 [Constrained Language Models Yield Few-Shot Semantic Parsers](https://arxiv.org/abs/2104.08768). 
 **EMNLP-21** `sk-encoding` `constrained-decoding`
 
+{: .fs-4 .fw-800 .text-blue-100}
+[Case-based Reasoning for Natural Language Queries over Knowledge Bases](https://arxiv.org/abs/2104.08762)
+**EMNLP-21** `in-context-learning`
+
 [comment]: <> (<span class="fs-1">)
 
 [comment]: <> (   [Code]&#40;https://github.com/microsoft/semantic_parsing_with_constrained_lm&#41;{: target="_blank" .btn .btn-green .mr-1 })
@@ -350,7 +356,7 @@ We present a collection of research papers that related to structured knowledge 
 
 {: .fs-4 .fw-800 .text-blue-100}
 [RnG-KBQA: Generation Augmented Iterative Ranking for Knowledge Base Question Answering](https://arxiv.org/abs/2109.08678).
-**arxiv-21** 
+**arxiv-21** `in-context-learning`
 
 [comment]: <> ([comment]: <> &#40;<span class="fs-1">&#41;)
 
@@ -379,6 +385,14 @@ We present a collection of research papers that related to structured knowledge 
 {: .fs-4 .fw-800 .text-blue-100}
 [FORTAP: Using Formulae for Numerical-Reasoning-Aware Table Pretraining](https://arxiv.org/abs/2109.07323). 
 **arxiv-21** `pre-training`
+
+{: .fs-4 .fw-800 .text-blue-100}
+[Learning To Retrieve Prompts for In-Context Learning](https://arxiv.org/abs/2112.08633)
+**arxiv-21** `in-context-learning`
+
+{: .fs-4 .fw-800 .text-blue-100}
+[Synchromesh: Reliable Code Generation from Pre-trained Language Models](https://arxiv.org/pdf/2201.11227.pdf)
+**arxiv-22** `constrained-decoding` `in-context-learning`
 
 {: .fs-4 .fw-800 .text-blue-100}
 [UnifiedSKG: Unifying and Multi-Tasking Structured Knowledge Grounding with Text-to-Text Language Models](https://arxiv.org/abs/2201.05966). 
