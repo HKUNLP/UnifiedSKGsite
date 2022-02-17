@@ -47,6 +47,8 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 |	[HiTab_qa](https://unifiedskg.com/benchmarks/#hitab)	|	 Hierarchical Table	|	Question	|	 Answer	|	 Hierarchical table; TableQA & Table-to-Text	|		|
 |	[WikiSQL-TS_WikiTQ-TS](https://unifiedskg.com/benchmarks/#wikisql-ts_wikitq-ts)	|	 	|	 	|	 	|	 	|		|
 |	[FinQA](https://unifiedskg.com/benchmarks/#fin-qa)	|	 Table	|	Question 	|	 Answer	|	 Numerical reasoning; Financial data	|		|
+|	[WebQA](https://unifiedskg.com/benchmarks/#web-qa)	|	 	|	 	|	 	|	 	|		|
+|	[CFQ](https://unifiedskg.com/benchmarks/#cfq)	|	 	|	 	|	 	|	 	|		|
 |	[E2E](https://unifiedskg.com/benchmarks/#e2e)	|	 Table	|	 None	|	 Text	|	 Text generation; Restaurant domain	|		|
 |	[WebNLG](https://unifiedskg.com/benchmarks/#webnlg)	|	 Knowledge Graph(triples)	|	 None	|	 Text	|	 Text generation; RDF Triples	|		|
 |	[DART](https://unifiedskg.com/benchmarks/#dart)	|	 Triples	|	 None	|	 Text	|	 Text generation; Large data; E2E and WebNLG contained	|	v1	|
@@ -227,6 +229,18 @@ The 5-fold validation evaluation in origianl dataset is depracated by latest wor
 
 {: .fs-4 .fw-800 .text-blue-100}
 *[FinQA: A Dataset of Numerical Reasoning over Financial Data](https://arxiv.org/abs/2109.00122)*. **EMNLP-21**
+
+### WebQA
+{: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*[WebQA: Multihop and Multimodal QA](https://arxiv.org/abs/2109.00590)*. **arxiv-21**
+
+### CFQ
+{: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*[Measuring Compositional Generalization: A Comprehensive Method on Realistic Data](https://arxiv.org/abs/1912.09713)*. **ICLR-20**
 
 
 ---
