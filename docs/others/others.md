@@ -33,7 +33,10 @@ In progress
 - [Reimagining database querying on unstructured data](https://ai.facebook.com/blog/using-ai-for-database-queries-on-any-unstructured-data-set/)
 
 
-## Useful Links
-- [OpenAI GPT3&Codex](https://openai.com/api/)
-- [Stanford Open Virtual Assistant Lab](https://oval.cs.stanford.edu/)
-- [Semantic Machines](https://www.microsoft.com/en-us/research/project/semantic-machines/)
+[comment]: <> (## Useful Links)
+
+[comment]: <> (- [OpenAI GPT3&Codex]&#40;https://openai.com/api/&#41;)
+
+[comment]: <> (- [Stanford Open Virtual Assistant Lab]&#40;https://oval.cs.stanford.edu/&#41;)
+
+[comment]: <> (- [Semantic Machines]&#40;https://www.microsoft.com/en-us/research/project/semantic-machines/&#41;)
