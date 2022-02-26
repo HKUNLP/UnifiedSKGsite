@@ -3,7 +3,7 @@ layout: default
 title: Others
 nav_order: 7
 toc_list: true
-last_modified_date: Feb 12 2022
+last_modified_date: Feb 26 2022
 permalink: /others/
 ---
 # Others
