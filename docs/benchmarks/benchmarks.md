@@ -3,7 +3,7 @@ layout: default
 title: Benchmark Datasets
 nav_order: 3
 toc_list: true
-last_modified_date: Feb 17 2022
+last_modified_date: Mar 12 2022
 permalink: /benchmarks/
 ---
 
@@ -29,6 +29,10 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 |   Dataset |   Knowledge   |   User Input  |   Output  |   Keywords    |   Contain in UnifiedSKG   |
 |	[Spider](https://unifiedskg.com/benchmarks/#spider)	|	 Database	|	 Question	|	 SQL	|	 Fully supervised; Cross-domain; Single turn	|	v1	|
 |	[Single Domain Text2SQL](https://unifiedskg.com/benchmarks/#single-domain-text2sql)	|	 Database	|	 Question	|	 SQL	|	 Fully supervised; Single turn	|		|
+|	[KaggleDBQA](https://unifiedskg.com/benchmarks/#kagglekbqa)	|	 Database	|	 Question	|	 SQL	|	 Fully supervised; Realistic	|		|
+|	[Spider-Syn](https://unifiedskg.com/benchmarks/#spider-syn)	|	 Database	|	 Question	|	 SQL	|	 Fully supervised; Robustness	|		|
+|	[Spider-DK](https://unifiedskg.com/benchmarks/#spider-syn)	|	 Database	|	 Question	|	 SQL	|	 Fully supervised; Annotation of types of domain knowledge needed.	|		|
+|	[Squall](https://unifiedskg.com/benchmarks/#squall)	|	 Database(converted from table)	|	 Question	|	 SQL	|	 Fully supervised from 80% of WikiTQ	|		|
 |	[Break](https://unifiedskg.com/benchmarks/#break)	|	 	|	 	|	 	|	 	|		|
 |	[GrailQA](https://unifiedskg.com/benchmarks/#grailqa)	|	 Knowledge Graph	|	 Question	|	 S-Expression	|	 Large, 64k; Test generalization: i.i.d./compositional/zero-shot	|	v1	|
 |	[WebQSP](https://unifiedskg.com/benchmarks/#webqsp)	|	 Knowledge Graph	|	 Question	|	 S-Expression	|	 -	|	v1	|
@@ -83,6 +87,34 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 
 {: .fs-4 .fw-800 .text-blue-100}
 *[Improving Text-to-SQL Evaluation Methodology](https://arxiv.org/abs/1806.09029)*. **ACL-18**
+
+
+### KaggleKBQA
+{: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*[KaggleDBQA: Realistic Evaluation of Text-to-SQL Parsers](https://arxiv.org/abs/2106.11455)*. **ACL-21**
+
+
+### Spider-Syn
+{: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*[Towards Robustness of Text-to-SQL Models against Synonym Substitution](https://arxiv.org/abs/2106.01065)*. **ACL-21**
+
+
+### Spider-DK
+{: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*[Exploring Underexplored Limitations of Cross-Domain Text-to-SQL Generalization](https://arxiv.org/abs/2109.05157)*. **EMNLP-21**
+
+
+### Squall
+{: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*[On the Potential of Lexico-logical Alignments for Semantic Parsing to SQL Queries](https://arxiv.org/abs/2010.11246)*. **EMNLP-20**
 
 
 ### Break

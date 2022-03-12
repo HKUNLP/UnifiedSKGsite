@@ -3,7 +3,7 @@ layout: default
 title: Methodology
 nav_order: 4
 toc_list: true
-last_modified_date: March 12 2022
+last_modified_date: Mar 12 2022
 permalink: /methodology/
 ---
 
