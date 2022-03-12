@@ -29,10 +29,11 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 |   Dataset |   Knowledge   |   User Input  |   Output  |   Keywords    |   Contain in UnifiedSKG   |
 |	[Spider](https://unifiedskg.com/benchmarks/#spider)	|	 Database	|	 Question	|	 SQL	|	 Fully supervised; Cross-domain; Single turn	|	v1	|
 |	[Single Domain Text2SQL](https://unifiedskg.com/benchmarks/#single-domain-text2sql)	|	 Database	|	 Question	|	 SQL	|	 Fully supervised; Single turn	|		|
+|	[Squall](https://unifiedskg.com/benchmarks/#squall)	|	 Database(converted from table)	|	 Question	|	 SQL	|	 Fully supervised from 80% of WikiTQ	|		|
 |	[KaggleDBQA](https://unifiedskg.com/benchmarks/#kagglekbqa)	|	 Database	|	 Question	|	 SQL	|	 Fully supervised; Realistic	|		|
 |	[Spider-Syn](https://unifiedskg.com/benchmarks/#spider-syn)	|	 Database	|	 Question	|	 SQL	|	 Fully supervised; Robustness	|		|
-|	[Spider-DK](https://unifiedskg.com/benchmarks/#spider-dk)	|	 Database	|	 Question	|	 SQL	|	 Fully supervised; Annotation of types of domain knowledge needed.	|		|
-|	[Squall](https://unifiedskg.com/benchmarks/#squall)	|	 Database(converted from table)	|	 Question	|	 SQL	|	 Fully supervised from 80% of WikiTQ	|		|
+|	[Spider-DK](https://unifiedskg.com/benchmarks/#spider-dk)	|	 Database	|	 Question	|	 SQL	|	 Fully supervised; Annotation of types of domain knowledge text-to-SQL needed.	|		|
+|	[SEDE](https://unifiedskg.com/benchmarks/#sede)	|	 Database	|	 Question	|	 SQL	|	 Fully supervised; Real usage on the Stack Exchange website	|		|
 |	[Break](https://unifiedskg.com/benchmarks/#break)	|	 	|	 	|	 	|	 	|		|
 |	[GrailQA](https://unifiedskg.com/benchmarks/#grailqa)	|	 Knowledge Graph	|	 Question	|	 S-Expression	|	 Large, 64k; Test generalization: i.i.d./compositional/zero-shot	|	v1	|
 |	[WebQSP](https://unifiedskg.com/benchmarks/#webqsp)	|	 Knowledge Graph	|	 Question	|	 S-Expression	|	 -	|	v1	|
@@ -90,6 +91,13 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 *[Improving Text-to-SQL Evaluation Methodology](https://arxiv.org/abs/1806.09029)*. **ACL-18**
 
 
+### Squall
+{: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*[On the Potential of Lexico-logical Alignments for Semantic Parsing to SQL Queries](https://arxiv.org/abs/2010.11246)*. **EMNLP-20**
+
+
 ### KaggleKBQA
 {: .no_toc }
 
@@ -111,11 +119,11 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 *[Exploring Underexplored Limitations of Cross-Domain Text-to-SQL Generalization](https://arxiv.org/abs/2109.05157)*. **EMNLP-21**
 
 
-### Squall
+### SEDE
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*[On the Potential of Lexico-logical Alignments for Semantic Parsing to SQL Queries](https://arxiv.org/abs/2010.11246)*. **EMNLP-20**
+*[Text-to-SQL in the Wild: A Naturally-Occurring Dataset Based on Stack Exchange Data](https://arxiv.org/abs/2106.05006)*. **NLP4Prog-21**
 
 
 ### Break
