@@ -31,7 +31,7 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 |	[Single Domain Text2SQL](https://unifiedskg.com/benchmarks/#single-domain-text2sql)	|	 Database	|	 Question	|	 SQL	|	 Fully supervised; Single turn	|		|
 |	[KaggleDBQA](https://unifiedskg.com/benchmarks/#kagglekbqa)	|	 Database	|	 Question	|	 SQL	|	 Fully supervised; Realistic	|		|
 |	[Spider-Syn](https://unifiedskg.com/benchmarks/#spider-syn)	|	 Database	|	 Question	|	 SQL	|	 Fully supervised; Robustness	|		|
-|	[Spider-DK](https://unifiedskg.com/benchmarks/#spider-syn)	|	 Database	|	 Question	|	 SQL	|	 Fully supervised; Annotation of types of domain knowledge needed.	|		|
+|	[Spider-DK](https://unifiedskg.com/benchmarks/#spider-dk)	|	 Database	|	 Question	|	 SQL	|	 Fully supervised; Annotation of types of domain knowledge needed.	|		|
 |	[Squall](https://unifiedskg.com/benchmarks/#squall)	|	 Database(converted from table)	|	 Question	|	 SQL	|	 Fully supervised from 80% of WikiTQ	|		|
 |	[Break](https://unifiedskg.com/benchmarks/#break)	|	 	|	 	|	 	|	 	|		|
 |	[GrailQA](https://unifiedskg.com/benchmarks/#grailqa)	|	 Knowledge Graph	|	 Question	|	 S-Expression	|	 Large, 64k; Test generalization: i.i.d./compositional/zero-shot	|	v1	|
@@ -65,6 +65,7 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 |	[CoSQL](https://unifiedskg.com/benchmarks/#cosql)	|	 Database	|	 Dialog	|	 SQL	|	 Fully supervised semantic parsing; Dialogue	|	v1	|
 |	[SQA(MSR SQA)](https://unifiedskg.com/benchmarks/#sqamsr-sqa)	|	 Table	|	 Multi-turn query	|	 Answer	|	 Weakly supervised semantic parsing; Sequential	|	v1	|
 |	[SMCALFLOW](https://unifiedskg.com/benchmarks/#smcalflow)	|	 	|	 	|	 	|	 	|		|
+|	[HybirdDial](https://unifiedskg.com/benchmarks/#hybirddial)	|	 	|	 	|	 	|	 	|		|
 |	[TabFact](https://unifiedskg.com/benchmarks/#tabfact)	|	 Table	|	 Statement	|	 Boolean	|	 NL inference; Large data	|	v1	|
 |	[FEVEROUS](https://unifiedskg.com/benchmarks/#feverous)	|	 Table + Text	|	 Statement	|	 Boolean	|	 NL inference; Large data	|	v1	|
 |	[SQL2Text](https://unifiedskg.com/benchmarks/#sql2text)	|	 Optional Database	|	 SQL	|	 Text	|	 High-fidelity NLG	|	v1	|
@@ -399,7 +400,15 @@ KVRET is also called SMD(Stanford Multi-Domain task-oriented dialogue dataset). 
 {: .no_toc }
 
 {: .fs-4 .fw-800 .text-blue-100}
-*[Task-Oriented Dialogue as Dataflow Synthesis](https://arxiv.org/abs/2009.11423)*. **TACL-20**
+*[Task-Oriented Dialogue as Dataflow Synthesis](https://openreview.net/pdf?id=52j93pP1Bgd)*. **TACL-20**
+
+
+### HybirdDial
+{: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*[HYBRIDIALOGUE: An Information-Seeking Dialogue Dataset Grounded on Tabular and Textual Data](https://openreview.net/pdf?id=52j93pP1Bgd)*. **ACL-22**
+
 
 ---
 
