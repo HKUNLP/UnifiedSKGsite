@@ -3,7 +3,7 @@ layout: default
 title: Methodology
 nav_order: 4
 toc_list: true
-last_modified_date: Feb 17 2022
+last_modified_date: March 12 2022
 permalink: /methodology/
 ---
 
@@ -31,7 +31,7 @@ We present a collection of research papers that related to structured knowledge 
 
 `unifying`: Exploring unification of structured knowledge grounding tasks.
 
-`in-context-learning`: Exploring in-context-learning methods on structured knowledge grounding tasks.
+`prompt-learning`: Exploring prompt-learning methods on structured knowledge grounding tasks.
 
 ---
 
@@ -266,7 +266,7 @@ We present a collection of research papers that related to structured knowledge 
 
 {: .fs-4 .fw-800 .text-blue-100}
 [Case-based Reasoning for Natural Language Queries over Knowledge Bases](https://arxiv.org/abs/2104.08762)
-**EMNLP-21** `in-context-learning`
+**EMNLP-21** `prompt-learning`
 
 [comment]: <> (<span class="fs-1">)
 
@@ -356,7 +356,7 @@ We present a collection of research papers that related to structured knowledge 
 
 {: .fs-4 .fw-800 .text-blue-100}
 [RnG-KBQA: Generation Augmented Iterative Ranking for Knowledge Base Question Answering](https://arxiv.org/abs/2109.08678).
-**arxiv-21** `in-context-learning`
+**arxiv-21** `prompt-learning`
 
 [comment]: <> ([comment]: <> &#40;<span class="fs-1">&#41;)
 
@@ -388,12 +388,20 @@ We present a collection of research papers that related to structured knowledge 
 
 {: .fs-4 .fw-800 .text-blue-100}
 [Learning To Retrieve Prompts for In-Context Learning](https://arxiv.org/abs/2112.08633)
-**arxiv-21** `in-context-learning`
+**arxiv-21** `prompt-learning`
 
 {: .fs-4 .fw-800 .text-blue-100}
 [Synchromesh: Reliable Code Generation from Pre-trained Language Models](https://arxiv.org/pdf/2201.11227.pdf)
-**arxiv-22** `constrained-decoding` `in-context-learning`
+**arxiv-22** `constrained-decoding` `prompt-learning`
 
 {: .fs-4 .fw-800 .text-blue-100}
 [UnifiedSKG: Unifying and Multi-Tasking Structured Knowledge Grounding with Text-to-Text Language Models](https://arxiv.org/abs/2201.05966). 
 **arxiv-22** `unifying`
+
+{: .fs-4 .fw-800 .text-blue-100}
+[TableFormer: Robust Transformer Modeling for Table-Text Encoding](https://arxiv.org/abs/2203.00274). 
+**arxiv-22** `sk-encoding`
+
+{: .fs-4 .fw-800 .text-blue-100}
+[Input-Tuning: Adapting Unfamiliar Inputs to Frozen Pretrained Models](https://arxiv.org/abs/2203.03131). 
+**arxiv-22** `prompt-learning`
