@@ -3,7 +3,7 @@ layout: default
 title: Methodology
 nav_order: 4
 toc_list: true
-last_modified_date: Mar 23 2022
+last_modified_date: April 11 2022
 permalink: /methodology/
 ---
 
@@ -409,3 +409,8 @@ We present a collection of research papers that related to structured knowledge 
 {: .fs-4 .fw-800 .text-blue-100}
 [In-Context Learning for Few-Shot Dialogue State Tracking](https://arxiv.org/abs/2203.08568). 
 **arxiv-22** `prompt-learning`
+
+{: .fs-4 .fw-800 .text-blue-100}
+[T-RAG: End-to-End Table Question Answering via Retrieval-Augmented
+Generation](https://arxiv.org/abs/2203.16714). 
+**arxiv-22** `sk-encoding`
