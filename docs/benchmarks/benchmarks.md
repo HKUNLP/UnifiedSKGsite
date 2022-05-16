@@ -3,7 +3,7 @@ layout: default
 title: Benchmark Datasets
 nav_order: 3
 toc_list: true
-last_modified_date: Mar 12 2022
+last_modified_date: May 16 2022
 permalink: /benchmarks/
 ---
 
@@ -52,6 +52,7 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 |	[HiTab_qa](https://unifiedskg.com/benchmarks/#hitab)	|	 Hierarchical Table	|	Question	|	 Answer	|	 Hierarchical table; TableQA & Table-to-Text	|		|
 |	[WikiSQL-TS_WikiTQ-TS](https://unifiedskg.com/benchmarks/#wikisql-ts_wikitq-ts)	|	 	|	 	|	 	|	 	|		|
 |	[FinQA](https://unifiedskg.com/benchmarks/#fin-qa)	|	 Table	|	Question 	|	 Answer	|	 Numerical reasoning; Financial data	|		|
+|	[MULTIHIERTT](https://unifiedskg.com/benchmarks/#multihiertt)	|	Multiple Hierarchical Table & Text 	|	Question 	|	Answer 	|	 Large-scale; Build from financial reportes 	|		|
 |	[WebQA](https://unifiedskg.com/benchmarks/#web-qa)	|	 	|	 	|	 	|	 	|		|
 |	[CFQ](https://unifiedskg.com/benchmarks/#cfq)	|	 	|	 	|	 	|	 	|		|
 |	[E2E](https://unifiedskg.com/benchmarks/#e2e)	|	 Table	|	 None	|	 Text	|	 Text generation; Restaurant domain	|		|
@@ -276,6 +277,12 @@ The 5-fold validation evaluation in origianl dataset is depracated by latest wor
 
 {: .fs-4 .fw-800 .text-blue-100}
 *[WebQA: Multihop and Multimodal QA](https://arxiv.org/abs/2109.00590)*. **arxiv-21**
+
+### MULTIHIERTT
+{: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*[MULTIHIERTT: Numerical Reasoning over Multi Hierarchical Tabular and Textual Data](https://aclanthology.org/2022.acl-long.454)*. **ACL-22**
 
 ### CFQ
 {: .no_toc }
