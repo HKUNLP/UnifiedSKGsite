@@ -416,6 +416,10 @@ Generation](https://arxiv.org/abs/2203.16714).
 **arxiv-22** `sk-encoding`
 
 {: .fs-4 .fw-800 .text-blue-100}
+[ArcaneQA: Dynamic Program Induction and Contextualized Encoding for Knowledge Base Question Answering](https://arxiv.org/abs/2204.08109). 
+**arxiv-22** `sk-encoding`
+
+{: .fs-4 .fw-800 .text-blue-100}
 [TaCube: Pre-computing Data Cubes for Answering Numerical-Reasoning Questions over Tabular Data](https://arxiv.org/abs/2205.12682). 
 **arxiv-22** `sk-encoding` `pre-training`
 
