@@ -414,3 +414,15 @@ We present a collection of research papers that related to structured knowledge 
 [T-RAG: End-to-End Table Question Answering via Retrieval-Augmented
 Generation](https://arxiv.org/abs/2203.16714). 
 **arxiv-22** `sk-encoding`
+
+{: .fs-4 .fw-800 .text-blue-100}
+[TaCube: Pre-computing Data Cubes for Answering Numerical-Reasoning Questions over Tabular Data](https://arxiv.org/abs/2205.12682). 
+**arxiv-22** `sk-encoding` `pre-training`
+
+{: .fs-4 .fw-800 .text-blue-100}
+[PLOG: Table-to-Logic Pretraining for Logical Table-to-Text Generation](https://arxiv.org/abs/2205.12697). 
+**arxiv-22** `pre-training`
+
+{: .fs-4 .fw-800 .text-blue-100}
+[R2D2: Robust Data-to-Text with Replacement Detection](https://arxiv.org/abs/2205.12467). 
+**arxiv-22** `sk-encoding`
