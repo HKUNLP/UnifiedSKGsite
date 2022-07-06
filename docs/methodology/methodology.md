@@ -314,7 +314,7 @@ We present a collection of research papers that related to structured knowledge 
 
 {: .fs-4 .fw-800 .text-blue-100}
 [Turning Tables: Generating Examples from Semi-structured Tables for Endowing Language Models with Reasoning Skills](https://arxiv.org/abs/2107.07261). 
-**arxiv-21** `pre-training`
+**ACL-22** `pre-training`
 
 [comment]: <> (<span class="fs-1">)
 
@@ -326,7 +326,7 @@ We present a collection of research papers that related to structured knowledge 
 
 {: .fs-4 .fw-800 .text-blue-100}
 [TAPEX: Table Pre-training via Learning a Neural SQL Executor](https://arxiv.org/abs/2107.07653). 
-**arxiv-21** `pre-training`
+**ICLR-22** `pre-training`
 
 [comment]: <> (<span class="fs-1">)
 
@@ -356,7 +356,7 @@ We present a collection of research papers that related to structured knowledge 
 
 {: .fs-4 .fw-800 .text-blue-100}
 [RnG-KBQA: Generation Augmented Iterative Ranking for Knowledge Base Question Answering](https://arxiv.org/abs/2109.08678).
-**arxiv-21** `prompt-learning`
+**ACL-22** `prompt-learning`
 
 [comment]: <> ([comment]: <> &#40;<span class="fs-1">&#41;)
 
@@ -384,11 +384,15 @@ We present a collection of research papers that related to structured knowledge 
 
 {: .fs-4 .fw-800 .text-blue-100}
 [FORTAP: Using Formulae for Numerical-Reasoning-Aware Table Pretraining](https://arxiv.org/abs/2109.07323). 
-**arxiv-21** `pre-training`
+**ACL-22** `pre-training`
 
 {: .fs-4 .fw-800 .text-blue-100}
 [Learning To Retrieve Prompts for In-Context Learning](https://arxiv.org/abs/2112.08633)
-**arxiv-21** `prompt-learning`
+**NAACL-HLT-22** `prompt-learning`
+
+{: .fs-4 .fw-800 .text-blue-100}
+[Multi-Instance Training for Question Answering Across Table and Linked Text](https://arxiv.org/abs/2112.07337)
+**arxiv-21**
 
 {: .fs-4 .fw-800 .text-blue-100}
 [Synchromesh: Reliable Code Generation from Pre-trained Language Models](https://arxiv.org/pdf/2201.11227.pdf)
@@ -411,8 +415,7 @@ We present a collection of research papers that related to structured knowledge 
 **arxiv-22** `prompt-learning`
 
 {: .fs-4 .fw-800 .text-blue-100}
-[T-RAG: End-to-End Table Question Answering via Retrieval-Augmented
-Generation](https://arxiv.org/abs/2203.16714). 
+[T-RAG: End-to-End Table Question Answering via Retrieval-Augmented Generation](https://arxiv.org/abs/2203.16714). 
 **arxiv-22** `sk-encoding`
 
 {: .fs-4 .fw-800 .text-blue-100}
