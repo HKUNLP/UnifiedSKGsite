@@ -368,7 +368,7 @@ We present a collection of research papers that related to structured knowledge 
 
 {: .fs-4 .fw-800 .text-blue-100}
 [Multi-Task Pre-Training for Plug-and-Play Task-Oriented Dialogue System](https://arxiv.org/abs/2109.14739). 
-**arxiv-21** `pre-training` `unifying`
+**ACL-22** `pre-training` `unifying`
 
 {: .fs-4 .fw-800 .text-blue-100}
 [PICARD: Parsing Incrementally for Constrained Auto-Regressive Decoding from Language Models](https://arxiv.org/abs/2109.05093). 
