@@ -214,7 +214,7 @@ We present a collection of research papers that related to structured knowledge 
 
 {: .fs-4 .fw-800 .text-blue-100}
 [UniK-QA: Unified Representations of Structured and Unstructured Knowledge for Open-Domain Question Answering](https://arxiv.org/abs/2012.14610). 
-**arxiv-20** `sk-encoding` `unifying`
+**NAACL-22** `sk-encoding` `unifying`
 
 [comment]: <> (<span class="fs-1">)
 
