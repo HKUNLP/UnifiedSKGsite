@@ -433,3 +433,7 @@ We present a collection of research papers that related to structured knowledge 
 {: .fs-4 .fw-800 .text-blue-100}
 [R2D2: Robust Data-to-Text with Replacement Detection](https://arxiv.org/abs/2205.12467). 
 **arxiv-22** `sk-encoding`
+
+{: .fs-4 .fw-800 .text-blue-100}
+[OmniTab: Pretraining with Natural and Synthetic Data for Few-shot Table-based Question Answering](https://arxiv.org/abs/2207.03637). 
+**NAACL-22** `pre-training`
