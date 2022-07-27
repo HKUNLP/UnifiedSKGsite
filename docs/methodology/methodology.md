@@ -437,3 +437,7 @@ We present a collection of research papers that related to structured knowledge 
 {: .fs-4 .fw-800 .text-blue-100}
 [OmniTab: Pretraining with Natural and Synthetic Data for Few-shot Table-based Question Answering](https://arxiv.org/abs/2207.03637). 
 **NAACL-22** `pre-training`
+
+{: .fs-4 .fw-800 .text-blue-100}
+[Dual-Channel Evidence Fusion for Fact Verification over Texts and Tables](https://aclanthology.org/2022.naacl-main.384/). 
+**NAACL-22** `sk-encoding`
