@@ -3,7 +3,7 @@ layout: default
 title: Methodology
 nav_order: 4
 toc_list: true
-last_modified_date: April 11 2022
+last_modified_date: November 24 2022
 permalink: /methodology/
 ---
 
@@ -396,11 +396,11 @@ We present a collection of research papers that related to structured knowledge 
 
 {: .fs-4 .fw-800 .text-blue-100}
 [Synchromesh: Reliable Code Generation from Pre-trained Language Models](https://arxiv.org/pdf/2201.11227.pdf)
-**arxiv-22** `constrained-decoding` `prompt-learning`
+**ICLR-22** `constrained-decoding` `prompt-learning`
 
 {: .fs-4 .fw-800 .text-blue-100}
 [UnifiedSKG: Unifying and Multi-Tasking Structured Knowledge Grounding with Text-to-Text Language Models](https://arxiv.org/abs/2201.05966). 
-**arxiv-22** `unifying`
+**EMNLP-22** `unifying`
 
 {: .fs-4 .fw-800 .text-blue-100}
 [TableFormer: Robust Transformer Modeling for Table-Text Encoding](https://arxiv.org/abs/2203.00274). 
@@ -412,7 +412,7 @@ We present a collection of research papers that related to structured knowledge 
 
 {: .fs-4 .fw-800 .text-blue-100}
 [In-Context Learning for Few-Shot Dialogue State Tracking](https://arxiv.org/abs/2203.08568). 
-**arxiv-22** `prompt-learning`
+**EMNLP-22** `prompt-learning`
 
 {: .fs-4 .fw-800 .text-blue-100}
 [T-RAG: End-to-End Table Question Answering via Retrieval-Augmented Generation](https://arxiv.org/abs/2203.16714). 
@@ -420,15 +420,27 @@ We present a collection of research papers that related to structured knowledge 
 
 {: .fs-4 .fw-800 .text-blue-100}
 [ArcaneQA: Dynamic Program Induction and Contextualized Encoding for Knowledge Base Question Answering](https://arxiv.org/abs/2204.08109). 
-**arxiv-22** `sk-encoding`
+**COLING-22** `sk-encoding`
+
+{: .fs-4 .fw-800 .text-blue-100}
+[SPACE-2: Tree-Structured Semi-Supervised Contrastive Pre-training for Task-Oriented Dialog Understanding](https://arxiv.org/abs/2209.06638). 
+**COLING-22** `sk-encoding` `pre-training`
+
+{: .fs-4 .fw-800 .text-blue-100}
+[Evaluating the Impact of Model Scale for Compositional Generalization in Semantic Parsing](https://arxiv.org/abs/2205.12253). 
+**EMNLP-22** `unifying` `prompt-learning`
 
 {: .fs-4 .fw-800 .text-blue-100}
 [TaCube: Pre-computing Data Cubes for Answering Numerical-Reasoning Questions over Tabular Data](https://arxiv.org/abs/2205.12682). 
-**arxiv-22** `sk-encoding` `pre-training`
+**EMNLP-22** `sk-encoding` `pre-training`
 
 {: .fs-4 .fw-800 .text-blue-100}
 [PLOG: Table-to-Logic Pretraining for Logical Table-to-Text Generation](https://arxiv.org/abs/2205.12697). 
-**arxiv-22** `pre-training`
+**EMNLP-22** `pre-training`
+
+{: .fs-4 .fw-800 .text-blue-100}
+[Natural Language to Code Translation with Execution](https://arxiv.org/abs/2204.11454). 
+**arxiv-22** `prompt-learning` `guided with execution`
 
 {: .fs-4 .fw-800 .text-blue-100}
 [R2D2: Robust Data-to-Text with Replacement Detection](https://arxiv.org/abs/2205.12467). 
@@ -441,3 +453,7 @@ We present a collection of research papers that related to structured knowledge 
 {: .fs-4 .fw-800 .text-blue-100}
 [Dual-Channel Evidence Fusion for Fact Verification over Texts and Tables](https://aclanthology.org/2022.naacl-main.384/). 
 **NAACL-22** `sk-encoding`
+
+{: .fs-4 .fw-800 .text-blue-100}
+[Binding Language Models in Symbolic Languages](https://arxiv.org/abs/2210.02875). 
+**arxiv-22** `prompt-learning`
