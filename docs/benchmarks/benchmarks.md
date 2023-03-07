@@ -34,6 +34,7 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 |	[Spider-Syn](https://unifiedskg.com/benchmarks/#spider-syn)	|	 Database	|	 Question	|	 SQL	|	 Fully supervised; Robustness	|		|
 |	[Spider-DK](https://unifiedskg.com/benchmarks/#spider-dk)	|	 Database	|	 Question	|	 SQL	|	 Fully supervised; Annotation of types of domain knowledge text-to-SQL needed.	|		|
 |	[SEDE](https://unifiedskg.com/benchmarks/#sede)	|	 Database	|	 Question	|	 SQL	|	 Fully supervised; Real usage on the Stack Exchange website	|		|
+|	[EHRSQL](https://unifiedskg.com/benchmarks/#EHRSQL)	|	Database 	|	Question	|	SQL 	|	 Fully supervised; Electronic health records (EHRs)	|		|
 |	[Break](https://unifiedskg.com/benchmarks/#break)	|	 	|	 	|	 	|	 	|		|
 |	[GrailQA](https://unifiedskg.com/benchmarks/#grailqa)	|	 Knowledge Graph	|	 Question	|	 S-Expression	|	 Large, 64k; Test generalization: i.i.d./compositional/zero-shot	|	v1	|
 |	[WebQSP](https://unifiedskg.com/benchmarks/#webqsp)	|	 Knowledge Graph	|	 Question	|	 S-Expression	|	 -	|	v1	|
@@ -125,6 +126,13 @@ We present a comprehensive collection of datasets of Structured Knowledge Ground
 
 {: .fs-4 .fw-800 .text-blue-100}
 *[Text-to-SQL in the Wild: A Naturally-Occurring Dataset Based on Stack Exchange Data](https://arxiv.org/abs/2106.05006)*. **NLP4Prog-21**
+
+
+### EHRSQL
+{: .no_toc }
+
+{: .fs-4 .fw-800 .text-blue-100}
+*[EHRSQL: A Practical Text-to-SQL Benchmark for Electronic Health Records](https://openreview.net/forum?id=B2W8Vy0rarw)*. **NeurIPS-22 Datasets and Benchmarks**
 
 
 ### Break
